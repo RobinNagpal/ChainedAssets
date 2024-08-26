@@ -21,15 +21,16 @@ const monaSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Commit - Open-source Git client for macOS minimalists',
+  title: 'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
   description:
-    'Commit is a lightweight Git client you can open from anywhere any time you’re ready to commit your work with a single keyboard shortcut. It’s fast, beautiful, and completely unnecessary.',
+    'Explore our detailed research on Real-World Asset Tokenization. Understand how tangible assets like property and art can be converted into digital tokens, making them easier to trade and invest in. Our guide is straightforward and filled with essential insights for everyone interested in the tokenization of real-world assets.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
     },
   },
 }
+
 
 export default function RootLayout({
   children,

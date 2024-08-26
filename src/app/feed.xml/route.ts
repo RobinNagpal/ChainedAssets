@@ -15,7 +15,7 @@ export async function GET(req: Request) {
   }
 
   let feed = new Feed({
-    title: 'Commit',
+    title: 'Chained Assets',
     description: 'Open-source Git client for macOS minimalists',
     author,
     id: siteUrl,

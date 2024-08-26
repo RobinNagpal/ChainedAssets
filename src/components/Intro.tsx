@@ -1,3 +1,4 @@
+import {Button} from "@/components/Button";
 import Link from 'next/link'
 
 import { IconLink } from '@/components/IconLink'
@@ -49,25 +50,19 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Open-source Git client{' '}
-        <span className="text-sky-300">for macOS minimalists</span>
+        Discover <span className="text-sky-300">Real-World Asset Tokenization</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Commit is a lightweight Git client you can open from anywhere any time
-        you’re ready to commit your work with a single keyboard shortcut. It’s
-        fast, beautiful, and completely unnecessary.
+        Our research covers everything you need to know about turning real things like Private Equity, Private Credit, Real Estate, Art, Collectibles and more into digital tokens. This research is easy to understand and packed with all the important facts and ideas for anyone interested in tokenizing real-world assets.
       </p>
-      <SignUpForm />
-      <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#" icon={BookIcon} className="flex-none">
-          Documentation
-        </IconLink>
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
-          GitHub
-        </IconLink>
-        <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
-          RSS
-        </IconLink>
+      <div className="mt-4">
+        <Link
+          href={'https://research.chainedassets.com'}
+          className="inline-flex items-center gap-x-2 rounded-md bg-sky-500 px-7 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+        >
+          Read Our Research
+          <span aria-hidden="true">&rarr;</span>
+        </Link>
       </div>
     </>
   )
@@ -77,8 +72,8 @@ export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
       Brought to you by{' '}
-      <IconLink href="#" icon={XIcon} compact>
-        Joe Davola
+      <IconLink href="https://dodao.io" compact>
+        DoDAO
       </IconLink>
     </p>
   )
