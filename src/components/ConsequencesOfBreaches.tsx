@@ -28,7 +28,7 @@ export default function ConsequencesOfBreaches() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Consequences of Security Breaches</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-          Overall, security breaches can have a devastating impact on an organization's bottom line, reputation, and customer relationships.
+            {"Overall, security breaches can have a devastating impact on an organization's bottom line, reputation, and customer relationships."}
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

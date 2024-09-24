@@ -23,7 +23,7 @@ export default function AIBenefits() {
                 <div className="w-full flex-auto">
                   <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Why should you use AI in your enterprise Application?</h2>
                   <p className="mt-6 text-lg leading-8 text-gray-300">
-                  In the next five years, AI will become an integral part of business operations across all industries. Early Adopters will have a significant advantage, driving growth and innovation while setting new standards for excellence. Don't get left behind--start your AI journey today. 
+                    {"In the next five years, AI will become an integral part of business operations across all industries. Early Adopters will have a significant advantage, driving growth and innovation while setting new standards for excellence. Don't get left behind--start your AI journey today."}
                   </p>
                   <ul
                     role="list"

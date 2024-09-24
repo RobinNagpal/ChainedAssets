@@ -129,19 +129,11 @@ export default function ContactPage() {
             </p>
           </form>
           <div className="lg:mt-0 lg:w-80 lg:flex-none">
-            <img
-              alt=""
-              src="/AI_GUARD_Rectange.webp"
-              className="h-12 w-auto"
-            />
+            <img alt="" src="/AI_GUARD_Rectange.webp" className="h-12 w-auto" />
             <figure className="mt-8">
               <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                 <p>
-                  “In today's data-driven world, ensuring the security and
-                  reliability of AI integrations is paramount. We are committed
-                  to safeguarding your business by providing expert solutions
-                  that mitigate risks and maximize the value of your AI
-                  investments.”
+                  {`In today's data-driven world, ensuring the security and reliability of AI integrations is paramount. We are committed to safeguarding your business by providing expert solutions that mitigate risks and maximize the value of your AI investments.`}
                 </p>
               </blockquote>
             </figure>
