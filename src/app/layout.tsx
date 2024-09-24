@@ -1,9 +1,6 @@
 import { type Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
 import clsx from 'clsx'
-
-import { Providers } from '@/app/providers'
 
 import '@/styles/tailwind.css'
 
@@ -13,15 +10,9 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-const monaSans = localFont({
-  src: '../fonts/Mona-Sans.var.woff2',
-  display: 'swap',
-  variable: '--font-mona-sans',
-  weight: '200 900',
-})
-
 export const metadata: Metadata = {
-  title: 'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+  title:
+    'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
   description:
     'Explore our detailed research on Real-World Asset Tokenization. Understand how tangible assets like property and art can be converted into digital tokens, making them easier to trade and invest in. Our guide is straightforward and filled with essential insights for everyone interested in the tokenization of real-world assets.',
   alternates: {
@@ -31,7 +22,6 @@ export const metadata: Metadata = {
   },
 }
 
-
 export default function RootLayout({
   children,
 }: {
@@ -40,12 +30,23 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, monaSans.variable)}
-      suppressHydrationWarning
+      className={clsx(
+        'h-full scroll-smooth bg-white antialiased',
+        inter.variable,
+      )}
     >
-      <body className="flex min-h-full flex-col bg-white dark:bg-gray-950">
-        <Providers>{children}</Providers>
-      </body>
+      <head>
+        <link
+          rel="preconnect"
+          href="https://cdn.fontshare.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
+        />
+      </head>
+      <body className="flex min-h-full flex-col">{children}</body>
     </html>
   )
 }
