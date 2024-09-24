@@ -1,34 +1,31 @@
-import { IconLink } from '@/components/IconLink'
-import { StarField } from '@/components/StarField'
+import Link from 'next/link'
+
+import { Container } from '@/components/Container'
+import { GridPattern } from '@/components/GridPattern'
 
 export default function NotFound() {
   return (
-    <div className="relative isolate flex flex-auto flex-col items-center justify-center overflow-hidden bg-gray-950 text-center">
-      <svg
-        aria-hidden="true"
-        className="absolute left-1/2 top-[-10vh] -z-10 h-[120vh] w-[120vw] min-w-[60rem] -translate-x-1/2"
-      >
-        <defs>
-          <radialGradient id="gradient" cy="0%">
-            <stop offset="0%" stopColor="rgba(56, 189, 248, 0.3)" />
-            <stop offset="53.95%" stopColor="rgba(0, 71, 255, 0.09)" />
-            <stop offset="100%" stopColor="rgba(10, 14, 23, 0)" />
-          </radialGradient>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#gradient)" />
-      </svg>
-      <StarField className="sm:-mt-16" />
-
-      <p className="font-display text-4xl/tight font-light text-white">404</p>
-      <h1 className="mt-4 font-display text-xl/8 font-semibold text-white">
-        Page not found
-      </h1>
-      <p className="mt-2 text-sm/6 text-gray-300">
-        Sorry, we couldn’t find the page you’re looking for.
-      </p>
-      <IconLink href="/" className="mt-4">
-        Go back home
-      </IconLink>
+    <div className="relative flex flex-auto items-center">
+      <div className="absolute inset-0 -z-10 text-slate-900/10 [mask-image:linear-gradient(transparent,white,transparent)]">
+        <GridPattern x="50%" y="50%" patternTransform="translate(0 60)" />
+      </div>
+      <Container className="flex flex-col items-center py-16 text-center sm:py-20 lg:py-32">
+        <p className="rounded-full px-4 py-1 text-base font-medium tracking-tight text-slate-900 ring-1 ring-inset ring-slate-900">
+          404
+        </p>
+        <h1 className="mt-6 font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
+          Page not found
+        </h1>
+        <p className="mt-4 text-lg tracking-tight text-slate-700">
+          Sorry, we couldn’t find the page you’re looking for.
+        </p>
+        <Link
+          href="/"
+          className="mt-6 text-base font-medium text-blue-600 hover:text-blue-800"
+        >
+          Go back home <span aria-hidden="true">&rarr;</span>
+        </Link>
+      </Container>
     </div>
   )
 }
