@@ -1,26 +1,33 @@
-import {CheckCircleIcon, ShieldCheckIcon, HandThumbUpIcon } from '@heroicons/react/20/solid'
+import {
+  CheckCircleIcon,
+  ShieldCheckIcon,
+  HandThumbUpIcon,
+} from '@heroicons/react/20/solid'
 
 const cards = [
   {
-    name: 'Reliability',
-    description: 'Consistent and accurate performance is essential for user satisfaction and trust.',
+    name: 'Strategic Partnerships',
+    description: 'Form valuable connections that enhance your business.',
     icon: CheckCircleIcon,
   },
   {
-    name: 'Trustworthiness',
-    description: 'Building confidence among users and stakeholders that your systems are secure, reliable, and free from vulnerabilities.',
+    name: 'Asset Optimization',
+    description: 'Discover and acquire the best assets for your projects.',
     icon: ShieldCheckIcon,
   },
   {
-    name: 'User and Stakeholder Assurance',
-    description: 'Builds confidence in the AI tool capabilities and reduces risks.',
+    name: 'Increased Revenue',
+    description: 'Leverage partnerships to drive sales and growth.',
     icon: HandThumbUpIcon,
   },
 ]
 
-export default function ImportanceOfTesting() {
+export default function BusinessDevelopment() {
   return (
-    <section className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32" id='benefit'>
+    <section
+      className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32"
+      id="businessDevelopment"
+    >
       <img
         alt=""
         src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
@@ -46,15 +53,26 @@ export default function ImportanceOfTesting() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Importance of Security and Reliability Testing</h2>
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            Business Development
+          </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            
+            {' '}
+            We help RWA companies connect with the right partners and assets.
+            Our services focus on building relationships that drive growth.
+            Unlock new business opportunities with our support.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           {cards.map((card) => (
-            <div key={card.name} className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-              <card.icon aria-hidden="true" className="h-7 w-5 flex-none text-indigo-400" />
+            <div
+              key={card.name}
+              className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10"
+            >
+              <card.icon
+                aria-hidden="true"
+                className="h-7 w-5 flex-none text-indigo-400"
+              />
               <div className="text-base leading-7">
                 <h3 className="font-semibold text-white">{card.name}</h3>
                 <p className="mt-2 text-gray-300">{card.description}</p>

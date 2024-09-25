@@ -5,10 +5,11 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 import clsx from 'clsx'
 
 const sections = [
-  { id: 'whyAI', title: 'Why AI?' },
-  { id: 'challenge', title: 'Challanges' },
-  { id: 'service', title: 'Our Services' },
-  { id: 'benefit', title: 'Benefits' },
+  // { id: 'challenge', title: 'Challanges' },
+  { id: 'rwaSolutions', title: 'Our Services' },
+  { id: 'rwaResearch', title: 'RWA Research' },
+  { id: 'rwaLandscape', title: 'RWA Landscape' },
+  { id: 'businessDevelopment', title: 'Business Development' },
   { id: 'contact', title: 'Contact Us' },
 ]
 

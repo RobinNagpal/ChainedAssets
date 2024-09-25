@@ -50,12 +50,13 @@ export default function ContactPage() {
       </svg>
       <div className="mx-auto max-w-xl lg:max-w-4xl">
         <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-          Let’s talk about your enterprise application
+          Let’s talk about your RWA Strategy
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Secure your AI integration for optimal performance. Get in touch with
-          us today to discuss how we can help you achieve complete data
-          security.
+          Ready to leverage the power of blockchain for real-world assets?
+          Contact us today to explore how DoDAO can help you navigate regulatory
+          complexities, develop innovative products, and drive sustainable
+          growth.
         </p>
         <div className="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
           <form action="#" method="POST" className="lg:flex-auto">
@@ -133,7 +134,11 @@ export default function ContactPage() {
             <figure className="mt-8">
               <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                 <p>
-                  {`In today's data-driven world, ensuring the security and reliability of AI integrations is paramount. We are committed to safeguarding your business by providing expert solutions that mitigate risks and maximize the value of your AI investments.`}
+                  “DoDAO is your trusted partner in unlocking the potential of
+                  real-world assets on blockchain. Our expertise in legal,
+                  compliance, and business development empowers you to navigate
+                  the complexities of the RWA ecosystem and achieve sustainable
+                  success.”
                 </p>
               </blockquote>
             </figure>
