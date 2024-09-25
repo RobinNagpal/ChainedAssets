@@ -32,10 +32,14 @@ export default function RwaResearch() {
             RWA Research
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
+<<<<<<< HEAD:src/components/RwaResearch.tsx
             We provide detailed research on Real World Assets, covering
             regulations, different types of alternative investments, process of
             securitization, rubrics and use cases. Our insights will help
             companies understand the landscape and make informed decisions.
+=======
+            {"Overall, security breaches can have a devastating impact on an organization's bottom line, reputation, and customer relationships."}
+>>>>>>> c77a7332b614bb19388be4c33bc1c373d3dedc36:src/components/ConsequencesOfBreaches.tsx
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

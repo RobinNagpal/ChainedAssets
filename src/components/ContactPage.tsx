@@ -134,11 +134,15 @@ export default function ContactPage() {
             <figure className="mt-8">
               <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                 <p>
+<<<<<<< HEAD
                   “DoDAO is your trusted partner in unlocking the potential of
                   real-world assets on blockchain. Our expertise in legal,
                   compliance, and business development empowers you to navigate
                   the complexities of the RWA ecosystem and achieve sustainable
                   success.”
+=======
+                  {`In today's data-driven world, ensuring the security and reliability of AI integrations is paramount. We are committed to safeguarding your business by providing expert solutions that mitigate risks and maximize the value of your AI investments.`}
+>>>>>>> c77a7332b614bb19388be4c33bc1c373d3dedc36
                 </p>
               </blockquote>
             </figure>
