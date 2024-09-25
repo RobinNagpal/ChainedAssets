@@ -24,7 +24,7 @@ export default function RwaSolutions() {
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 At DoDAO, we offer a range of services to help RWA companies
-                easily bring their assets onto the blockchain. Whether it's
+                easily bring their assets onto the blockchain. Whether it’s
                 research, consulting, or business development, we provide the
                 guidance and support needed to make the process simple and
                 successful.

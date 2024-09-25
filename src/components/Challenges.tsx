@@ -44,8 +44,9 @@ export default function Challenges() {
             What Challenges Are We Addressing?
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Blockchain holds immense promise for real-world assets (RWAs), but
-            significant hurdles remain. We're here to bridge the gap.
+            {
+              "Blockchain holds immense promise for real-world assets (RWAs), but significant hurdles remain. We're here to bridge the gap."
+            }
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
