@@ -7,6 +7,7 @@ import RwaSolutions from '@/components/RwaSolutions'
 import RwaResearch from '@/components/RwaResearch'
 import RwaLandscape from '@/components/RwaLandscape'
 import BusinessDevelopment from '@/components/BusinessDevelopment'
+import Consultations from '@/components/Consultations'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <RwaResearch />
       <RwaLandscape />
       <BusinessDevelopment />
-
+      <Consultations />
       <ContactPage />
       <Footer />
     </>
