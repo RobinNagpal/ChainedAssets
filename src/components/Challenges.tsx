@@ -1,8 +1,8 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  ExclamationTriangleIcon,
+  ScaleIcon,
+  LightBulbIcon,
+  LockClosedIcon,
+  LinkIcon,
 } from '@heroicons/react/24/outline'
 
 const features = [
@@ -10,25 +10,25 @@ const features = [
     name: 'Complex Legal and Regulatory Issues',
     description:
       'We simplify the challenging legal frameworks and compliance requirements for RWA companies, making it easier for new builders to navigate.',
-    icon: ArrowPathIcon,
+    icon: ScaleIcon,
   },
   {
     name: 'Lack of Useful Products',
     description:
       'We focus on the need for RWA companies to create practical products while addressing the gaps like global distribution, ensuring that useful assets reach a wider audience.',
-    icon: ExclamationTriangleIcon,
+    icon: LightBulbIcon,
   },
   {
     name: 'Limited Adoption of Blockchain',
     description:
       'We address why blockchain hasn’t been widely adopted in finance and work to make it accessible to everyone.',
-    icon: CloudArrowUpIcon,
+    icon: LockClosedIcon,
   },
   {
     name: 'Fragmented Market',
     description:
       'We help connect RWA companies with the right partners and assets to build a more unified and effective ecosystem.',
-    icon: FingerPrintIcon,
+    icon: LinkIcon,
   },
 ]
 
