@@ -7,18 +7,20 @@ import {
 const features = [
   {
     name: 'Informed Decisions',
-    description: 'Use our research to guide your strategic choices.',
+    description:
+      'Use our research to guide your strategic choices and stay updated on trends that can impact your business. Our comprehensive analysis offers actionable insights, ensuring that your business remains agile and well-positioned in the evolving RWA market.',
     icon: InformationCircleIcon,
   },
   {
     name: 'Risk Mitigation',
-    description: 'Understand regulatory risks to navigate the market safely.',
+    description:
+      'Understand regulatory risks to navigate the market safely and confidently. We provide in-depth research into legal frameworks, compliance requirements, and emerging regulations, helping you to avoid potential pitfalls and ensure your investments are secure.',
     icon: ScaleIcon,
   },
   {
     name: 'Addressing Gaps',
     description:
-      'Identify gaps in the market to tailor your offerings for better alignment with demand.',
+      'Identify gaps in the market to tailor your offerings for better alignment with demand. By analyzing unmet needs and emerging trends, we help you refine your product or service to meet customer expectations.',
     icon: WrenchIcon,
   },
 ]
