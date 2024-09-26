@@ -1,34 +1,32 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
+  RocketLaunchIcon,
+  GlobeAltIcon,
+  AcademicCapIcon,
+  DocumentMagnifyingGlassIcon,
 } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Faster Launch.',
     description: 'Speed up your project development with our tailored support.',
-    icon: CloudArrowUpIcon,
+    icon: RocketLaunchIcon,
   },
   {
     name: 'Jurisdiction Flexibility.',
     description:
       'Understand which jurisdictions offer the most flexibility for your needs.',
-    icon: LockClosedIcon,
+    icon: GlobeAltIcon,
   },
   {
     name: 'Expert Guidance.',
     description: 'Access specialized knowledge to streamline your processes.',
-    icon: ArrowPathIcon,
+    icon: AcademicCapIcon,
   },
   {
     name: 'Navigating Exemptions.',
     description:
       'Learn about available exemptions that can benefit your projects.',
-    icon: FingerPrintIcon,
+    icon: DocumentMagnifyingGlassIcon,
   },
 ]
 

@@ -1,7 +1,7 @@
 import {
   CheckCircleIcon,
-  ShieldCheckIcon,
-  HandThumbUpIcon,
+  ArrowTrendingUpIcon,
+  ChartBarIcon,
 } from '@heroicons/react/20/solid'
 
 const cards = [
@@ -13,12 +13,12 @@ const cards = [
   {
     name: 'Asset Optimization',
     description: 'Discover and acquire the best assets for your projects.',
-    icon: ShieldCheckIcon,
+    icon: ChartBarIcon,
   },
   {
     name: 'Increased Revenue',
     description: 'Leverage partnerships to drive sales and growth.',
-    icon: HandThumbUpIcon,
+    icon: ArrowTrendingUpIcon,
   },
 ]
 

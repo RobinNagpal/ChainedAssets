@@ -1,14 +1,14 @@
 import {
   ScaleIcon,
   WrenchIcon,
-  FaceFrownIcon,
+  InformationCircleIcon,
 } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Informed Decisions',
     description: 'Use our research to guide your strategic choices.',
-    icon: FaceFrownIcon,
+    icon: InformationCircleIcon,
   },
   {
     name: 'Risk Mitigation',
