@@ -30,7 +30,11 @@ export default function LandscapePage() {
 
   return (
     <div className="flex justify-center">
-      <Treemap data={data} width={width * 0.9} height={height} />
+      <Treemap
+        data={data}
+        width={dimensions.width * 0.9}
+        height={dimensions.height}
+      />
     </div>
   )
 }
