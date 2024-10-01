@@ -1,5 +1,3 @@
-'use client'
-
 import { NavBar } from '@/components/NavBar'
 import HomePage from '@/components/HomePage'
 import Challenges from '@/components/Challenges'
