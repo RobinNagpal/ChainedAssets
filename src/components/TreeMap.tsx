@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import { Tree } from '../app/data'
+import { Tree } from '@/app/data'
 import * as d3 from 'd3'
 
 type TreemapProps = {
@@ -10,19 +10,20 @@ type TreemapProps = {
   data: Tree
 }
 
+// Updated colors array with lighter shades using D3's color manipulation
 const colors = [
-  '#e0ac2b',
-  '#6689c6',
-  '#a4c969',
-  '#e85252',
-  '#9a6fb0',
-  '#a53253',
-  '#7f7f7f',
-]
+  d3.color('#e0ac2b')?.brighter(1.5)?.formatHex(),
+  d3.color('#6689c6')?.brighter(1.5)?.formatHex(),
+  d3.color('#a4c969')?.brighter(1.5)?.formatHex(),
+  d3.color('#e85252')?.brighter(1.5)?.formatHex(),
+  d3.color('#9a6fb0')?.brighter(1.5)?.formatHex(),
+  d3.color('#a53253')?.brighter(1.5)?.formatHex(),
+  d3.color('#7f7f7f')?.brighter(1.5)?.formatHex(),
+].filter(Boolean) as string[]
 
 export const Treemap = ({ width, height, data }: TreemapProps) => {
-  const iconWidth = 30
-  const iconHeight = 30
+  const iconWidth = 75
+  const iconHeight = 75
   const [tooltip, setTooltip] = useState<string | null>(null)
   const [tooltipPosition, setTooltipPosition] = useState<{
     x: number
@@ -110,7 +111,7 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
               style={{
                 fontSize: '11px',
                 fontWeight: 'bold',
-                color: 'white',
+                color: 'black',
                 textAlign: 'center',
                 wordWrap: 'break-word',
                 lineHeight: '1.2em',
@@ -132,7 +133,7 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
     })
 
     return (
-      <g key={parent.data.name}>
+      <g key={parent.data.name} fill={colorScale(parentName)}>
         <text
           x={parentX0 + parentWidth / 2}
           y={parentY0}
@@ -140,7 +141,7 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
           fontWeight={600}
           textAnchor="middle"
           alignmentBaseline="middle"
-          fill={colorScale(parentName)}
+          fill={'black'}
         >
           {parentName}
         </text>
@@ -151,8 +152,8 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
   })
 
   return (
-    <div style={{ marginTop: '10px' }}>
-      <svg width={width} height={height}>
+    <div style={{ marginTop: '10px', width: '100%', height: '100%' }}>
+      <svg viewBox={`0 0 ${width} ${height}`} width="100%" height="100%">
         {allShapes}
       </svg>
       {tooltip && tooltipPosition && (
