@@ -134,7 +134,6 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
     return (
       <g key={parent.data.name}>
         <text
-          //   x={parentX0 + 50}
           x={parentX0 + parentWidth / 2}
           y={parentY0}
           fontSize={16}
