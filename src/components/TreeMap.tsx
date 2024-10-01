@@ -94,7 +94,7 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
             height={rectHeight}
             stroke="transparent"
             fill={colorScale(parentName || 'default')}
-            className={'opacity-80 hover:opacity-100'}
+            // className={'opacity-80 hover:opacity-100'}
             onMouseOver={(event) =>
               handleMouseOver(event, `${parentName} -> ${leaf.data.name}`)
             }
@@ -108,7 +108,7 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
           >
             <div
               style={{
-                fontSize: '12px',
+                fontSize: '11px',
                 fontWeight: 'bold',
                 color: 'white',
                 textAlign: 'center',
@@ -136,7 +136,7 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
         <text
           x={parentX0 + parentWidth / 2}
           y={parentY0}
-          fontSize={16}
+          fontSize={15}
           fontWeight={600}
           textAnchor="middle"
           alignmentBaseline="middle"
