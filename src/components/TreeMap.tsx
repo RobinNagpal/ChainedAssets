@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Tree } from '@/app/data'
 import * as d3 from 'd3'
+import TreeMapModal from './TreeMapModal'
 
 type TreemapProps = {
   width: number
@@ -29,6 +30,15 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
     x: number
     y: number
   } | null>(null)
+
+  // State for the modal data
+  const [modalData, setModalData] = useState<{
+    name: string
+    details: string
+    link: string
+    icon: string
+  } | null>(null)
+  const [modalOpen, setModalOpen] = useState(false)
 
   const handleMouseOver = (
     event: React.MouseEvent<SVGRectElement>,
@@ -87,7 +97,18 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
       const rectHeight = leaf.y1 - leaf.y0
 
       return (
-        <g key={leaf.id}>
+        <g
+          key={leaf.id}
+          onClick={() => {
+            setModalData({
+              name: leaf.data.name,
+              details: leaf.data.details || '',
+              link: leaf.data.link || '',
+              icon: leaf.data.icon || '',
+            })
+            setModalOpen(true)
+          }}
+        >
           <rect
             x={leaf.x0}
             y={leaf.y0}
@@ -175,6 +196,15 @@ export const Treemap = ({ width, height, data }: TreemapProps) => {
         >
           {tooltip}
         </div>
+      )}
+      {modalOpen && modalData && (
+        <TreeMapModal
+          name={modalData.name}
+          details={modalData.details}
+          link={modalData.link}
+          icon={modalData.icon}
+          onClose={() => setModalOpen(false)}
+        />
       )}
     </div>
   )
