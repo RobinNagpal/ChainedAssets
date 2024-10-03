@@ -1,4 +1,5 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link'
 
 const features = [
   {
@@ -28,9 +29,6 @@ export default function RwaLandscape() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">
-              Everything you need
-            </h2> */}
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               RWA Landscape
             </p>
@@ -56,6 +54,12 @@ export default function RwaLandscape() {
               </div>
             ))}
           </dl>
+          <Link
+            href="/landscape"
+            className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+          >
+            View the Ecosystem Map
+          </Link>
         </div>
       </div>
     </section>
