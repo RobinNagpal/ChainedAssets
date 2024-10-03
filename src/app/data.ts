@@ -96,7 +96,7 @@ export const data: Tree = {
           type: 'leaf',
           name: 'ClearPool',
           value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/ClearPool.png',
+          icon: '/icons/Private Credit (Okay Projects)/Clearpool.png',
           details:
             'It helps institutional borrowers to borrow without needing to put up extra assets as collateral (over-collateralization). At the same time, retail investors can lend their money to these institutional borrowers and earn interest on it.',
           link: 'https://clearpool.finance/',
@@ -292,7 +292,7 @@ export const data: Tree = {
           type: 'leaf',
           name: 'Finexity',
           value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/FineXity.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Finexity.jpg',
           details:
             'It brings issuers and trading partners together, giving investors access to high-yield and tradable tokenized private market investments.',
           link: 'https://finexity.com/en',
@@ -595,7 +595,7 @@ export const data: Tree = {
           type: 'leaf',
           name: 'CitaDAO',
           value: 50,
-          icon: '/icons/Real Estate (Okay Projects)/CitaDAO.jpg',
+          icon: '/icons/Real Estate (Okay Projects)/CitaDao.jpg',
           details:
             'They choose high-quality properties and tokenize them to allow investors to invest in these properties.',
           link: 'https://citadao.io/',
@@ -869,7 +869,7 @@ export const data: Tree = {
           type: 'leaf',
           name: 'Farmsent',
           value: 50,
-          icon: '/icons/Agriculture (Okay Projects)/FarmSent.jpg',
+          icon: '/icons/Agriculture (Okay Projects)/Farmsent.jpg',
           details:
             'Farmsent connects farmers directly to businesses, allowing these tangible assets (such as crops) to be traced, validated, and traded via blockchain.',
           link: 'https://www.farmsent.io/',
