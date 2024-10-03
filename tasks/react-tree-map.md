@@ -9,6 +9,9 @@ We want to create a pure react component which uses divs and image tags and css 
 ### React Tree Map Component
 
 When generating code using Chat GPT, make sure to pass these constraints:
+##### Typescript
+- Always uses types explicitly. No `any` type. 
+- Always mention to types for all functions and variables and components.
 
 ##### Styling
 - We have tailwind css in our project. So, use tailwind css classes.
