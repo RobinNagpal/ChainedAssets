@@ -20,5 +20,6 @@ When generating code using Chat GPT, make sure to pass these constraints:
 - We want to show each leaf node as 150px*150px.
 - We want to show at least two columns in each category.
 - we want to show at least 2 category columns in a row. For example we have 5 categories, we want to show at least 2 categories in a row. It can be between 2-4 categories in a row.
+- We also want to show category name inside the category box, at on the top, and center aligned.
 - We want to have max 4 columns in each category.
 - We can use grid to layout categories and items in each category. Or Flexbox is fine too.
