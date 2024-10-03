@@ -83,12 +83,6 @@ export const data: Tree = {
             'Polytrade is the world’s first marketplace for tokenized real-world assets that brings together various tokenized assets from credit, real estate, commodities as well as collectibles, art, IP, creator royalties, luxury goods from all chains to a single platform.',
           link: 'https://www.polytrade.finance/',
         },
-        // {
-        //   type: "leaf",
-        //   name: "Open Trade Technology Ltd",
-        //   value: 50,
-        //   icon: "/icons/Private Credit (Okay Projects)/Open Trade.jpg",
-        // },
         {
           type: 'leaf',
           name: 'Open Trade',
@@ -165,83 +159,201 @@ export const data: Tree = {
     },
     {
       type: 'node',
-      name: 'Equity',
+      name: 'Token Issuance/ Securitization platforms',
       value: 0,
       children: [
         {
           type: 'leaf',
-          name: 'Backed',
+          name: 'Centrifuge',
           value: 50,
-          icon: '/icons/Private Equity (Good Projects)/Backed Finance.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Centrifuge.png',
           details:
-            'It allows professional investors to purchase tokenized fixed income bonds and equities. Each token is 1:1 backed by the underlying asset. Backed also provides institutions with a flexible, efficient, and secure tokenization service tailored to their needs.',
-          link: 'https://backed.fi/',
+            'Centrifuge allows businesses to borrow by using real-world assets (like invoices or real estate) as collateral, turning them into digital tokens. It also provides a platform through which builders can tokenize the real world assets.',
+          link: 'https://centrifuge.io/',
         },
         {
           type: 'leaf',
-          name: 'ADDX',
+          name: 'Tokeny',
           value: 50,
-          icon: '/icons/Private Equity (Good Projects)/ADDX.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png',
           details:
-            'ADADDX is a private market investment platform and not a blockchain project that enables you to invest in Private Equity, Hedge Funds, Real Estate, in fractions as low as $5,000. It is open to all non-US individual accredited, corporate accredited, and institutional investors.',
-          link: 'https://addx.co/en/index.html',
+            'It enables seamless issuance, transfer, and management of tokenized securities.',
+          link: 'https://tokeny.com/',
         },
         {
           type: 'leaf',
-          name: 'Securitize',
+          name: 'Token City',
           value: 50,
-          icon: '/icons/Private Equity (Good Projects)/Securitize.png',
-          details:
-            'Securitize is a member of FINRA and SIPC as well as an SEC-registered broker-dealer. It offers investors to invest in private equity and even VC funds. The open private equity offerings are intended for experienced investors who are looking to diversify their portfolios with alternative asset investments starting at $10k to $20k instead of $2M.',
-          link: 'https://securitize.io/',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png',
+          details: 'It facilitates token issuance to enable fundraising.',
+          link: 'https://www.token-city.com/',
         },
         {
           type: 'leaf',
-          name: 'Forge',
+          name: 'Brickken',
           value: 50,
-          icon: '/icons/Private Equity (Good Projects)/Forge.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Brickken.jpg',
           details:
-            'It provides a secure way for investors to access private securities. Forge Markets is a broker-dealer, and our ultimate parent organization, Forge Global Holdings, Inc. (NYSE: FRGE), is a publicly traded company. The vast majority of their deals are direct secondary transactions, where the purchaser is directly on the capital table of the company at the close of the transaction.',
-          link: 'https://forgeglobal.com/',
+            'It allows to tokenize real-world assets, equity, debt and securities.',
+          link: 'https://www.brickken.com/en',
         },
         {
           type: 'leaf',
-          name: 'Dinari',
+          name: 'InvestaX',
           value: 50,
-          icon: '/icons/Private Equity (Good Projects)/Dinari.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/InvestaX.jpg',
           details:
-            'Through dShares, users can trade traditional securities, like stocks and bonds, on the blockchain. It uses smart contracts to represent the securities as tokens and to automate the process of buying and selling them.',
-          link: 'https://dinari.com/',
+            'They tokenize a variety of assets including equity, credit, real estate, intellectual property, VC funds, employee stock option plan and ESG focused assets. ',
+          link: 'https://www.investax.io/',
         },
         {
           type: 'leaf',
-          name: 'Oasis Pro Markets',
+          name: 'Ondo Finance',
           value: 50,
-          icon: '/icons/Private Equity (Okay Projects)/Oasis Pro.png',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Ondo Finance.png',
           details:
-            'Oasis Pro provides a secure and regulated platform for buying, selling, and managing digital securities including debt and equity based assets. Accredited investors can invest in funds like Wine Capital Fund, Rise & Shine Fund etc.',
-          link: 'https://www.oasispro.com/',
+            'Ondo tokenizes short term US treasuries and offers it to individual and institutional investors.',
+          link: 'https://ondo.finance/',
         },
         {
           type: 'leaf',
-          name: 'Swarm',
+          name: 'Nexera Foundation',
           value: 50,
-          icon: '/icons/Private Equity (Okay Projects)/Swarm.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Nexera Foundation.jpg',
           details:
-            'It allows users to invest in public stocks on-chain which can be traded and invested by both retail and qualified investors. Tokens are issued by SwarmX GmbH, a subsidiary of Swarm Capital GmbH.',
-          link: 'https://swarm.com/',
+            'It provides the infrastructure to builders to manage digital, financial, and real-world assets together using blockchain.',
+          link: 'https://www.nexera.foundation/',
         },
         {
           type: 'leaf',
-          name: 'Texture Capital',
+          name: 'Mt Pelerin',
           value: 50,
-          icon: '/icons/Private Equity (Okay Projects)/Texture Capital.jpg',
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Mt Pelerin.png',
           details:
-            'It offers different types of funds like Solaris Renewable Energy Equity A, RevTech Capital Fund II, Bricxone etc. in which accredit investors can invest in. Texture Capital Inc. is a FINRA member broker-dealer and operator of an SEC-registered Alternative Trading System.',
-          link: 'https://app.texture.capital/',
+            'They allow builders to tokenize real estate properties using their platform.',
+          link: 'https://www.mtpelerin.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Stobox',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Stobox.jpg',
+          details:
+            'It provides clients with a tokenization platform to leverage digital assets and tokenized securities.',
+          link: 'https://www.stobox.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Nyala',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/NYALA.jpg',
+          details:
+            'It allows users to issue fully compliant tokenized securities such as bonds and shares on a blockchain of their choice and register them.',
+          link: 'https://www.nyala.de/en/',
+        },
+
+        {
+          type: 'leaf',
+          name: 'Blocksquare',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Blocksquare.png',
+          details:
+            'It helps to digitize value of real estate properties, launch their investment platforms and connect people to tokenized real estate deals online.',
+          link: 'https://blocksquare.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Polymath',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Polymath.jpg',
+          details:
+            'With the Polymath Capital Platform builders can digitize their real world assets and  mint tokens, manage investors and raise funds.',
+          link: 'https://polymath.network/',
+        },
+        {
+          type: 'leaf',
+          name: 'Tokenforge',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokenforge.png',
+          details:
+            'They specialize in the tokenization of digital and real-world assets within the European Union.',
+          link: 'https://token-forge.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'DigiShares',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/DigiShares.png',
+          details:
+            'It allows builders to tokenize their properties, development projects, funds, companies, and assets to fund-raise.',
+          link: 'https://digishares.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Finexity',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/FineXity.jpg',
+          details:
+            'It brings issuers and trading partners together, giving investors access to high-yield and tradable tokenized private market investments.',
+          link: 'https://finexity.com/en',
+        },
+        {
+          type: 'leaf',
+          name: 'Bitbond',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Bitbond.jpg',
+          details:
+            'They offer asset tokenization services as well as custody technology to safekeep the assets.',
+          link: 'https://www.bitbond.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Black Manta',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Black Manta_.jpg',
+          details:
+            'It provides assistance to structure the securities for tokenization.',
+          link: 'https://blackmanta.capital/',
+        },
+        {
+          type: 'leaf',
+          name: 'Tokn1',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokn1.webp',
+          details:
+            'Businesses can tokenize their real-world assets using their platform. They can also gain access to a global network of retail and institutional investors.',
+          link: 'https://tokn1.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Mattereum',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Mattereum.jpg',
+          details:
+            'It works directly with owners to tokenize and fractionalize their assets.',
+          link: 'https://mattereum.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'RealBlocks',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/RealBlocks.jpg',
+          details:
+            'It allows builders to automate and digitize the full fund life-cycle experience for direct investors.',
+          link: 'https://www.realblocks.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'REINNO',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/REINNO.jpg',
+          details:
+            'It allows borrowers to tokenize commercial real estate for free with their Purchase or Refinance loan.',
+          link: 'https://reinno.io/',
         },
       ],
     },
+
     {
       type: 'node',
       name: 'Treasuries & Bonds',
@@ -562,202 +674,7 @@ export const data: Tree = {
         },
       ],
     },
-    {
-      type: 'node',
-      name: 'Token Issuance/ Securitization platforms',
-      value: 0,
-      children: [
-        {
-          type: 'leaf',
-          name: 'Centrifuge',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Centrifuge.png',
-          details:
-            'Centrifuge allows businesses to borrow by using real-world assets (like invoices or real estate) as collateral, turning them into digital tokens. It also provides a platform through which builders can tokenize the real world assets.',
-          link: 'https://centrifuge.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tokeny',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png',
-          details:
-            'It enables seamless issuance, transfer, and management of tokenized securities.',
-          link: 'https://tokeny.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Token City',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png',
-          details: 'It facilitates token issuance to enable fundraising.',
-          link: 'https://www.token-city.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Brickken',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Brickken.jpg',
-          details:
-            'It allows to tokenize real-world assets, equity, debt and securities.',
-          link: 'https://www.brickken.com/en',
-        },
-        {
-          type: 'leaf',
-          name: 'InvestaX',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/InvestaX.jpg',
-          details:
-            'They tokenize a variety of assets including equity, credit, real estate, intellectual property, VC funds, employee stock option plan and ESG focused assets. ',
-          link: 'https://www.investax.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Ondo Finance',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Ondo Finance.png',
-          details:
-            'Ondo tokenizes short term US treasuries and offers it to individual and institutional investors.',
-          link: 'https://ondo.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Nexera Foundation',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Nexera Foundation.jpg',
-          details:
-            'It provides the infrastructure to builders to manage digital, financial, and real-world assets together using blockchain.',
-          link: 'https://www.nexera.foundation/',
-        },
-        {
-          type: 'leaf',
-          name: 'Mt Pelerin',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Mt Pelerin.png',
-          details:
-            'They allow builders to tokenize real estate properties using their platform.',
-          link: 'https://www.mtpelerin.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Stobox',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Stobox.jpg',
-          details:
-            'It provides clients with a tokenization platform to leverage digital assets and tokenized securities.',
-          link: 'https://www.stobox.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Nyala',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/NYALA.jpg',
-          details:
-            'It allows users to issue fully compliant tokenized securities such as bonds and shares on a blockchain of their choice and register them.',
-          link: 'https://www.nyala.de/en/',
-        },
 
-        {
-          type: 'leaf',
-          name: 'Blocksquare',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Blocksquare.png',
-          details:
-            'It helps to digitize value of real estate properties, launch their investment platforms and connect people to tokenized real estate deals online.',
-          link: 'https://blocksquare.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Polymath',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Polymath.jpg',
-          details:
-            'With the Polymath Capital Platform builders can digitize their real world assets and  mint tokens, manage investors and raise funds.',
-          link: 'https://polymath.network/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tokenforge',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokenforge.png',
-          details:
-            'They specialize in the tokenization of digital and real-world assets within the European Union.',
-          link: 'https://token-forge.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'DigiShares',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/DigiShares.png',
-          details:
-            'It allows builders to tokenize their properties, development projects, funds, companies, and assets to fund-raise.',
-          link: 'https://digishares.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Finexity',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/FineXity.jpg',
-          details:
-            'It brings issuers and trading partners together, giving investors access to high-yield and tradable tokenized private market investments.',
-          link: 'https://finexity.com/en',
-        },
-        {
-          type: 'leaf',
-          name: 'Bitbond',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Bitbond.jpg',
-          details:
-            'They offer asset tokenization services as well as custody technology to safekeep the assets.',
-          link: 'https://www.bitbond.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Black Manta',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Black Manta_.jpg',
-          details:
-            'It provides assistance to structure the securities for tokenization.',
-          link: 'https://blackmanta.capital/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tokn1',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokn1.webp',
-          details:
-            'Businesses can tokenize their real-world assets using their platform. They can also gain access to a global network of retail and institutional investors.',
-          link: 'https://tokn1.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Mattereum',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Mattereum.jpg',
-          details:
-            'It works directly with owners to tokenize and fractionalize their assets.',
-          link: 'https://mattereum.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'RealBlocks',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/RealBlocks.jpg',
-          details:
-            'It allows builders to automate and digitize the full fund life-cycle experience for direct investors.',
-          link: 'https://www.realblocks.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'REINNO',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/REINNO.jpg',
-          details:
-            'It allows borrowers to tokenize commercial real estate for free with their Purchase or Refinance loan.',
-          link: 'https://reinno.io/',
-        },
-      ],
-    },
     {
       type: 'node',
       name: 'Oracles',
@@ -1071,6 +988,85 @@ export const data: Tree = {
           details:
             'Denario specializes in digital investments in precious metals through asset-backed real world asset tokens. Their platform offers a modern, reliable, and convenient way for both institutional and retail investors to invest in precious metals.',
           link: 'https://www.denario.swiss/',
+        },
+      ],
+    },
+    {
+      type: 'node',
+      name: 'Equity',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Backed',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Backed Finance.jpg',
+          details:
+            'It allows professional investors to purchase tokenized fixed income bonds and equities. Each token is 1:1 backed by the underlying asset. Backed also provides institutions with a flexible, efficient, and secure tokenization service tailored to their needs.',
+          link: 'https://backed.fi/',
+        },
+        {
+          type: 'leaf',
+          name: 'ADDX',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/ADDX.jpg',
+          details:
+            'ADADDX is a private market investment platform and not a blockchain project that enables you to invest in Private Equity, Hedge Funds, Real Estate, in fractions as low as $5,000. It is open to all non-US individual accredited, corporate accredited, and institutional investors.',
+          link: 'https://addx.co/en/index.html',
+        },
+        {
+          type: 'leaf',
+          name: 'Securitize',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Securitize.png',
+          details:
+            'Securitize is a member of FINRA and SIPC as well as an SEC-registered broker-dealer. It offers investors to invest in private equity and even VC funds. The open private equity offerings are intended for experienced investors who are looking to diversify their portfolios with alternative asset investments starting at $10k to $20k instead of $2M.',
+          link: 'https://securitize.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Forge',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Forge.jpg',
+          details:
+            'It provides a secure way for investors to access private securities. Forge Markets is a broker-dealer, and our ultimate parent organization, Forge Global Holdings, Inc. (NYSE: FRGE), is a publicly traded company. The vast majority of their deals are direct secondary transactions, where the purchaser is directly on the capital table of the company at the close of the transaction.',
+          link: 'https://forgeglobal.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Dinari',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Dinari.jpg',
+          details:
+            'Through dShares, users can trade traditional securities, like stocks and bonds, on the blockchain. It uses smart contracts to represent the securities as tokens and to automate the process of buying and selling them.',
+          link: 'https://dinari.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Oasis Pro Markets',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Oasis Pro.png',
+          details:
+            'Oasis Pro provides a secure and regulated platform for buying, selling, and managing digital securities including debt and equity based assets. Accredited investors can invest in funds like Wine Capital Fund, Rise & Shine Fund etc.',
+          link: 'https://www.oasispro.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Swarm',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Swarm.jpg',
+          details:
+            'It allows users to invest in public stocks on-chain which can be traded and invested by both retail and qualified investors. Tokens are issued by SwarmX GmbH, a subsidiary of Swarm Capital GmbH.',
+          link: 'https://swarm.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Texture Capital',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Texture Capital.jpg',
+          details:
+            'It offers different types of funds like Solaris Renewable Energy Equity A, RevTech Capital Fund II, Bricxone etc. in which accredit investors can invest in. Texture Capital Inc. is a FINRA member broker-dealer and operator of an SEC-registered Alternative Trading System.',
+          link: 'https://app.texture.capital/',
         },
       ],
     },
