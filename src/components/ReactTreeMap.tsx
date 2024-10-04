@@ -35,7 +35,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
               <h2 className="mb-4 text-center text-xl font-bold">
                 {category.name}
               </h2>
-              <div className="grid grid-cols-4 gap-4 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4">
+              <div className="grid grid-cols-4 gap-4 md:grid-cols-5 lg:grid-cols-4 xl:grid-cols-5">
                 {category.children.map((item: ItemType, itemIndex: number) => (
                   <div
                     key={itemIndex}
@@ -48,7 +48,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
                       })
                       setModalOpen(true)
                     }}
-                    className="block h-[150px] w-[150px] rounded-lg border bg-white p-4 transition-shadow duration-300 hover:shadow-lg"
+                    className="block h-[125px] w-[125px] rounded-lg border bg-white p-4 transition-shadow duration-300 hover:shadow-lg"
                   >
                     <div className="flex h-full flex-col items-center justify-center">
                       <Image
