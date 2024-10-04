@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
+import TreeMapNavbar from './TreeMapNavbar'
 
 type ItemType = {
   name: string
@@ -28,7 +29,8 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
   const [modalOpen, setModalOpen] = useState(false)
   return (
     <>
-      <div className="mx-auto min-w-[768px] max-w-[1440px] p-4">
+      <div className="mx-auto min-w-[768px] max-w-[1440px] p-4 pt-0">
+        <TreeMapNavbar />
         <div className="grid gap-4 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
           {data.map((category: CategoryType, index: number) => (
             <div key={index} className="rounded-lg border bg-gray-50 p-4">
