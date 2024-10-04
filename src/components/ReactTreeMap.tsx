@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
+import TreeMapNavbar from './TreeMapNavbar'
 
 type ItemType = {
   name: string
@@ -28,14 +29,18 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
   const [modalOpen, setModalOpen] = useState(false)
   return (
     <>
-      <div className="mx-auto min-w-[768px] max-w-[1440px] p-4">
+      <div className="mx-auto min-w-[768px] max-w-[1440px] p-4 pt-0">
+        <TreeMapNavbar />
         <div className="grid gap-4 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
           {data.map((category: CategoryType, index: number) => (
-            <div key={index} className="rounded-lg border bg-gray-50 p-4">
-              <h2 className="mb-4 text-center text-xl font-bold">
+            <div
+              key={index}
+              className="rounded-lg border border-gray-700 bg-gray-800 p-4"
+            >
+              <h2 className="mb-4 text-center text-xl font-bold text-white">
                 {category.name}
               </h2>
-              <div className="grid grid-cols-4 gap-4 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4">
+              <div className="grid grid-cols-4 gap-4 md:grid-cols-5 lg:grid-cols-4 xl:grid-cols-5">
                 {category.children.map((item: ItemType, itemIndex: number) => (
                   <div
                     key={itemIndex}
@@ -48,7 +53,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
                       })
                       setModalOpen(true)
                     }}
-                    className="block h-[150px] w-[150px] rounded-lg border bg-white p-4 transition-shadow duration-300 hover:shadow-lg"
+                    className="duration-250 block h-[125px] w-[125px] transform rounded-lg border border-gray-600 bg-gray-700 p-4 transition-all ease-in-out hover:scale-105 hover:bg-gray-600 hover:shadow-lg"
                   >
                     <div className="flex h-full flex-col items-center justify-center">
                       <Image
@@ -58,7 +63,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
                         height={60}
                         className="mb-2"
                       />
-                      <h3 className="text-center text-sm font-semibold">
+                      <h3 className="text-center text-sm font-semibold text-gray-200">
                         {item.name}
                       </h3>
                     </div>

@@ -26,336 +26,6 @@ export const data: Tree = {
   children: [
     {
       type: 'node',
-      name: 'Private Credit',
-      value: 0,
-      children: [
-        {
-          type: 'leaf',
-          name: 'Maple Finance',
-          value: 50,
-          icon: '/icons/Private Credit (Good Projects)/Maple Finance.png',
-          details:
-            'It offers institutional lending through uncollateralized loans which are managed by Pool delegates. Lenders can deposit assets to earn competitive interest rates. The borrowers on Maple Finance are only allowed to invest the money they borrow into U.S. Treasury bills and reverse repurchase agreements fully backed by U.S. Treasury bills.',
-          link: 'https://maple.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Centrifuge',
-          value: 50,
-          icon: '/icons/Private Credit (Good Projects)/Centrifuge.png',
-          details:
-            'Centrifuge allows businesses to borrow by using real-world assets (like invoices or real estate) as collateral, turning them into digital tokens. Investors can lend to these businesses through asset pools to earn interest.',
-          link: 'https://centrifuge.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Goldfinch',
-          value: 50,
-          icon: '/icons/Private Credit (Good Projects)/Goldfinch.jpg',
-          details:
-            'Goldfinch protocol is a decentralized lending mechanism that doesn’t require the borrowers to show any kind of collateral. Instead, borrowers propose a loan to take and ask backers and auditors for approval. If a proposal collects enough support from them, the loan is issued. Liquidity providers, backers and auditors earn interest as a reward.',
-          link: 'https://goldfinch.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Credit Coop',
-          value: 50,
-          icon: '/icons/Private Credit (Good Projects)/Credit Coop.png',
-          details:
-            'It offers a new way for businesses to borrow money based on future earnings, making it easier to access capital without losing ownership. The Spigot smart contract automatically collects the business’s future earnings to repay the loan, so lenders don’t have to worry about getting paid back.',
-          link: 'https://www.creditcoop.xyz/',
-        },
-        {
-          type: 'leaf',
-          name: 'Term Finance',
-          value: 50,
-          icon: '/icons/Private Credit (Good Projects)/Term Finance.jpg',
-          details:
-            'The Term Finance Protocol is a way to lend and borrow money on-chain using fixed rates and collateral. It works like traditional repo agreements, where borrowers and lenders are matched through auctions. Term’s architecture allows the protocol to onboard both permissioned and permissionless RWAs as collateral.',
-          link: 'https://www.term.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'PolyTrade',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/PolyTrade.jpg',
-          details:
-            'Polytrade is the world’s first marketplace for tokenized real-world assets that brings together various tokenized assets from credit, real estate, commodities as well as collectibles, art, IP, creator royalties, luxury goods from all chains to a single platform.',
-          link: 'https://www.polytrade.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Open Trade',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/Open Trade.jpg',
-          details:
-            'It takes loans from institutional investors and then provides financing to businesses or other entities, using the funds secured by high-quality collateral like US Treasury Bills. This allows businesses to access capital while offering investors a stable yield on their loans.',
-          link: 'https://www.opentrade.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'ClearPool',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/ClearPool.png',
-          details:
-            'It helps institutional borrowers to borrow without needing to put up extra assets as collateral (over-collateralization). At the same time, retail investors can lend their money to these institutional borrowers and earn interest on it.',
-          link: 'https://clearpool.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Helix Finance',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/Helix Finance.jpg',
-          details:
-            'It connects investors with real-world private credit borrowers. The liquidity providers get to earn yields based on the tranche (senior/junior) they choose to invest in. (Can’t access platform so not sure about the quality)',
-          link: 'https://helixfinance.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tradable',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/Tradeable.jpg',
-          details:
-            'Originators can self-publish new investment opportunities on the Tradable application, detailing information about the deal, its investment terms and capital requirements. Permissioned investors review deal details and make an offer for allocation. (Can’t access platform so not sure about the quality)',
-          link: 'https://www.tradable.xyz/',
-        },
-        {
-          type: 'leaf',
-          name: 'Credbull',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/Credbull.webp',
-          details:
-            'It offers a On-Chain Private Credit Fund with two options: a 6-month term with 8% APY or a 12-month term with 10% yield. It invests in SME loans, targeting strong returns with a low default rate. The fund serves institutions and aims to make private credit accessible to retail investors soon.',
-          link: 'https://credbull.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'TrueFi',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/TrueFi.jpg',
-          details:
-            'TrueFi is a platform where people can lend money and earn interest by putting their funds into different vaults. Portfolio managers run these vaults, negotiate loan terms with borrowers, and must be approved by TrueFi. Borrowers can get loans after agreeing to terms like providing ID and being in certain locations.',
-          link: 'https://truefi.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Untangled',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/Untangled Finance.jpg',
-          details:
-            'Borrowers use Real-World Assets (RWAs) like SME loans or trade finance as collateral by tokenizing them into Non-Fungible Tokens (NFTs). These NFTs represent the real-world asset on the blockchain, and borrowers can use them to secure loans from a lending pool.',
-          link: 'https://untangled.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Bluejay',
-          value: 50,
-          icon: '/icons/Private Credit (Okay Projects)/BlueJay.webp',
-          details:
-            'Bluejay helps accredited investors get access to fixed income investments from multiple financial institutions.',
-          link: 'https://bluejay.finance/',
-        },
-      ],
-    },
-    {
-      type: 'node',
-      name: 'Token Issuance/ Securitization platforms',
-      value: 0,
-      children: [
-        {
-          type: 'leaf',
-          name: 'Centrifuge',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Centrifuge.png',
-          details:
-            'Centrifuge allows businesses to borrow by using real-world assets (like invoices or real estate) as collateral, turning them into digital tokens. It also provides a platform through which builders can tokenize the real world assets.',
-          link: 'https://centrifuge.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tokeny',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png',
-          details:
-            'It enables seamless issuance, transfer, and management of tokenized securities.',
-          link: 'https://tokeny.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Token City',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png',
-          details: 'It facilitates token issuance to enable fundraising.',
-          link: 'https://www.token-city.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Brickken',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Brickken.jpg',
-          details:
-            'It allows to tokenize real-world assets, equity, debt and securities.',
-          link: 'https://www.brickken.com/en',
-        },
-        {
-          type: 'leaf',
-          name: 'InvestaX',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/InvestaX.jpg',
-          details:
-            'They tokenize a variety of assets including equity, credit, real estate, intellectual property, VC funds, employee stock option plan and ESG focused assets. ',
-          link: 'https://www.investax.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Ondo Finance',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Ondo Finance.png',
-          details:
-            'Ondo tokenizes short term US treasuries and offers it to individual and institutional investors.',
-          link: 'https://ondo.finance/',
-        },
-        {
-          type: 'leaf',
-          name: 'Nexera Foundation',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Nexera Foundation.jpg',
-          details:
-            'It provides the infrastructure to builders to manage digital, financial, and real-world assets together using blockchain.',
-          link: 'https://www.nexera.foundation/',
-        },
-        {
-          type: 'leaf',
-          name: 'Mt Pelerin',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Mt Pelerin.png',
-          details:
-            'They allow builders to tokenize real estate properties using their platform.',
-          link: 'https://www.mtpelerin.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Stobox',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Stobox.jpg',
-          details:
-            'It provides clients with a tokenization platform to leverage digital assets and tokenized securities.',
-          link: 'https://www.stobox.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Nyala',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/NYALA.jpg',
-          details:
-            'It allows users to issue fully compliant tokenized securities such as bonds and shares on a blockchain of their choice and register them.',
-          link: 'https://www.nyala.de/en/',
-        },
-
-        {
-          type: 'leaf',
-          name: 'Blocksquare',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Blocksquare.png',
-          details:
-            'It helps to digitize value of real estate properties, launch their investment platforms and connect people to tokenized real estate deals online.',
-          link: 'https://blocksquare.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Polymath',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Polymath.jpg',
-          details:
-            'With the Polymath Capital Platform builders can digitize their real world assets and  mint tokens, manage investors and raise funds.',
-          link: 'https://polymath.network/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tokenforge',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokenforge.png',
-          details:
-            'They specialize in the tokenization of digital and real-world assets within the European Union.',
-          link: 'https://token-forge.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'DigiShares',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/DigiShares.png',
-          details:
-            'It allows builders to tokenize their properties, development projects, funds, companies, and assets to fund-raise.',
-          link: 'https://digishares.io/',
-        },
-        {
-          type: 'leaf',
-          name: 'Finexity',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/FineXity.jpg',
-          details:
-            'It brings issuers and trading partners together, giving investors access to high-yield and tradable tokenized private market investments.',
-          link: 'https://finexity.com/en',
-        },
-        {
-          type: 'leaf',
-          name: 'Bitbond',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Bitbond.jpg',
-          details:
-            'They offer asset tokenization services as well as custody technology to safekeep the assets.',
-          link: 'https://www.bitbond.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Black Manta',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Black Manta_.jpg',
-          details:
-            'It provides assistance to structure the securities for tokenization.',
-          link: 'https://blackmanta.capital/',
-        },
-        {
-          type: 'leaf',
-          name: 'Tokn1',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokn1.webp',
-          details:
-            'Businesses can tokenize their real-world assets using their platform. They can also gain access to a global network of retail and institutional investors.',
-          link: 'https://tokn1.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'Mattereum',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Mattereum.jpg',
-          details:
-            'It works directly with owners to tokenize and fractionalize their assets.',
-          link: 'https://mattereum.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'RealBlocks',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/RealBlocks.jpg',
-          details:
-            'It allows builders to automate and digitize the full fund life-cycle experience for direct investors.',
-          link: 'https://www.realblocks.com/',
-        },
-        {
-          type: 'leaf',
-          name: 'REINNO',
-          value: 50,
-          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/REINNO.jpg',
-          details:
-            'It allows borrowers to tokenize commercial real estate for free with their Purchase or Refinance loan.',
-          link: 'https://reinno.io/',
-        },
-      ],
-    },
-
-    {
-      type: 'node',
       name: 'Treasuries & Bonds',
       value: 0,
       children: [
@@ -532,6 +202,337 @@ export const data: Tree = {
         },
       ],
     },
+
+    {
+      type: 'node',
+      name: 'Token Issuance/ Securitization platforms',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Centrifuge',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Centrifuge.png',
+          details:
+            'Centrifuge allows businesses to borrow by using real-world assets (like invoices or real estate) as collateral, turning them into digital tokens. It also provides a platform through which builders can tokenize the real world assets.',
+          link: 'https://centrifuge.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Tokeny',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png',
+          details:
+            'It enables seamless issuance, transfer, and management of tokenized securities.',
+          link: 'https://tokeny.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Token City',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png',
+          details: 'It facilitates token issuance to enable fundraising.',
+          link: 'https://www.token-city.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Brickken',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Brickken.jpg',
+          details:
+            'It allows to tokenize real-world assets, equity, debt and securities.',
+          link: 'https://www.brickken.com/en',
+        },
+        {
+          type: 'leaf',
+          name: 'InvestaX',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/InvestaX.jpg',
+          details:
+            'They tokenize a variety of assets including equity, credit, real estate, intellectual property, VC funds, employee stock option plan and ESG focused assets. ',
+          link: 'https://www.investax.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Ondo Finance',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Ondo Finance.png',
+          details:
+            'Ondo tokenizes short term US treasuries and offers it to individual and institutional investors.',
+          link: 'https://ondo.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'Nexera Foundation',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Nexera Foundation.jpg',
+          details:
+            'It provides the infrastructure to builders to manage digital, financial, and real-world assets together using blockchain.',
+          link: 'https://www.nexera.foundation/',
+        },
+        {
+          type: 'leaf',
+          name: 'Mt Pelerin',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Mt Pelerin.png',
+          details:
+            'They allow builders to tokenize real estate properties using their platform.',
+          link: 'https://www.mtpelerin.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Stobox',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Stobox.jpg',
+          details:
+            'It provides clients with a tokenization platform to leverage digital assets and tokenized securities.',
+          link: 'https://www.stobox.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Nyala',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/NYALA.jpg',
+          details:
+            'It allows users to issue fully compliant tokenized securities such as bonds and shares on a blockchain of their choice and register them.',
+          link: 'https://www.nyala.de/en/',
+        },
+
+        {
+          type: 'leaf',
+          name: 'Blocksquare',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Blocksquare.png',
+          details:
+            'It helps to digitize value of real estate properties, launch their investment platforms and connect people to tokenized real estate deals online.',
+          link: 'https://blocksquare.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Polymath',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Polymath.jpg',
+          details:
+            'With the Polymath Capital Platform builders can digitize their real world assets and  mint tokens, manage investors and raise funds.',
+          link: 'https://polymath.network/',
+        },
+        {
+          type: 'leaf',
+          name: 'Tokenforge',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokenforge.png',
+          details:
+            'They specialize in the tokenization of digital and real-world assets within the European Union.',
+          link: 'https://token-forge.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'DigiShares',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/DigiShares.png',
+          details:
+            'It allows builders to tokenize their properties, development projects, funds, companies, and assets to fund-raise.',
+          link: 'https://digishares.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Finexity',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Finexity.jpg',
+          details:
+            'It brings issuers and trading partners together, giving investors access to high-yield and tradable tokenized private market investments.',
+          link: 'https://finexity.com/en',
+        },
+        {
+          type: 'leaf',
+          name: 'Bitbond',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Bitbond.jpg',
+          details:
+            'They offer asset tokenization services as well as custody technology to safekeep the assets.',
+          link: 'https://www.bitbond.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Black Manta',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Black Manta_.jpg',
+          details:
+            'It provides assistance to structure the securities for tokenization.',
+          link: 'https://blackmanta.capital/',
+        },
+        {
+          type: 'leaf',
+          name: 'Tokn1',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokn1.webp',
+          details:
+            'Businesses can tokenize their real-world assets using their platform. They can also gain access to a global network of retail and institutional investors.',
+          link: 'https://tokn1.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Mattereum',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Mattereum.jpg',
+          details:
+            'It works directly with owners to tokenize and fractionalize their assets.',
+          link: 'https://mattereum.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'RealBlocks',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/RealBlocks.jpg',
+          details:
+            'It allows builders to automate and digitize the full fund life-cycle experience for direct investors.',
+          link: 'https://www.realblocks.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'REINNO',
+          value: 50,
+          icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/REINNO.jpg',
+          details:
+            'It allows borrowers to tokenize commercial real estate for free with their Purchase or Refinance loan.',
+          link: 'https://reinno.io/',
+        },
+      ],
+    },
+    {
+      type: 'node',
+      name: 'Private Credit',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Maple Finance',
+          value: 50,
+          icon: '/icons/Private Credit (Good Projects)/Maple Finance.png',
+          details:
+            'It offers institutional lending through uncollateralized loans which are managed by Pool delegates. Lenders can deposit assets to earn competitive interest rates. The borrowers on Maple Finance are only allowed to invest the money they borrow into U.S. Treasury bills and reverse repurchase agreements fully backed by U.S. Treasury bills.',
+          link: 'https://maple.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'Centrifuge',
+          value: 50,
+          icon: '/icons/Private Credit (Good Projects)/Centrifuge.png',
+          details:
+            'Centrifuge allows businesses to borrow by using real-world assets (like invoices or real estate) as collateral, turning them into digital tokens. Investors can lend to these businesses through asset pools to earn interest.',
+          link: 'https://centrifuge.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Goldfinch',
+          value: 50,
+          icon: '/icons/Private Credit (Good Projects)/Goldfinch.jpg',
+          details:
+            'Goldfinch protocol is a decentralized lending mechanism that doesn’t require the borrowers to show any kind of collateral. Instead, borrowers propose a loan to take and ask backers and auditors for approval. If a proposal collects enough support from them, the loan is issued. Liquidity providers, backers and auditors earn interest as a reward.',
+          link: 'https://goldfinch.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'Credit Coop',
+          value: 50,
+          icon: '/icons/Private Credit (Good Projects)/Credit Coop.png',
+          details:
+            'It offers a new way for businesses to borrow money based on future earnings, making it easier to access capital without losing ownership. The Spigot smart contract automatically collects the business’s future earnings to repay the loan, so lenders don’t have to worry about getting paid back.',
+          link: 'https://www.creditcoop.xyz/',
+        },
+        {
+          type: 'leaf',
+          name: 'Term Finance',
+          value: 50,
+          icon: '/icons/Private Credit (Good Projects)/Term Finance.jpg',
+          details:
+            'The Term Finance Protocol is a way to lend and borrow money on-chain using fixed rates and collateral. It works like traditional repo agreements, where borrowers and lenders are matched through auctions. Term’s architecture allows the protocol to onboard both permissioned and permissionless RWAs as collateral.',
+          link: 'https://www.term.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'PolyTrade',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/PolyTrade.jpg',
+          details:
+            'Polytrade is the world’s first marketplace for tokenized real-world assets that brings together various tokenized assets from credit, real estate, commodities as well as collectibles, art, IP, creator royalties, luxury goods from all chains to a single platform.',
+          link: 'https://www.polytrade.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'Open Trade',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/Open Trade.jpg',
+          details:
+            'It takes loans from institutional investors and then provides financing to businesses or other entities, using the funds secured by high-quality collateral like US Treasury Bills. This allows businesses to access capital while offering investors a stable yield on their loans.',
+          link: 'https://www.opentrade.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'ClearPool',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/Clearpool.png',
+          details:
+            'It helps institutional borrowers to borrow without needing to put up extra assets as collateral (over-collateralization). At the same time, retail investors can lend their money to these institutional borrowers and earn interest on it.',
+          link: 'https://clearpool.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'Helix Finance',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/Helix Finance.jpg',
+          details:
+            'It connects investors with real-world private credit borrowers. The liquidity providers get to earn yields based on the tranche (senior/junior) they choose to invest in. (Can’t access platform so not sure about the quality)',
+          link: 'https://helixfinance.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Tradable',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/Tradeable.jpg',
+          details:
+            'Originators can self-publish new investment opportunities on the Tradable application, detailing information about the deal, its investment terms and capital requirements. Permissioned investors review deal details and make an offer for allocation. (Can’t access platform so not sure about the quality)',
+          link: 'https://www.tradable.xyz/',
+        },
+        {
+          type: 'leaf',
+          name: 'Credbull',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/Credbull.webp',
+          details:
+            'It offers a On-Chain Private Credit Fund with two options: a 6-month term with 8% APY or a 12-month term with 10% yield. It invests in SME loans, targeting strong returns with a low default rate. The fund serves institutions and aims to make private credit accessible to retail investors soon.',
+          link: 'https://credbull.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'TrueFi',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/TrueFi.jpg',
+          details:
+            'TrueFi is a platform where people can lend money and earn interest by putting their funds into different vaults. Portfolio managers run these vaults, negotiate loan terms with borrowers, and must be approved by TrueFi. Borrowers can get loans after agreeing to terms like providing ID and being in certain locations.',
+          link: 'https://truefi.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Untangled',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/Untangled Finance.jpg',
+          details:
+            'Borrowers use Real-World Assets (RWAs) like SME loans or trade finance as collateral by tokenizing them into Non-Fungible Tokens (NFTs). These NFTs represent the real-world asset on the blockchain, and borrowers can use them to secure loans from a lending pool.',
+          link: 'https://untangled.finance/',
+        },
+        {
+          type: 'leaf',
+          name: 'Bluejay',
+          value: 50,
+          icon: '/icons/Private Credit (Okay Projects)/BlueJay.webp',
+          details:
+            'Bluejay helps accredited investors get access to fixed income investments from multiple financial institutions.',
+          link: 'https://bluejay.finance/',
+        },
+      ],
+    },
+
     {
       type: 'node',
       name: 'Real Estate',
@@ -595,7 +596,7 @@ export const data: Tree = {
           type: 'leaf',
           name: 'CitaDAO',
           value: 50,
-          icon: '/icons/Real Estate (Okay Projects)/CitaDAO.jpg',
+          icon: '/icons/Real Estate (Okay Projects)/CitaDao.jpg',
           details:
             'They choose high-quality properties and tokenize them to allow investors to invest in these properties.',
           link: 'https://citadao.io/',
@@ -869,7 +870,7 @@ export const data: Tree = {
           type: 'leaf',
           name: 'Farmsent',
           value: 50,
-          icon: '/icons/Agriculture (Okay Projects)/FarmSent.jpg',
+          icon: '/icons/Agriculture (Okay Projects)/Farmsent.jpg',
           details:
             'Farmsent connects farmers directly to businesses, allowing these tangible assets (such as crops) to be traced, validated, and traded via blockchain.',
           link: 'https://www.farmsent.io/',
