@@ -1,68 +1,61 @@
 # Introduction - Blockchain and Finance
-Blockchain has real value which has been proven by
-- Adoption of Stablecoins and how they can be transferred across borders with minimal fees
-- Facilitation of exchange of assets with AMMs
-- Creation of derivative products like 
-  - 2x, 3x,...,50x leverage tokens
-  - Perpetual Futures
-- Querying of data from blockchain and creating charts and graphs(like Dune Analytics)
+Blockchain has proven its value through:
+- Adoption of stablecoins that allow money transfers across borders with low fees.
+- Facilitated asset exchanges using automated market makers (AMMs).
+- Creation of derivative products such as:
+  - Leverage tokens (2x, 3x, up to 50x)
+  - Perpetual futures
+- Use of blockchain data to create charts and graphs, like with Dune Analytics.
 
-A product gets adopted when it is 10 times better as compared to the existing solutions, or offers a completely new 
-solution to a problem.
+A product is widely adopted if it is ten times better than current solutions or offers a completely new solution to a problem.
 
-# Why is blockchain not adopted by the masses?
-- Banks and Financial Institutions 
-    - maintain the local government identity of the user and complies with the local laws.
-    - provide custody of the assets
-    - provide way to recover the assets in case of loss of information by the user 
-- Blockchain doesn't talk about these things and has not really tried to solve for this. This area is expensive and 
-  requires a lot of legal work. so companies have stayed away from this.
-- Normally technology adoption is a gradual process, specially when dealing with money. New systems have to be intergrated
-  into old way of working. Like just giving tokens doesn't "Assure" people of the possession of the assets.
+# Why is blockchain not adopted widely?
+- Banks and financial institutions:
+  - Preserve a user’s identity as per local government regulations.
+  - Safeguard assets.
+  - Offer ways to recover assets if user information is lost.
+- Blockchain has not addressed these issues, which involve extensive legal work and costs, so companies have avoided them.
+- Technology adoption, especially in finance, is gradual. Integrating new systems with old ones takes time. Simply offering tokens does not guarantee ownership of assets.
 
-# Improve efficiency of the financial system
-- Currently the financial system is inefficient, and blockchain can easily 10x the efficiency of the system. 
-- We want to be sure about what are the isolated areas where blockchain can be used. 
+# Improving the Efficiency of the Financial System
+- The current financial system is inefficient, and blockchain could significantly enhance its efficiency.
+- We need to identify specific areas where blockchain can be applied effectively.
 
-Note: These are the areas we want to explore under "ChainedAssets". For this we need to identify real isolated use cases 
-come up with a clear plan, and then execute on it.
+Note: We want to explore these topics under "ChainedAssets". We aim to find isolated use cases, develop a clear plan, and execute it.
 
-### Things we want to explore
-- [ ] What are the exact requirements for 
-  - ATS(Alternative Trading System)
+### Areas to Explore
+- [ ] What are the specific requirements for:
+  - Alternative Trading Systems (ATS)
   - Custodians
   - Transfer Agents
   - Broker-Dealers
-  - Trust Companies(Trusts are created for REITs, infrastructure or investment companies)?
-- [ ] Find a few different players in the market under these categories. Not the top players, but more of startups.
-- [ ] Find who uses these players, for what use cases and how much do they pay them?
+  - Trust Companies (used for REITs, infrastructure, or investment companies)?
+- [ ] Identify emerging companies in these areas, not just the leaders but also startups.
+- [ ] Determine who uses these services, for what purposes, and how much they pay.
 
 # Private Markets
-- Private markets are only accessible by accredited investors, and there are not many government regulations on these 
-  markets.
-- These markets are not very liquid and are not very transparent.
+- Private markets are open only to accredited investors and have fewer government regulations.
+- These markets lack liquidity and transparency.
 
-Note: This is where blockchain can help and under "ChainedAssets" we want to explore this area. We plan to explore private
-credit first.
+Note: Blockchain could be valuable here, and under "ChainedAssets," we plan to first explore private credit.
 
-### Things we want to explore in Private Credit
-- [ ] Some of the new players in the market who have been doing well
-- [ ] What type of information is available in the private credit market?
-- [ ] For how long are the assets locked? 
-- [ ] How valuable is providing liquidity to these markets?
-- [ ] Is any type of trading really needed in these markets?
+### Exploring Private Credit
+- [ ] Identify new market players who are performing well.
+- [ ] Discover what information is available in the private credit market.
+- [ ] Understand how long assets are locked.
+- [ ] Assess the value of providing liquidity in these markets.
+- [ ] Determine if trading is necessary in these markets.
 
 ### Crowdfunding
-This is a new market and has been growing. It suffers for the following issues
-- Lack of liquidity
-- Lack of information on the projects and its founders
-- No ratings or reviews available
-- Pricing of the projects/assets is not determined by the market
+This growing market faces challenges such as:
+- Limited liquidity.
+- Insufficient information about projects and their founders.
+- Absence of ratings or reviews.
+- Non-market-driven pricing of projects and assets.
 
-### Things we want to explore in Crowdfunding
-- [ ] Why do founder don't want their projects shares to be traded?
-- [ ] What premium cam be charged for providing liquidity for these projects?
-- [ ] What players currently offer liquidity/trading for these projects? And why is it not so popular?
-- [ ] How exactly exchange of these assets can be done?
-- [ ] Why do founders what their companies to remain private for so long? Example stripe, spacex, etc. Should government
-  intervene in this and ask them to go public?
+### Questions for Crowdfunding
+- [ ] Why do founders resist trading shares of their projects?
+- [ ] What premium can be charged for providing liquidity to these projects?
+- [ ] Which companies currently offer liquidity or trading for these projects, and why is it not more popular?
+- [ ] How can the exchange of these assets be facilitated?
+- [ ] Why do founders keep their companies private for extended periods, like Stripe and SpaceX? Should the government encourage them to go public?
