@@ -20,6 +20,9 @@ solution to a problem.
 - Normally technology adoption is a gradual process, specially when dealing with money. New systems have to be intergrated
   into old way of working. Like just giving tokens doesn't "Assure" people of the possession of the assets.
 
+# Improve efficiency of the financial system
+- Currently the financial system is inefficient, and blockchain can easily 10x the efficiency of the system. 
+- We want to be sure about what are the isolated areas where blockchain can be used. 
 
 Note: These are the areas we want to explore under "ChainedAssets". For this we need to identify real isolated use cases 
 come up with a clear plan, and then execute on it.
