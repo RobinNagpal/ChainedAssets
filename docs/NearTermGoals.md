@@ -14,8 +14,11 @@ A product is widely adopted if it is ten times better than current solutions or 
   - Preserve a user’s identity as per local government regulations.
   - Safeguard assets.
   - Offer ways to recover assets if user information is lost.
-- Blockchain has not addressed these issues, which involve extensive legal work and costs, so companies have avoided them.
-- Technology adoption, especially in finance, is gradual. Integrating new systems with old ones takes time. Simply offering tokens does not guarantee ownership of assets.
+- Blockchain has not addressed these issues, which involve extensive legal work and costs, so blockchain companies have avoided them, as there are easier ways to make money.
+- Technology adoption, especially in finance, is gradual. Integrating new systems with old ones takes time. Simply 
+offering tokens does not guarantee ownership of assets to the investors. They are used to docs and contracts, so 
+along with tokens, we need to provide them with the necessary docs and contracts. Blockchain projects have not been
+pragmatic in this regard.
 
 # Improving the Efficiency of the Financial System
 - The current financial system is inefficient, and blockchain could significantly enhance its efficiency.
