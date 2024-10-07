@@ -8,56 +8,68 @@ import RwaResearch from '@/components/RwaResearch'
 import RwaLandscape from '@/components/RwaLandscape'
 import BusinessDevelopment from '@/components/BusinessDevelopment'
 import Consultations from '@/components/Consultations'
-import Head from 'next/head'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://chained-assets.vercel.app'),
+  title:
+    'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+  description:
+    'DoDAO simplifies the process of bringing real-world assets (RWAs) to the blockchain. We offer research, consulting, and business development services to help you navigate regulatory challenges and drive sustainable growth.',
+  keywords: [
+    'Chained Assets',
+    'DoDAO',
+    'Real World Assets',
+    'Blockchain',
+    'RWA Solutions',
+    'RWA Research',
+    'RWA Landscape',
+    'Consultations',
+    'Business Development',
+    'Blockchain Consulting',
+    'Regulatory Compliance',
+    'Tokenization of Real World Assets',
+  ],
+  authors: { name: 'DoDAO' },
+  viewport: 'width=device-width, initial-scale=1.0',
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title:
+      'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+    description:
+      "Simplify the process of bringing real-world assets to blockchain with DoDAO's expert services in research, consulting, and business development.",
+    url: 'https://chained-assets.vercel.app/',
+    siteName: 'Chained Assets',
+    images: [
+      {
+        url: '/dodao_logo.png',
+        alt: 'Chained Assets Logo',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title:
+      'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+    description:
+      "Simplify the process of bringing real-world assets to blockchain with DoDAO's expert services in research, consulting, and business development.",
+    images: ['/dodao_logo.png'],
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
+  alternates: {
+    canonical: 'https://chained-assets.vercel.app/',
+  },
+}
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>
-          Chained Assets - Comprehensive Guide to Real-World Asset Tokenization
-        </title>
-        <meta
-          name="description"
-          content="DoDAO simplifies the process of bringing real-world assets (RWAs) to the blockchain. We offer research, consulting, and business development services to help you navigate regulatory challenges and drive sustainable growth."
-        />
-        <meta
-          name="keywords"
-          content="Chained Assets, DoDAO, Real World Assets, Blockchain, RWA Solutions, RWA Research, RWA Landscape, Consultations, Business Development, Blockchain Consulting, Regulatory Compliance, Tokenization of Real World Assets"
-        />
-        <meta name="author" content="DoDAO" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        {/* Open Graph Meta Tags for social media sharing */}
-        <meta
-          property="og:title"
-          content="Chained Assets - Comprehensive Guide to Real-World Asset Tokenization"
-        />
-        <meta
-          property="og:description"
-          content="Simplify the process of bringing real-world assets to blockchain with DoDAO's expert services in research, consulting, and business development."
-        />
-        <meta property="og:image" content="/dodao_logo.png" />
-        <meta property="og:url" content="https://chained-assets.vercel.app/" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Chained Assets - Comprehensive Guide to Real-World Asset Tokenization"
-        />
-        <meta
-          name="twitter:description"
-          content="Simplify the process of bringing real-world assets to blockchain with DoDAO's expert services in research, consulting, and business development."
-        />
-        <meta name="twitter:image" content="/dodao_logo.png" />
-
-        <meta name="robots" content="index, follow" />
-        <meta property="og:site_name" content="Chained Assets" />
-        <link rel="canonical" href="https://chained-assets.vercel.app/" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
       <HomePage />
       <NavBar />
       <Challenges />

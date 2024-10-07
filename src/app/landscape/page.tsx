@@ -1,7 +1,9 @@
 import { data } from '@/app/data'
 import EcosystemMap from '@/components/ReactTreeMap'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL('https://chained-assets.vercel.app/landscape'),
   title: 'Chained Assets - RWA Landscape',
   description:
     'Explore the comprehensive RWA Landscape with Chained Assets. Discover key players, market insights, and opportunities for growth in the real-world asset tokenization ecosystem.',
@@ -42,6 +44,9 @@ export const metadata = {
     description:
       'Explore the RWA Landscape with Chained Assets. Navigate the ecosystem and discover growth opportunities.',
     images: ['/dodao_logo.png'],
+  },
+  alternates: {
+    canonical: 'https://chained-assets.vercel.app/landscape',
   },
 }
 
