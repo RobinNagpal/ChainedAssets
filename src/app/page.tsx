@@ -8,7 +8,12 @@ import RwaResearch from '@/components/RwaResearch'
 import RwaLandscape from '@/components/RwaLandscape'
 import BusinessDevelopment from '@/components/BusinessDevelopment'
 import Consultations from '@/components/Consultations'
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chained-assets.vercel.app'),
@@ -31,7 +36,6 @@ export const metadata: Metadata = {
     'Tokenization of Real World Assets',
   ],
   authors: { name: 'DoDAO' },
-  viewport: 'width=device-width, initial-scale=1.0',
   robots: {
     index: true,
     follow: true,

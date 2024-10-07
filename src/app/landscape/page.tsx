@@ -1,6 +1,12 @@
 import { data } from '@/app/data'
 import EcosystemMap from '@/components/ReactTreeMap'
 import { Metadata } from 'next'
+import type { Viewport } from 'next'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chained-assets.vercel.app/landscape'),
