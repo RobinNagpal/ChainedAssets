@@ -19,7 +19,7 @@ export type TreeLeaf = {
 
 export type Tree = TreeNode | TreeLeaf
 
-export const data: Tree = {
+export const data: TreeNode = {
   type: 'node',
   name: 'Product Categories',
   value: 0,

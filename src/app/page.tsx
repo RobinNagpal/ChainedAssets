@@ -8,6 +8,68 @@ import RwaResearch from '@/components/RwaResearch'
 import RwaLandscape from '@/components/RwaLandscape'
 import BusinessDevelopment from '@/components/BusinessDevelopment'
 import Consultations from '@/components/Consultations'
+import { Metadata, Viewport } from 'next'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://chained-assets.vercel.app'),
+  title:
+    'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+  description:
+    'DoDAO simplifies the process of bringing real-world assets (RWAs) to the blockchain. We offer research, consulting, and business development services to help you navigate regulatory challenges and drive sustainable growth.',
+  keywords: [
+    'Chained Assets',
+    'DoDAO',
+    'Real World Assets',
+    'Blockchain',
+    'RWA Solutions',
+    'RWA Research',
+    'RWA Landscape',
+    'Consultations',
+    'Business Development',
+    'Blockchain Consulting',
+    'Regulatory Compliance',
+    'Tokenization of Real World Assets',
+  ],
+  authors: { name: 'DoDAO' },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title:
+      'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+    description:
+      "Simplify the process of bringing real-world assets to blockchain with DoDAO's expert services in research, consulting, and business development.",
+    url: 'https://chained-assets.vercel.app/',
+    siteName: 'Chained Assets',
+    images: [
+      {
+        url: '/dodao_logo.png',
+        alt: 'Chained Assets Logo',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title:
+      'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+    description:
+      "Simplify the process of bringing real-world assets to blockchain with DoDAO's expert services in research, consulting, and business development.",
+    images: ['/dodao_logo.png'],
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
+  alternates: {
+    canonical: 'https://chained-assets.vercel.app/',
+  },
+}
 
 export default function Home() {
   return (
