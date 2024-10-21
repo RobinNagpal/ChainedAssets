@@ -2,7 +2,7 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://chained-assets.vercel.app',
+  siteUrl: 'https://chainedassets.com/',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   sitemapSize: 7000,

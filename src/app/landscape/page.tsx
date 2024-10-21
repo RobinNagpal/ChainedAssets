@@ -1,19 +1,14 @@
 import { data } from '@/app/data'
 import EcosystemMap from '@/components/ReactTreeMap'
-import { Metadata } from 'next'
-import type { Viewport } from 'next'
+import { defaultViewport, getDefaultMetadata } from '@/utils/seoConfig'
 
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-}
+export const viewport = defaultViewport
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://chained-assets.vercel.app/landscape'),
-  title: 'Chained Assets - RWA Landscape',
-  description:
-    'Explore the comprehensive RWA Landscape with Chained Assets. Discover key players, market insights, and opportunities for growth in the real-world asset tokenization ecosystem.',
-  keywords: [
+export const metadata = getDefaultMetadata(
+  'https://chainedassets.com/landscape',
+  'Chained Assets - RWA Landscape',
+  'Explore the comprehensive RWA Landscape with Chained Assets. Discover key players, market insights, and opportunities for growth in the real-world asset tokenization ecosystem.',
+  [
     'Chained Assets',
     'RWA Landscape',
     'Real World Assets',
@@ -27,34 +22,7 @@ export const metadata: Metadata = {
     'RWA Market',
     'RWA Projects',
   ],
-  openGraph: {
-    title: 'Chained Assets - RWA Landscape',
-    description:
-      'Discover the RWA Landscape with Chained Assets. Navigate the ecosystem easily and find growth opportunities.',
-    url: 'https://chained-assets.vercel.app/landscape',
-    siteName: 'Chained Assets',
-    images: [
-      {
-        url: '/dodao_logo.png',
-        width: 800,
-        height: 600,
-        alt: 'Chained Assets RWA Landscape',
-      },
-    ],
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Chained Assets - RWA Landscape',
-    description:
-      'Explore the RWA Landscape with Chained Assets. Navigate the ecosystem and discover growth opportunities.',
-    images: ['/dodao_logo.png'],
-  },
-  alternates: {
-    canonical: 'https://chained-assets.vercel.app/landscape',
-  },
-}
+)
 
 export default function LandscapePage() {
   return (
