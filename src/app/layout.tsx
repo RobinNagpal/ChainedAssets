@@ -1,8 +1,8 @@
-import { type Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
+import { defaultViewport, getDefaultMetadata } from '@/utils/seoConfig'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -10,17 +10,29 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-export const metadata: Metadata = {
-  title:
-    'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
-  description:
-    'Explore our detailed research on Real-World Asset Tokenization. Understand how tangible assets like property and art can be converted into digital tokens, making them easier to trade and invest in. Our guide is straightforward and filled with essential insights for everyone interested in the tokenization of real-world assets.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
-}
+export const viewport = defaultViewport
+
+export const metadata = getDefaultMetadata(
+  'https://chainedassets.com/',
+  'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
+  'Explore our detailed research on Real-World Asset Tokenization. We offer research, consulting, and business development services to help you navigate regulatory challenges and drive sustainable growth.',
+  [
+    'Chained Assets',
+    'DoDAO',
+    'Real World Assets',
+    'Blockchain',
+    'RWA Solutions',
+    'RWA Research',
+    'RWA Landscape',
+    'Consultations',
+    'Business Development',
+    'Blockchain Consulting',
+    'Regulatory Compliance',
+    'Tokenization of Real World Assets',
+    'RWA on Blockchain',
+    'Research on Real World Assets',
+  ],
+)
 
 export default function RootLayout({
   children,
