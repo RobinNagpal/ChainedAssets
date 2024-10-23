@@ -130,7 +130,11 @@ export default function ContactPage() {
             </p>
           </form>
           <div className="lg:mt-0 lg:w-80 lg:flex-none">
-            <img alt="" src="/dodao_logo.png" className="h-12 w-auto" />
+            <img
+              alt="DoDAO Logo"
+              src="/dodao_logo.png"
+              className="h-12 w-auto"
+            />
             <figure className="mt-8">
               <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                 <p>

@@ -9,7 +9,7 @@ export function Footer() {
           <div className="flex gap-x-6">
             <Link href="https://dodao.io/" passHref>
               <img
-                alt=""
+                alt="DoDAO Logo"
                 src="/dodao_logo_square.png"
                 className="h-12 w-auto"
               />

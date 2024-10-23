@@ -29,9 +29,9 @@ export default function RwaLandscape() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               RWA Landscape
-            </p>
+            </h2>
             <p className="mt-6 text-base leading-7 text-gray-600">
               We provide a comprehensive overview of RWA companies, categorized
               to help you navigate the ecosystem easily. Our insights help you
