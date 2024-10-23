@@ -74,7 +74,7 @@ export default function BusinessDevelopment() {
                 className="h-7 w-5 flex-none text-indigo-400"
               />
               <div className="text-base leading-7">
-                <h3 className="font-semibold text-white">{card.name}</h3>
+                <p className="font-semibold text-white">{card.name}</p>
                 <p className="mt-2 text-gray-300">{card.description}</p>
               </div>
             </div>
