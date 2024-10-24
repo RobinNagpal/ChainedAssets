@@ -15,7 +15,7 @@ export const viewport = defaultViewport
 export const metadata = getDefaultMetadata(
   'https://chainedassets.com/',
   'Chained Assets - Comprehensive Guide to Real-World Asset Tokenization',
-  'Explore our detailed research on Real-World Asset Tokenization. We offer research, consulting, and business development services to help you navigate regulatory challenges and drive sustainable growth.',
+  'DoDAO simplifies tokenization of Real World Assets for builders and investors, providing essential research, consultations, and strategic partnerships to overcome regulatory challenges and enhance market understanding.',
   [
     'Chained Assets',
     'DoDAO',

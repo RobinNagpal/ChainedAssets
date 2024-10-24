@@ -26,9 +26,9 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               We make it simple for new builders and investors to understand
-              RWAs and navigate the regulatory challenges. Whether you need
-              in-depth knowledge, expert consulting, or help finding the best
-              partners, we’re here to help.
+              Real World Assets (RWAs) and navigate the regulatory challenges.
+              Whether you need in-depth knowledge, expert consulting, or help
+              finding the best partners, we’re here to help.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
