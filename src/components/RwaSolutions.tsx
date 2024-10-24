@@ -23,11 +23,11 @@ export default function RwaSolutions() {
                 RWA Solutions Tailored for You
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                DoDAO offers extensive services to facilitate the easy
-                integration of Real World Assets onto the blockchain. Whether
-                it’s research, consulting, or business development, we provide
-                the guidance and support needed to make the process simple and
-                successful.
+                DoDAO offers services to make it easy for you to bring your Real
+                World Assets onto the blockchain and enhancing their usability.
+                Whether it’s research, consulting, or business development, we
+                provide the guidance and support needed to make the process
+                simple and successful.
               </p>
               <ul
                 role="list"
