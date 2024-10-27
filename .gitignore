@@ -39,7 +39,7 @@ academy-ui/next-env.d.ts
 .vscode
 
 academy-ui/.env
-data
+src/data
 
 # Sentry Config File
 academy-ui/.sentryclirc
