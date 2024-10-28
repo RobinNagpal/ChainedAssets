@@ -42,6 +42,7 @@ export function getDefaultMetadata(
     },
     icons: {
       icon: '/favicon.ico',
+      apple: '/dodao_logo_square.png',
     },
     alternates: {
       canonical: url,
