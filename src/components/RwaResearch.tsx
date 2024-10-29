@@ -20,7 +20,7 @@ const features = [
   {
     name: 'Addressing Gaps',
     description:
-      'Identify gaps in the market to tailor your offerings for better alignment with demand. By analyzing unmet needs and emerging trends, we help you refine your product or service to meet customer expectations.',
+      'Identify gaps in the Real World Assets market to tailor your offerings for better alignment with demand. Our targeted research on RWAs analyzes unmet needs and emerging trends, enabling you to refine your products and services to better meet customer expectations.',
     icon: WrenchIcon,
   },
 ]
@@ -31,7 +31,7 @@ export default function RwaResearch() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            RWA Research
+            Research on Real World Assets
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
             We provide detailed research on Real World Assets, covering

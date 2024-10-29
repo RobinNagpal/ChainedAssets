@@ -1,9 +1,9 @@
 import { CheckCircleIcon } from '@heroicons/react/20/solid'
 
 const benefits = [
-  'RWA Research',
-  'RWA Landscape',
-  'Consultations',
+  'Research on Real World Assets',
+  'RWA Market Landscape',
+  'RWA Consultations',
   'Business Development',
 ]
 
@@ -23,11 +23,11 @@ export default function RwaSolutions() {
                 RWA Solutions Tailored for You
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                At DoDAO, we offer a range of services to help RWA companies
-                easily bring their assets onto the blockchain. Whether it’s
-                research, consulting, or business development, we provide the
-                guidance and support needed to make the process simple and
-                successful.
+                DoDAO offers services to make it easy for you to bring your Real
+                World Assets onto the blockchain and enhancing their usability.
+                Whether it’s research, consulting, or business development, we
+                provide the guidance and support needed to make the process
+                simple and successful.
               </p>
               <ul
                 role="list"
