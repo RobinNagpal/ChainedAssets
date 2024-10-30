@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { serviceProviders } from '../../data/serviceProviders'
 import { categories } from '../../data/categories'
 import { projects } from '../../data/projects'
+import PageWrapper from '@/components/PageWrapper'
 
 export default function ServiceProviderPage({
   params,
@@ -21,10 +22,12 @@ export default function ServiceProviderPage({
   return (
     <div className="p-4">
       <TempNav />
+      <PageWrapper>
       <ServiceProviderDetails
         serviceProviderId={provider.id}
         serviceProviderName={provider.name}
-      ></ServiceProviderDetails>
+        ></ServiceProviderDetails>
+        </PageWrapper>
     </div>
   )
 }
