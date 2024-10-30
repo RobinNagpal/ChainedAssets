@@ -2,6 +2,7 @@
 import TempNav from '@/components/TempNav'
 import { projects } from '../../data/projects'
 import ProjectDetails from '@/components/ProjectDetails'
+import PageWrapper from '@/components/PageWrapper'
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
   const { id } = params
@@ -14,11 +15,13 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
   return (
     <div className="p-4">
       <TempNav />
-      <h1 className="mb-4 text-2xl font-bold">{project.name}</h1>
-      <ProjectDetails
-        projectId={project.id}
-        projectName={project.name}
-      ></ProjectDetails>
+      <PageWrapper>
+        <h1 className="mb-4 text-2xl font-bold">{project.name}</h1>
+        <ProjectDetails
+          projectId={project.id}
+          projectName={project.name}
+        ></ProjectDetails>
+      </PageWrapper>
     </div>
   )
 }
