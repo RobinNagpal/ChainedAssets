@@ -23,12 +23,12 @@ export default function ServiceProviderPage({
     <div className="p-4">
       <TempNav />
       <PageWrapper>
-      <h1 className="mb-4 text-2xl font-bold">{provider.name}</h1>
-      <ServiceProviderDetails
-        serviceProviderId={provider.id}
-        serviceProviderName={provider.name}
+        <h1 className="mb-4 text-2xl font-bold">{provider.name}</h1>
+        <ServiceProviderDetails
+          serviceProviderId={provider.id}
+          serviceProviderName={provider.name}
         ></ServiceProviderDetails>
-        </PageWrapper>
+      </PageWrapper>
     </div>
   )
 }

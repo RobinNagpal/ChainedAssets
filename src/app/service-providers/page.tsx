@@ -8,9 +8,9 @@ export default function ServiceProvidersPage() {
     <div className="p-4">
       <TempNav />
       <PageWrapper>
-      <h1 className="mb-4 text-2xl font-bold">Service Providers</h1>
+        <h1 className="mb-4 text-2xl font-bold">Service Providers</h1>
         <ServiceProvidersList></ServiceProvidersList>
-        </PageWrapper>
+      </PageWrapper>
     </div>
   )
 }
