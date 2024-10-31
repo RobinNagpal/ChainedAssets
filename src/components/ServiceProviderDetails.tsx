@@ -1,11 +1,18 @@
-import { serviceProviders } from '@/app/data/serviceProviders'
-import { projects } from '@/app/data/projects'
-
+import serviceProvidersData from '@/app/data/generated-json/serviceProviders.json'
+import { ServiceProvider } from '@/app/types/serviceProviders'
+import projectsData from '@/app/data/generated-json/projects.json'
+import { Project } from '@/app/types/projects'
+import categoriesData from '@/app/data/generated-json/categories.json'
+import { Category } from '@/app/types/categories'
 interface ExampleProps {
   serviceProviderId: string
   serviceProviderName: string
 }
 
+const serviceProviders: ServiceProvider[] =
+  serviceProvidersData.serviceProviders
+const projects: Project[] = projectsData.projects
+const categories: Category[] = categoriesData.categories
 export default function Example({
   serviceProviderId,
   serviceProviderName,
@@ -37,15 +44,25 @@ export default function Example({
             <dt className="text-lg font-semibold text-gray-900">Categories</dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               <ul role="list" className="divide-y divide-gray-100">
-                {currentProvider?.categories.map((category) => (
-                  <li key={category} className="flex items-start gap-4 py-2">
-                    <div className="flex flex-col">
-                      <span className="text-base font-medium text-gray-900">
-                        {category}
-                      </span>
-                    </div>
-                  </li>
-                ))}
+                {currentProvider?.categories.map((categoryId) => {
+                  // Find the matching category by ID
+                  const category = categories.find(
+                    (cat) => cat.id === categoryId,
+                  )
+
+                  return (
+                    <li
+                      key={categoryId}
+                      className="flex items-start gap-4 py-2"
+                    >
+                      <div className="flex flex-col">
+                        <span className="text-base font-medium text-gray-900">
+                          {category ? category.name : 'Unknown Category'}
+                        </span>
+                      </div>
+                    </li>
+                  )
+                })}
               </ul>
             </dd>
           </div>

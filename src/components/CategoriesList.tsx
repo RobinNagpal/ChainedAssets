@@ -1,8 +1,13 @@
-import { categories } from '@/app/data/categories'
-import { serviceProviders } from '@/app/data/serviceProviders'
+import categoriesData from '@/app/data/generated-json/categories.json'
+import serviceProvidersData from '@/app/data/generated-json/serviceProviders.json'
+import { Category } from '@/app/types/categories'
+import { ServiceProvider } from '@/app/types/serviceProviders'
+
 import Link from 'next/link'
 
-export default function Example() {
+const categories:Category[] = categoriesData.categories
+const serviceProviders: ServiceProvider[]=serviceProvidersData.serviceProviders
+export default function CategoriesList() {
   return (
     <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-300 bg-white p-6 shadow-md">
       <ul role="list" className="w-full divide-y divide-gray-200">

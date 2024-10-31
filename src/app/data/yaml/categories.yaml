@@ -1,16 +1,114 @@
 categories:
-  - id: plumbing
-    name: Plumbing
+  - id: digital_asset_issuer
+    name: Digital Asset Issuer
     serviceProviders:
       - sp1
-      - sp2
-  - id: electrical
-    name: Electrical
+
+  - id: digital_asset_custody
+    name: Digital Asset Custody
     serviceProviders:
       - sp2
-      - sp3
-  - id: carpentry
-    name: Carpentry
+
+  - id: smart_contract_audit
+    name: Smart Contract Audit
     serviceProviders:
-      - sp1
       - sp3
+
+  - id: auditor
+    name: Auditor
+    serviceProviders:
+      - sp4
+      - sp12
+      - sp22
+
+  - id: onramp
+    name: Onramp
+    serviceProviders:
+      - sp5
+      - sp23
+
+  - id: compliance_analytics
+    name: Compliance Analytics
+    serviceProviders:
+      - sp6
+
+  - id: investment_manager
+    name: Investment Manager
+    serviceProviders:
+      - sp7
+      - sp15
+
+  - id: us_representation
+    name: US Representation
+    serviceProviders:
+      - sp8
+
+  - id: offshore_representation
+    name: Offshore Representation
+    serviceProviders:
+      - sp9
+
+  - id: third_party_signing
+    name: 3rd Party Signing
+    serviceProviders:
+      - sp10
+
+  - id: attestations
+    name: Attestations
+    serviceProviders:
+      - sp11
+
+  - id: custodian
+    name: Custodian
+    serviceProviders:
+      - sp13
+
+  - id: nav_calculation_agent
+    name: NAV Calculation Agent
+    serviceProviders:
+      - sp14
+
+  - id: sub_advisor
+    name: Sub-Advisor
+    serviceProviders:
+      - sp16
+
+  - id: regulator
+    name: Regulator
+    serviceProviders:
+      - sp17
+
+  - id: legal_services
+    name: Legal Services
+    serviceProviders:
+      - sp18
+
+  - id: blockchain_analytics
+    name: Blockchain Analytics
+    serviceProviders:
+      - sp19
+
+  - id: consultancy
+    name: Consultancy
+    serviceProviders:
+      - sp20
+
+  - id: payment_services
+    name: Payment Services
+    serviceProviders:
+      - sp21
+
+  - id: fund_administration
+    name: Fund Administration
+    serviceProviders:
+      - sp24
+
+  - id: asset_management
+    name: Asset Management
+    serviceProviders:
+      - sp25
+
+  - id: financial_services
+    name: Financial Services
+    serviceProviders:
+      - sp26

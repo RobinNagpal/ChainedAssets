@@ -1,11 +1,17 @@
-import { serviceProviders } from '@/app/data/serviceProviders'
-import { projects } from '@/app/data/projects'
-import { categories } from '@/app/data/categories'
-
+import categoriesData from '@/app/data/generated-json/categories.json'
+import serviceProvidersData from '@/app/data/generated-json/serviceProviders.json'
+import { Category } from '@/app/types/categories'
+import { ServiceProvider } from '@/app/types/serviceProviders'
+import projectsData from '@/app/data/generated-json/projects.json'
+import { Project } from '@/app/types/projects'
 interface ExampleProps {
   categoryId: string
   categoryName: string
 }
+
+const categories:Category[] = categoriesData.categories
+const serviceProviders: ServiceProvider[] = serviceProvidersData.serviceProviders
+const projects: Project[] = projectsData.projects
 
 export default function Example({ categoryId, categoryName }: ExampleProps) {
   const currentCategory = categories.find(

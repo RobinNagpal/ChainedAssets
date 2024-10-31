@@ -1,68 +1,133 @@
 {
   "projects": [
     {
-      "id": "proj1",
-      "name": "Project Alpha",
+      "id": "proj_mountain_protocol",
+      "name": "Mountain Protocol",
+      "description": "A digital asset protocol focused on providing secure and regulated solutions for asset issuance and management.",
+      "icon": "https://mountainprotocol.com/",
+      "website": "",
       "serviceProviders": [
         {
           "providerId": "sp1",
-          "category": "plumbing"
+          "category": "digital_asset_issuer"
         },
         {
           "providerId": "sp2",
-          "category": "electrical"
-        }
-      ]
-    },
-    {
-      "id": "proj2",
-      "name": "Project Beta",
-      "serviceProviders": [
-        {
-          "providerId": "sp1",
-          "category": "plumbing"
-        },
-        {
-          "providerId": "sp2",
-          "category": "plumbing"
-        }
-      ]
-    },
-    {
-      "id": "proj3",
-      "name": "Project Gamma",
-      "serviceProviders": [
-        {
-          "providerId": "sp1",
-          "category": "carpentry"
+          "category": "digital_asset_custody"
         },
         {
           "providerId": "sp3",
-          "category": "carpentry"
-        }
-      ]
-    },
-    {
-      "id": "proj4",
-      "name": "Project Delta",
-      "serviceProviders": [
-        {
-          "providerId": "sp2",
-          "category": "electrical"
+          "category": "smart_contract_audit"
         },
         {
-          "providerId": "sp3",
-          "category": "carpentry"
+          "providerId": "sp4",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp5",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp6",
+          "category": "compliance_analytics"
+        },
+        {
+          "providerId": "sp7",
+          "category": "investment_manager"
+        },
+        {
+          "providerId": "sp8",
+          "category": "us_representation"
+        },
+        {
+          "providerId": "sp9",
+          "category": "offshore_representation"
+        },
+        {
+          "providerId": "sp10",
+          "category": "third_party_signing"
+        },
+        {
+          "providerId": "sp11",
+          "category": "attestations"
         }
       ]
     },
     {
-      "id": "proj5",
-      "name": "Project Epsilon",
+      "id": "proj_superstate",
+      "name": "Superstate",
+      "description": "Superstate Inc. provides innovative financial services and investment management solutions, focusing on maximizing value for clients through trusted partnerships.",
+      "website": "https://superstate.co/",
+      "icon": "https://superstate.co/assets/images/logo-mark-blk.svg",
       "serviceProviders": [
         {
-          "providerId": "sp3",
-          "category": "electrical"
+          "providerId": "sp12",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp13",
+          "category": "custodian"
+        },
+        {
+          "providerId": "sp14",
+          "category": "nav_calculation_agent"
+        },
+        {
+          "providerId": "sp15",
+          "category": "investment_manager"
+        },
+        {
+          "providerId": "sp16",
+          "category": "sub_advisor"
+        }
+      ]
+    },
+    {
+      "id": "proj_openeden",
+      "name": "OpenEden",
+      "description": "OpenEden offers blockchain-based financial services, including secure asset custody, compliance, and risk management solutions tailored for institutional clients.",
+      "website": "",
+      "icon": "",
+      "serviceProviders": [
+        {
+          "providerId": "sp17",
+          "category": "regulator"
+        },
+        {
+          "providerId": "sp18",
+          "category": "legal_services"
+        },
+        {
+          "providerId": "sp19",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp20",
+          "category": "consultancy"
+        },
+        {
+          "providerId": "sp5",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp21",
+          "category": "payment_services"
+        },
+        {
+          "providerId": "sp22",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp23",
+          "category": "fund_administration"
+        },
+        {
+          "providerId": "sp24",
+          "category": "asset_management"
+        },
+        {
+          "providerId": "sp25",
+          "category": "financial_services"
         }
       ]
     }

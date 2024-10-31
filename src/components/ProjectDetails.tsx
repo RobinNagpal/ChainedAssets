@@ -1,14 +1,23 @@
-import { serviceProviders } from '@/app/data/serviceProviders'
-import { projects } from '@/app/data/projects'
+import serviceProvidersData from '@/app/data/generated-json/serviceProviders.json'
+import projectsData from '@/app/data/generated-json/projects.json'
+import categoriesData from '@/app/data/generated-json/categories.json'
+import { Project } from '@/app/types/projects'
+import { ServiceProvider } from '@/app/types/serviceProviders'
+import { Category } from '@/app/types/categories'
 
 interface ExampleProps {
   projectId: string
   projectName: string
 }
-
+const projects: Project[] = projectsData.projects
+const serviceProviders: ServiceProvider[] =
+  serviceProvidersData.serviceProviders
+const categories: Category[] = categoriesData.categories
 export default function Example({ projectId, projectName }: ExampleProps) {
   // Find the current project based on projectId
-  const currentProject = projects.find((project) => project.id === projectId)
+  const currentProject: Project | undefined = projects.find(
+    (project) => project.id === projectId,
+  )
 
   // Filter service providers associated with this project
   const projectServiceProviders = serviceProviders.filter((provider) =>
@@ -46,7 +55,17 @@ export default function Example({ projectId, projectName }: ExampleProps) {
                         {provider.name}
                       </span>
                       <span className="text-sm text-gray-600">
-                        Categories: {provider.categories.join(', ')}
+                        Categories:{' '}
+                        {provider.categories
+                          .map((categoryId) => {
+                            // Find the matching category by ID
+                            const category = categories.find(
+                              (cat) => cat.id === categoryId,
+                            )
+                            // Return category name if found, otherwise show the ID or a fallback
+                            return category ? category.name : 'Unknown Category'
+                          })
+                          .join(', ')}
                       </span>
                     </div>
                   </li>
@@ -58,14 +77,21 @@ export default function Example({ projectId, projectName }: ExampleProps) {
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="text-lg font-semibold text-gray-900">Categories</dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
-              {currentProject?.serviceProviders.map((serviceProvider) => (
-                <span
-                  key={serviceProvider.providerId}
-                  className="block text-sm text-gray-600"
-                >
-                  {serviceProvider.category}
-                </span>
-              ))}
+              {currentProject?.serviceProviders.map((serviceProvider) => {
+                // Find the matching category by ID
+                const category = categories.find(
+                  (cat) => cat.id === serviceProvider.category,
+                )
+
+                return (
+                  <span
+                    key={serviceProvider.providerId}
+                    className="block text-sm text-gray-600"
+                  >
+                    {category ? category.name : 'Unknown Category'}
+                  </span>
+                )
+              })}
             </dd>
           </div>
         </dl>

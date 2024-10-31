@@ -1,12 +1,13 @@
 // app/projects/[id]/page.js
 import TempNav from '@/components/TempNav'
-import { projects } from '../../data/projects'
+import projectsData from '../../data/generated-json/projects.json'
 import ProjectDetails from '@/components/ProjectDetails'
 import PageWrapper from '@/components/PageWrapper'
+import { Project } from '@/app/types/projects'
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
   const { id } = params
-  const project = projects.find((proj) => proj.id === id)
+  const project:Project | undefined= projectsData.projects.find((proj) => proj.id === id)
 
   if (!project) {
     return <div>Project not found</div>

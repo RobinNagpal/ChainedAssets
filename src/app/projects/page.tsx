@@ -1,7 +1,5 @@
 // app/projects/page.js
 import TempNav from '@/components/TempNav'
-import Link from 'next/link'
-import { projects } from '../data/projects'
 import ProjectList from '@/components/ProjectList'
 import PageWrapper from '@/components/PageWrapper'
 
