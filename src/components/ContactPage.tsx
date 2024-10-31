@@ -34,36 +34,42 @@ export default function ContactPage() {
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
+    console.log(form)
     e.preventDefault()
-    try {
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(form),
-      })
+    showNotification({
+      type: 'error',
+      message: 'Error sending email',
+    })
+    // try {
+    //   const response = await fetch('/api/send-email', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify(form),
+    //   })
 
-      if (!response.ok) {
-        throw new Error('Failed to send email')
-      }
+    //   if (!response.ok) {
+    //     throw new Error('Failed to send email')
+    //   }
 
-      showNotification({
-        type: 'success',
-        message: 'Email sent successfully',
-      })
+    //   showNotification({
+    //     type: 'success',
+    //     message: 'Email sent successfully',
+    //   })
 
-      setForm({
-        name: '',
-        email: '',
-        message: '',
-      })
-    } catch (error) {
-      showNotification({
-        type: 'error',
-        message: (error as Error).message || 'Error sending email',
-      })
-    }
+    //   setForm({
+    //     name: '',
+    //     email: '',
+    //     message: '',
+    //   })
+    // } catch (error) {
+    //   showNotification({
+    //     type: 'error',
+    //     message: 'Error sending email',
+    //   })
+    //   console.error('Error sending email:', error)
+    // }
   }
 
   return (

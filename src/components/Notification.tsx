@@ -72,6 +72,8 @@ export default function Notification({
 
   if (!isVisible) return null
 
+  console.log('Notification rendered')
+
   return (
     <>
       {/* Global notification live region, render this permanently at the end of the document */}

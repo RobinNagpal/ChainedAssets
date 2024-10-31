@@ -8,16 +8,17 @@ export interface UseNotificationType {
   hideNotification: () => void
 }
 
-/** @deprecated use useNotificationContext instead */
 const useNotification = (): UseNotificationType => {
   const [notification, setNotification] =
     useState<ShowNotificationOptions | null>(null)
 
   const showNotification = useCallback((options: ShowNotificationOptions) => {
+    console.log('Show Notification:', options) // Debug log
     setNotification(options)
   }, [])
 
   const hideNotification = useCallback(() => {
+    console.log('Hide Notification') // Debug log
     setNotification(null)
   }, [])
 
