@@ -12,8 +12,48 @@
   }
   ```
 */
+'use client'
+import { useState } from 'react'
 
 export default function ContactPage() {
+  const [form, setForm] = useState({
+    name: '',
+    email: '',
+    message: '',
+  })
+
+  const handleChange = (e: any) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    })
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to send email')
+      }
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    } catch (error) {
+      console.error('Error sending email:', error)
+    }
+  }
+
   return (
     <section
       className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8"
@@ -59,28 +99,35 @@ export default function ContactPage() {
           growth.
         </p>
         <div className="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
-          <form action="#" method="POST" className="lg:flex-auto">
+          <form
+            action="#"
+            method="POST"
+            className="lg:flex-auto"
+            onSubmit={handleSubmit}
+          >
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label
-                  htmlFor="first-name"
+                  htmlFor="name"
                   className="block text-sm font-semibold leading-6 text-gray-900"
                 >
                   Name
                 </label>
                 <div className="mt-2.5">
                   <input
-                    id="first-name"
-                    name="first-name"
+                    id="name"
+                    name="name"
                     type="text"
-                    autoComplete="given-name"
+                    value={form.name}
+                    onChange={handleChange}
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    required
                   />
                 </div>
               </div>
               <div>
                 <label
-                  htmlFor="last-name"
+                  htmlFor="email"
                   className="block text-sm font-semibold leading-6 text-gray-900"
                 >
                   Email
@@ -90,8 +137,10 @@ export default function ContactPage() {
                     id="email"
                     name="email"
                     type="email"
-                    autoComplete="family-name"
+                    value={form.email}
+                    onChange={handleChange}
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    required
                   />
                 </div>
               </div>
@@ -106,9 +155,11 @@ export default function ContactPage() {
                   <textarea
                     id="message"
                     name="message"
+                    value={form.message}
+                    onChange={handleChange}
                     rows={4}
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    defaultValue={''}
+                    required
                   />
                 </div>
               </div>

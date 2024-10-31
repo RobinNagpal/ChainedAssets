@@ -12,6 +12,7 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.682.0",
     "@headlessui/react": "^2.1.8",
     "@heroicons/react": "^2.1.5",
     "@mdx-js/loader": "^3.1.0",
