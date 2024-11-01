@@ -1,11 +1,12 @@
 import projectData from '@/app/data/generated-json/projects.json'
 import serviceProvidersData from '@/app/data/generated-json/serviceProviders.json'
 import Link from 'next/link'
-import {Project} from '@/app/types/projects'
+import { Project } from '@/app/types/projects'
 import { ServiceProvider } from '@/app/types/serviceProviders'
 
 const projects: Project[] = projectData.projects
-const serviceProviders: ServiceProvider[]=serviceProvidersData.serviceProviders
+const serviceProviders: ServiceProvider[] =
+  serviceProvidersData.serviceProviders
 
 export default function Example() {
   return (

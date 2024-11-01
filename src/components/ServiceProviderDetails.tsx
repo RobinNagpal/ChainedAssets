@@ -4,6 +4,7 @@ import projectsData from '@/app/data/generated-json/projects.json'
 import { Project } from '@/app/types/projects'
 import categoriesData from '@/app/data/generated-json/categories.json'
 import { Category } from '@/app/types/categories'
+import Link from 'next/link'
 interface ExampleProps {
   serviceProviderId: string
   serviceProviderName: string
@@ -32,16 +33,52 @@ export default function Example({
       <div className="border-t border-gray-200">
         <dl className="divide-y divide-gray-200">
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-lg font-semibold text-gray-900">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
               Service Provider Name
             </dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               {serviceProviderName}
             </dd>
           </div>
-
+          {currentProvider?.icon && (
+            <div className="bg-gray-200 px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+              <dt className="px-4 text-lg font-semibold text-gray-900">Icon</dt>
+              <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+                <img
+                  src={currentProvider.icon}
+                  alt={`${currentProvider.name} icon`}
+                  className="h-16 rounded"
+                />
+              </dd>
+            </div>
+          )}
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-lg font-semibold text-gray-900">Categories</dt>
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Description
+            </dt>
+            <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+              {currentProvider?.description}
+            </dd>
+          </div>
+          <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Website
+            </dt>
+            <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+              <Link
+                href={currentProvider?.website!}
+                className="text-blue-600 hover:underline"
+              >
+                {currentProvider?.website
+                  ?.replace(/^https?:\/\//, '')
+                  .replace(/\/$/, '')}
+              </Link>
+            </dd>
+          </div>
+          <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Categories
+            </dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               <ul role="list" className="divide-y divide-gray-100">
                 {currentProvider?.categories.map((categoryId) => {
@@ -68,7 +105,9 @@ export default function Example({
           </div>
 
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-lg font-semibold text-gray-900">Projects</dt>
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Projects
+            </dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               {currentProvider!.projects.map((providersProject) => {
                 // Find all matching projects with IDs in serviceProvider.projects array

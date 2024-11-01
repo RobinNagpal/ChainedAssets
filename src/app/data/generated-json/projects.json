@@ -4,8 +4,8 @@
       "id": "proj_mountain_protocol",
       "name": "Mountain Protocol",
       "description": "A digital asset protocol focused on providing secure and regulated solutions for asset issuance and management.",
-      "icon": "https://mountainprotocol.com/",
-      "website": "",
+      "icon": "https://docs.mountainprotocol.com/~gitbook/image?url=https%3A%2F%2F3064386344-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpDY9rdPX7GoUXY9YAT1I%252Ficon%252Fys42vnUnd18fGiTGZLfh%252FMountain%2520Protocol%2520Isotype%2520%284%29.png%3Falt%3Dmedia%26token%3D4bdc2cd9-eb70-4c1f-b629-f644407d5704&width=32&dpr=1&quality=100&sign=404a06a5&sv=1",
+      "website": "https://mountainprotocol.com/",
       "serviceProviders": [
         {
           "providerId": "sp1",
@@ -86,8 +86,8 @@
       "id": "proj_openeden",
       "name": "OpenEden",
       "description": "OpenEden offers blockchain-based financial services, including secure asset custody, compliance, and risk management solutions tailored for institutional clients.",
-      "website": "",
-      "icon": "",
+      "website": "https://openeden.com/",
+      "icon": "https://openeden.com/logo-nav.png",
       "serviceProviders": [
         {
           "providerId": "sp17",
@@ -128,6 +128,30 @@
         {
           "providerId": "sp25",
           "category": "financial_services"
+        },
+        {
+          "providerId": "sp26",
+          "category": "oracle_services"
+        },
+        {
+          "providerId": "sp27",
+          "category": "blockchain_investment"
+        },
+        {
+          "providerId": "sp28",
+          "category": "financial_infrastructure"
+        },
+        {
+          "providerId": "sp29",
+          "category": "cybersecurity"
+        },
+        {
+          "providerId": "sp30",
+          "category": "credit_rating"
+        },
+        {
+          "providerId": "sp12",
+          "category": "auditor"
         }
       ]
     }

@@ -25,7 +25,6 @@ categories:
     name: Onramp
     serviceProviders:
       - sp5
-      - sp23
 
   - id: compliance_analytics
     name: Compliance Analytics
@@ -101,14 +100,39 @@ categories:
   - id: fund_administration
     name: Fund Administration
     serviceProviders:
-      - sp24
+      - sp23
 
   - id: asset_management
     name: Asset Management
     serviceProviders:
-      - sp25
+      - sp24
 
   - id: financial_services
     name: Financial Services
     serviceProviders:
+      - sp25
+
+  - id: oracle_services
+    name: Oracle Services
+    serviceProviders:
       - sp26
+
+  - id: blockchain_investment
+    name: Blockchain Investment
+    serviceProviders:
+      - sp27
+
+  - id: financial_infrastructure
+    name: Financial Infrastructure
+    serviceProviders:
+      - sp28
+
+  - id: cybersecurity
+    name: Cybersecurity
+    serviceProviders:
+      - sp29
+
+  - id: credit_rating
+    name: Credit Rating
+    serviceProviders:
+      - sp30

@@ -1,9 +1,9 @@
 serviceProviders:
   - id: sp1
     name: "Mountain Protocol Limited"
-    website: ""
+    website: "https://mountainprotocol.com/"
     description: "A company focused on providing secure and regulated digital asset issuance solutions."
-    icon: ""
+    icon: "https://docs.mountainprotocol.com/~gitbook/image?url=https%3A%2F%2F3064386344-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpDY9rdPX7GoUXY9YAT1I%252Ficon%252Fys42vnUnd18fGiTGZLfh%252FMountain%2520Protocol%2520Isotype%2520%284%29.png%3Falt%3Dmedia%26token%3D4bdc2cd9-eb70-4c1f-b629-f644407d5704&width=32&dpr=1&quality=100&sign=404a06a5&sv=1"
     categories:
       - digital_asset_issuer
     projects:
@@ -15,7 +15,7 @@ serviceProviders:
     name: "Fireblocks"
     website: "https://www.fireblocks.com/"
     description: "A platform providing secure digital asset custody and transfer solutions."
-    icon: ""
+    icon: "https://cdn.brandfetch.io/idxr5j_t0u/w/400/h/400/theme/dark/icon.jpeg?k=id64Mup7ac&t=1701246641128"
     categories:
       - digital_asset_custody
     projects:
@@ -48,8 +48,8 @@ serviceProviders:
           - proj_mountain_protocol
 
   - id: sp5
-    name: "Coinbase Prime"
-    website: "https://www.coinbase.com/prime"
+    name: "Coinbase"
+    website: "https://www.coinbase.com"
     description: "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping."
     icon: "https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg"
     categories:
@@ -76,7 +76,7 @@ serviceProviders:
     name: "EQ Capital"
     website: "https://equilibriacapital.com/"
     description: "Investment management firm specializing in portfolio optimization and wealth management."
-    icon: ""
+    icon: "https://equilibriacapital.com/wp-content/themes/EQC/img/loading.png"
     categories:
       - investment_manager
     projects:
@@ -100,7 +100,7 @@ serviceProviders:
     name: "Carey Olsen"
     website: "https://www.careyolsen.com/"
     description: "Offshore law firm specializing in corporate, funds, trusts, and private client services."
-    icon: ""
+    icon: "https://www.careyolsen.com/themes/custom/carey_olsen_theme/src/images/logo.svg"
     categories:
       - offshore_representation
     projects:
@@ -122,9 +122,9 @@ serviceProviders:
 
   - id: sp11
     name: "Nephos"
-    website: ""
+    website: "https://nephosgroup.co/"
     description: "Offers verification and attestation services for financial statements and compliance."
-    icon: ""
+    icon: "https://nephosgroup.co/images/logos/group_n.svg"
     categories:
       - attestations
     projects:
@@ -134,21 +134,21 @@ serviceProviders:
 
   - id: sp12
     name: "Ernst & Young LLP"
-    website: ""
+    website: "https://www.ey.com/"
     description: "A multinational professional services firm providing auditing, tax, and advisory services."
-    icon: ""
+    icon: "https://cdn.cookielaw.org/logos/e398929d-19d8-4936-8936-5b2be51a20f3/0192dce8-fa32-73fc-b75d-42993c5f5623/32fd6e0b-29b8-472a-818e-115f19a5414f/ey-white-logo.png.rendition.3840.2560.png"
     categories:
       - auditor
     projects:
       - category: auditor
         projects:
+          - proj_openeden
           - proj_superstate
-
   - id: sp13
     name: "UMB Bank, N.A."
-    website: ""
+    website: "https://www.umb.com/"
     description: "Provides custodial services for safeguarding financial assets."
-    icon: ""
+    icon: "https://www.umb.com/sites/default/files/UMB%20Primary.svg"
     categories:
       - custodian
     projects:
@@ -158,9 +158,9 @@ serviceProviders:
 
   - id: sp14
     name: "NAV Fund Services"
-    website: ""
+    website: "https://www.navfundservices.com/"
     description: "NAV calculation services for accurately determining asset values."
-    icon: ""
+    icon: "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75"
     categories:
       - nav_calculation_agent
     projects:
@@ -170,9 +170,9 @@ serviceProviders:
 
   - id: sp15
     name: "Superstate Inc."
-    website: ""
+    website: "https://superstate.co/"
     description: "Provides innovative investment management solutions tailored to institutional needs."
-    icon: ""
+    icon: "https://superstate.co/assets/images/logo-mark-blk.svg"
     categories:
       - investment_manager
     projects:
@@ -182,9 +182,9 @@ serviceProviders:
 
   - id: sp16
     name: "Federated Hermes, Inc."
-    website: ""
+    website: "https://www.federatedhermes.com/"
     description: "Acts as a sub-advisor providing specialized investment insights and strategies."
-    icon: ""
+    icon: "https://www.hermes-investment.com/uploads/2022/04/d3398e103581f8f0a06845c0a5074074/logo_hermes-mainsite.svg"
     categories:
       - sub_advisor
     projects:
@@ -195,9 +195,9 @@ serviceProviders:
   # Newly Added Service Providers for OpenEden Project
   - id: sp17
     name: "Financial Services Commission (FSC)"
-    website: "" # Provide actual URL if available
+    website: "https://www.bvifsc.vg/"
     description: "Regulatory authority overseeing financial services."
-    icon: "" # Provide icon URL if available
+    icon: "https://www.bvifsc.vg/sites/default/files/logo_0_0.png"
     categories:
       - regulator
     projects:
@@ -209,7 +209,7 @@ serviceProviders:
     name: "Harneys"
     website: "https://www.harneys.com/"
     description: "Global offshore law firm providing legal and fiduciary services."
-    icon: "" # Provide icon URL if available
+    icon: "https://www.harneys.com/media/ufrfgg3f/harneys-logo-landscape-grey.png"
     categories:
       - legal_services
     projects:
@@ -221,7 +221,7 @@ serviceProviders:
     name: "Elliptic"
     website: "https://www.elliptic.co/"
     description: "Blockchain analytics and cryptocurrency risk management."
-    icon: "" # Provide icon URL if available
+    icon: "https://www.elliptic.co/hubfs/logo%20(5).png" 
     categories:
       - blockchain_analytics
     projects:
@@ -231,9 +231,9 @@ serviceProviders:
 
   - id: sp20
     name: "Lymon"
-    website: "" # Provide actual URL if available
+    website: "https://www.lymon.com.sg/"
     description: "Consultancy firm providing financial and legal advisory services."
-    icon: "" # Provide icon URL if available
+    icon: "https://static.wixstatic.com/media/09be3c_c0c5f8a2381f4a939e59ac55e70c2d5e~mv2.png/v1/fill/w_230,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9873_Matrix_BroughtToYouByLogo_WIP_01-03%20BACKGROUND%20REMOVED_edited_edited.png"
     categories:
       - consultancy
     projects:
@@ -245,7 +245,7 @@ serviceProviders:
     name: "Circle"
     website: "https://www.circle.com/"
     description: "A global financial technology firm that provides internet-based payment and treasury infrastructure."
-    icon: "" # Add the URL to Circle's logo if available
+    icon: "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67116d0daddc92483c812f72_Circle%20Logo.avif"
     categories:
       - payment_services
     projects:
@@ -257,7 +257,7 @@ serviceProviders:
     name: "KPMG"
     website: "https://home.kpmg/"
     description: "A global network of professional services firms providing audit, tax, and advisory services."
-    icon: "" # Add the URL to KPMG's logo if available
+    icon: "https://openeden.com/static/institutional-credentials/kpmg.png"
     categories:
       - auditor
     projects:
@@ -267,9 +267,9 @@ serviceProviders:
 
   - id: sp23
     name: "Protege Fund Services"
-    website: "" # Provide actual URL if available
+    website: "https://www.protegefs.com/"
     description: "Fund administration services, including financial reporting and valuation."
-    icon: "" # Add the URL to Protege Fund Services' logo if available
+    icon: "https://static.wixstatic.com/media/acaad7_4e079c220b9a4755b2a553f06e587710~mv2.png/v1/crop/x_114,y_38,w_1467,h_491/fill/w_227,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20PNG.png"
     categories:
       - fund_administration
     projects:
@@ -281,7 +281,7 @@ serviceProviders:
     name: "State Street"
     website: "https://www.statestreet.com/"
     description: "A leading provider of financial services to institutional investors, including investment servicing and management."
-    icon: "" # Add the URL to State Street's logo if available
+    icon: "https://www.statestreet.com/web/Homepage/images/state-street-logo-final.svg"
     categories:
       - asset_management
     projects:
@@ -293,10 +293,69 @@ serviceProviders:
     name: "StoneX"
     website: "https://www.stonex.com/"
     description: "A global financial services network providing execution, clearing, and advisory services."
-    icon: "" # Add the URL to StoneX's logo if available
+    icon: "https://www.stonex.com/en/-/media/project/gain-capital/stonex/stonex-main/logos/stonex-logo-black.svg?iar=0&extension=webp&hash=CB5E65DCC6F52A6D4CC15E709B73C6C3" # Add the URL to StoneX's logo if available
     categories:
       - financial_services
     projects:
       - category: financial_services
+        projects:
+          - proj_openeden
+  - id: sp26
+    name: "Chainlink"
+    website: "https://chain.link/"
+    description: "Provider of decentralized oracle networks to securely connect smart contracts with external data."
+    icon: "https://cdn.prod.website-files.com/5f6b7190899f41fb70882d08/665705c1f3833b5b5d8f4ffb_logo-chainlink-blue.svg"
+    categories:
+      - oracle_services
+    projects:
+      - category: oracle_services
+        projects:
+          - proj_openeden
+
+  - id: sp27
+    name: "TJ"
+    website: "https://tjassurance.com/" # Provide actual URL if available
+    description: "Financial technology firm with a focus on blockchain-based investment solutions."
+    icon: "https://tjassurance.com/wp-content/uploads/2021/01/TJ-Logo-2.png" 
+    categories:
+      - blockchain_investment
+    projects:
+      - category: blockchain_investment
+        projects:
+          - proj_openeden
+
+  - id: sp28
+    name: "London Stock Exchange Group (LSEG)"
+    website: "https://www.lseg.com/"
+    description: "Global financial markets infrastructure and data provider."
+    icon: "https://www.lseg.com/content/dam/lseg/en_us/images/logos/bespoke/lseg-logo.svg"
+    categories:
+      - financial_infrastructure
+    projects:
+      - category: financial_infrastructure
+        projects:
+          - proj_openeden
+
+  - id: sp29
+    name: "Hacken"
+    website: "https://hacken.io/"
+    description: "Cybersecurity firm specializing in blockchain security and smart contract audits."
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYsVu2Ec79VQwTmjqQpTr3hwOC8pYc-uu66Q&s" 
+    categories:
+      - cybersecurity
+    projects:
+      - category: cybersecurity
+        projects:
+          - proj_openeden
+
+  - id: sp30
+    name: "Moody's"
+    website: "https://www.moodys.com/"
+    description: "Global integrated risk assessment firm providing credit ratings, research, and risk analysis."
+    icon: "https://www.moodys.com/asset/images/logo/moodys_white.svg"
+    categories:
+      - credit_rating
+    projects:
+      - category: credit_rating
         projects:
           - proj_openeden

@@ -4,6 +4,7 @@ import categoriesData from '@/app/data/generated-json/categories.json'
 import { Project } from '@/app/types/projects'
 import { ServiceProvider } from '@/app/types/serviceProviders'
 import { Category } from '@/app/types/categories'
+import Link from 'next/link'
 
 interface ExampleProps {
   projectId: string
@@ -34,16 +35,48 @@ export default function Example({ projectId, projectName }: ExampleProps) {
       <div className="border-t border-gray-200">
         <dl className="divide-y divide-gray-200">
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-lg font-semibold text-gray-900">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
               Project Name
             </dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               {projectName}
             </dd>
           </div>
-
+          {currentProject?.icon && (
+            <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+              <dt className="px-4 text-lg font-semibold text-gray-900">Icon</dt>
+              <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+                <img
+                  src={currentProject.icon}
+                  alt={`${currentProject.name} icon`}
+                  className="h-16 rounded"
+                />
+              </dd>
+            </div>
+          )}
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-lg font-semibold text-gray-900">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Website
+            </dt>
+            <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+              <Link
+                href={currentProject?.website!}
+                className="text-blue-600 hover:underline"
+              >
+                {currentProject?.website?.replace(/^https?:\/\//, '')}
+              </Link>
+            </dd>
+          </div>
+          <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Description
+            </dt>
+            <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+              {currentProject?.description}
+            </dd>
+          </div>
+          <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+            <dt className="px-4 text-lg font-semibold text-gray-900">
               Service Providers
             </dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
@@ -75,7 +108,9 @@ export default function Example({ projectId, projectName }: ExampleProps) {
           </div>
 
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="text-lg font-semibold text-gray-900">Categories</dt>
+            <dt className="px-4 text-lg font-semibold text-gray-900">
+              Categories
+            </dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               {currentProject?.serviceProviders.map((serviceProvider) => {
                 // Find the matching category by ID
