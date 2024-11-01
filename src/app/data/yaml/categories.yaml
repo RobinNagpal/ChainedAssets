@@ -1,138 +1,94 @@
 categories:
-  - id: digital_asset_issuer
-    name: Digital Asset Issuer
-    serviceProviders:
-      - sp1
-
   - id: digital_asset_custody
     name: Digital Asset Custody
     serviceProviders:
-      - sp2
+      - sp1
 
   - id: smart_contract_audit
     name: Smart Contract Audit
     serviceProviders:
-      - sp3
+      - sp2
 
   - id: auditor
     name: Auditor
     serviceProviders:
-      - sp4
-      - sp12
-      - sp22
+      - sp3
+      - sp10
+      - sp20
 
   - id: onramp
     name: Onramp
     serviceProviders:
-      - sp5
+      - sp4
+      - sp19
 
-  - id: compliance_analytics
-    name: Compliance Analytics
+  - id: asset_fund_management
+    name: Asset/Fund Management 
     serviceProviders:
       - sp6
-
-  - id: investment_manager
-    name: Investment Manager
-    serviceProviders:
-      - sp7
-      - sp15
-
-  - id: us_representation
-    name: US Representation
-    serviceProviders:
-      - sp8
+      - sp13
+      - sp18
+      - sp21
+      - sp22
+      - sp23
 
   - id: offshore_representation
     name: Offshore Representation
     serviceProviders:
-      - sp9
+      - sp7
 
   - id: third_party_signing
     name: 3rd Party Signing
     serviceProviders:
-      - sp10
+      - sp8
 
   - id: attestations
     name: Attestations
     serviceProviders:
-      - sp11
+      - sp9
 
   - id: custodian
     name: Custodian
     serviceProviders:
-      - sp13
+      - sp11
 
   - id: nav_calculation_agent
     name: NAV Calculation Agent
     serviceProviders:
-      - sp14
+      - sp12
 
   - id: sub_advisor
     name: Sub-Advisor
     serviceProviders:
-      - sp16
+      - sp14
 
   - id: regulator
     name: Regulator
     serviceProviders:
-      - sp17
+      - sp15
 
   - id: legal_services
     name: Legal Services
     serviceProviders:
-      - sp18
+      - sp16
 
   - id: blockchain_analytics
     name: Blockchain Analytics
     serviceProviders:
-      - sp19
-
-  - id: consultancy
-    name: Consultancy
-    serviceProviders:
-      - sp20
-
-  - id: payment_services
-    name: Payment Services
-    serviceProviders:
-      - sp21
-
-  - id: fund_administration
-    name: Fund Administration
-    serviceProviders:
-      - sp23
-
-  - id: asset_management
-    name: Asset Management
-    serviceProviders:
-      - sp24
-
-  - id: financial_services
-    name: Financial Services
-    serviceProviders:
-      - sp25
+      - sp17
+      - sp5
 
   - id: oracle_services
     name: Oracle Services
     serviceProviders:
-      - sp26
-
-  - id: blockchain_investment
-    name: Blockchain Investment
-    serviceProviders:
-      - sp27
+      - sp24
 
   - id: financial_infrastructure
     name: Financial Infrastructure
     serviceProviders:
-      - sp28
-
-  - id: cybersecurity
-    name: Cybersecurity
-    serviceProviders:
-      - sp29
+      - sp25
 
   - id: credit_rating
     name: Credit Rating
     serviceProviders:
-      - sp30
+      - sp26

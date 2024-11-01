@@ -6,26 +6,22 @@ projects:
     website: "https://mountainprotocol.com/"
     serviceProviders:
       - providerId: sp1
-        category: digital_asset_issuer
-      - providerId: sp2
         category: digital_asset_custody
-      - providerId: sp3
+      - providerId: sp2
         category: smart_contract_audit
-      - providerId: sp4
+      - providerId: sp3
         category: auditor
-      - providerId: sp5
+      - providerId: sp4
         category: onramp
+      - providerId: sp5
+        category: blockchain_analytics
       - providerId: sp6
-        category: compliance_analytics
+        category: asset_fund_management
       - providerId: sp7
-        category: investment_manager
-      - providerId: sp8
-        category: us_representation
-      - providerId: sp9
         category: offshore_representation
-      - providerId: sp10
+      - providerId: sp8
         category: third_party_signing
-      - providerId: sp11
+      - providerId: sp9
         category: attestations
 
   - id: proj_superstate
@@ -34,15 +30,15 @@ projects:
     website: "https://superstate.co/"
     icon: "https://superstate.co/assets/images/logo-mark-blk.svg"
     serviceProviders:
-      - providerId: sp12
+      - providerId: sp10
         category: auditor
-      - providerId: sp13
+      - providerId: sp11
         category: custodian
-      - providerId: sp14
+      - providerId: sp12
         category: nav_calculation_agent
-      - providerId: sp15
-        category: investment_manager
-      - providerId: sp16
+      - providerId: sp13
+        category: asset_fund_management
+      - providerId: sp14
         category: sub_advisor
 
   - id: proj_openeden
@@ -51,36 +47,32 @@ projects:
     website: "https://openeden.com/"
     icon: "https://openeden.com/logo-nav.png"
     serviceProviders:
-      - providerId: sp17
+      - providerId: sp15
         category: regulator
-      - providerId: sp18
+      - providerId: sp16
         category: legal_services
-      - providerId: sp19
+      - providerId: sp17
         category: blockchain_analytics
-      - providerId: sp20
-        category: consultancy
+      - providerId: sp18
+        category: asset_fund_management
       - providerId: sp5
         category: onramp
+      - providerId: sp19
+        category: onramp
+      - providerId: sp20
+        category: auditor
       - providerId: sp21
-        category: payment_services
+        category: asset_fund_management
       - providerId: sp22
-        category: auditor
+        category: asset_fund_management
       - providerId: sp23
-        category: fund_administration
+        category: asset_fund_management
       - providerId: sp24
-        category: asset_management
-      - providerId: sp25
-        category: financial_services
-      - providerId: sp26
         category: oracle_services
-      - providerId: sp27
-        category: blockchain_investment
-      - providerId: sp28
-        category: financial_infrastructure
-      - providerId: sp29
-        category: cybersecurity
-      - providerId: sp30
+      - providerId: sp26
         category: credit_rating
-      - providerId: sp12
+      - providerId: sp10
         category: auditor
+      - providerId: sp25
+        category: financial_infrastructure  
 

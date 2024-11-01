@@ -1,17 +1,5 @@
 serviceProviders:
   - id: sp1
-    name: "Mountain Protocol Limited"
-    website: "https://mountainprotocol.com/"
-    description: "A company focused on providing secure and regulated digital asset issuance solutions."
-    icon: "https://docs.mountainprotocol.com/~gitbook/image?url=https%3A%2F%2F3064386344-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpDY9rdPX7GoUXY9YAT1I%252Ficon%252Fys42vnUnd18fGiTGZLfh%252FMountain%2520Protocol%2520Isotype%2520%284%29.png%3Falt%3Dmedia%26token%3D4bdc2cd9-eb70-4c1f-b629-f644407d5704&width=32&dpr=1&quality=100&sign=404a06a5&sv=1"
-    categories:
-      - digital_asset_issuer
-    projects:
-      - category: digital_asset_issuer
-        projects:
-          - proj_mountain_protocol
-
-  - id: sp2
     name: "Fireblocks"
     website: "https://www.fireblocks.com/"
     description: "A platform providing secure digital asset custody and transfer solutions."
@@ -23,7 +11,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp3
+  - id: sp2
     name: "OpenZeppelin"
     website: "https://www.openzeppelin.com/"
     description: "A company specializing in smart contract security audits and blockchain development frameworks."
@@ -35,7 +23,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp4
+  - id: sp3
     name: "The Network Firm"
     website: "https://www.thenetworkfirm.com/"
     description: "An auditing firm providing comprehensive financial audit and assurance services."
@@ -47,7 +35,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp5
+  - id: sp4
     name: "Coinbase"
     website: "https://www.coinbase.com"
     description: "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping."
@@ -58,45 +46,33 @@ serviceProviders:
       - category: onramp
         projects:
           - proj_mountain_protocol
-          - proj_openeden  # Ensuring Coinbase is linked to OpenEden without duplicating
+          - proj_openeden  
 
-  - id: sp6
+  - id: sp5
     name: "Chainalysis"
     website: "https://www.chainalysis.com/"
     description: "Blockchain analytics company providing solutions for compliance and risk management."
     icon: ""
     categories:
-      - compliance_analytics
+      - blockchain_analytics
     projects:
-      - category: compliance_analytics
+      - category: blockchain_analytics
         projects:
           - proj_mountain_protocol
 
-  - id: sp7
+  - id: sp6
     name: "EQ Capital"
     website: "https://equilibriacapital.com/"
     description: "Investment management firm specializing in portfolio optimization and wealth management."
     icon: "https://equilibriacapital.com/wp-content/themes/EQC/img/loading.png"
     categories:
-      - investment_manager
+      - asset_fund_management
     projects:
-      - category: investment_manager
+      - category: asset_fund_management
         projects:
           - proj_mountain_protocol
 
-  - id: sp8
-    name: "Winston & Strawn LLP"
-    website: "https://www.winston.com/en/"
-    description: "A global law firm providing legal representation and advisory services in the U.S."
-    icon: "https://www.winston.com/images/build/logo-white_73a3edb4.svg"
-    categories:
-      - us_representation
-    projects:
-      - category: us_representation
-        projects:
-          - proj_mountain_protocol
-
-  - id: sp9
+  - id: sp7
     name: "Carey Olsen"
     website: "https://www.careyolsen.com/"
     description: "Offshore law firm specializing in corporate, funds, trusts, and private client services."
@@ -108,7 +84,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp10
+  - id: sp8
     name: "Steakhouse Financial"
     website: "https://www.steakhouse.financial/"
     description: "Provides third-party financial signing services for secure transactions."
@@ -120,7 +96,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp11
+  - id: sp9
     name: "Nephos"
     website: "https://nephosgroup.co/"
     description: "Offers verification and attestation services for financial statements and compliance."
@@ -132,7 +108,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp12
+  - id: sp10
     name: "Ernst & Young LLP"
     website: "https://www.ey.com/"
     description: "A multinational professional services firm providing auditing, tax, and advisory services."
@@ -144,7 +120,7 @@ serviceProviders:
         projects:
           - proj_openeden
           - proj_superstate
-  - id: sp13
+  - id: sp11
     name: "UMB Bank, N.A."
     website: "https://www.umb.com/"
     description: "Provides custodial services for safeguarding financial assets."
@@ -156,7 +132,7 @@ serviceProviders:
         projects:
           - proj_superstate
 
-  - id: sp14
+  - id: sp12
     name: "NAV Fund Services"
     website: "https://www.navfundservices.com/"
     description: "NAV calculation services for accurately determining asset values."
@@ -168,19 +144,19 @@ serviceProviders:
         projects:
           - proj_superstate
 
-  - id: sp15
+  - id: sp13
     name: "Superstate Inc."
     website: "https://superstate.co/"
     description: "Provides innovative investment management solutions tailored to institutional needs."
     icon: "https://superstate.co/assets/images/logo-mark-blk.svg"
     categories:
-      - investment_manager
+      - asset_fund_management
     projects:
-      - category: investment_manager
+      - category: asset_fund_management
         projects:
           - proj_superstate
 
-  - id: sp16
+  - id: sp14
     name: "Federated Hermes, Inc."
     website: "https://www.federatedhermes.com/"
     description: "Acts as a sub-advisor providing specialized investment insights and strategies."
@@ -192,8 +168,7 @@ serviceProviders:
         projects:
           - proj_superstate
 
-  # Newly Added Service Providers for OpenEden Project
-  - id: sp17
+  - id: sp15
     name: "Financial Services Commission (FSC)"
     website: "https://www.bvifsc.vg/"
     description: "Regulatory authority overseeing financial services."
@@ -205,7 +180,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp18
+  - id: sp16
     name: "Harneys"
     website: "https://www.harneys.com/"
     description: "Global offshore law firm providing legal and fiduciary services."
@@ -217,7 +192,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp19
+  - id: sp17
     name: "Elliptic"
     website: "https://www.elliptic.co/"
     description: "Blockchain analytics and cryptocurrency risk management."
@@ -229,31 +204,31 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp20
+  - id: sp18
     name: "Lymon"
     website: "https://www.lymon.com.sg/"
     description: "Consultancy firm providing financial and legal advisory services."
     icon: "https://static.wixstatic.com/media/09be3c_c0c5f8a2381f4a939e59ac55e70c2d5e~mv2.png/v1/fill/w_230,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9873_Matrix_BroughtToYouByLogo_WIP_01-03%20BACKGROUND%20REMOVED_edited_edited.png"
     categories:
-      - consultancy
+      - asset_fund_management
     projects:
-      - category: consultancy
+      - category: asset_fund_management
         projects:
           - proj_openeden
 
-  - id: sp21
+  - id: sp19
     name: "Circle"
     website: "https://www.circle.com/"
     description: "A global financial technology firm that provides internet-based payment and treasury infrastructure."
     icon: "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67116d0daddc92483c812f72_Circle%20Logo.avif"
     categories:
-      - payment_services
+      - onramp
     projects:
-      - category: payment_services
+      - category: onramp
         projects:
           - proj_openeden
 
-  - id: sp22
+  - id: sp20
     name: "KPMG"
     website: "https://home.kpmg/"
     description: "A global network of professional services firms providing audit, tax, and advisory services."
@@ -265,42 +240,42 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp23
+  - id: sp21
     name: "Protege Fund Services"
     website: "https://www.protegefs.com/"
     description: "Fund administration services, including financial reporting and valuation."
     icon: "https://static.wixstatic.com/media/acaad7_4e079c220b9a4755b2a553f06e587710~mv2.png/v1/crop/x_114,y_38,w_1467,h_491/fill/w_227,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20PNG.png"
     categories:
-      - fund_administration
+      - asset_fund_management
     projects:
-      - category: fund_administration
+      - category: asset_fund_management
         projects:
           - proj_openeden
 
-  - id: sp24
+  - id: sp22
     name: "State Street"
     website: "https://www.statestreet.com/"
     description: "A leading provider of financial services to institutional investors, including investment servicing and management."
     icon: "https://www.statestreet.com/web/Homepage/images/state-street-logo-final.svg"
     categories:
-      - asset_management
+      - asset_fund_management
     projects:
-      - category: asset_management
+      - category: asset_fund_management
         projects:
           - proj_openeden
 
-  - id: sp25
+  - id: sp23
     name: "StoneX"
     website: "https://www.stonex.com/"
     description: "A global financial services network providing execution, clearing, and advisory services."
     icon: "https://www.stonex.com/en/-/media/project/gain-capital/stonex/stonex-main/logos/stonex-logo-black.svg?iar=0&extension=webp&hash=CB5E65DCC6F52A6D4CC15E709B73C6C3" # Add the URL to StoneX's logo if available
     categories:
-      - financial_services
+      - asset_fund_management
     projects:
-      - category: financial_services
+      - category: asset_fund_management
         projects:
           - proj_openeden
-  - id: sp26
+  - id: sp24
     name: "Chainlink"
     website: "https://chain.link/"
     description: "Provider of decentralized oracle networks to securely connect smart contracts with external data."
@@ -312,19 +287,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp27
-    name: "TJ"
-    website: "https://tjassurance.com/" # Provide actual URL if available
-    description: "Financial technology firm with a focus on blockchain-based investment solutions."
-    icon: "https://tjassurance.com/wp-content/uploads/2021/01/TJ-Logo-2.png" 
-    categories:
-      - blockchain_investment
-    projects:
-      - category: blockchain_investment
-        projects:
-          - proj_openeden
-
-  - id: sp28
+  - id: sp25
     name: "London Stock Exchange Group (LSEG)"
     website: "https://www.lseg.com/"
     description: "Global financial markets infrastructure and data provider."
@@ -336,19 +299,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp29
-    name: "Hacken"
-    website: "https://hacken.io/"
-    description: "Cybersecurity firm specializing in blockchain security and smart contract audits."
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYsVu2Ec79VQwTmjqQpTr3hwOC8pYc-uu66Q&s" 
-    categories:
-      - cybersecurity
-    projects:
-      - category: cybersecurity
-        projects:
-          - proj_openeden
-
-  - id: sp30
+  - id: sp26
     name: "Moody's"
     website: "https://www.moodys.com/"
     description: "Global integrated risk assessment firm providing credit ratings, research, and risk analysis."

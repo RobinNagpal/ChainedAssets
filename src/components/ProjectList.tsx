@@ -10,7 +10,7 @@ const serviceProviders: ServiceProvider[] =
 
 export default function Example() {
   return (
-    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-300 bg-white p-6 shadow-md">
+    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
       <ul role="list" className="w-full divide-y divide-gray-200">
         {projects.map((project) => (
           <li
@@ -29,8 +29,8 @@ export default function Example() {
             </div>
 
             {/* Right-aligned Service Providers */}
-            <div className="flex w-full flex-col items-end text-right sm:w-auto">
-              <h4 className="py-2 text-lg font-semibold text-gray-900">
+            <div className="flex w-full flex-col items-end text-right sm:w-auto rounded-lg">
+              <h4 className="py-2 px-2 text-lg font-semibold text-gray-900">
                 Service Providers
               </h4>
               <ul
@@ -44,11 +44,19 @@ export default function Example() {
                   )
 
                   return (
-                    <li key={serviceProviderRef.providerId} className="py-2">
-                      <p className="text-base font-medium text-gray-800">
+                    
+                    <li key={serviceProviderRef.providerId} className="py-2 w-72">
+                      <Link href={matchingProvider?.website!} target="_blank">
+                      <p className="px-2 text-lg font-medium text-gray-800">
                         {matchingProvider?.name}
                       </p>
-                    </li>
+                      {matchingProvider?.icon &&
+                        <img
+                          src={matchingProvider?.icon}
+                          className="max-h-8 rounded"
+                          />}
+                        </Link>
+                      </li>
                   )
                 })}
               </ul>

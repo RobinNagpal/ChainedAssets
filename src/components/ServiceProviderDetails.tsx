@@ -24,7 +24,7 @@ export default function Example({
   )
 
   return (
-    <div className="m-4 max-w-6xl rounded-lg border border-gray-300 bg-white p-6 shadow-md">
+    <div className="m-4 max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
       <div className="mb-6 px-4 sm:px-0">
         <h3 className="text-2xl font-bold text-gray-900">
           Service Provider Information
@@ -116,12 +116,21 @@ export default function Example({
                 )
 
                 return matchingProjects.map((matchingProject) => (
+                  <Link key={matchingProject.id} href={matchingProject?.website!}>
+                    <div className='flex flex-row'>
                   <span
-                    key={matchingProject.id}
-                    className="block text-sm text-gray-600"
+                    
+                    className="block text-lg text-gray-600"
                   >
                     {matchingProject.name}
-                  </span>
+                    </span>
+                    {matchingProject?.icon &&
+                  <img
+                  src={matchingProject?.icon}
+                  className="px-2 max-h-8 rounded"
+                        />}
+                      </div>
+                </Link>
                 ))
               })}
             </dd>

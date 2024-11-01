@@ -11,7 +11,7 @@ const categories: Category[] = categoriesData.categories
 
 export default function Example() {
   return (
-    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-300 bg-white p-6 shadow-md">
+    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
       <ul role="list" className="w-full divide-y divide-gray-200">
         {serviceProviders.map((serviceProvider) => (
           <li
