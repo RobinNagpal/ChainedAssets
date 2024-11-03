@@ -1,68 +1,141 @@
 {
   "projects": [
     {
-      "id": "proj1",
-      "name": "Project Alpha",
+      "id": "proj_mountain_protocol",
+      "name": "Mountain Protocol",
+      "description": "A digital asset protocol focused on providing secure and regulated solutions for asset issuance and management.",
+      "icon": "https://docs.mountainprotocol.com/~gitbook/image?url=https%3A%2F%2F3064386344-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpDY9rdPX7GoUXY9YAT1I%252Ficon%252Fys42vnUnd18fGiTGZLfh%252FMountain%2520Protocol%2520Isotype%2520%284%29.png%3Falt%3Dmedia%26token%3D4bdc2cd9-eb70-4c1f-b629-f644407d5704&width=32&dpr=1&quality=100&sign=404a06a5&sv=1",
+      "website": "https://mountainprotocol.com/",
       "serviceProviders": [
         {
           "providerId": "sp1",
-          "category": "plumbing"
+          "category": "digital_asset_custody"
         },
         {
           "providerId": "sp2",
-          "category": "electrical"
-        }
-      ]
-    },
-    {
-      "id": "proj2",
-      "name": "Project Beta",
-      "serviceProviders": [
-        {
-          "providerId": "sp1",
-          "category": "plumbing"
-        },
-        {
-          "providerId": "sp2",
-          "category": "plumbing"
-        }
-      ]
-    },
-    {
-      "id": "proj3",
-      "name": "Project Gamma",
-      "serviceProviders": [
-        {
-          "providerId": "sp1",
-          "category": "carpentry"
+          "category": "smart_contract_audit"
         },
         {
           "providerId": "sp3",
-          "category": "carpentry"
-        }
-      ]
-    },
-    {
-      "id": "proj4",
-      "name": "Project Delta",
-      "serviceProviders": [
-        {
-          "providerId": "sp2",
-          "category": "electrical"
+          "category": "auditor"
         },
         {
-          "providerId": "sp3",
-          "category": "carpentry"
+          "providerId": "sp4",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp5",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp6",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp7",
+          "category": "offshore_representation"
+        },
+        {
+          "providerId": "sp8",
+          "category": "third_party_signing"
+        },
+        {
+          "providerId": "sp9",
+          "category": "attestations"
         }
       ]
     },
     {
-      "id": "proj5",
-      "name": "Project Epsilon",
+      "id": "proj_superstate",
+      "name": "Superstate",
+      "description": "Superstate Inc. provides innovative financial services and investment management solutions, focusing on maximizing value for clients through trusted partnerships.",
+      "website": "https://superstate.co/",
+      "icon": "https://superstate.co/assets/images/logo-mark-blk.svg",
       "serviceProviders": [
         {
-          "providerId": "sp3",
-          "category": "electrical"
+          "providerId": "sp10",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp11",
+          "category": "custodian"
+        },
+        {
+          "providerId": "sp12",
+          "category": "nav_calculation_agent"
+        },
+        {
+          "providerId": "sp13",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp14",
+          "category": "sub_advisor"
+        }
+      ]
+    },
+    {
+      "id": "proj_openeden",
+      "name": "OpenEden",
+      "description": "OpenEden offers blockchain-based financial services, including secure asset custody, compliance, and risk management solutions tailored for institutional clients.",
+      "website": "https://openeden.com/",
+      "icon": "https://openeden.com/logo-nav.png",
+      "serviceProviders": [
+        {
+          "providerId": "sp15",
+          "category": "regulator"
+        },
+        {
+          "providerId": "sp16",
+          "category": "legal_services"
+        },
+        {
+          "providerId": "sp17",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp18",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp5",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp19",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp20",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp21",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp22",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp23",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp24",
+          "category": "oracle_services"
+        },
+        {
+          "providerId": "sp26",
+          "category": "credit_rating"
+        },
+        {
+          "providerId": "sp10",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp25",
+          "category": "financial_infrastructure"
         }
       ]
     }

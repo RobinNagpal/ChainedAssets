@@ -1,16 +1,94 @@
 categories:
-  - id: plumbing
-    name: Plumbing
+  - id: digital_asset_custody
+    name: Digital Asset Custody
     serviceProviders:
       - sp1
-      - sp2
-  - id: electrical
-    name: Electrical
+
+  - id: smart_contract_audit
+    name: Smart Contract Audit
     serviceProviders:
       - sp2
-      - sp3
-  - id: carpentry
-    name: Carpentry
+
+  - id: auditor
+    name: Auditor
     serviceProviders:
-      - sp1
       - sp3
+      - sp10
+      - sp20
+
+  - id: onramp
+    name: Onramp
+    serviceProviders:
+      - sp4
+      - sp19
+
+  - id: asset_fund_management
+    name: Asset/Fund Management 
+    serviceProviders:
+      - sp6
+      - sp13
+      - sp18
+      - sp21
+      - sp22
+      - sp23
+
+  - id: offshore_representation
+    name: Offshore Representation
+    serviceProviders:
+      - sp7
+
+  - id: third_party_signing
+    name: 3rd Party Signing
+    serviceProviders:
+      - sp8
+
+  - id: attestations
+    name: Attestations
+    serviceProviders:
+      - sp9
+
+  - id: custodian
+    name: Custodian
+    serviceProviders:
+      - sp11
+
+  - id: nav_calculation_agent
+    name: NAV Calculation Agent
+    serviceProviders:
+      - sp12
+
+  - id: sub_advisor
+    name: Sub-Advisor
+    serviceProviders:
+      - sp14
+
+  - id: regulator
+    name: Regulator
+    serviceProviders:
+      - sp15
+
+  - id: legal_services
+    name: Legal Services
+    serviceProviders:
+      - sp16
+
+  - id: blockchain_analytics
+    name: Blockchain Analytics
+    serviceProviders:
+      - sp17
+      - sp5
+
+  - id: oracle_services
+    name: Oracle Services
+    serviceProviders:
+      - sp24
+
+  - id: financial_infrastructure
+    name: Financial Infrastructure
+    serviceProviders:
+      - sp25
+
+  - id: credit_rating
+    name: Credit Rating
+    serviceProviders:
+      - sp26

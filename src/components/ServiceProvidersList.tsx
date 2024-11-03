@@ -1,10 +1,17 @@
-import { serviceProviders } from '@/app/data/serviceProviders'
-import { projects } from '@/app/data/projects'
+import serviceProvidersData from '@/app/data/generated-json/serviceProviders.json'
+import { ServiceProvider } from '@/app/types/serviceProviders'
+import categoriesData from '@/app/data/generated-json/categories.json'
+
 import Link from 'next/link'
+import { Category } from '@/app/types/categories'
+
+const serviceProviders: ServiceProvider[] =
+  serviceProvidersData.serviceProviders
+const categories: Category[] = categoriesData.categories
 
 export default function Example() {
   return (
-    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-300 bg-white p-6 shadow-md">
+    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
       <ul role="list" className="w-full divide-y divide-gray-200">
         {serviceProviders.map((serviceProvider) => (
           <li
@@ -31,41 +38,24 @@ export default function Example() {
                 role="list"
                 className="w-full divide-y divide-gray-100 sm:w-auto"
               >
-                {serviceProvider.projects.map((project) => (
-                  <li key={project.category} className="py-2">
-                    <p className="text-base font-medium text-gray-800">
-                      {project.category}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
+                {serviceProvider.projects.map((project) => {
+                  // Find the matching category by ID
+                  const matchedCategory = categories.find(
+                    (category) => category.id === project.category,
+                  )
 
-            {/* Right-aligned Projects
-            <div className="flex w-full flex-col items-end text-right sm:w-auto">
-              <h4 className="py-2 text-lg font-semibold text-gray-900">
-                Projects
-              </h4>
-              <ul
-                role="list"
-                className="w-full divide-y divide-gray-100 sm:w-auto"
-              >
-                {serviceProvider.projects.map((providersProject) => {
-                  // Find all matching projects with IDs in serviceProvider.projects array
-                  const matchingProjects = projects.filter((project) =>
-                    providersProject.projects.includes(project.id)
-                  );
-
-                  return matchingProjects.map((matchingProject) => (
-                    <li key={matchingProject.id} className="py-2">
+                  return (
+                    <li key={project.category} className="py-2">
                       <p className="text-base font-medium text-gray-800">
-                        {matchingProject.name}
+                        {matchedCategory
+                          ? matchedCategory.name
+                          : project.category}
                       </p>
                     </li>
-                  ));
+                  )
                 })}
               </ul>
-            </div>  */}
+            </div>
           </li>
         ))}
       </ul>

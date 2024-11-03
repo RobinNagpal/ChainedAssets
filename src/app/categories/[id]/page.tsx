@@ -1,15 +1,13 @@
 // app/categories/[id]/page.js
 import TempNav from '@/components/TempNav'
-import Link from 'next/link'
-import { categories } from '../../data/categories'
-import { serviceProviders } from '../../data/serviceProviders'
-import { projects } from '../../data/projects'
+import categoriesData from '../../data/generated-json/categories.json'
 import PageWrapper from '@/components/PageWrapper'
 import CategoriesDetails from '@/components/CategoriesDetails'
+import { Category } from '@/app/types/categories'
 
 export default function CategoryPage({ params }: { params: { id: string } }) {
   const { id } = params
-  const category = categories.find((cat) => cat.id === id)
+  const category:Category | undefined = categoriesData.categories.find((cat) => cat.id === id)
 
   if (!category) {
     return <div>Category not found</div>

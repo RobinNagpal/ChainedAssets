@@ -2,69 +2,470 @@
   "serviceProviders": [
     {
       "id": "sp1",
-      "name": "John's Plumbing",
+      "name": "Fireblocks",
+      "website": "https://www.fireblocks.com/",
+      "description": "A platform providing secure digital asset custody and transfer solutions.",
+      "icon": "https://cdn.brandfetch.io/idxr5j_t0u/w/400/h/400/theme/dark/icon.jpeg?k=id64Mup7ac&t=1701246641128",
       "categories": [
-        "plumbing",
-        "carpentry"
+        "digital_asset_custody"
       ],
       "projects": [
         {
-          "category": "plumbing",
+          "category": "digital_asset_custody",
           "projects": [
-            "proj1",
-            "proj2"
-          ]
-        },
-        {
-          "category": "carpentry",
-          "projects": [
-            "proj3"
+            "proj_mountain_protocol"
           ]
         }
       ]
     },
     {
       "id": "sp2",
-      "name": "Electric Solutions",
+      "name": "OpenZeppelin",
+      "website": "https://www.openzeppelin.com/",
+      "description": "A company specializing in smart contract security audits and blockchain development frameworks.",
+      "icon": "https://www.openzeppelin.com/hubfs/oz-nav.svg",
       "categories": [
-        "plumbing",
-        "electrical"
+        "smart_contract_audit"
       ],
       "projects": [
         {
-          "category": "plumbing",
+          "category": "smart_contract_audit",
           "projects": [
-            "proj2"
-          ]
-        },
-        {
-          "category": "electrical",
-          "projects": [
-            "proj1",
-            "proj4"
+            "proj_mountain_protocol"
           ]
         }
       ]
     },
     {
       "id": "sp3",
-      "name": "Master Builders",
+      "name": "The Network Firm",
+      "website": "https://www.thenetworkfirm.com/",
+      "description": "An auditing firm providing comprehensive financial audit and assurance services.",
+      "icon": "https://images.squarespace-cdn.com/content/v1/63d04ceba661446bcb261c61/88fe0a9a-85ce-40e1-b4bf-832bda0e6e74/TNF-Logo_Color.png?format=1500w",
       "categories": [
-        "electrical",
-        "carpentry"
+        "auditor"
       ],
       "projects": [
         {
-          "category": "electrical",
+          "category": "auditor",
           "projects": [
-            "proj5"
+            "proj_mountain_protocol"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "sp4",
+      "name": "Coinbase",
+      "website": "https://www.coinbase.com",
+      "description": "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping.",
+      "icon": "https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
         {
-          "category": "carpentry",
+          "category": "onramp",
           "projects": [
-            "proj3",
-            "proj4"
+            "proj_mountain_protocol",
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp5",
+      "name": "Chainalysis",
+      "website": "https://www.chainalysis.com/",
+      "description": "Blockchain analytics company providing solutions for compliance and risk management.",
+      "icon": "",
+      "categories": [
+        "blockchain_analytics"
+      ],
+      "projects": [
+        {
+          "category": "blockchain_analytics",
+          "projects": [
+            "proj_mountain_protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp6",
+      "name": "EQ Capital",
+      "website": "https://equilibriacapital.com/",
+      "description": "Investment management firm specializing in portfolio optimization and wealth management.",
+      "icon": "https://equilibriacapital.com/wp-content/themes/EQC/img/loading.png",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_mountain_protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp7",
+      "name": "Carey Olsen",
+      "website": "https://www.careyolsen.com/",
+      "description": "Offshore law firm specializing in corporate, funds, trusts, and private client services.",
+      "icon": "https://www.careyolsen.com/themes/custom/carey_olsen_theme/src/images/logo.svg",
+      "categories": [
+        "offshore_representation"
+      ],
+      "projects": [
+        {
+          "category": "offshore_representation",
+          "projects": [
+            "proj_mountain_protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp8",
+      "name": "Steakhouse Financial",
+      "website": "https://www.steakhouse.financial/",
+      "description": "Provides third-party financial signing services for secure transactions.",
+      "icon": "https://cdn.prod.website-files.com/64417c135e8f73a5226e04f3/6446e4e5854a09fc1db8fb78_steakhouse-logo.svg",
+      "categories": [
+        "third_party_signing"
+      ],
+      "projects": [
+        {
+          "category": "third_party_signing",
+          "projects": [
+            "proj_mountain_protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp9",
+      "name": "Nephos",
+      "website": "https://nephosgroup.co/",
+      "description": "Offers verification and attestation services for financial statements and compliance.",
+      "icon": "https://nephosgroup.co/images/logos/group_n.svg",
+      "categories": [
+        "attestations"
+      ],
+      "projects": [
+        {
+          "category": "attestations",
+          "projects": [
+            "proj_mountain_protocol"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp10",
+      "name": "Ernst & Young LLP",
+      "website": "https://www.ey.com/",
+      "description": "A multinational professional services firm providing auditing, tax, and advisory services.",
+      "icon": "https://cdn.cookielaw.org/logos/e398929d-19d8-4936-8936-5b2be51a20f3/0192dce8-fa32-73fc-b75d-42993c5f5623/32fd6e0b-29b8-472a-818e-115f19a5414f/ey-white-logo.png.rendition.3840.2560.png",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_openeden",
+            "proj_superstate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp11",
+      "name": "UMB Bank, N.A.",
+      "website": "https://www.umb.com/",
+      "description": "Provides custodial services for safeguarding financial assets.",
+      "icon": "https://www.umb.com/sites/default/files/UMB%20Primary.svg",
+      "categories": [
+        "custodian"
+      ],
+      "projects": [
+        {
+          "category": "custodian",
+          "projects": [
+            "proj_superstate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp12",
+      "name": "NAV Fund Services",
+      "website": "https://www.navfundservices.com/",
+      "description": "NAV calculation services for accurately determining asset values.",
+      "icon": "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75",
+      "categories": [
+        "nav_calculation_agent"
+      ],
+      "projects": [
+        {
+          "category": "nav_calculation_agent",
+          "projects": [
+            "proj_superstate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp13",
+      "name": "Superstate Inc.",
+      "website": "https://superstate.co/",
+      "description": "Provides innovative investment management solutions tailored to institutional needs.",
+      "icon": "https://superstate.co/assets/images/logo-mark-blk.svg",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_superstate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp14",
+      "name": "Federated Hermes, Inc.",
+      "website": "https://www.federatedhermes.com/",
+      "description": "Acts as a sub-advisor providing specialized investment insights and strategies.",
+      "icon": "https://www.hermes-investment.com/uploads/2022/04/d3398e103581f8f0a06845c0a5074074/logo_hermes-mainsite.svg",
+      "categories": [
+        "sub_advisor"
+      ],
+      "projects": [
+        {
+          "category": "sub_advisor",
+          "projects": [
+            "proj_superstate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp15",
+      "name": "Financial Services Commission (FSC)",
+      "website": "https://www.bvifsc.vg/",
+      "description": "Regulatory authority overseeing financial services.",
+      "icon": "https://www.bvifsc.vg/sites/default/files/logo_0_0.png",
+      "categories": [
+        "regulator"
+      ],
+      "projects": [
+        {
+          "category": "regulator",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp16",
+      "name": "Harneys",
+      "website": "https://www.harneys.com/",
+      "description": "Global offshore law firm providing legal and fiduciary services.",
+      "icon": "https://www.harneys.com/media/ufrfgg3f/harneys-logo-landscape-grey.png",
+      "categories": [
+        "legal_services"
+      ],
+      "projects": [
+        {
+          "category": "legal_services",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp17",
+      "name": "Elliptic",
+      "website": "https://www.elliptic.co/",
+      "description": "Blockchain analytics and cryptocurrency risk management.",
+      "icon": "https://www.elliptic.co/hubfs/logo%20(5).png",
+      "categories": [
+        "blockchain_analytics"
+      ],
+      "projects": [
+        {
+          "category": "blockchain_analytics",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp18",
+      "name": "Lymon",
+      "website": "https://www.lymon.com.sg/",
+      "description": "Consultancy firm providing financial and legal advisory services.",
+      "icon": "https://static.wixstatic.com/media/09be3c_c0c5f8a2381f4a939e59ac55e70c2d5e~mv2.png/v1/fill/w_230,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9873_Matrix_BroughtToYouByLogo_WIP_01-03%20BACKGROUND%20REMOVED_edited_edited.png",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp19",
+      "name": "Circle",
+      "website": "https://www.circle.com/",
+      "description": "A global financial technology firm that provides internet-based payment and treasury infrastructure.",
+      "icon": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67116d0daddc92483c812f72_Circle%20Logo.avif",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
+        {
+          "category": "onramp",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp20",
+      "name": "KPMG",
+      "website": "https://home.kpmg/",
+      "description": "A global network of professional services firms providing audit, tax, and advisory services.",
+      "icon": "https://openeden.com/static/institutional-credentials/kpmg.png",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp21",
+      "name": "Protege Fund Services",
+      "website": "https://www.protegefs.com/",
+      "description": "Fund administration services, including financial reporting and valuation.",
+      "icon": "https://static.wixstatic.com/media/acaad7_4e079c220b9a4755b2a553f06e587710~mv2.png/v1/crop/x_114,y_38,w_1467,h_491/fill/w_227,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20PNG.png",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp22",
+      "name": "State Street",
+      "website": "https://www.statestreet.com/",
+      "description": "A leading provider of financial services to institutional investors, including investment servicing and management.",
+      "icon": "https://www.statestreet.com/web/Homepage/images/state-street-logo-final.svg",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp23",
+      "name": "StoneX",
+      "website": "https://www.stonex.com/",
+      "description": "A global financial services network providing execution, clearing, and advisory services.",
+      "icon": "https://www.stonex.com/en/-/media/project/gain-capital/stonex/stonex-main/logos/stonex-logo-black.svg?iar=0&extension=webp&hash=CB5E65DCC6F52A6D4CC15E709B73C6C3",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp24",
+      "name": "Chainlink",
+      "website": "https://chain.link/",
+      "description": "Provider of decentralized oracle networks to securely connect smart contracts with external data.",
+      "icon": "https://cdn.prod.website-files.com/5f6b7190899f41fb70882d08/665705c1f3833b5b5d8f4ffb_logo-chainlink-blue.svg",
+      "categories": [
+        "oracle_services"
+      ],
+      "projects": [
+        {
+          "category": "oracle_services",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp25",
+      "name": "London Stock Exchange Group (LSEG)",
+      "website": "https://www.lseg.com/",
+      "description": "Global financial markets infrastructure and data provider.",
+      "icon": "https://www.lseg.com/content/dam/lseg/en_us/images/logos/bespoke/lseg-logo.svg",
+      "categories": [
+        "financial_infrastructure"
+      ],
+      "projects": [
+        {
+          "category": "financial_infrastructure",
+          "projects": [
+            "proj_openeden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp26",
+      "name": "Moody's",
+      "website": "https://www.moodys.com/",
+      "description": "Global integrated risk assessment firm providing credit ratings, research, and risk analysis.",
+      "icon": "https://www.moodys.com/asset/images/logo/moodys_white.svg",
+      "categories": [
+        "credit_rating"
+      ],
+      "projects": [
+        {
+          "category": "credit_rating",
+          "projects": [
+            "proj_openeden"
           ]
         }
       ]
