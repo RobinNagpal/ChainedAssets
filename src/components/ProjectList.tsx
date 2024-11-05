@@ -10,29 +10,23 @@ const projects: Project[] = projectData.projects
 const serviceProviders: ServiceProvider[] =
   serviceProvidersData.serviceProviders
 const categories: Category[] = categoriesData.categories
-export default function Example() {
+export default function ProjectList() {
   return (
-    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
-      <ul role="list" className="w-full divide-y divide-gray-200">
+    <div className="w-full pt-6">
+      <div role="list" className="w-full divide-y divide-gray-200">
         {projects.map((project) => (
-          <li
-            key={project.id}
-            className="flex items-start justify-between gap-x-6 py-5"
-          >
-            <div className="min-w-0">
+          <div key={project.id} className="flex w-full items-start">
+            <div className="sm:w-1/2">
               <Link
                 href={`/projects/${project.id}`}
-                className="text-blue-600 hover:underline"
+                className="hover:underline"
               >
-                <p className="text-xl font-bold text-gray-900">
-                  {project.name}
-                </p>
+                <p className="text-xl font-bold">{project.name}</p>
               </Link>
             </div>
-            <div className="flex w-full flex-col items-end rounded-lg text-right sm:w-auto">
-              <h4 className="px-2 py-2 text-lg font-semibold text-gray-900">
-                Categories
-              </h4>
+
+            <div className="flex w-full flex-col sm:w-1/2">
+              <h4 className="text-lg font-semibold">Service Providers</h4>
               <ul
                 role="list"
                 className="w-full divide-y divide-gray-100 sm:w-auto"
@@ -43,55 +37,37 @@ export default function Example() {
                     (category) => category.id === serviceProviderRef.category,
                   )
 
-                  return (
-                    <li key={serviceProviderRef.providerId} className="py-2">
-                      <p className="px-2 py-4 text-lg font-medium text-gray-800">
-                        {matchingCategory?.name}
-                      </p>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-            {/* Right-aligned Service Providers */}
-            <div className="flex w-full flex-col items-end rounded-lg text-right sm:w-auto">
-              <h4 className="px-2 py-2 text-lg font-semibold text-gray-900">
-                Service Providers
-              </h4>
-              <ul
-                role="list"
-                className="w-full divide-y divide-gray-100 sm:w-auto"
-              >
-                {project.serviceProviders.map((serviceProviderRef) => {
-                  // Find the corresponding service provider by providerId
                   const matchingProvider = serviceProviders.find(
                     (sp) => sp.id === serviceProviderRef.providerId,
                   )
-
                   return (
-                    <li
-                      key={serviceProviderRef.providerId}
-                      className="w-72 py-2"
+                    <Link
+                      className="flex w-full justify-between"
+                      href={'/service-providers/' + matchingProvider?.id}
                     >
-                      <Link href={matchingProvider?.website!} target="_blank">
-                        <p className="px-2 text-lg font-medium text-gray-800">
-                          {matchingProvider?.name}
+                      <div
+                        key={serviceProviderRef.providerId}
+                        className="w-72 py-2"
+                      >
+                        <p className="text-sm font-medium">
+                          {matchingCategory?.name}
                         </p>
-                        {matchingProvider?.icon && (
-                          <img
-                            src={matchingProvider?.icon}
-                            className="max-h-8 rounded"
-                          />
-                        )}
-                      </Link>
-                    </li>
+                      </div>
+                      <div key={serviceProviderRef.providerId}>
+                        <div className="flex flex-col items-center justify-center align-middle">
+                          <div className="flex w-full justify-center align-middle text-sm font-medium">
+                            {matchingProvider?.name}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
                   )
                 })}
               </ul>
             </div>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   )
 }

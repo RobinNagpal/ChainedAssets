@@ -14,7 +14,10 @@ const projects: Project[] = projectsData.projects
 const serviceProviders: ServiceProvider[] =
   serviceProvidersData.serviceProviders
 const categories: Category[] = categoriesData.categories
-export default function Example({ projectId, projectName }: ExampleProps) {
+export default function ProjectDetails({
+  projectId,
+  projectName,
+}: ExampleProps) {
   // Find the current project based on projectId
   const currentProject: Project | undefined = projects.find(
     (project) => project.id === projectId,
@@ -26,25 +29,21 @@ export default function Example({ projectId, projectName }: ExampleProps) {
   )
 
   return (
-    <div className="m-4 max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
+    <div className="w-full pt-6">
       <div className="mb-6 px-4 sm:px-0">
-        <h3 className="text-2xl font-bold text-gray-900">
-          Project Information
-        </h3>
+        <h3 className="text-2xl font-bold">Project Information</h3>
       </div>
       <div className="border-t border-gray-200">
         <dl className="divide-y divide-gray-200">
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="px-4 text-lg font-semibold text-gray-900">
-              Project Name
-            </dt>
+            <dt className="px-4 text-lg font-semibold">Project Name</dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               {projectName}
             </dd>
           </div>
           {currentProject?.icon && (
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-              <dt className="px-4 text-lg font-semibold text-gray-900">Icon</dt>
+              <dt className="px-4 text-lg font-semibold">Icon</dt>
               <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
                 <img
                   src={currentProject.icon}
@@ -55,9 +54,7 @@ export default function Example({ projectId, projectName }: ExampleProps) {
             </div>
           )}
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="px-4 text-lg font-semibold text-gray-900">
-              Website
-            </dt>
+            <dt className="px-4 text-lg font-semibold">Website</dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               <Link
                 href={currentProject?.website!}
@@ -68,36 +65,32 @@ export default function Example({ projectId, projectName }: ExampleProps) {
             </dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="px-4 text-lg font-semibold text-gray-900">
-              Description
-            </dt>
+            <dt className="px-4 text-lg font-semibold">Description</dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               {currentProject?.description}
             </dd>
           </div>
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="px-4 text-lg font-semibold text-gray-900">
-              Service Providers
-            </dt>
+            <dt className="px-4 text-lg font-semibold">Service Providers</dt>
             <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               <ul role="list" className="divide-y divide-gray-100">
                 {projectServiceProviders.map((provider) => (
                   <li key={provider.id} className="flex items-start gap-4 py-2">
                     <div className="flex flex-col">
-                    <Link href={provider?.website!} target="_blank">
-                      <div className="flex flex-row ">
-                      <span className="px-2 text-lg font-medium text-gray-900">
-                        {provider.name}
-                      </span>
-                      <span>
-                        {' '}
-                        {provider?.icon && (
-                          <img
-                            src={provider?.icon}
-                            className="max-h-8 rounded"
-                          />
-                        )}
-                        </span>
+                      <Link href={provider?.website!} target="_blank">
+                        <div className="flex flex-row">
+                          <span className="px-2 text-lg font-medium">
+                            {provider.name}
+                          </span>
+                          <span>
+                            {' '}
+                            {provider?.icon && (
+                              <img
+                                src={provider?.icon}
+                                className="max-h-8 rounded"
+                              />
+                            )}
+                          </span>
                         </div>
                       </Link>
                       <span className="px-2 text-sm text-gray-600">
@@ -117,29 +110,6 @@ export default function Example({ projectId, projectName }: ExampleProps) {
                   </li>
                 ))}
               </ul>
-            </dd>
-          </div>
-
-          <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt className="px-4 text-lg font-semibold text-gray-900">
-              Categories
-            </dt>
-            <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
-              {currentProject?.serviceProviders.map((serviceProvider) => {
-                // Find the matching category by ID
-                const category = categories.find(
-                  (cat) => cat.id === serviceProvider.category,
-                )
-
-                return (
-                  <span
-                    key={serviceProvider.providerId}
-                    className="block text-sm text-gray-600"
-                  >
-                    {category ? category.name : 'Unknown Category'}
-                  </span>
-                )
-              })}
             </dd>
           </div>
         </dl>

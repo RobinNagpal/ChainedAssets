@@ -1,12 +1,15 @@
 'use client'
 
+import Link from 'next/link'
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: '<- Home', href: '/' },
   { name: 'RWA Research', href: 'https://research.chainedassets.com/' },
+  { name: 'Ecosystem Map', href: '/landscape' },
+  { name: 'All Projects', href: '/projects' },
+  { name: 'Service Providers', href: '/service-providers' },
   { name: 'Visit DoDAO', href: 'https://dodao.io/' },
 ]
 
@@ -17,18 +20,18 @@ export default function TreeMapNavbar() {
     <header className="bg-gray-900">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center p-6 lg:px-8"
       >
-        <div className="flex lg:flex-1">
+        <Link className="flex lg:flex-1" href="/">
           <div className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">DoDAO</span>
             <img
               alt="DoDAO logo"
               src="/dodao_logo.png"
               className="h-8 w-auto"
             />
           </div>
-        </div>
+        </Link>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -41,13 +44,13 @@ export default function TreeMapNavbar() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className="text-[15px] font-semibold leading-6 text-white hover:text-indigo-300"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>

@@ -11,22 +11,19 @@ export default function ServiceProviderPage({
   params: { id: string }
 }) {
   const { id } = params
-  const provider :ServiceProvider | undefined= serviceProvidersData.serviceProviders.find((sp) => sp.id === id)
+  const provider: ServiceProvider | undefined =
+    serviceProvidersData.serviceProviders.find((sp) => sp.id === id)
 
   if (!provider) {
     return <div>Service Provider not found</div>
   }
 
   return (
-    <div className="p-4">
-      <TempNav />
-      <PageWrapper>
-        <h1 className="mb-4 text-2xl font-bold">{provider.name}</h1>
-        <ServiceProviderDetails
-          serviceProviderId={provider.id}
-          serviceProviderName={provider.name}
-        ></ServiceProviderDetails>
-      </PageWrapper>
-    </div>
+    <PageWrapper>
+      <ServiceProviderDetails
+        serviceProviderId={provider.id}
+        serviceProviderName={provider.name}
+      ></ServiceProviderDetails>
+    </PageWrapper>
   )
 }

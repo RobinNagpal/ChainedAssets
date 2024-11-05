@@ -25,7 +25,6 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
   return (
     <>
       <div className="mx-auto min-w-[768px] max-w-[1440px] p-4 pt-0">
-        <TreeMapNavbar />
         <div className="grid gap-4 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
           {data.map((category, index) => {
             if (isTreeNode(category)) {
