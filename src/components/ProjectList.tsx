@@ -44,6 +44,7 @@ export default function ProjectList() {
                     <Link
                       className="flex w-full justify-between"
                       href={'/service-providers/' + matchingProvider?.id}
+                      key={serviceProviderRef.providerId}
                     >
                       <div
                         key={serviceProviderRef.providerId}
