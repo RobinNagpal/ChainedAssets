@@ -11,6 +11,7 @@ import Image from 'next/image'
 
 interface TreeMapModalProps {
   name: string
+  id?:string
   details: string
   link: string
   icon: string
@@ -19,6 +20,7 @@ interface TreeMapModalProps {
 
 export default function TreeMapModal({
   name,
+  id,
   details,
   link,
   icon,
@@ -49,21 +51,44 @@ export default function TreeMapModal({
             </div>
             <div>
               <div className="h-15 w-15 mx-auto flex items-center justify-center">
-                <Image
-                  src={icon}
-                  alt={name}
-                  width={60}
-                  height={60}
-                  className="object-contain"
-                />
+                {id ? (
+                  <a href={`/projects/${id}`}>
+                    <Image
+                      src={icon}
+                      alt={name}
+                      width={60}
+                      height={60}
+                      className="object-contain"
+                    />
+                  </a>
+                ) : (
+                  <Image
+                    src={icon}
+                    alt={name}
+                    width={60}
+                    height={60}
+                    className="object-contain"
+                  />
+                )}
               </div>
               <div className="mt-3 text-center sm:mt-5">
-                <DialogTitle
-                  as="h3"
-                  className="text-base font-semibold leading-6 text-white"
-                >
-                  {name}
-                </DialogTitle>
+                {id ? (
+                  <a href={`/projects/${id}`}>
+                  <DialogTitle
+                    as="h3"
+                    className="text-base font-semibold leading-6 text-white"
+                  >
+                    {name}
+                    </DialogTitle>
+                    </a>
+                ) : (
+                  <DialogTitle
+                    as="h3"
+                    className="text-base font-semibold leading-6 text-white"
+                  >
+                    {name}
+                  </DialogTitle>
+                )}
                 <div className="mt-2">
                   <p className="text-sm text-gray-300">{details}</p>
                   <p className="mt-2 text-sm text-gray-300">
