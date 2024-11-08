@@ -4,7 +4,10 @@
       "id": "digital_asset_custody",
       "name": "Digital Asset Custody",
       "serviceProviders": [
-        "sp1"
+        "sp1",
+        "sp29",
+        "sp30",
+        "sp31"
       ]
     },
     {
@@ -40,7 +43,8 @@
         "sp18",
         "sp21",
         "sp22",
-        "sp23"
+        "sp23",
+        "sp35"
       ]
     },
     {
@@ -68,7 +72,9 @@
       "id": "custodian",
       "name": "Custodian",
       "serviceProviders": [
-        "sp11"
+        "sp11",
+        "sp29",
+        "sp32"
       ]
     },
     {
@@ -126,6 +132,29 @@
       "name": "Credit Rating",
       "serviceProviders": [
         "sp26"
+      ]
+    },
+    {
+      "id": "on_chain_security",
+      "name": "On-Chain Security",
+      "serviceProviders": [
+        "sp1"
+      ]
+    },
+    {
+      "id": "on_chain_verification",
+      "name": "On-Chain Verification",
+      "serviceProviders": [
+        "sp33",
+        "sp34"
+      ]
+    },
+    {
+      "id": "dex_aggregator",
+      "name": "DEX Aggregator",
+      "serviceProviders": [
+        "sp36",
+        "sp37"
       ]
     }
   ]

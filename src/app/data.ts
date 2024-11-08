@@ -10,6 +10,7 @@ export type TreeNode = {
 
 export type TreeLeaf = {
   type: 'leaf'
+  id?: string
   name: string
   value: number
   icon: string
@@ -40,6 +41,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
+          id:'proj_openeden',
           name: 'OpenEden',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Open Eden.avif',
@@ -121,6 +123,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
+          id:'proj_mountain_protocol',
           name: 'Mountain Protocol',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Mountain Protocol.jpg',
@@ -139,6 +142,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
+          id:'proj_superstate',
           name: 'Superstate',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Superstate.webp',

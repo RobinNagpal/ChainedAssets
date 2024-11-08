@@ -13,6 +13,7 @@ interface EcosystemMapProps {
 const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
   const [modalData, setModalData] = useState<{
     name: string
+    id:string
     details: string
     link: string
     icon: string
@@ -45,6 +46,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
                             onClick={() => {
                               setModalData({
                                 name: item.name,
+                                id:item.id || '',
                                 details: item.details || '',
                                 link: item.link || '',
                                 icon: item.icon || '',
@@ -81,6 +83,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
       {modalOpen && modalData && (
         <TreeMapModal
           name={modalData.name}
+          id={modalData.id}
           details={modalData.details}
           link={modalData.link}
           icon={modalData.icon}

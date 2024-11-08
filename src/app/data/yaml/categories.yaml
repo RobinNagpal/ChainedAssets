@@ -3,6 +3,9 @@ categories:
     name: Digital Asset Custody
     serviceProviders:
       - sp1
+      - sp29
+      - sp30
+      - sp31
 
   - id: smart_contract_audit
     name: Smart Contract Audit
@@ -31,6 +34,7 @@ categories:
       - sp21
       - sp22
       - sp23
+      - sp35
 
   - id: offshore_representation
     name: Offshore Representation
@@ -51,6 +55,8 @@ categories:
     name: Custodian
     serviceProviders:
       - sp11
+      - sp29
+      - sp32
 
   - id: nav_calculation_agent
     name: NAV Calculation Agent
@@ -92,3 +98,19 @@ categories:
     name: Credit Rating
     serviceProviders:
       - sp26
+
+  - id: on_chain_security
+    name: On-Chain Security
+    serviceProviders:
+      - sp1
+  - id: on_chain_verification
+    name: On-Chain Verification
+    serviceProviders:
+      - sp33
+      - sp34
+
+  - id: dex_aggregator
+    name: DEX Aggregator
+    serviceProviders:
+      - sp36
+      - sp37

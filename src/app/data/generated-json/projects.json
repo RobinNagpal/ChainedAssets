@@ -43,6 +43,16 @@
           "providerId": "sp9",
           "category": "attestations"
         }
+      ],
+      "assets": [
+        {
+          "assetName": "USDM Token",
+          "assetDescription": "A stablecoin that has been added to CurveFinance's crvUSD PegKeeper module"
+        },
+        {
+          "assetName": "wUSDM Token",
+          "assetDescription": "A wrapped version of USDM that can be created or unwrapped using the Mountain Protocol's DeFi app"
+        }
       ]
     },
     {
@@ -71,6 +81,16 @@
         {
           "providerId": "sp14",
           "category": "sub_advisor"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "USTB",
+          "assetDescription": "The Superstate Short Duration US Government Securities Fund (the “Fund”) offers Qualified Purchasers access to short-duration Treasury Bills."
+        },
+        {
+          "assetName": "USCC",
+          "assetDescription": "The Superstate Crypto Carry Fund (the “Fund”) offers Qualified Purchasers access to crypto basis (differential between the spot and future price) strategies."
         }
       ]
     },
@@ -136,6 +156,180 @@
         {
           "providerId": "sp25",
           "category": "financial_infrastructure"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "TBILL",
+          "assetDescription": "A tokenized T-Bill that gives crypto treasury managers on-chain access to one of the most common cash management instruments"
+        }
+      ]
+    },
+    {
+      "id": "proj_ondo_finance",
+      "name": "Ondo Finance",
+      "description": "Ondo Finance is a pioneering platform that facilitates the seamless swapping, allocation, and diversification of fully backed real-world asset tokens. It empowers users to access stable yields and innovative investment opportunities while securely harnessing on-chain value..",
+      "website": "https://ondo.finance/",
+      "icon": "https://docs.ondo.finance/favicon.svg",
+      "serviceProviders": [
+        {
+          "providerId": "sp27",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp12",
+          "category": "nav_calculation_agent"
+        },
+        {
+          "providerId": "sp23",
+          "category": "custodian"
+        },
+        {
+          "providerId": "sp28",
+          "category": "custodian"
+        },
+        {
+          "providerId": "sp29",
+          "category": "smart_contract_audit"
+        },
+        {
+          "providerId": "sp30",
+          "category": "smart_contract_audit"
+        },
+        {
+          "providerId": "sp31",
+          "category": "smart_contract_audit"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "USDY",
+          "assetDescription": "A stablecoin alternative that offers yield and is backed by short-term US Treasuries and bank demand deposits."
+        },
+        {
+          "assetName": "OUSG",
+          "assetDescription": "An institutional-grade investment that provides liquid exposure to short-term US Treasuries."
+        }
+      ]
+    },
+    {
+      "id": "proj_pvo1",
+      "name": "PVO1",
+      "description": "PV01 is a platform that allows institutional investors and issuers to access bond markets in a transparent and efficient way. PV01 acts as a broker-dealer and arranger for digital bond issuers, managing the sales, book-building, and structuring process.",
+      "website": "https://www.pv0.one/",
+      "icon": "",
+      "serviceProviders": [
+        {
+          "providerId": "sp1",
+          "category": "on_chain_security"
+        },
+        {
+          "providerId": "sp5",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp23",
+          "category": "custodian"
+        },
+        {
+          "providerId": "sp32",
+          "category": "custodian"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Digital Treasury Bills (TBL)",
+          "assetDescription": "A one-for-one equivalent of a US Treasury Bill that can be used as collateral. TBL tokens are transferable and can be invested and traded."
+        },
+        {
+          "assetName": "Digital bonds",
+          "assetDescription": "PV01 issued the first digital native bond on the Ethereum blockchain, which was backed by a US Treasury Bill. The bond was represented by a transferable token that could be used as collateral. ."
+        }
+      ]
+    },
+    {
+      "id": "proj_midas",
+      "name": "Midas",
+      "description": "Midas is a blockchain protocol that specializes in asset tokenization, providing institutional-grade digital assets and innovative investment products. It seamlessly integrates traditional finance with decentralized solutions, offering users competitive yields and secure investment opportunities.",
+      "website": "https://midas.app/",
+      "icon": "https://midas.app/assets/logo-CkZOw3IZ.svg",
+      "serviceProviders": [
+        {
+          "providerId": "sp4",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp27",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp1",
+          "category": "on_chain_security"
+        },
+        {
+          "providerId": "sp28",
+          "category": "custodian"
+        },
+        {
+          "providerId": "sp33",
+          "category": "on_chain_verification"
+        },
+        {
+          "providerId": "sp34",
+          "category": "on_chain_verification"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "mBTC",
+          "assetDescription": "Midas's Bitcoin product offering that provides a 4% BTC-denominated yield."
+        },
+        {
+          "assetName": "mTBILL",
+          "assetDescription": "A token that provides exposure to short-term U.S. Treasuries and was opened to retail traders in the EU."
+        },
+        {
+          "assetName": "mBASIS",
+          "assetDescription": "A token that was also opened to retail traders in the EU, offering a market-neutral strategy."
+        }
+      ]
+    },
+    {
+      "id": "proj_matrixdock",
+      "name": "Matrix Dock",
+      "description": "Matrixdock is a platform that enables seamless swapping, allocation, and diversification of fully backed real-world asset tokens. By securely harnessing on-chain value, it empowers users to access risk-free yields and innovative investment opportunities.",
+      "website": "https://www.matrixdock.com/",
+      "icon": "https://www.matrixdock.com/images/header_logo.svg",
+      "serviceProviders": [
+        {
+          "providerId": "sp24",
+          "category": "oracle_services"
+        },
+        {
+          "providerId": "sp35",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp36",
+          "category": "dex_aggregator"
+        },
+        {
+          "providerId": "sp37",
+          "category": "dex_aggregator"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "STBT Token",
+          "assetDescription": "Short-Term US Treasury Bill Token enables risk-free yields from U.S. Treasury securities and reverse repos. Pegged 1:1 to USD, interest is rebased to holders’ STBT balances daily."
+        },
+        {
+          "assetName": "XAUm Token",
+          "assetDescription": "Each Matrixdock Gold (XAUm) token is backed by one fine troy ounce of high grade LBMA physical gold, stored in reputable custodian vaults in Asia."
+        },
+        {
+          "assetName": "wSTBT",
+          "assetDescription": "Wrapped STBT token that allows for enhanced functionality and interoperability within the Matrixdock ecosystem."
         }
       ]
     }
