@@ -5,9 +5,14 @@ export interface Project {
   description?:string
   icon:string
   serviceProviders: ProjectServiceProvider[]
+  assets: ProjectAsset[]
 }
 
 interface ProjectServiceProvider {
   providerId: string
   category: string
+}
+interface ProjectAsset {
+  assetName: string
+  assetDescription: string
 }
