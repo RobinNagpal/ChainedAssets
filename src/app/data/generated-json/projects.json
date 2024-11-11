@@ -37,11 +37,11 @@
         },
         {
           "providerId": "sp_steakhouse_financial",
-          "category": "third_party_signing"
+          "category": "auditor"
         },
         {
           "providerId": "sp_nephos",
-          "category": "attestations"
+          "category": "auditor"
         }
       ],
       "assets": [
@@ -72,7 +72,7 @@
         },
         {
           "providerId": "sp_nav_fund_services",
-          "category": "nav_calculation_agent"
+          "category": "auditor"
         },
         {
           "providerId": "sp_superstate",
@@ -80,7 +80,7 @@
         },
         {
           "providerId": "sp_federated_hermes",
-          "category": "sub_advisor"
+          "category": "asset_fund_management"
         }
       ],
       "assets": [
@@ -178,7 +178,7 @@
         },
         {
           "providerId": "sp_nav_fund_services",
-          "category": "nav_calculation_agent"
+          "category": "auditor"
         },
         {
           "providerId": "sp_stonex",
@@ -221,7 +221,7 @@
       "serviceProviders": [
         {
           "providerId": "sp_fireblocks",
-          "category": "on_chain_security"
+          "category": "digital_asset_custody"
         },
         {
           "providerId": "sp_chainalysis",
@@ -264,7 +264,7 @@
         },
         {
           "providerId": "sp_fireblocks",
-          "category": "on_chain_security"
+          "category": "digital_asset_custody"
         },
         {
           "providerId": "sp_ankura",
@@ -272,11 +272,11 @@
         },
         {
           "providerId": "sp_chronicle",
-          "category": "on_chain_verification"
+          "category": "oracle_services"
         },
         {
           "providerId": "sp_lukka",
-          "category": "on_chain_verification"
+          "category": "asset_fund_management"
         }
       ],
       "assets": [
@@ -308,14 +308,6 @@
         {
           "providerId": "sp_kinza_finance",
           "category": "asset_fund_management"
-        },
-        {
-          "providerId": "sp_1inch",
-          "category": "exchange/market_maker"
-        },
-        {
-          "providerId": "sp_cruve_finance",
-          "category": "exchange/market_maker"
         }
       ],
       "assets": [
@@ -381,7 +373,7 @@
         },
         {
           "providerId": "sp_lukka",
-          "category": "on_chain_verification"
+          "category": "asset_fund_management"
         },
         {
           "providerId": "sp_b2c2",
