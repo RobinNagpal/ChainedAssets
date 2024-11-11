@@ -8,39 +8,39 @@
       "website": "https://mountainprotocol.com/",
       "serviceProviders": [
         {
-          "providerId": "sp1",
+          "providerId": "sp_fireblocks",
           "category": "digital_asset_custody"
         },
         {
-          "providerId": "sp2",
+          "providerId": "sp_open_zeppelin",
           "category": "smart_contract_audit"
         },
         {
-          "providerId": "sp3",
+          "providerId": "sp_network_firm",
           "category": "auditor"
         },
         {
-          "providerId": "sp4",
+          "providerId": "sp_coinbase",
           "category": "onramp"
         },
         {
-          "providerId": "sp5",
+          "providerId": "sp_chainalysis",
           "category": "blockchain_analytics"
         },
         {
-          "providerId": "sp6",
+          "providerId": "sp_eq_capital",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp7",
+          "providerId": "sp_carey_olsen",
           "category": "offshore_representation"
         },
         {
-          "providerId": "sp8",
+          "providerId": "sp_steakhouse_financial",
           "category": "third_party_signing"
         },
         {
-          "providerId": "sp9",
+          "providerId": "sp_nephos",
           "category": "attestations"
         }
       ],
@@ -63,23 +63,23 @@
       "icon": "https://superstate.co/assets/images/logo-mark-blk.svg",
       "serviceProviders": [
         {
-          "providerId": "sp10",
+          "providerId": "sp_ernst_young_llp",
           "category": "auditor"
         },
         {
-          "providerId": "sp11",
+          "providerId": "sp_umb",
           "category": "custodian"
         },
         {
-          "providerId": "sp12",
+          "providerId": "sp_nav_fund_services",
           "category": "nav_calculation_agent"
         },
         {
-          "providerId": "sp13",
+          "providerId": "sp_superstate",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp14",
+          "providerId": "sp_federated_hermes",
           "category": "sub_advisor"
         }
       ],
@@ -102,59 +102,59 @@
       "icon": "https://openeden.com/logo-nav.png",
       "serviceProviders": [
         {
-          "providerId": "sp15",
+          "providerId": "sp_financial_services_commision",
           "category": "regulator"
         },
         {
-          "providerId": "sp16",
+          "providerId": "sp_harneys",
           "category": "legal_services"
         },
         {
-          "providerId": "sp17",
+          "providerId": "sp_elliptic",
           "category": "blockchain_analytics"
         },
         {
-          "providerId": "sp18",
+          "providerId": "sp_lymon",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp5",
+          "providerId": "sp_chainalysis",
           "category": "onramp"
         },
         {
-          "providerId": "sp19",
+          "providerId": "sp_circle",
           "category": "onramp"
         },
         {
-          "providerId": "sp20",
+          "providerId": "sp_kpmg",
           "category": "auditor"
         },
         {
-          "providerId": "sp21",
+          "providerId": "sp_protege_fund_services",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp22",
+          "providerId": "sp_state_street",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp23",
+          "providerId": "sp_stonex",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp24",
+          "providerId": "sp_chainlink",
           "category": "oracle_services"
         },
         {
-          "providerId": "sp26",
+          "providerId": "sp_moody",
           "category": "credit_rating"
         },
         {
-          "providerId": "sp10",
+          "providerId": "sp_ernst_young_llp",
           "category": "auditor"
         },
         {
-          "providerId": "sp25",
+          "providerId": "sp_lseg",
           "category": "financial_infrastructure"
         }
       ],
@@ -173,31 +173,31 @@
       "icon": "https://docs.ondo.finance/favicon.svg",
       "serviceProviders": [
         {
-          "providerId": "sp27",
+          "providerId": "sp_black_rock",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp12",
+          "providerId": "sp_nav_fund_services",
           "category": "nav_calculation_agent"
         },
         {
-          "providerId": "sp23",
+          "providerId": "sp_stonex",
           "category": "custodian"
         },
         {
-          "providerId": "sp28",
+          "providerId": "sp_ankura",
           "category": "custodian"
         },
         {
-          "providerId": "sp29",
+          "providerId": "sp_trail_of_bits",
           "category": "smart_contract_audit"
         },
         {
-          "providerId": "sp30",
+          "providerId": "sp_quantstamp",
           "category": "smart_contract_audit"
         },
         {
-          "providerId": "sp31",
+          "providerId": "sp_immunefi",
           "category": "smart_contract_audit"
         }
       ],
@@ -220,19 +220,19 @@
       "icon": "",
       "serviceProviders": [
         {
-          "providerId": "sp1",
+          "providerId": "sp_fireblocks",
           "category": "on_chain_security"
         },
         {
-          "providerId": "sp5",
+          "providerId": "sp_chainalysis",
           "category": "blockchain_analytics"
         },
         {
-          "providerId": "sp23",
+          "providerId": "sp_stonex",
           "category": "custodian"
         },
         {
-          "providerId": "sp32",
+          "providerId": "sp_bnp_paribas",
           "category": "custodian"
         }
       ],
@@ -255,27 +255,27 @@
       "icon": "https://midas.app/assets/logo-CkZOw3IZ.svg",
       "serviceProviders": [
         {
-          "providerId": "sp4",
+          "providerId": "sp_coinbase",
           "category": "onramp"
         },
         {
-          "providerId": "sp27",
+          "providerId": "sp_black_rock",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp1",
+          "providerId": "sp_fireblocks",
           "category": "on_chain_security"
         },
         {
-          "providerId": "sp28",
+          "providerId": "sp_ankura",
           "category": "custodian"
         },
         {
-          "providerId": "sp33",
+          "providerId": "sp_chronicle",
           "category": "on_chain_verification"
         },
         {
-          "providerId": "sp34",
+          "providerId": "sp_lukka",
           "category": "on_chain_verification"
         }
       ],
@@ -302,20 +302,20 @@
       "icon": "https://www.matrixdock.com/images/header_logo.svg",
       "serviceProviders": [
         {
-          "providerId": "sp24",
+          "providerId": "sp_chainlink",
           "category": "oracle_services"
         },
         {
-          "providerId": "sp35",
+          "providerId": "sp_kinza_finance",
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp36",
-          "category": "dex_aggregator"
+          "providerId": "sp_1inch",
+          "category": "exchange/market_maker"
         },
         {
-          "providerId": "sp37",
-          "category": "dex_aggregator"
+          "providerId": "sp_cruve_finance",
+          "category": "exchange/market_maker"
         }
       ],
       "assets": [
@@ -330,6 +330,156 @@
         {
           "assetName": "wSTBT",
           "assetDescription": "Wrapped STBT token that allows for enhanced functionality and interoperability within the Matrixdock ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "proj_maple_finance",
+      "name": "Maple Finance",
+      "description": "Matrixdock is a platform that enables seamless swapping, allocation, and diversification of fully backed real-world asset tokens. By securely harnessing on-chain value, it empowers users to access risk-free yields and innovative investment opportunities.",
+      "website": "https://maple.finance/",
+      "icon": "https://cdn.prod.website-files.com/65d123ed4c76575a9e69648c/65db9e5db75bfd6e0a2a6065_maple-logo.png",
+      "serviceProviders": [
+        {
+          "providerId": "sp_fireblocks",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_room40",
+          "category": "asset_fund_management"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "MPL Token",
+          "assetDescription": "The **MPL token is Maple Finance's native governance and utility token. MPL holders can participate in governance, earn interest fees, and use MPL to provide Pool Cover, helping protect the platform against borrower defaults."
+        },
+        {
+          "assetName": "xMPL",
+          "assetDescription": "xMPL represents a staked version of MPL, where holders lock MPL tokens to earn additional rewards and participate in platform governance while supporting the Maple ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "proj_backed",
+      "name": "Backed",
+      "description": "Backed is a platform that tokenizes real-world assets (RWAs), including fixed-income assets and equities, to bring traditional investments on-chain.",
+      "website": "https://backed.fi/",
+      "icon": "https://backed.fi/favicon.ico",
+      "serviceProviders": [
+        {
+          "providerId": "sp_coinbase",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_circle",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_chainlink",
+          "category": "oracle_services"
+        },
+        {
+          "providerId": "sp_lukka",
+          "category": "on_chain_verification"
+        },
+        {
+          "providerId": "sp_b2c2",
+          "category": "exchange/market_maker"
+        },
+        {
+          "providerId": "sp_keyrock",
+          "category": "exchange/market_maker"
+        },
+        {
+          "providerId": "sp_monerium",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_sumsub",
+          "category": "kyc_aml_compliance"
+        },
+        {
+          "providerId": "sp_scorechain",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp_theter",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_flow_traders",
+          "category": "exchange/market_maker"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Backed Swiss Domestic Government Bond 0-3 (bCSBGC3)",
+          "assetDescription": "bCSBGC3 is a tokenized Swiss Domestic Government Bond with a maturity range of 0-3 years, offering exposure to Swiss government-backed assets."
+        },
+        {
+          "assetName": "Backed ZPR1 $ 1-3 Month T-Bill (bZPR1)",
+          "assetDescription": "bZPR1 is a tokenized U.S. Treasury Bill with a maturity range of 1-3 months, providing stable short-term yield denominated in USD."
+        },
+        {
+          "assetName": "Backed ERNX € Ultrashort Bond (bERNX)",
+          "assetDescription": "bERNX is a tokenized Euro-denominated ultrashort bond designed for low-risk, short-term exposure to Euro assets."
+        },
+        {
+          "assetName": "Backed ERNA $ Ultrashort Bond (bERNA)",
+          "assetDescription": "bERNA is a tokenized U.S. dollar-denominated ultrashort bond offering low-risk, short-term yield in USD."
+        },
+        {
+          "assetName": "Backed GOVIES 0-6 Months Euro Investment Grade (bC3M)",
+          "assetDescription": "bC3M is a tokenized Euro investment-grade bond with a 0-6 month maturity, targeting low-risk, high-quality corporate and government bonds."
+        },
+        {
+          "assetName": "Backed HIGH € High Yield Corp Bond (bHIGH)",
+          "assetDescription": "bHIGH is a tokenized Euro-denominated high-yield corporate bond, providing exposure to bonds with higher returns and associated risks."
+        },
+        {
+          "assetName": "Backed IB01 $ Treasury Bond 0-1yr (bIB01)",
+          "assetDescription": "bIB01 is a tokenized U.S. Treasury bond with a 0-1 year maturity, ideal for conservative investors seeking stable, short-term USD yield."
+        },
+        {
+          "assetName": "Backed IBTA $ Treasury Bond 1-3yr (bIBTA)",
+          "assetDescription": "bIBTA is a tokenized U.S. Treasury bond with a maturity range of 1-3 years, suited for medium-term USD exposure."
+        },
+        {
+          "assetName": "Backed Tesla (bTSLA)",
+          "assetDescription": "bTSLA is a tokenized equity representing shares of Tesla Inc., providing investors with on-chain exposure to this innovative automotive and energy company."
+        },
+        {
+          "assetName": "Backed MicroStrategy (bMSTR)",
+          "assetDescription": "bMSTR is a tokenized equity representing shares of MicroStrategy Inc., offering exposure to this business intelligence and cryptocurrency-focused company."
+        },
+        {
+          "assetName": "Backed Alphabet Class A (bGOOGL)",
+          "assetDescription": "bGOOGL is a tokenized equity representing Alphabet Inc. (Class A shares), providing on-chain access to the parent company of Google."
+        },
+        {
+          "assetName": "Backed Microsoft (bMSFT)",
+          "assetDescription": "bMSFT is a tokenized equity representing shares of Microsoft Corporation, giving investors on-chain exposure to this global technology leader."
+        },
+        {
+          "assetName": "Backed GameStop (bGME)",
+          "assetDescription": "bGME is a tokenized equity representing shares of GameStop Corp., a popular retail gaming company."
+        },
+        {
+          "assetName": "Backed NVIDIA (bNVDA)",
+          "assetDescription": "bNVDA is a tokenized equity representing shares of NVIDIA Corporation, providing access to the leading graphics processing and AI hardware company."
+        },
+        {
+          "assetName": "Backed Niu Technologies (bNIU)",
+          "assetDescription": "bNIU is a tokenized equity representing shares of Niu Technologies, a company focused on electric scooters and urban mobility solutions."
+        },
+        {
+          "assetName": "Backed Coinbase Global (bCOIN)",
+          "assetDescription": "bCOIN is a tokenized equity representing shares of Coinbase Global Inc., giving on-chain access to one of the largest cryptocurrency exchanges."
+        },
+        {
+          "assetName": "Backed CSPX Core S&P 500 (bCSPX)",
+          "assetDescription": "bCSPX is a tokenized index fund representing the Core S&P 500, allowing exposure to the 500 largest publicly traded companies in the U.S."
         }
       ]
     }

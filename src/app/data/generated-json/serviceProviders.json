@@ -1,7 +1,7 @@
 {
   "serviceProviders": [
     {
-      "id": "sp1",
+      "id": "sp_fireblocks",
       "name": "Fireblocks",
       "website": "https://www.fireblocks.com/",
       "description": "A platform providing secure digital asset custody and transfer solutions.",
@@ -14,7 +14,8 @@
         {
           "category": "digital_asset_custody",
           "projects": [
-            "proj_mountain_protocol"
+            "proj_mountain_protocol",
+            "proj_maple_finance"
           ]
         },
         {
@@ -27,7 +28,7 @@
       ]
     },
     {
-      "id": "sp2",
+      "id": "sp_open_zeppelin",
       "name": "OpenZeppelin",
       "website": "https://www.openzeppelin.com/",
       "description": "A company specializing in smart contract security audits and blockchain development frameworks.",
@@ -45,7 +46,7 @@
       ]
     },
     {
-      "id": "sp3",
+      "id": "sp_network_firm",
       "name": "The Network Firm",
       "website": "https://www.thenetworkfirm.com/",
       "description": "An auditing firm providing comprehensive financial audit and assurance services.",
@@ -63,7 +64,7 @@
       ]
     },
     {
-      "id": "sp4",
+      "id": "sp_coinbase",
       "name": "Coinbase",
       "website": "https://www.coinbase.com",
       "description": "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping.",
@@ -77,13 +78,14 @@
           "projects": [
             "proj_mountain_protocol",
             "proj_openeden",
-            "proj_midas"
+            "proj_midas",
+            "proj_backed"
           ]
         }
       ]
     },
     {
-      "id": "sp5",
+      "id": "sp_chainalysis",
       "name": "Chainalysis",
       "website": "https://www.chainalysis.com/",
       "description": "Blockchain analytics company providing solutions for compliance and risk management.",
@@ -102,7 +104,7 @@
       ]
     },
     {
-      "id": "sp6",
+      "id": "sp_eq_capital",
       "name": "EQ Capital",
       "website": "https://equilibriacapital.com/",
       "description": "Investment management firm specializing in portfolio optimization and wealth management.",
@@ -120,7 +122,7 @@
       ]
     },
     {
-      "id": "sp7",
+      "id": "sp_carey_olsen",
       "name": "Carey Olsen",
       "website": "https://www.careyolsen.com/",
       "description": "Offshore law firm specializing in corporate, funds, trusts, and private client services.",
@@ -138,7 +140,7 @@
       ]
     },
     {
-      "id": "sp8",
+      "id": "sp_steakhouse_financial",
       "name": "Steakhouse Financial",
       "website": "https://www.steakhouse.financial/",
       "description": "Provides third-party financial signing services for secure transactions.",
@@ -156,7 +158,7 @@
       ]
     },
     {
-      "id": "sp9",
+      "id": "sp_nephos",
       "name": "Nephos",
       "website": "https://nephosgroup.co/",
       "description": "Offers verification and attestation services for financial statements and compliance.",
@@ -174,7 +176,7 @@
       ]
     },
     {
-      "id": "sp10",
+      "id": "sp_ernst_young_llp",
       "name": "Ernst & Young LLP",
       "website": "https://www.ey.com/",
       "description": "A multinational professional services firm providing auditing, tax, and advisory services.",
@@ -193,7 +195,7 @@
       ]
     },
     {
-      "id": "sp11",
+      "id": "sp_umb",
       "name": "UMB Bank, N.A.",
       "website": "https://www.umb.com/",
       "description": "Provides custodial services for safeguarding financial assets.",
@@ -211,7 +213,7 @@
       ]
     },
     {
-      "id": "sp12",
+      "id": "sp_nav_fund_services",
       "name": "NAV Fund Services",
       "website": "https://www.navfundservices.com/",
       "description": "NAV calculation services for accurately determining asset values.",
@@ -230,7 +232,7 @@
       ]
     },
     {
-      "id": "sp13",
+      "id": "sp_superstate",
       "name": "Superstate Inc.",
       "website": "https://superstate.co/",
       "description": "Provides innovative investment management solutions tailored to institutional needs.",
@@ -248,7 +250,7 @@
       ]
     },
     {
-      "id": "sp14",
+      "id": "sp_federated_hermes",
       "name": "Federated Hermes, Inc.",
       "website": "https://www.federatedhermes.com/",
       "description": "Acts as a sub-advisor providing specialized investment insights and strategies.",
@@ -266,7 +268,7 @@
       ]
     },
     {
-      "id": "sp15",
+      "id": "sp_financial_services_commision",
       "name": "Financial Services Commission (FSC)",
       "website": "https://www.bvifsc.vg/",
       "description": "Regulatory authority overseeing financial services.",
@@ -284,7 +286,7 @@
       ]
     },
     {
-      "id": "sp16",
+      "id": "sp_harneys",
       "name": "Harneys",
       "website": "https://www.harneys.com/",
       "description": "Global offshore law firm providing legal and fiduciary services.",
@@ -302,7 +304,7 @@
       ]
     },
     {
-      "id": "sp17",
+      "id": "sp_elliptic",
       "name": "Elliptic",
       "website": "https://www.elliptic.co/",
       "description": "Blockchain analytics and cryptocurrency risk management.",
@@ -320,7 +322,7 @@
       ]
     },
     {
-      "id": "sp18",
+      "id": "sp_lymon",
       "name": "Lymon",
       "website": "https://www.lymon.com.sg/",
       "description": "Consultancy firm providing financial and legal advisory services.",
@@ -338,7 +340,7 @@
       ]
     },
     {
-      "id": "sp19",
+      "id": "sp_circle",
       "name": "Circle",
       "website": "https://www.circle.com/",
       "description": "A global financial technology firm that provides internet-based payment and treasury infrastructure.",
@@ -350,13 +352,14 @@
         {
           "category": "onramp",
           "projects": [
-            "proj_openeden"
+            "proj_openeden",
+            "proj_backed"
           ]
         }
       ]
     },
     {
-      "id": "sp20",
+      "id": "sp_kpmg",
       "name": "KPMG",
       "website": "https://home.kpmg/",
       "description": "A global network of professional services firms providing audit, tax, and advisory services.",
@@ -374,7 +377,7 @@
       ]
     },
     {
-      "id": "sp21",
+      "id": "sp_protege_fund_services",
       "name": "Protege Fund Services",
       "website": "https://www.protegefs.com/",
       "description": "Fund administration services, including financial reporting and valuation.",
@@ -392,7 +395,7 @@
       ]
     },
     {
-      "id": "sp22",
+      "id": "sp_state_street",
       "name": "State Street",
       "website": "https://www.statestreet.com/",
       "description": "A leading provider of financial services to institutional investors, including investment servicing and management.",
@@ -410,7 +413,7 @@
       ]
     },
     {
-      "id": "sp23",
+      "id": "sp_stonex",
       "name": "StoneX",
       "website": "https://www.stonex.com/",
       "description": "A global financial services network providing execution, clearing, and advisory services.",
@@ -436,7 +439,7 @@
       ]
     },
     {
-      "id": "sp24",
+      "id": "sp_chainlink",
       "name": "Chainlink",
       "website": "https://chain.link/",
       "description": "Provider of decentralized oracle networks to securely connect smart contracts with external data.",
@@ -449,13 +452,14 @@
           "category": "oracle_services",
           "projects": [
             "proj_openeden",
-            "proj_matrixdock"
+            "proj_matrixdock",
+            "proj_backed"
           ]
         }
       ]
     },
     {
-      "id": "sp25",
+      "id": "sp_lseg",
       "name": "London Stock Exchange Group (LSEG)",
       "website": "https://www.lseg.com/",
       "description": "Global financial markets infrastructure and data provider.",
@@ -473,7 +477,7 @@
       ]
     },
     {
-      "id": "sp26",
+      "id": "sp_moody",
       "name": "Moody's",
       "website": "https://www.moodys.com/",
       "description": "Global integrated risk assessment firm providing credit ratings, research, and risk analysis.",
@@ -491,7 +495,7 @@
       ]
     },
     {
-      "id": "sp27",
+      "id": "sp_black_rock",
       "name": "BlackRock",
       "website": "https://www.blackrock.com/",
       "description": "A global investment management corporation that manages assets and provides investment services.",
@@ -510,7 +514,7 @@
       ]
     },
     {
-      "id": "sp28",
+      "id": "sp_ankura",
       "name": "Ankura Trust Company",
       "website": "https://www.ankuratrust.com/",
       "description": "A leading provider of custodial services for managing assets.",
@@ -529,7 +533,7 @@
       ]
     },
     {
-      "id": "sp29",
+      "id": "sp_trail_of_bits",
       "name": "Trail of Bits",
       "website": "https://www.trailofbits.com/",
       "description": "Provides security audits and assessments for smart contracts and blockchain applications.",
@@ -547,7 +551,7 @@
       ]
     },
     {
-      "id": "sp30",
+      "id": "sp_quantstamp",
       "name": "Quantstamp",
       "website": "https://quantstamp.com/",
       "description": "Provides security audits for smart contracts and blockchain projects.",
@@ -565,7 +569,7 @@
       ]
     },
     {
-      "id": "sp31",
+      "id": "sp_immunefi",
       "name": "Immunefi",
       "website": "https://immunefi.com/",
       "description": "Offers bug bounty programs and security audits for decentralized applications.",
@@ -583,7 +587,7 @@
       ]
     },
     {
-      "id": "sp32",
+      "id": "sp_bnp_paribas",
       "name": "BNP Paribas",
       "website": "https://group.bnpparibas/",
       "description": "A leading global bank providing financial services and investment solutions.",
@@ -601,7 +605,7 @@
       ]
     },
     {
-      "id": "sp33",
+      "id": "sp_chronicle",
       "name": "Chronicle",
       "website": "https://chroniclelabs.org/",
       "description": "Provider of on-chain verification solutions.",
@@ -619,7 +623,7 @@
       ]
     },
     {
-      "id": "sp34",
+      "id": "sp_lukka",
       "name": "Lukka",
       "website": "https://www.lukka.tech/",
       "description": "Provides cryptocurrency data services for tax, accounting, and compliance.",
@@ -631,13 +635,14 @@
         {
           "category": "on_chain_verification",
           "projects": [
-            "proj_midas"
+            "proj_midas",
+            "proj_backed"
           ]
         }
       ]
     },
     {
-      "id": "sp35",
+      "id": "sp_kinza_finance",
       "name": "Kinza Finance",
       "website": "https://www.kinzafinance.com/",
       "description": "A decentralized lending platform that allows users to stake real-world asset tokens for over-collateralized lending.",
@@ -655,17 +660,17 @@
       ]
     },
     {
-      "id": "sp36",
+      "id": "sp_1inch",
       "name": "1inch",
       "website": "https://1inch.io/",
       "description": "A DEX aggregator that finds the best prices for token swaps by routing trades across multiple decentralized exchanges.",
       "icon": "https://www.matrixdock.com/images/logo_1inch.svg",
       "categories": [
-        "dex_aggregator"
+        "exchange/market_maker"
       ],
       "projects": [
         {
-          "category": "dex_aggregator",
+          "category": "exchange/market_maker",
           "projects": [
             "proj_matrixdock"
           ]
@@ -673,19 +678,163 @@
       ]
     },
     {
-      "id": "sp37",
+      "id": "sp_cruve_finance",
       "name": "Curve Finance",
       "website": "https://curve.fi/",
       "description": "A decentralized exchange optimized for stablecoin trading, providing liquidity for various token pairs.",
       "icon": "https://www.matrixdock.com/_next/image?url=%2Fimages%2Flogo_curve.png&w=128&q=75",
       "categories": [
-        "dex_aggregator"
+        "exchange/market_maker"
       ],
       "projects": [
         {
-          "category": "dex_aggregator",
+          "category": "exchange/market_maker",
           "projects": [
             "proj_matrixdock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_b2c2",
+      "name": "B2C2",
+      "website": "https://b2c2.com/",
+      "description": "B2C2 is a peer-to-peer (P2P) cryptocurrency exchange facilitating direct trading between individuals without an intermediary.",
+      "icon": "https://cdn.prod.website-files.com/6140ac854c72f30bea35cc50/6141df3a4a83e8b66c12c8e3_logo-817322.svg",
+      "categories": [
+        "exchange/market_maker"
+      ],
+      "projects": [
+        {
+          "category": "exchange/market_maker",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_keyrock",
+      "name": "Keyrock",
+      "website": "https://keyrock.eu/",
+      "description": "Keyrock is a digital asset market maker offering scalable and adaptable liquidity solutions to marketplaces and asset issuers across 85+ centralized and decentralized trading venues.",
+      "icon": "",
+      "categories": [
+        "exchange/market_maker"
+      ],
+      "projects": [
+        {
+          "category": "exchange/market_maker",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_monerium",
+      "name": "Monerium",
+      "website": "https://monerium.com/",
+      "description": "Monerium issues EURe, the first fully authorized and regulated euro stablecoin.",
+      "icon": "https://monerium.com/imges/monerium-logo.png",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
+        {
+          "category": "onramp",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_sumsub",
+      "name": "Sumsub",
+      "website": "https://sumsub.com/",
+      "description": "SumSub is a Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance platform specializing in identity verification for cryptocurrency businesses.",
+      "icon": "",
+      "categories": [
+        "kyc_aml_compliance"
+      ],
+      "projects": [
+        {
+          "category": "kyc_aml_compliance",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_scorechain",
+      "name": "Scorechain",
+      "website": "https://scorechain.com/",
+      "description": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
+      "icon": "https://cdn.prod.website-files.com/654506076ba62ddb88e1876a/65450a5621f5872f324f12da_Logo_horizontal.svg",
+      "categories": [
+        "blockchain_analytics"
+      ],
+      "projects": [
+        {
+          "category": "blockchain_analytics",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_theter",
+      "name": "Tether",
+      "website": "https://tether.tkyc_aml_complianceo/",
+      "description": "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space.",
+      "icon": "",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
+        {
+          "category": "onramp",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_flow_traders",
+      "name": "FlowTraders",
+      "website": "https://www.flowtraders.com/",
+      "description": "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors.",
+      "icon": "https://www.flowtraders.com/media/4q4ht1x1/logo.png",
+      "categories": [
+        "exchange/market_maker"
+      ],
+      "projects": [
+        {
+          "category": "exchange/market_maker",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_room40",
+      "name": "Room40",
+      "website": "https://www.room40.capital/",
+      "description": "Room40 is an institutional investment firm that manages a portfolio of U.S. Treasury bills and reverse repurchase agreements for the Cash Management Pool.",
+      "icon": "",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_maple_finance"
           ]
         }
       ]
