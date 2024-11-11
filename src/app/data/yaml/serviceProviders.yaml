@@ -1,5 +1,5 @@
 serviceProviders:
-  - id: sp1
+  - id: sp_fireblocks
     name: "Fireblocks"
     website: "https://www.fireblocks.com/"
     description: "A platform providing secure digital asset custody and transfer solutions."
@@ -10,8 +10,11 @@ serviceProviders:
       - category: digital_asset_custody
         projects:
           - proj_mountain_protocol
+          - proj_maple_finance
+          - proj_pvo1
+          - proj_midas
 
-  - id: sp2
+  - id: sp_open_zeppelin
     name: "OpenZeppelin"
     website: "https://www.openzeppelin.com/"
     description: "A company specializing in smart contract security audits and blockchain development frameworks."
@@ -23,7 +26,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp3
+  - id: sp_network_firm
     name: "The Network Firm"
     website: "https://www.thenetworkfirm.com/"
     description: "An auditing firm providing comprehensive financial audit and assurance services."
@@ -35,7 +38,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp4
+  - id: sp_coinbase
     name: "Coinbase"
     website: "https://www.coinbase.com"
     description: "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping."
@@ -46,9 +49,11 @@ serviceProviders:
       - category: onramp
         projects:
           - proj_mountain_protocol
-          - proj_openeden  
+          - proj_openeden 
+          - proj_midas 
+          - proj_backed
 
-  - id: sp5
+  - id: sp_chainalysis
     name: "Chainalysis"
     website: "https://www.chainalysis.com/"
     description: "Blockchain analytics company providing solutions for compliance and risk management."
@@ -59,8 +64,9 @@ serviceProviders:
       - category: blockchain_analytics
         projects:
           - proj_mountain_protocol
+          - proj_pvo1
 
-  - id: sp6
+  - id: sp_eq_capital
     name: "EQ Capital"
     website: "https://equilibriacapital.com/"
     description: "Investment management firm specializing in portfolio optimization and wealth management."
@@ -72,7 +78,7 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp7
+  - id: sp_carey_olsen
     name: "Carey Olsen"
     website: "https://www.careyolsen.com/"
     description: "Offshore law firm specializing in corporate, funds, trusts, and private client services."
@@ -84,31 +90,31 @@ serviceProviders:
         projects:
           - proj_mountain_protocol
 
-  - id: sp8
+  - id: sp_steakhouse_financial
     name: "Steakhouse Financial"
     website: "https://www.steakhouse.financial/"
     description: "Provides third-party financial signing services for secure transactions."
     icon: "https://cdn.prod.website-files.com/64417c135e8f73a5226e04f3/6446e4e5854a09fc1db8fb78_steakhouse-logo.svg"
     categories:
-      - third_party_signing
+      - auditor
     projects:
-      - category: third_party_signing
+      - category: auditor
         projects:
           - proj_mountain_protocol
 
-  - id: sp9
-    name: "Nephos"
+  - id: sp_nephos
+    name: "Nephos(Attestation)"
     website: "https://nephosgroup.co/"
     description: "Offers verification and attestation services for financial statements and compliance."
     icon: "https://nephosgroup.co/images/logos/group_n.svg"
     categories:
-      - attestations
+      - auditor
     projects:
-      - category: attestations
+      - category: auditor
         projects:
           - proj_mountain_protocol
 
-  - id: sp10
+  - id: sp_ernst_young_llp
     name: "Ernst & Young LLP"
     website: "https://www.ey.com/"
     description: "A multinational professional services firm providing auditing, tax, and advisory services."
@@ -120,7 +126,7 @@ serviceProviders:
         projects:
           - proj_openeden
           - proj_superstate
-  - id: sp11
+  - id: sp_umb
     name: "UMB Bank, N.A."
     website: "https://www.umb.com/"
     description: "Provides custodial services for safeguarding financial assets."
@@ -132,19 +138,20 @@ serviceProviders:
         projects:
           - proj_superstate
 
-  - id: sp12
-    name: "NAV Fund Services"
+  - id: sp_nav_fund_services
+    name: "NAV Fund Services(Nav Calculation Agent)"
     website: "https://www.navfundservices.com/"
     description: "NAV calculation services for accurately determining asset values."
     icon: "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75"
     categories:
-      - nav_calculation_agent
+      - auditor
     projects:
-      - category: nav_calculation_agent
+      - category: audiotr
         projects:
           - proj_superstate
+          - proj_ondo_finance
 
-  - id: sp13
+  - id: sp_superstate
     name: "Superstate Inc."
     website: "https://superstate.co/"
     description: "Provides innovative investment management solutions tailored to institutional needs."
@@ -156,19 +163,19 @@ serviceProviders:
         projects:
           - proj_superstate
 
-  - id: sp14
+  - id: sp_federated_hermes
     name: "Federated Hermes, Inc."
     website: "https://www.federatedhermes.com/"
     description: "Acts as a sub-advisor providing specialized investment insights and strategies."
     icon: "https://www.hermes-investment.com/uploads/2022/04/d3398e103581f8f0a06845c0a5074074/logo_hermes-mainsite.svg"
     categories:
-      - sub_advisor
+      - asset_fund_management
     projects:
-      - category: sub_advisor
+      - category: asset_fund_management
         projects:
           - proj_superstate
 
-  - id: sp15
+  - id: sp_financial_services_commision
     name: "Financial Services Commission (FSC)"
     website: "https://www.bvifsc.vg/"
     description: "Regulatory authority overseeing financial services."
@@ -180,7 +187,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp16
+  - id: sp_harneys
     name: "Harneys"
     website: "https://www.harneys.com/"
     description: "Global offshore law firm providing legal and fiduciary services."
@@ -192,7 +199,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp17
+  - id: sp_elliptic
     name: "Elliptic"
     website: "https://www.elliptic.co/"
     description: "Blockchain analytics and cryptocurrency risk management."
@@ -204,7 +211,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp18
+  - id: sp_lymon
     name: "Lymon"
     website: "https://www.lymon.com.sg/"
     description: "Consultancy firm providing financial and legal advisory services."
@@ -216,7 +223,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp19
+  - id: sp_circle
     name: "Circle"
     website: "https://www.circle.com/"
     description: "A global financial technology firm that provides internet-based payment and treasury infrastructure."
@@ -227,8 +234,9 @@ serviceProviders:
       - category: onramp
         projects:
           - proj_openeden
+          - proj_backed
 
-  - id: sp20
+  - id: sp_kpmg
     name: "KPMG"
     website: "https://home.kpmg/"
     description: "A global network of professional services firms providing audit, tax, and advisory services."
@@ -240,7 +248,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp21
+  - id: sp_protege_fund_services
     name: "Protege Fund Services"
     website: "https://www.protegefs.com/"
     description: "Fund administration services, including financial reporting and valuation."
@@ -252,7 +260,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp22
+  - id: sp_state_street
     name: "State Street"
     website: "https://www.statestreet.com/"
     description: "A leading provider of financial services to institutional investors, including investment servicing and management."
@@ -264,18 +272,23 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp23
+  - id: sp_stonex
     name: "StoneX"
     website: "https://www.stonex.com/"
     description: "A global financial services network providing execution, clearing, and advisory services."
     icon: "https://www.stonex.com/en/-/media/project/gain-capital/stonex/stonex-main/logos/stonex-logo-black.svg?iar=0&extension=webp&hash=CB5E65DCC6F52A6D4CC15E709B73C6C3" # Add the URL to StoneX's logo if available
     categories:
       - asset_fund_management
+      - custodian
     projects:
       - category: asset_fund_management
         projects:
           - proj_openeden
-  - id: sp24
+      - category: custodian
+        projects:
+          - proj_pvo1
+          - proj_ondo_finance
+  - id: sp_chainlink
     name: "Chainlink"
     website: "https://chain.link/"
     description: "Provider of decentralized oracle networks to securely connect smart contracts with external data."
@@ -286,8 +299,10 @@ serviceProviders:
       - category: oracle_services
         projects:
           - proj_openeden
+          - proj_matrixdock
+          - proj_backed
 
-  - id: sp25
+  - id: sp_lseg
     name: "London Stock Exchange Group (LSEG)"
     website: "https://www.lseg.com/"
     description: "Global financial markets infrastructure and data provider."
@@ -299,7 +314,7 @@ serviceProviders:
         projects:
           - proj_openeden
 
-  - id: sp26
+  - id: sp_moody
     name: "Moody's"
     website: "https://www.moodys.com/"
     description: "Global integrated risk assessment firm providing credit ratings, research, and risk analysis."
@@ -310,3 +325,209 @@ serviceProviders:
       - category: credit_rating
         projects:
           - proj_openeden
+  - id: sp_black_rock
+    name: "BlackRock"
+    website: "https://www.blackrock.com/"
+    description: "A global investment management corporation that manages assets and provides investment services."
+    icon: "https://www.blackrock.com/blk-corp-assets/cache-1542297736000/images/media-bin/web/global/wordmark/blackrock-logo-nav.svg"
+    categories:
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_ondo_finance
+          - proj_midas
+
+  - id: sp_ankura
+    name: "Ankura Trust Company"
+    website: "https://www.ankuratrust.com/"
+    description: "A leading provider of custodial services for managing assets."
+    icon: "https://ankuratrust.com/wp-content/themes/ankuratrust/assets/images/logo-ankura-trust-company.svg"
+    categories:
+      - custodian
+    projects:
+      - category: custodian
+        projects:
+          - proj_ondo_finance
+          - proj_midas
+
+  - id: sp_trail_of_bits
+    name: "Trail of Bits"
+    website: "https://www.trailofbits.com/"
+    description: "Provides security audits and assessments for smart contracts and blockchain applications."
+    icon: "https://ondo.finance/images/trail-of-bits.svg"
+    categories:
+      - smart_contract_audit
+    projects:
+      - category: smart_contract_audit
+        projects:
+          - proj_ondo_finance
+
+  - id: sp_quantstamp
+    name: "Quantstamp"
+    website: "https://quantstamp.com/"
+    description: "Provides security audits for smart contracts and blockchain projects."
+    icon: "https://ondo.finance/images/auditors/quantstamp.svg"
+    categories:
+      - smart_contract_audit
+    projects:
+      - category: smart_contract_audit
+        projects:
+          - proj_ondo_finance
+
+  - id: sp_immunefi
+    name: "Immunefi"
+    website: "https://immunefi.com/"
+    description: "Offers bug bounty programs and security audits for decentralized applications."
+    icon: "https://immunefi.com/images/logo-gradient.svg"
+    categories:
+      - smart_contract_audit
+    projects:
+      - category: smart_contract_audit
+        projects:
+          - proj_ondo_finance
+  
+  - id: sp_bnp_paribas
+    name: "BNP Paribas"
+    website: "https://group.bnpparibas/"
+    description: "A leading global bank providing financial services and investment solutions."
+    icon: "https://cdn-group.bnpparibas.com/build/images/logo-bnp.svg"
+    categories:
+      - custodian
+    projects:
+      - category: custodian
+        projects:
+          - proj_pvo1
+  
+  - id: sp_chronicle
+    name: "Chronicle"
+    website: "https://chroniclelabs.org/"
+    description: "Provider of on-chain verification solutions."
+    icon: "https://docs.chroniclelabs.org/img/logo.png"
+    categories:
+      - oracle_services
+    projects:
+      - category: oracle_services
+        projects:
+          - proj_midas
+
+  - id: sp_lukka
+    name: "Lukka"
+    website: "https://www.lukka.tech/"
+    description: "Provides cryptocurrency data services for tax, accounting, and compliance."
+    icon: "https://midas.app/assets/lukka-CjejnJlI.png"
+    categories:
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_midas
+          - proj_backed
+  
+  - id: sp_kinza_finance
+    name: "Kinza Finance"
+    website: "https://www.kinzafinance.com/"
+    description: "A decentralized lending platform that allows users to stake real-world asset tokens for over-collateralized lending."
+    icon: "https://www.matrixdock.com/images/logo_kinza.svg"
+    categories:
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_matrixdock
+
+  - id: sp_b2c2
+    name: "B2C2"
+    website: "https://b2c2.com/"
+    description: "B2C2 is a peer-to-peer (P2P) cryptocurrency exchange facilitating direct trading between individuals without an intermediary."
+    icon: "https://cdn.prod.website-files.com/6140ac854c72f30bea35cc50/6141df3a4a83e8b66c12c8e3_logo-817322.svg"
+    categories:
+      - exchange/market_maker
+    projects:
+      - category: exchange/market_maker
+        projects:
+          - proj_backed
+  
+  - id: sp_keyrock
+    name: "Keyrock"
+    website: "https://keyrock.eu/"
+    description: "Keyrock is a digital asset market maker offering scalable and adaptable liquidity solutions to marketplaces and asset issuers across 85+ centralized and decentralized trading venues."
+    icon: ""
+    categories:
+      - exchange/market_maker
+    projects:
+      - category: exchange/market_maker
+        projects:
+          - proj_backed
+  
+  - id: sp_monerium
+    name: "Monerium"
+    website: "https://monerium.com/"
+    description: "Monerium issues EURe, the first fully authorized and regulated euro stablecoin."
+    icon: "https://monerium.com/imges/monerium-logo.png" # Replace with actual icon URL if available
+    categories:
+      - onramp
+    projects:
+      - category: onramp
+        projects:
+          - proj_backed
+  
+  - id: sp_sumsub
+    name: "Sumsub"
+    website: "https://sumsub.com/"
+    description: "SumSub is a Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance platform specializing in identity verification for cryptocurrency businesses."
+    icon: ""
+    categories:
+      - kyc_aml_compliance
+    projects:
+      - category: kyc_aml_compliance
+        projects:
+          - proj_backed
+
+  - id: sp_scorechain
+    name: "Scorechain"
+    website: "https://scorechain.com/"
+    description: "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities."
+    icon: "https://cdn.prod.website-files.com/654506076ba62ddb88e1876a/65450a5621f5872f324f12da_Logo_horizontal.svg" # Replace with actual icon URL if available
+    categories:
+      - blockchain_analytics
+    projects:
+      - category: blockchain_analytics
+        projects:
+          - proj_backed
+  
+  - id: sp_theter
+    name: "Tether"
+    website: "https://tether.tkyc_aml_complianceo/"
+    description: "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space."
+    icon: ""
+    categories:
+      - onramp
+    projects:
+      - category: onramp
+        projects:
+          - proj_backed
+  
+  - id: sp_flow_traders
+    name: "FlowTraders"
+    website: "https://www.flowtraders.com/"
+    description: "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors."
+    icon: "https://www.flowtraders.com/media/4q4ht1x1/logo.png"
+    categories:
+      - exchange/market_maker
+    projects:
+      - category: exchange/market_maker
+        projects:
+          - proj_backed
+  
+  - id: sp_room40
+    name: "Room40"
+    website: "https://www.room40.capital/"
+    description: "Room40 is an institutional investment firm that manages a portfolio of U.S. Treasury bills and reverse repurchase agreements for the Cash Management Pool."
+    icon: ""
+    categories:
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_maple_finance

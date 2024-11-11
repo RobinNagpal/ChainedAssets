@@ -23,7 +23,10 @@ export default function ServiceProvidersList() {
                 href={`/service-providers/${serviceProvider.id}`}
                 className="text-blue-600 hover:underline"
               >
-                <p className="text-lg">{serviceProvider.name}</p>
+                <p className="text-lg">
+                  {serviceProvider.name}
+                  {serviceProvider.icon && <img src={serviceProvider.icon}
+              className="h-8 w-max-16 rounded"></img>}</p>
               </Link>
             </div>
 

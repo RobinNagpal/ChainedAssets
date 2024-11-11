@@ -9,7 +9,7 @@ const categories:Category[] = categoriesData.categories
 const serviceProviders: ServiceProvider[]=serviceProvidersData.serviceProviders
 export default function CategoriesList() {
   return (
-    <div className="m-4 w-full max-w-6xl rounded-lg border border-gray-700 bg-slate-200 p-6 shadow-md">
+    <div className="w-full pt-6">
       <ul role="list" className="w-full divide-y divide-gray-200">
         {categories.map((category) => (
           <li
