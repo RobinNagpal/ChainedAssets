@@ -20,9 +20,9 @@ projects:
       - providerId: sp_carey_olsen
         category: offshore_representation
       - providerId: sp_steakhouse_financial
-        category: third_party_signing
+        category: auditor
       - providerId: sp_nephos
-        category: attestations
+        category: auditor
     assets:
       - assetName: USDM Token
         assetDescription: A stablecoin that has been added to CurveFinance's crvUSD PegKeeper module
@@ -40,11 +40,11 @@ projects:
       - providerId: sp_umb
         category: custodian
       - providerId: sp_nav_fund_services
-        category: nav_calculation_agent
+        category: auditor
       - providerId: sp_superstate
         category: asset_fund_management
       - providerId: sp_federated_hermes
-        category: sub_advisor
+        category: asset_fund_management
     assets:
       - assetName: USTB
         assetDescription: The Superstate Short Duration US Government Securities Fund (the “Fund”) offers Qualified Purchasers access to short-duration Treasury Bills.
@@ -97,7 +97,7 @@ projects:
       - providerId: sp_black_rock
         category: asset_fund_management
       - providerId: sp_nav_fund_services
-        category: nav_calculation_agent
+        category: auditor
       - providerId: sp_stonex
         category: custodian
       - providerId: sp_ankura
@@ -121,7 +121,7 @@ projects:
     icon: ""
     serviceProviders:
       - providerId: sp_fireblocks
-        category: on_chain_security
+        category: digital_asset_custody
       - providerId: sp_chainalysis
         category: blockchain_analytics
       - providerId: sp_stonex
@@ -144,13 +144,13 @@ projects:
       - providerId: sp_black_rock
         category: asset_fund_management
       - providerId: sp_fireblocks
-        category: on_chain_security  
+        category: digital_asset_custody
       - providerId: sp_ankura
         category: custodian  
       - providerId: sp_chronicle
-        category: on_chain_verification  
+        category: oracle_services
       - providerId: sp_lukka
-        category: on_chain_verification
+        category: asset_fund_management
     assets:
       - assetName: "mBTC"
         assetDescription: "Midas's Bitcoin product offering that provides a 4% BTC-denominated yield."
@@ -171,10 +171,6 @@ projects:
         category: oracle_services
       - providerId: sp_kinza_finance
         category: asset_fund_management
-      - providerId: sp_1inch
-        category: exchange/market_maker
-      - providerId: sp_cruve_finance
-        category: exchange/market_maker
     assets:
       - assetName: STBT Token
         assetDescription: Short-Term US Treasury Bill Token enables risk-free yields from U.S. Treasury securities and reverse repos. Pegged 1:1 to USD, interest is rebased to holders’ STBT balances daily.
@@ -212,7 +208,7 @@ projects:
       - providerId: sp_chainlink
         category: oracle_services
       - providerId: sp_lukka
-        category: on_chain_verification
+        category: asset_fund_management
       - providerId: sp_b2c2 
         category: exchange/market_maker
       - providerId: sp_keyrock

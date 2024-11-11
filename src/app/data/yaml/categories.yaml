@@ -17,6 +17,9 @@ categories:
       - sp_network_firm
       - sp_ernst_young_llp
       - sp_kpmg
+      - sp_steakhouse_financial
+      - sp_nav_fund_services
+      - sp_nephos
 
   - id: onramp
     name: Onramp
@@ -38,21 +41,13 @@ categories:
       - sp_black_rock
       - sp_kinza_finance
       - sp_room40
+      - sp_lukka
+      - sp_federated_hermes
 
   - id: offshore_representation
     name: Offshore Representation
     serviceProviders:
       - sp_carey_olsen
-
-  - id: third_party_signing
-    name: 3rd Party Signing
-    serviceProviders:
-      - sp_steakhouse_financial
-
-  - id: attestations
-    name: Attestations
-    serviceProviders:
-      - sp_nephos
 
   - id: custodian
     name: Custodian
@@ -61,16 +56,6 @@ categories:
       - sp_ankura
       - sp_trail_of_bits
       - sp_bnp_paribas
-
-  - id: nav_calculation_agent
-    name: NAV Calculation Agent
-    serviceProviders:
-      - sp_nav_fund_services
-
-  - id: sub_advisor
-    name: Sub-Advisor
-    serviceProviders:
-      - sp_federated_hermes
 
   - id: regulator
     name: Regulator
@@ -93,6 +78,7 @@ categories:
     name: Oracle Services
     serviceProviders:
       - sp_chainlink
+      - sp_chronicle
 
   - id: financial_infrastructure
     name: Financial Infrastructure
@@ -103,22 +89,10 @@ categories:
     name: Credit Rating
     serviceProviders:
       - sp_moody
-
-  - id: on_chain_security
-    name: On-Chain Security
-    serviceProviders:
-      - sp_fireblocks
-  - id: on_chain_verification
-    name: On-Chain Verification
-    serviceProviders:
-      - sp_chronicle
-      - sp_lukka
-
+     
   - id: exchange/market_maker
     name: Exchange/Market Maker
     serviceProviders:
-      - sp_1inch
-      - sp_cruve_finance
       - sp_b2c2
       - sp_keyrock
       - sp_flow_traders
