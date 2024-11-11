@@ -24,6 +24,8 @@ categories:
     serviceProviders:
       - sp4
       - sp19
+      - sp40
+      - sp43
 
   - id: asset_fund_management
     name: Asset/Fund Management 
@@ -35,6 +37,7 @@ categories:
       - sp22
       - sp23
       - sp35
+      - sp40
 
   - id: offshore_representation
     name: Offshore Representation
@@ -109,8 +112,16 @@ categories:
       - sp33
       - sp34
 
-  - id: dex_aggregator
-    name: DEX Aggregator
+  - id: exchange/market_maker
+    name: Exchange/Market Maker
     serviceProviders:
       - sp36
       - sp37
+      - sp38
+      - sp39
+      - sp44
+      
+  - id: kyc_aml_compliance
+    name: KYC/AML Compliance
+    serviceProviders:
+      - sp41

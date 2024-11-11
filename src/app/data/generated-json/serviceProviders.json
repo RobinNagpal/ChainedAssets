@@ -14,7 +14,8 @@
         {
           "category": "digital_asset_custody",
           "projects": [
-            "proj_mountain_protocol"
+            "proj_mountain_protocol",
+            "proj_maple_finance"
           ]
         },
         {
@@ -77,7 +78,8 @@
           "projects": [
             "proj_mountain_protocol",
             "proj_openeden",
-            "proj_midas"
+            "proj_midas",
+            "proj_backed"
           ]
         }
       ]
@@ -350,7 +352,8 @@
         {
           "category": "onramp",
           "projects": [
-            "proj_openeden"
+            "proj_openeden",
+            "proj_backed"
           ]
         }
       ]
@@ -449,7 +452,8 @@
           "category": "oracle_services",
           "projects": [
             "proj_openeden",
-            "proj_matrixdock"
+            "proj_matrixdock",
+            "proj_backed"
           ]
         }
       ]
@@ -631,7 +635,8 @@
         {
           "category": "on_chain_verification",
           "projects": [
-            "proj_midas"
+            "proj_midas",
+            "proj_backed"
           ]
         }
       ]
@@ -661,11 +666,11 @@
       "description": "A DEX aggregator that finds the best prices for token swaps by routing trades across multiple decentralized exchanges.",
       "icon": "https://www.matrixdock.com/images/logo_1inch.svg",
       "categories": [
-        "dex_aggregator"
+        "exchange/market_maker"
       ],
       "projects": [
         {
-          "category": "dex_aggregator",
+          "category": "exchange/market_maker",
           "projects": [
             "proj_matrixdock"
           ]
@@ -679,13 +684,157 @@
       "description": "A decentralized exchange optimized for stablecoin trading, providing liquidity for various token pairs.",
       "icon": "https://www.matrixdock.com/_next/image?url=%2Fimages%2Flogo_curve.png&w=128&q=75",
       "categories": [
-        "dex_aggregator"
+        "exchange/market_maker"
       ],
       "projects": [
         {
-          "category": "dex_aggregator",
+          "category": "exchange/market_maker",
           "projects": [
             "proj_matrixdock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp38",
+      "name": "B2C2",
+      "website": "https://b2c2.com/",
+      "description": "B2C2 is a peer-to-peer (P2P) cryptocurrency exchange facilitating direct trading between individuals without an intermediary.",
+      "icon": "https://cdn.prod.website-files.com/6140ac854c72f30bea35cc50/6141df3a4a83e8b66c12c8e3_logo-817322.svg",
+      "categories": [
+        "exchange/market_maker"
+      ],
+      "projects": [
+        {
+          "category": "exchange/market_maker",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp39",
+      "name": "Keyrock",
+      "website": "https://keyrock.eu/",
+      "description": "Keyrock is a digital asset market maker offering scalable and adaptable liquidity solutions to marketplaces and asset issuers across 85+ centralized and decentralized trading venues.",
+      "icon": "",
+      "categories": [
+        "exchange/market_maker"
+      ],
+      "projects": [
+        {
+          "category": "exchange/market_maker",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp40",
+      "name": "Monerium",
+      "website": "https://monerium.com/",
+      "description": "Monerium issues EURe, the first fully authorized and regulated euro stablecoin.",
+      "icon": "https://monerium.com/imges/monerium-logo.png",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
+        {
+          "category": "onramp",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp41",
+      "name": "Sumsub",
+      "website": "https://sumsub.com/",
+      "description": "SumSub is a Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance platform specializing in identity verification for cryptocurrency businesses.",
+      "icon": "",
+      "categories": [
+        "kyc_aml_compliance"
+      ],
+      "projects": [
+        {
+          "category": "kyc_aml_compliance",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp42",
+      "name": "Scorechain",
+      "website": "https://scorechain.com/",
+      "description": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
+      "icon": "https://cdn.prod.website-files.com/654506076ba62ddb88e1876a/65450a5621f5872f324f12da_Logo_horizontal.svg",
+      "categories": [
+        "blockchain_analytics"
+      ],
+      "projects": [
+        {
+          "category": "blockchain_analytics",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp43",
+      "name": "Tether",
+      "website": "https://tether.tkyc_aml_complianceo/",
+      "description": "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space.",
+      "icon": "",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
+        {
+          "category": "onramp",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp44",
+      "name": "FlowTraders",
+      "website": "https://www.flowtraders.com/",
+      "description": "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors.",
+      "icon": "https://www.flowtraders.com/media/4q4ht1x1/logo.png",
+      "categories": [
+        "exchange/market_maker"
+      ],
+      "projects": [
+        {
+          "category": "exchange/market_maker",
+          "projects": [
+            "proj_backed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp45",
+      "name": "Room40",
+      "website": "https://www.room40.capital/",
+      "description": "Room40 is an institutional investment firm that manages a portfolio of U.S. Treasury bills and reverse repurchase agreements for the Cash Management Pool.",
+      "icon": "",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_maple_finance"
           ]
         }
       ]
