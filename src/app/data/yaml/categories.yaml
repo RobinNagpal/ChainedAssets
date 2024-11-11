@@ -2,126 +2,128 @@ categories:
   - id: digital_asset_custody
     name: Digital Asset Custody
     serviceProviders:
-      - sp1
-      - sp29
-      - sp30
-      - sp31
+      - sp_fireblocks
+      - sp_quantstamp
+      - sp_immunefi
 
   - id: smart_contract_audit
     name: Smart Contract Audit
     serviceProviders:
-      - sp2
+      - sp_open_zeppelin
 
   - id: auditor
     name: Auditor
     serviceProviders:
-      - sp3
-      - sp10
-      - sp20
+      - sp_network_firm
+      - sp_ernst_young_llp
+      - sp_kpmg
 
   - id: onramp
     name: Onramp
     serviceProviders:
-      - sp4
-      - sp19
-      - sp40
-      - sp43
+      - sp_coinbase
+      - sp_circle
+      - sp_monerium
+      - sp_theter
 
   - id: asset_fund_management
     name: Asset/Fund Management 
     serviceProviders:
-      - sp6
-      - sp13
-      - sp18
-      - sp21
-      - sp22
-      - sp23
-      - sp35
-      - sp40
+      - sp_eq_capital
+      - sp_superstate
+      - sp_lymon
+      - sp_protege_fund_services
+      - sp_state_street
+      - sp_stonex
+      - sp_black_rock
+      - sp_kinza_finance
+      - sp_room40
 
   - id: offshore_representation
     name: Offshore Representation
     serviceProviders:
-      - sp7
+      - sp_carey_olsen
 
   - id: third_party_signing
     name: 3rd Party Signing
     serviceProviders:
-      - sp8
+      - sp_steakhouse_financial
 
   - id: attestations
     name: Attestations
     serviceProviders:
-      - sp9
+      - sp_nephos
 
   - id: custodian
     name: Custodian
     serviceProviders:
-      - sp11
-      - sp29
-      - sp32
+      - sp_umb
+      - sp_ankura
+      - sp_trail_of_bits
+      - sp_bnp_paribas
 
   - id: nav_calculation_agent
     name: NAV Calculation Agent
     serviceProviders:
-      - sp12
+      - sp_nav_fund_services
 
   - id: sub_advisor
     name: Sub-Advisor
     serviceProviders:
-      - sp14
+      - sp_federated_hermes
 
   - id: regulator
     name: Regulator
     serviceProviders:
-      - sp15
+      - sp_financial_services_commision
 
   - id: legal_services
     name: Legal Services
     serviceProviders:
-      - sp16
+      - sp_harneys
 
   - id: blockchain_analytics
     name: Blockchain Analytics
     serviceProviders:
-      - sp17
-      - sp5
+      - sp_elliptic
+      - sp_chainalysis
+      - sp_scorechain
 
   - id: oracle_services
     name: Oracle Services
     serviceProviders:
-      - sp24
+      - sp_chainlink
 
   - id: financial_infrastructure
     name: Financial Infrastructure
     serviceProviders:
-      - sp25
+      - sp_lseg
 
   - id: credit_rating
     name: Credit Rating
     serviceProviders:
-      - sp26
+      - sp_moody
 
   - id: on_chain_security
     name: On-Chain Security
     serviceProviders:
-      - sp1
+      - sp_fireblocks
   - id: on_chain_verification
     name: On-Chain Verification
     serviceProviders:
-      - sp33
-      - sp34
+      - sp_chronicle
+      - sp_lukka
 
   - id: exchange/market_maker
     name: Exchange/Market Maker
     serviceProviders:
-      - sp36
-      - sp37
-      - sp38
-      - sp39
-      - sp44
+      - sp_1inch
+      - sp_cruve_finance
+      - sp_b2c2
+      - sp_keyrock
+      - sp_flow_traders
       
   - id: kyc_aml_compliance
     name: KYC/AML Compliance
     serviceProviders:
-      - sp41
+      - sp_sumsub
