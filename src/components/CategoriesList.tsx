@@ -5,8 +5,9 @@ import { ServiceProvider } from '@/app/types/serviceProviders'
 
 import Link from 'next/link'
 
-const categories:Category[] = categoriesData.categories
-const serviceProviders: ServiceProvider[]=serviceProvidersData.serviceProviders
+const categories: Category[] = categoriesData.categories
+const serviceProviders: ServiceProvider[] =
+  serviceProvidersData.serviceProviders
 export default function CategoriesList() {
   return (
     <div className="w-full pt-6">
@@ -28,10 +29,8 @@ export default function CategoriesList() {
             </div>
 
             {/* Right-aligned Service Providers */}
-            <div className="flex w-full flex-col items-end text-right sm:w-auto rounded-lg">
-              <h4 className="py-2 px-2 text-lg font-semibold text-gray-900">
-                Service Providers
-              </h4>
+            <div className="flex w-full flex-col sm:w-1/2">
+              <h4 className="text-lg font-semibold">Service Providers</h4>
               <ul
                 role="list"
                 className="w-full divide-y divide-gray-100 sm:w-auto"
@@ -41,18 +40,27 @@ export default function CategoriesList() {
                     category.serviceProviders.includes(provider.id),
                   )
                   .map((matchingProvider) => (
-                    <li key={matchingProvider.id} className="py-2 w-72">
-                      <Link href={matchingProvider?.website!} target="_blank">
-                      <p className="px-2 text-lg font-medium text-gray-800">
-                        {matchingProvider?.name}
-                      </p>
-                      {matchingProvider?.icon &&
-                        <img
-                          src={matchingProvider?.icon}
-                          className="max-h-8 rounded "
-                          />}
-                        </Link>
-                    </li>
+                    <Link
+                      className="flex w-full justify-between"
+                      href={'/service-providers/' + matchingProvider?.id}
+                      key={matchingProvider.id}
+                    >
+                      <div key={matchingProvider.id}>
+                        <div className="flex flex-col items-center justify-center align-middle">
+                          <div className="flex justify-center align-middle">
+                            {matchingProvider?.icon && (
+                              <img
+                                src={matchingProvider?.icon}
+                                className="h-6 rounded"
+                              />
+                            )}
+                          </div>
+                          <div className="flex w-full justify-center align-middle text-sm font-medium">
+                            {matchingProvider?.name}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
                   ))}
               </ul>
             </div>

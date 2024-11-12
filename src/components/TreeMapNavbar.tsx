@@ -10,6 +10,7 @@ const navigation = [
   { name: 'Ecosystem Map', href: '/landscape' },
   { name: 'All Projects', href: '/projects' },
   { name: 'Service Providers', href: '/service-providers' },
+  { name: 'S.P. Categories', href: '/categories' },
   { name: 'Visit DoDAO', href: 'https://dodao.io/' },
 ]
 
