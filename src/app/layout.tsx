@@ -1,4 +1,4 @@
-import TreeMapNavbar from '@/components/TreeMapNavbar'
+import MainNavbar from '@/components/MainNavbar'
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 
@@ -59,7 +59,7 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-full flex-col">
-        <TreeMapNavbar />
+        <MainNavbar />
         <main>{children}</main>
       </body>
     </html>

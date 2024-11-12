@@ -10,11 +10,11 @@ const navigation = [
   { name: 'Ecosystem Map', href: '/landscape' },
   { name: 'All Projects', href: '/projects' },
   { name: 'Service Providers', href: '/service-providers' },
-  { name: 'S.P. Categories', href: '/categories' },
+  { name: 'Categories', href: '/categories' },
   { name: 'Visit DoDAO', href: 'https://dodao.io/' },
 ]
 
-export default function TreeMapNavbar() {
+export default function MainNavbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (

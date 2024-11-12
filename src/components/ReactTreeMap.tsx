@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
-import TreeMapNavbar from './TreeMapNavbar'
+import MainNavbar from 'src/components/MainNavbar'
 import { Tree, TreeNode, TreeLeaf } from '@/app/data'
 
 interface EcosystemMapProps {
@@ -13,7 +13,7 @@ interface EcosystemMapProps {
 const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
   const [modalData, setModalData] = useState<{
     name: string
-    id:string
+    id: string
     details: string
     link: string
     icon: string
@@ -46,7 +46,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
                             onClick={() => {
                               setModalData({
                                 name: item.name,
-                                id:item.id || '',
+                                id: item.id || '',
                                 details: item.details || '',
                                 link: item.link || '',
                                 icon: item.icon || '',

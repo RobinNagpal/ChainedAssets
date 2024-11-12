@@ -30,7 +30,6 @@ export default function CategoriesList() {
 
             {/* Right-aligned Service Providers */}
             <div className="flex w-full flex-col sm:w-1/2">
-              <h4 className="text-lg font-semibold">Service Providers</h4>
               <ul
                 role="list"
                 className="w-full divide-y divide-gray-100 sm:w-auto"
@@ -41,24 +40,23 @@ export default function CategoriesList() {
                   )
                   .map((matchingProvider) => (
                     <Link
-                      className="flex w-full justify-between"
+                      className="flex h-12 w-full justify-between align-middle"
                       href={'/service-providers/' + matchingProvider?.id}
                       key={matchingProvider.id}
                     >
-                      <div key={matchingProvider.id}>
-                        <div className="flex flex-col items-center justify-center align-middle">
-                          <div className="flex justify-center align-middle">
-                            {matchingProvider?.icon && (
-                              <img
-                                src={matchingProvider?.icon}
-                                className="h-6 rounded"
-                              />
-                            )}
-                          </div>
-                          <div className="flex w-full justify-center align-middle text-sm font-medium">
-                            {matchingProvider?.name}
-                          </div>
+                      <div
+                        className="mt-3 flex w-full justify-between align-middle"
+                        key={matchingProvider.id}
+                      >
+                        <div className="flex justify-center align-middle">
+                          {matchingProvider?.icon && (
+                            <img
+                              src={matchingProvider?.icon}
+                              className="h-6 rounded"
+                            />
+                          )}
                         </div>
+                        <div>{matchingProvider?.name}</div>
                       </div>
                     </Link>
                   ))}
