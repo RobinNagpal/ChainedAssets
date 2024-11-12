@@ -5,8 +5,6 @@
       "name": "Digital Asset Custody",
       "serviceProviders": [
         "sp_fireblocks",
-        "sp_quantstamp",
-        "sp_immunefi",
         "sp_komainu",
         "sp_anchorage",
         "sp_bit_go",
@@ -17,7 +15,10 @@
       "id": "smart_contract_audit",
       "name": "Smart Contract Audit",
       "serviceProviders": [
-        "sp_open_zeppelin"
+        "sp_open_zeppelin",
+        "sp_immunefi",
+        "sp_quantstamp",
+        "sp_trail_of_bits"
       ]
     },
     {
@@ -76,7 +77,6 @@
       "serviceProviders": [
         "sp_umb",
         "sp_ankura",
-        "sp_trail_of_bits",
         "sp_bnp_paribas"
       ]
     },
@@ -143,7 +143,7 @@
       "name": "KYC/AML Compliance",
       "serviceProviders": [
         "sp_sumsub",
-        "sp_lmo-consulting",
+        "sp_lmo_consulting",
         "sp_nav_consulting"
       ]
     }
