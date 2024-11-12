@@ -13,6 +13,7 @@ serviceProviders:
           - proj_maple_finance
           - proj_pvo1
           - proj_midas
+          - proj_securitize
 
   - id: sp_open_zeppelin
     name: "OpenZeppelin"
@@ -52,6 +53,7 @@ serviceProviders:
           - proj_openeden 
           - proj_midas 
           - proj_backed
+          - proj_libre_capital
 
   - id: sp_chainalysis
     name: "Chainalysis"
@@ -138,18 +140,27 @@ serviceProviders:
         projects:
           - proj_superstate
 
-  - id: sp_nav_fund_services
-    name: "NAV Fund Services(Nav Calculation Agent)"
+  - id: sp_nav_consulting
+    name: "NAV Consulting"
     website: "https://www.navfundservices.com/"
     description: "NAV calculation services for accurately determining asset values."
     icon: "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75"
     categories:
       - auditor
+      - kyc_aml_compliance
+      - asset_fund_management
     projects:
-      - category: audiotr
+      - category: kyc_aml_compliance
+        projects:
+          - proj_hashnote
+      - category: asset_fund_management
+        projects:
+          - proj_hashnote
+      - category: auditor
         projects:
           - proj_superstate
           - proj_ondo_finance
+          - proj_libre_capital
 
   - id: sp_superstate
     name: "Superstate Inc."
@@ -235,6 +246,8 @@ serviceProviders:
         projects:
           - proj_openeden
           - proj_backed
+          - proj_libre_capital
+          - proj_securitize
 
   - id: sp_kpmg
     name: "KPMG"
@@ -512,7 +525,7 @@ serviceProviders:
     name: "FlowTraders"
     website: "https://www.flowtraders.com/"
     description: "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors."
-    icon: "https://www.flowtraders.com/media/4q4ht1x1/logo.png"
+    icon: ""
     categories:
       - exchange/market_maker
     projects:
@@ -531,3 +544,135 @@ serviceProviders:
       - category: asset_fund_management
         projects:
           - proj_maple_finance
+
+  - id: sp_komainu
+    name: Komainu
+    website: "https://komainu.com/"
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2Fe4bbe5f2c5f04ba9b66a49178fc47988?format=webp&width=2000"
+    categories:
+      - digital_asset_custody
+    projects:
+      - category: digital_asset_custody
+        projects:
+          - proj_libre_capital
+          - proj_securitize
+  
+  - id: sp_copper
+    name: Copper
+    website: "https://copper.co/"
+    icon: "https://copper.co/images/copper_brand/Copper_Full_Colour_Light.svg"
+    categories:
+      - digital_asset_custody
+    projects:
+      - category: digital_asset_custody
+        projects:
+          - proj_securitize
+  
+  - id: sp_bit_go
+    name: BitGo
+    website: "https://www.bitgo.com/"
+    icon: "https://cdn.cookielaw.org/logos/e8498bbd-f4bb-4e31-9abe-0a15db3a3610/019200c0-be4d-7dd3-a8ad-c99525d0a969/4f5eba1d-a749-499d-af78-6e16671e6d79/BitGo_logo1_(1).png"
+    categories:
+      - digital_asset_custody
+    projects:
+      - category: digital_asset_custody
+        projects:
+          - proj_securitize
+
+  - id: sp_anchorage
+    name: Anchorage Digital
+    website: "https://www.anchorage.com/"
+    icon: "https://cdn.prod.website-files.com/649e7e19aca422fdfb636e26/64acf92f2ca618712b0d1882_anchorage%20-%20full%20logo%20-%20white.svg"
+    categories:
+      - digital_asset_custody
+    projects:
+      - category: digital_asset_custody
+        projects:
+          - proj_securitize
+  - id: sp_zero_hash
+    name: Zero Hash
+    website: "https://www.zerohash.com/"
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F5f320b109290407f85842513dda53692?format=webp&width=2000"
+    categories:
+      - onramp
+    projects:
+      - category: onramp
+        projects:
+          - proj_securitize
+  
+  - id: sp_falconx
+    name: FalconX
+    website: "https://www.falconx.io/"
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F06f95d2287cc468590acbddf989a7d3c?format=webp&width=2000"
+    categories:
+      - exchange/market_maker
+    projects:
+      - category: exchange/market_maker
+        projects:
+          - proj_securitize
+  
+  - id: sp_hidden_road
+    name: Hidden Road
+    website: "https://hiddenroad.com/"
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F4fee726f880d4c56b0c1abd293d7ba63?format=webp&format=webp&width=40"
+    categories:
+      - exchange/market_maker
+    projects:
+      - category: exchange/market_maker
+        projects:
+          - proj_securitize
+  
+  - id: sp_hexagate
+    name: Hexagate
+    website: "https://www.hexagate.com/"
+    icon: "https://cdn.prod.website-files.com/62c30fff483335046b987ca9/638dd846ee1edf6e185289db_Hexagate%20Logo%20-%20Color%201.svg"
+    categories:
+      - blockchain_analytics
+    projects:
+      - category: blockchain_analytics
+        projects:
+          - proj_securitize
+  
+  - id: sp_trm_labs
+    name: TRM Labs
+    website: "https://www.trmlabs.com/"
+    icon: "https://cdn.prod.website-files.com/6082dc5b67056233213587a4/6082dc5b670562aede35881a_trm-logo.svg"
+    categories:
+      - blockchain_analytics
+    projects:
+      - category: blockchain_analytics
+        projects:
+          - proj_securitize
+  
+  - id: sp_lmo_consulting
+    name: LMO Consulting
+    website: "https://lmoservices.com.sg/"
+    icon: ""
+    categories: 
+      - kyc_aml_compliance
+    projects:
+      - category: kyc_aml_compliance
+        projects:
+          - proj_hashnote
+  
+  - id: sp_marex
+    name: Marex
+    website: "https://www.marex.com/"
+    icon: "https://www.marex.com/wp-content/themes/marex-2024/assets/img/logo.svg"
+    categories: 
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_hashnote
+          
+  - id: sp_cohen_company
+    name: Cohen and Company
+    website: "https://www.cohencpa.com/"
+    icon: ""
+    categories: 
+      - auditor
+    projects:
+      - category: auditor
+        projects:
+          - proj_hashnote

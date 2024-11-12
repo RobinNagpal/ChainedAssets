@@ -71,7 +71,7 @@
           "category": "custodian"
         },
         {
-          "providerId": "sp_nav_fund_services",
+          "providerId": "sp_nav_consulting",
           "category": "auditor"
         },
         {
@@ -177,7 +177,7 @@
           "category": "asset_fund_management"
         },
         {
-          "providerId": "sp_nav_fund_services",
+          "providerId": "sp_nav_consulting",
           "category": "auditor"
         },
         {
@@ -472,6 +472,183 @@
         {
           "assetName": "Backed CSPX Core S&P 500 (bCSPX)",
           "assetDescription": "bCSPX is a tokenized index fund representing the Core S&P 500, allowing exposure to the 500 largest publicly traded companies in the U.S."
+        }
+      ]
+    },
+    {
+      "id": "proj_libre_capital",
+      "name": "Libre Capital",
+      "description": "Libre Capital provides digital asset management and strategic investment solutions for institutional investors, combining traditional finance expertise with innovative blockchain-based financial services. Their approach focuses on maximizing returns while ensuring robust risk management",
+      "website": "https://www.librecapital.com/",
+      "icon": "https://cdn.prod.website-files.com/652bfcf83b0b2fc334da2cae/66dc629202429c73b848017c_Libre_Logo_Standard.svg",
+      "serviceProviders": [
+        {
+          "providerId": "sp_coinbase",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_circle",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_nav_consulting",
+          "category": "auditor"
+        },
+        {
+          "providerId": "sp_komainu",
+          "category": "digital_asset_custody"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Web3 protocol",
+          "assetDescription": "Libre Capital's Web3 protocol on the Solana blockchain platform allows for the issuance and distribution of funds."
+        }
+      ]
+    },
+    {
+      "id": "proj_securitize",
+      "name": "Securitize Markets",
+      "description": "Securitize is a blockchain-based platform for issuing and managing digital securities (security tokens), enabling the tokenization of traditional assets like equity, debt, and real estate, while providing compliant and regulated solutions.",
+      "website": "https://www.securitize.io/",
+      "icon": "https://securitize.io/static/media/sec-trademark-positive.f5e827d3fd5b92d7d865526029a96e59.svg",
+      "serviceProviders": [
+        {
+          "providerId": "sp_zero_hash",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_circle",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_hidden_road",
+          "category": "exchange/market_maker"
+        },
+        {
+          "providerId": "sp_falconx",
+          "category": "exchange/market_maker"
+        },
+        {
+          "providerId": "sp_hexagate",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp_trm_labs",
+          "category": "blockchain_analytics"
+        },
+        {
+          "providerId": "sp_fireblocks",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_copper",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_bit_go",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_anchorage",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_komainu",
+          "category": "digital_asset_custody"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "BlackRock USD Institutional Digital Liquidity Fund (DILF)",
+          "assetDescription": "BlackRock’s USD Institutional Digital Liquidity Fund (DILF) is a tokenized money market fund providing investors with liquidity and safety, backed by highly liquid short-term U.S. Treasury securities."
+        },
+        {
+          "assetName": "Senior Credit Opportunities Fund",
+          "assetDescription": "The Senior Credit Opportunities Fund offers institutional investors access to senior secured loans, diversified across various sectors and industries, via tokenized assets."
+        },
+        {
+          "assetName": "KKR Core Growth & Execution Fund",
+          "assetDescription": "KKR’s Core Growth & Execution Fund focuses on investments in growth-stage companies with high potential for capital appreciation, offering tokenized exposure to a diversified portfolio."
+        },
+        {
+          "assetName": "Hamilton Lane Secondary IV Securities Fund",
+          "assetDescription": "Hamilton Lane’s Secondary IV Securities Fund offers tokenized exposure to a portfolio of secondary market investments in private equity and other asset classes."
+        },
+        {
+          "assetName": "re Bainstone Member Fund",
+          "assetDescription": "re Bainstone Member Fund offers tokenized equity participation in high-growth real estate ventures with diverse geographical and sectoral investments."
+        },
+        {
+          "assetName": "Arca US Treasury Fund",
+          "assetDescription": "The Arca US Treasury Fund offers exposure to U.S. Treasury bills via tokenized securities, providing a safe and liquid option for institutional investors."
+        },
+        {
+          "assetName": "Hamilton Lane Equity Opportunities Feeder Fund (V5)",
+          "assetDescription": "The Hamilton Lane Equity Opportunities Feeder Fund (V5) provides tokenized access to private equity investments in high-growth companies across multiple sectors."
+        },
+        {
+          "assetName": "Hamilton Lane Equity Opportunities Feeder Fund (V7 Global)",
+          "assetDescription": "The Hamilton Lane Equity Opportunities Feeder Fund (V7 Global) offers global exposure to private equity markets, tokenized for institutional investors seeking diversification."
+        },
+        {
+          "assetName": "Science Blockchain",
+          "assetDescription": "Science Blockchain focuses on blockchain technology investments, with tokenized assets that allow investors to access opportunities in the emerging digital asset ecosystem."
+        },
+        {
+          "assetName": "Blockchain Capital",
+          "assetDescription": "Blockchain Capital is a digital asset investment firm that tokenizes venture capital opportunities, providing institutional access to blockchain and cryptocurrency investments."
+        },
+        {
+          "assetName": "SpICE VC",
+          "assetDescription": "SpICE VC is a blockchain-focused venture capital fund that tokenizes its equity stakes in early-stage blockchain startups, offering investors unique access to high-growth opportunities."
+        },
+        {
+          "assetName": "CosmosX",
+          "assetDescription": "CosmosX focuses on investment in the rapidly evolving blockchain sector, offering tokenized exposure to a diversified portfolio of blockchain-based businesses and technologies."
+        },
+        {
+          "assetName": "22X",
+          "assetDescription": "22X is a venture capital fund specializing in blockchain and digital asset investments, offering tokenized equity participation in high-potential blockchain startups."
+        },
+        {
+          "assetName": "Protos",
+          "assetDescription": "Protos offers institutional investors tokenized exposure to a portfolio of blockchain projects and digital assets, focusing on high-growth sectors within the crypto space."
+        }
+      ]
+    },
+    {
+      "id": "proj_hashnote",
+      "name": "Hashnote",
+      "description": "Hashnote is a decentralized finance (DeFi) platform offering blockchain-based solutions for secure asset management and tokenized investments. It enables users to easily access financial services while ensuring transparency and regulatory compliance in the digital asset space.",
+      "website": "https://usyc.hashnote.com/",
+      "icon": "https://usyc.hashnote.com/hashnote-logo.svg",
+      "serviceProviders": [
+        {
+          "providerId": "sp_marex",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp_nav_consulting",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp_nav_consulting",
+          "category": "kyc_aml_compliance"
+        },
+        {
+          "providerId": "sp_lmo_consulting",
+          "category": "kyc_aml_compliance"
+        },
+        {
+          "providerId": "sp_cohen_company",
+          "category": "auditor"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "USYC",
+          "assetDescription": "USYC is backed by reverse repurchase agreements on U.S. Government Securities."
         }
       ]
     }
