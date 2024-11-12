@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
-import MainNavbar from 'src/components/MainNavbar'
 import { Tree, TreeNode, TreeLeaf } from '@/app/data'
 
 interface EcosystemMapProps {
