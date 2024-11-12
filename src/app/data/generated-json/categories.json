@@ -31,7 +31,8 @@
         "sp_steakhouse_financial",
         "sp_nav_consulting",
         "sp_nephos",
-        "sp_cohen_company"
+        "sp_cohen_company",
+        "sp_rsm"
       ]
     },
     {
@@ -61,7 +62,9 @@
         "sp_lukka",
         "sp_federated_hermes",
         "sp_nav_consulting",
-        "sp_marex"
+        "sp_marex",
+        "sp_ultimus",
+        "sp_arca"
       ]
     },
     {

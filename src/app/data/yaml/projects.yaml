@@ -360,7 +360,8 @@ projects:
         assetDescription: 22X is a venture capital fund specializing in blockchain and digital asset investments, offering tokenized equity participation in high-potential blockchain startups.
 
       - assetName: Protos
-        assetDescription: Protos offers institutional investors tokenized exposure to a portfolio of blockchain projects and digital assets, focusing on high-growth sectors within the crypto space.
+        assetDescription: Protos offers institutional investors tokenized exposure to a portfolio of blockchain projects and digital assets, focusing on high-growth sectors within the crypto space.  
+
   - id: proj_hashnote
     name: Hashnote
     description: Hashnote is a decentralized finance (DeFi) platform offering blockchain-based solutions for secure asset management and tokenized investments. It enables users to easily access financial services while ensuring transparency and regulatory compliance in the digital asset space.
@@ -380,3 +381,21 @@ projects:
     assets:
       - assetName: USYC
         assetDescription: USYC is backed by reverse repurchase agreements on U.S. Government Securities.
+  
+  - id: proj_arca_labs
+    name: Arca Labs
+    description: Arca Labs is a blockchain-focused investment firm specializing in tokenized real-world assets and digital securities. It offers innovative solutions for institutions to access liquidity and efficiency through blockchain technology.
+    website: "https://www.arcalabs.com"
+    icon: "https://www.arcalabs.com/hs-fs/hubfs/Arca%20Labs%20Horizontal%20Logo.png?width=886&height=123&name=Arca%20Labs%20Horizontal%20Logo.png"
+    serviceProviders:
+      - providerId: sp_ultimus
+        category: asset_fund_management
+      - providerId: sp_arca
+        category: asset_fund_management
+      - providerId: sp_rsm
+        category: auditor
+      - providerId: sp_umb
+        category: custodian
+    assets:
+      - assetName: ArCoin
+        assetDescription: This is the token ticker for the Arca U.S. Treasury Fund. ArCoin allows investors to quickly transfer digital asset securities with other investors.

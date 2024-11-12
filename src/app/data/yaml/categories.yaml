@@ -26,6 +26,7 @@ categories:
       - sp_nav_consulting
       - sp_nephos
       - sp_cohen_company
+      - sp_rsm
 
   - id: onramp
     name: Onramp
@@ -52,6 +53,8 @@ categories:
       - sp_federated_hermes
       - sp_nav_consulting
       - sp_marex
+      - sp_ultimus
+      - sp_arca
 
   - id: offshore_representation
     name: Offshore Representation
