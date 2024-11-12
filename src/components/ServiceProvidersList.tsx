@@ -16,14 +16,14 @@ export default function ServiceProvidersList() {
         {serviceProviders.map((serviceProvider) => (
           <div
             key={serviceProvider.id}
-            className="flex w-full justify-between py-2"
+            className="flex w-full justify-between py-4"
           >
             <div className="min-w-0">
               <Link
                 href={`/service-providers/${serviceProvider.id}`}
-                className="text-blue-600 hover:underline"
-              > 
-                <p className="text-lg">{ serviceProvider.icon && <img src={serviceProvider.icon} className='h-8 w-max-16 '></img>}{serviceProvider.name}</p>
+                className="flex flex-coltext-blue-600 hover:underline"
+              > <p className="text-xl">{serviceProvider.name}</p>
+                {serviceProvider.icon && <img src={serviceProvider.icon} className='h-8 max-w-48 mx-4'></img>}
               </Link>
             </div>
 

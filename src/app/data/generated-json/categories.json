@@ -6,7 +6,11 @@
       "serviceProviders": [
         "sp_fireblocks",
         "sp_quantstamp",
-        "sp_immunefi"
+        "sp_immunefi",
+        "sp_komainu",
+        "sp_anchorage",
+        "sp_bit_go",
+        "sp_copper"
       ]
     },
     {
@@ -24,8 +28,9 @@
         "sp_ernst_young_llp",
         "sp_kpmg",
         "sp_steakhouse_financial",
-        "sp_nav_fund_services",
-        "sp_nephos"
+        "sp_nav_consulting",
+        "sp_nephos",
+        "sp_cohen_company"
       ]
     },
     {
@@ -35,7 +40,8 @@
         "sp_coinbase",
         "sp_circle",
         "sp_monerium",
-        "sp_theter"
+        "sp_theter",
+        "sp_zero_hash"
       ]
     },
     {
@@ -52,7 +58,9 @@
         "sp_kinza_finance",
         "sp_room40",
         "sp_lukka",
-        "sp_federated_hermes"
+        "sp_federated_hermes",
+        "sp_nav_consulting",
+        "sp_marex"
       ]
     },
     {
@@ -92,7 +100,9 @@
       "serviceProviders": [
         "sp_elliptic",
         "sp_chainalysis",
-        "sp_scorechain"
+        "sp_scorechain",
+        "sp_trm_labs",
+        "sp_hexagate"
       ]
     },
     {
@@ -123,14 +133,18 @@
       "serviceProviders": [
         "sp_b2c2",
         "sp_keyrock",
-        "sp_flow_traders"
+        "sp_flow_traders",
+        "sp_hidden_road",
+        "sp_falconx"
       ]
     },
     {
       "id": "kyc_aml_compliance",
       "name": "KYC/AML Compliance",
       "serviceProviders": [
-        "sp_sumsub"
+        "sp_sumsub",
+        "sp_lmo-consulting",
+        "sp_nav_consulting"
       ]
     }
   ]
