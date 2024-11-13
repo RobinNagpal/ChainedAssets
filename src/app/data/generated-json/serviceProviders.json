@@ -203,7 +203,8 @@
         {
           "category": "custodian",
           "projects": [
-            "proj_superstate"
+            "proj_superstate",
+            "proj_arca_labs"
           ]
         }
       ]
@@ -1017,6 +1018,57 @@
           "category": "auditor",
           "projects": [
             "proj_hashnote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_ultimus",
+      "name": "Ultimus",
+      "website": "https://www.ultimusfundsolutions.com/",
+      "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_Ultimus%20Logo.png",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_arca_labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_arca",
+      "name": "Arca",
+      "website": "https://www.ar.ca/",
+      "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_Arca%20Logo.png",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_arca_labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_rsm",
+      "name": "RSM",
+      "website": "https://rsmus.com/",
+      "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_RSM%20Logo.png",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_arca_labs"
           ]
         }
       ]
