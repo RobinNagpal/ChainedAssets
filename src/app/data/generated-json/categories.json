@@ -43,7 +43,8 @@
         "sp_circle",
         "sp_monerium",
         "sp_theter",
-        "sp_zero_hash"
+        "sp_zero_hash",
+        "sp_moonpay"
       ]
     },
     {
@@ -64,7 +65,9 @@
         "sp_nav_consulting",
         "sp_marex",
         "sp_ultimus",
-        "sp_arca"
+        "sp_arca",
+        "sp_truefi",
+        "sp_archblock"
       ]
     },
     {
@@ -94,7 +97,8 @@
       "id": "legal_services",
       "name": "Legal Services",
       "serviceProviders": [
-        "sp_harneys"
+        "sp_harneys",
+        "sp_cole_frieman"
       ]
     },
     {

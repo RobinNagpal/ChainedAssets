@@ -27,44 +27,46 @@ export default function ProjectList() {
 
             <div className="flex w-full flex-col sm:w-1/2">
               <h4 className="text-lg font-semibold">Service Providers</h4>
-              <ul
-                role="list"
-                className="w-full divide-y divide-gray-100 sm:w-auto"
-              >
-                {project.serviceProviders.map((serviceProviderRef) => {
-                  // Find the corresponding service provider by providerId
-                  const matchingCategory = categories.find(
-                    (category) => category.id === serviceProviderRef.category,
-                  )
+              {project.serviceProviders ? (
+                <ul
+                  role="list"
+                  className="w-full divide-y divide-gray-100 sm:w-auto"
+                >
+                  {project.serviceProviders?.map((serviceProviderRef) => {
+                    // Find the corresponding service provider by providerId
+                    const matchingCategory = categories.find(
+                      (category) => category.id === serviceProviderRef.category,
+                    )
 
-                  const matchingProvider = serviceProviders.find(
-                    (sp) => sp.id === serviceProviderRef.providerId,
-                  )
-                  return (
-                    <Link
-                      className="flex w-full justify-between"
-                      href={'/service-providers/' + matchingProvider?.id}
-                      key={serviceProviderRef.providerId}
-                    >
-                      <div
+                    const matchingProvider = serviceProviders.find(
+                      (sp) => sp.id === serviceProviderRef.providerId,
+                    )
+                    return (
+                      <Link
+                        className="flex w-full justify-between"
+                        href={'/service-providers/' + matchingProvider?.id}
                         key={serviceProviderRef.providerId}
-                        className="w-72 py-2"
                       >
-                        <p className="text-sm font-medium">
-                          {matchingCategory?.name}
-                        </p>
-                      </div>
-                      <div key={serviceProviderRef.providerId}>
-                        <div className="flex flex-col items-center justify-center align-middle">
-                          <div className="flex w-full justify-center align-middle text-sm font-medium">
-                            {matchingProvider?.name}
+                        <div
+                          key={serviceProviderRef.providerId}
+                          className="w-72 py-2"
+                        >
+                          <p className="text-sm font-medium">
+                            {matchingCategory?.name}
+                          </p>
+                        </div>
+                        <div key={serviceProviderRef.providerId}>
+                          <div className="flex flex-col items-center justify-center align-middle">
+                            <div className="flex w-full justify-center align-middle text-sm font-medium">
+                              {matchingProvider?.name}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </Link>
-                  )
-                })}
-              </ul>
+                      </Link>
+                    )
+                  })}
+                </ul>
+              ) : (<p>NO service providers known for {project.name }</p>)}
             </div>
           </div>
         ))}
