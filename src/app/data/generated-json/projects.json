@@ -618,11 +618,64 @@
       ]
     },
     {
+      "id": "proj_franklin_templeton",
+      "name": "Franklin Templeton",
+      "description": "Franklin Templeton is a global investment management firm offering a wide range of asset management solutions, including multi-asset funds, ETFs, and real assets. With over $1.4 trillion in assets under management, it provides institutional and retail investors access to diverse investment opportunities.",
+      "website": "https://www.franklintempleton.com/",
+      "icon": "/icons/Treasuries & Bonds (Good Projects)/Franklin Templeton.webp",
+      "assets": [
+        {
+          "assetName": "Franklin Income Fund",
+          "assetDescription": "A multi-asset fund focused on generating income with diversified investments."
+        },
+        {
+          "assetName": "Franklin Managed Income Fund",
+          "assetDescription": "A fund targeting income generation through diversified fixed-income assets."
+        },
+        {
+          "assetName": "Franklin Growth Allocation Fund",
+          "assetDescription": "A fund that balances growth and income through a mix of equities and fixed-income assets."
+        },
+        {
+          "assetName": "Active ETFs",
+          "assetDescription": "A range of actively managed ETFs across various asset classes and geographies."
+        },
+        {
+          "assetName": "Indexed ETFs",
+          "assetDescription": "ETFs that track indices for different sectors and geographies for passive exposure."
+        },
+        {
+          "assetName": "Global Infrastructure Fund",
+          "assetDescription": "A fund providing exposure to investments in global infrastructure projects."
+        },
+        {
+          "assetName": "Commercial Real Estate Fund",
+          "assetDescription": "A fund investing in high-quality commercial real estate properties."
+        },
+        {
+          "assetName": "Agriculture and Timber Fund",
+          "assetDescription": "A real assets fund focused on agricultural land and timber investments."
+        },
+        {
+          "assetName": "Investment Tokens",
+          "assetDescription": "Digital assets representing traditional investments with tokenized ownership."
+        },
+        {
+          "assetName": "Utility Tokens",
+          "assetDescription": "Tokens used to access specific services or products within digital ecosystems."
+        },
+        {
+          "assetName": "Non-Fungible Tokens (NFTs)",
+          "assetDescription": "Unique digital tokens representing ownership or access to rare assets and collectibles."
+        }
+      ]
+    },
+    {
       "id": "proj_hashnote",
       "name": "Hashnote",
       "description": "Hashnote is a decentralized finance (DeFi) platform offering blockchain-based solutions for secure asset management and tokenized investments. It enables users to easily access financial services while ensuring transparency and regulatory compliance in the digital asset space.",
       "website": "https://usyc.hashnote.com/",
-      "icon": "https://usyc.hashnote.com/hashnote-logo.svg",
+      "icon": "/icons/Treasuries & Bonds (Good Projects)/Hashnote.jpg",
       "serviceProviders": [
         {
           "providerId": "sp_marex",
@@ -680,6 +733,301 @@
         {
           "assetName": "ArCoin",
           "assetDescription": "This is the token ticker for the Arca U.S. Treasury Fund. ArCoin allows investors to quickly transfer digital asset securities with other investors."
+        }
+      ]
+    },
+    {
+      "id": "proj_digiFT",
+      "name": "DigiFT",
+      "description": "DigiFT is a blockchain-powered platform offering tokenized real-world assets, including government bonds, corporate bonds, and digital assets, enabling secure and efficient trading. It provides a wide range of investment opportunities backed by traditional and Web3 assets, ensuring compliance and transparency.",
+      "website": "https://www.digift.sg",
+      "icon": "/icons/Treasuries & Bonds (Good Projects)/DigiFT.jpg",
+      "assets": [
+        {
+          "assetName": "DRUST1224",
+          "assetDescription": "DigiFT U.S. Treasury Token with a maturity date of Dec 2024, offering stable and predictable returns backed by the U.S. government."
+        },
+        {
+          "assetName": "DRUST1124",
+          "assetDescription": "DigiFT U.S. Treasury Token with a maturity date of Nov 2024, providing low-risk, government-backed returns."
+        },
+        {
+          "assetName": "DRUST1024",
+          "assetDescription": "DigiFT U.S. Treasury Token maturing in Oct 2024, offering low-risk returns backed by the U.S. government."
+        },
+        {
+          "assetName": "DRUST0534",
+          "assetDescription": "DigiFT U.S. Treasury Token maturing in May 2034, designed for long-term, low-risk, government-backed investment."
+        },
+        {
+          "assetName": "STBT",
+          "assetDescription": "Short-Term Treasury Bill Token with 4.8% APY, offering stable returns from U.S. Treasury securities."
+        },
+        {
+          "assetName": "HYDB1025",
+          "assetDescription": "DigiFT High Yield Bank Bond Token maturing in Oct 2025, providing higher returns than U.S. Treasury Bills."
+        },
+        {
+          "assetName": "PBRT",
+          "assetDescription": "Barclays Perpetual Bond Referenced Token offering 10% YTM, a long-term, fixed-income investment."
+        },
+        {
+          "assetName": "DCS1",
+          "assetDescription": "Diners Club 1-Month Corporate Note, offering 7.25% coupon in a short-term, high-yield corporate investment."
+        },
+        {
+          "assetName": "DMMF01",
+          "assetDescription": "DigiFT USD Money Market Fund with a 5.15% 7-Day Yield, optimized for short-term, low-risk cash management."
+        },
+        {
+          "assetName": "DETH",
+          "assetDescription": "DigiFT Staked ETH Token offering 4% APY, allowing exposure to Ethereum’s staking rewards."
+        }
+      ]
+    },
+    {
+      "id": "proj_wisdom_tree",
+      "name": "WisdomTree",
+      "description": "WisdomTree is an asset management firm providing innovative investment products such as ETFs, commodities, and digital asset strategies.",
+      "website": "https://www.wisdomtree.com/",
+      "icon": "/icons/Treasuries & Bonds (Good Projects)/Wisdom Tree.jpg",
+      "assets": [
+        {
+          "assetName": "WisdomTree Bitcoin ETF",
+          "assetDescription": "A fund that offers exposure to Bitcoin, allowing investors to participate in the performance of the cryptocurrency."
+        },
+        {
+          "assetName": "WisdomTree Commodity Fund",
+          "assetDescription": "A fund that provides exposure to a diversified basket of commodities, helping investors hedge against inflation and market volatility."
+        },
+        {
+          "assetName": "WisdomTree Fixed Income ETF",
+          "assetDescription": "An ETF that gives exposure to a broad range of fixed income securities, providing income and diversification benefits."
+        }
+      ]
+    },
+    {
+      "id": "proj_fortunafi",
+      "name": "Fortunafi",
+      "description": "FortunaFi is a decentralized finance (DeFi) platform focused on offering innovative financial products and services with a strong emphasis on security, transparency, and user empowerment. It provides access to high-yield investment opportunities through tokenized real-world assets and smart contract-based solutions.",
+      "website": "https://www.fortunafi.com",
+      "icon": "/icons/Treasuries & Bonds (Okay Projects)/Fortunafi.jpg",
+      "serviceProviders": [
+        {
+          "providerId": "sp_circle",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_nav_consulting",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp_coinbase",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_harneys",
+          "category": "legal_services"
+        },
+        {
+          "providerId": "sp_cole_frieman",
+          "category": "legal_services"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Digital Bond Token",
+          "assetDescription": "A tokenized bond offering fixed-income returns, providing access to high-quality corporate debt through blockchain technology."
+        },
+        {
+          "assetName": "USDC Yield Token",
+          "assetDescription": "A tokenized representation of USDC that provides competitive yields, backed by short-term, low-risk investments."
+        },
+        {
+          "assetName": "Real Estate Token",
+          "assetDescription": "A tokenized real estate investment product offering fractional ownership in high-quality, income-generating real estate assets."
+        },
+        {
+          "assetName": "Commodities Token",
+          "assetDescription": "Tokenized exposure to a diversified portfolio of commodities, providing a hedge against inflation and economic downturns."
+        },
+        {
+          "assetName": "Sustainable Green Bond Token",
+          "assetDescription": "A tokenized green bond product focused on financing sustainable and eco-friendly projects, generating returns for environmentally conscious investors."
+        },
+        {
+          "assetName": "Crypto-Backed Loan Token",
+          "assetDescription": "A blockchain-based product offering collateralized loans using cryptocurrencies as collateral, providing liquidity while minimizing risks."
+        },
+        {
+          "assetName": "Treasury Reserve Token",
+          "assetDescription": "A tokenized U.S. Treasury-based product offering liquidity and stable returns, backed by short-term government securities."
+        }
+      ]
+    },
+    {
+      "id": "proj_adapt3r",
+      "name": "Adapt3r",
+      "description": "Adapt3r is a digital infrastructure platform designed to bridge the gap between traditional finance and decentralized finance (DeFi). It offers a range of services, including asset tokenization, cross-chain liquidity solutions, and secure digital asset management.",
+      "website": "https://www.adapt3r.com/",
+      "icon": "/icons/Treasuries & Bonds (Okay Projects)/Adapt3r.jpg",
+      "serviceProviders": [
+        {
+          "providerId": "sp_nav_consulting",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp_archblock",
+          "category": "asset_fund_management"
+        },
+        {
+          "providerId": "sp_truefi",
+          "category": "asset_fund_management"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Adapt3r Tokenized Treasury Bond",
+          "assetDescription": "Tokenized U.S. Treasury Bond offering stable returns with blockchain liquidity."
+        },
+        {
+          "assetName": "Adapt3r Digital Asset Fund",
+          "assetDescription": "A diversified digital asset fund offering exposure to tokenized real-world assets."
+        },
+        {
+          "assetName": "Adapt3r Stablecoin Yield Fund",
+          "assetDescription": "Invests in stablecoins for stable returns with liquidity and minimal volatility."
+        },
+        {
+          "assetName": "Adapt3r NFT Investment Fund",
+          "assetDescription": "Invests in high-value NFTs, tokenized into fractionalized shares."
+        }
+      ]
+    },
+    {
+      "id": "proj_swarm",
+      "name": "Swarm",
+      "description": "Swarm is a blockchain-based platform that enables tokenization of real-world assets, providing fractional ownership and liquidity for investors. It empowers users to access and invest in previously illiquid assets with transparency and security.",
+      "website": "https://swarm.com/",
+      "icon": "/icons/Treasuries & Bonds (Okay Projects)/Swarm.jpg",
+      "serviceProviders": [
+        {
+          "providerId": "sp_copper",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_chainlink",
+          "category": "oracle_services"
+        },
+        {
+          "providerId": "sp_sumsub",
+          "category": "kyc_aml_compliance"
+        },
+        {
+          "providerId": "sp_moonpay",
+          "category": "onramp"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Swarm Tokenized Real Estate Fund",
+          "assetDescription": "Fractionalized ownership of real estate properties, accessible through tokenization."
+        },
+        {
+          "assetName": "Swarm Private Equity Fund",
+          "assetDescription": "Tokenized private equity investments, offering access to previously illiquid assets."
+        },
+        {
+          "assetName": "Swarm Digital Gold",
+          "assetDescription": "Digital tokens backed by physical gold, providing a secure and stable investment."
+        },
+        {
+          "assetName": "Swarm Renewable Energy Fund",
+          "assetDescription": "Invests in renewable energy projects, tokenized to allow fractional investment and liquidity."
+        }
+      ]
+    },
+    {
+      "id": "proj_brickken",
+      "name": "Brickken",
+      "description": "Bricken is a blockchain-based platform for tokenizing real estate assets, allowing investors to access fractional ownership and liquidity.",
+      "website": "https://www.brickken.com/",
+      "icon": "/icons/Token Issuance- Securitization platforms (Good Projects)/Brickken.jpg",
+      "assets": [
+        {
+          "assetName": "Real Estate Token",
+          "assetDescription": "A tokenized representation of real estate assets, offering fractional ownership and enabling liquidity in the real estate market."
+        }
+      ]
+    },
+    {
+      "id": "proj_token_city",
+      "name": "Token-City",
+      "description": "Token-City offers tokenized urban real estate investments, allowing people to invest in cities worldwide through blockchain technology.",
+      "website": "https://www.token-city.com/",
+      "icon": "/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png",
+      "assets": [
+        {
+          "assetName": "City Real Estate Token",
+          "assetDescription": "A token that represents a share in urban real estate assets, providing exposure to the growth of global cities."
+        }
+      ]
+    },
+    {
+      "id": "proj_tokeny",
+      "name": "Tokeny",
+      "description": "Tokeny is a platform offering tokenization services for a wide range of assets, including real estate, private equity, and collectibles.",
+      "website": "https://www.tokeny.com/",
+      "icon": "/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png",
+      "serviceProviders": [
+        {
+          "providerId": "sp_monerium",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_fireblocks",
+          "category": "digital_asset_custody"
+        },
+        {
+          "providerId": "sp_sumsub",
+          "category": "kyc_aml_compliance"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Tokenized Equity Fund",
+          "assetDescription": "A tokenized investment fund that gives access to equity in private companies and other assets, democratizing investments."
+        },
+        {
+          "assetName": "Tokenized Real Estate Fund",
+          "assetDescription": "A tokenized investment vehicle focused on providing fractional ownership of real estate properties, with an emphasis on global exposure."
+        }
+      ]
+    },
+    {
+      "id": "proj_centrifuge",
+      "name": "Centrifuge",
+      "description": "Centrifuge is a decentralized platform for financing real-world assets by connecting real-world asset owners with DeFi markets.",
+      "website": "https://www.centrifuge.io/",
+      "icon": "/icons/Token Issuance- Securitization platforms (Good Projects)/Centrifuge.png",
+      "serviceProviders": [
+        {
+          "providerId": "sp_circle",
+          "category": "onramp"
+        },
+        {
+          "providerId": "sp_trail_of_bits",
+          "category": "smart_contract_audit"
+        }
+      ],
+      "assets": [
+        {
+          "assetName": "Centrifuge Token (CFG)",
+          "assetDescription": "The native token of Centrifuge, used to secure decentralized finance (DeFi) transactions and to participate in governance of the Centrifuge network."
+        },
+        {
+          "assetName": "Real-World Asset Token (RWA)",
+          "assetDescription": "Tokenized assets representing real-world collateral, such as invoices, loans, and receivables, enabling access to DeFi liquidity."
         }
       ]
     }

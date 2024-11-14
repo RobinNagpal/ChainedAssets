@@ -4,7 +4,7 @@ export interface Project {
   website?:string
   description?:string
   icon:string
-  serviceProviders: ProjectServiceProvider[]
+  serviceProviders?: ProjectServiceProvider[]
   assets: ProjectAsset[]
 }
 

@@ -17,7 +17,8 @@
             "proj_maple_finance",
             "proj_pvo1",
             "proj_midas",
-            "proj_securitize"
+            "proj_securitize",
+            "proj_tokeny"
           ]
         }
       ]
@@ -75,7 +76,8 @@
             "proj_openeden",
             "proj_midas",
             "proj_backed",
-            "proj_libre_capital"
+            "proj_libre_capital",
+            "proj_fortunafi"
           ]
         }
       ]
@@ -230,7 +232,9 @@
         {
           "category": "asset_fund_management",
           "projects": [
-            "proj_hashnote"
+            "proj_hashnote",
+            "proj_fortunafi",
+            "proj_adapt3r"
           ]
         },
         {
@@ -310,7 +314,8 @@
         {
           "category": "legal_services",
           "projects": [
-            "proj_openeden"
+            "proj_openeden",
+            "proj_fortunafi"
           ]
         }
       ]
@@ -367,7 +372,9 @@
             "proj_openeden",
             "proj_backed",
             "proj_libre_capital",
-            "proj_securitize"
+            "proj_securitize",
+            "proj_fortunafi",
+            "proj_centrifuge"
           ]
         }
       ]
@@ -467,7 +474,8 @@
           "projects": [
             "proj_openeden",
             "proj_matrixdock",
-            "proj_backed"
+            "proj_backed",
+            "proj_swarm"
           ]
         }
       ]
@@ -559,7 +567,8 @@
         {
           "category": "smart_contract_audit",
           "projects": [
-            "proj_ondo_finance"
+            "proj_ondo_finance",
+            "proj_centrifuge"
           ]
         }
       ]
@@ -722,7 +731,8 @@
         {
           "category": "onramp",
           "projects": [
-            "proj_backed"
+            "proj_backed",
+            "proj_tokeny"
           ]
         }
       ]
@@ -740,7 +750,9 @@
         {
           "category": "kyc_aml_compliance",
           "projects": [
-            "proj_backed"
+            "proj_backed",
+            "proj_swarm",
+            "proj_tokeny"
           ]
         }
       ]
@@ -847,7 +859,8 @@
         {
           "category": "digital_asset_custody",
           "projects": [
-            "proj_securitize"
+            "proj_securitize",
+            "proj_swarm"
           ]
         }
       ]
@@ -1069,6 +1082,77 @@
           "category": "auditor",
           "projects": [
             "proj_arca_labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_cole_frieman",
+      "name": "Cole Freiman and Mallon LLP",
+      "website": "https://colefrieman.com/",
+      "icon": "",
+      "categories": [
+        "legal_services"
+      ],
+      "projects": [
+        {
+          "category": "legal_services",
+          "projects": [
+            "proj_fortunafi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_moonpay",
+      "name": "MoonPay",
+      "website": "https://www.moonpay.com/",
+      "description": "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods like credit cards, debit cards, bank transfers, and other payment methods. It serves as an on-ramp for users to convert fiat currencies into cryptocurrencies like Bitcoin, Ethereum, and others.",
+      "icon": "",
+      "categories": [
+        "onramp"
+      ],
+      "projects": [
+        {
+          "category": "onramp",
+          "projects": [
+            "proj_swarm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_truefi",
+      "name": "TrueFi",
+      "website": "https://www.truefi.io/",
+      "description": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner.",
+      "icon": "",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_adapt3r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_archblock",
+      "name": "Archblock",
+      "website": "https://www.archblock.com/",
+      "description": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets.",
+      "icon": "",
+      "categories": [
+        "asset_fund_management"
+      ],
+      "projects": [
+        {
+          "category": "asset_fund_management",
+          "projects": [
+            "proj_adapt3r"
           ]
         }
       ]

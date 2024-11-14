@@ -26,7 +26,7 @@ export default function Example({ categoryId, categoryName }: ExampleProps) {
 
   // Find all unique projects that match any of the service providers in the category
   const matchingProjects = projects.filter((project) =>
-    project.serviceProviders.some(
+    project.serviceProviders?.some(
       (provider) => provider.category === categoryId,
     ),
   )

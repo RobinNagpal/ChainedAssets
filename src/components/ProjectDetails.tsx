@@ -48,7 +48,7 @@ export default function ProjectDetails({
                 <img
                   src={currentProject.icon}
                   alt={`${currentProject.name} icon`}
-                  className="h-16 rounded"
+                  className="h-32 rounded"
                 />
               </dd>
             </div>
@@ -87,7 +87,7 @@ export default function ProjectDetails({
           )}
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="px-4 text-lg font-semibold">Service Providers</dt>
-            <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+            {currentProject?.serviceProviders ? (<dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               <ul role="list" className="divide-y divide-gray-100">
                 {projectServiceProviders.map((provider) => (
                   <li key={provider.id} className="flex items-start gap-4 py-2">
@@ -125,7 +125,7 @@ export default function ProjectDetails({
                   </li>
                 ))}
               </ul>
-            </dd>
+            </dd>) : (<dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">No Service Proiders Known</dd>)}
           </div>
         </dl>
       </div>

@@ -14,6 +14,7 @@ serviceProviders:
           - proj_pvo1
           - proj_midas
           - proj_securitize
+          - proj_tokeny
 
   - id: sp_open_zeppelin
     name: "OpenZeppelin"
@@ -54,6 +55,7 @@ serviceProviders:
           - proj_midas 
           - proj_backed
           - proj_libre_capital
+          - proj_fortunafi
 
   - id: sp_chainalysis
     name: "Chainalysis"
@@ -157,6 +159,8 @@ serviceProviders:
       - category: asset_fund_management
         projects:
           - proj_hashnote
+          - proj_fortunafi
+          - proj_adapt3r
       - category: auditor
         projects:
           - proj_superstate
@@ -210,6 +214,7 @@ serviceProviders:
       - category: legal_services
         projects:
           - proj_openeden
+          - proj_fortunafi
 
   - id: sp_elliptic
     name: "Elliptic"
@@ -249,7 +254,8 @@ serviceProviders:
           - proj_backed
           - proj_libre_capital
           - proj_securitize
-
+          - proj_fortunafi
+          - proj_centrifuge
   - id: sp_kpmg
     name: "KPMG"
     website: "https://home.kpmg/"
@@ -315,6 +321,7 @@ serviceProviders:
           - proj_openeden
           - proj_matrixdock
           - proj_backed
+          - proj_swarm
 
   - id: sp_lseg
     name: "London Stock Exchange Group (LSEG)"
@@ -376,6 +383,7 @@ serviceProviders:
       - category: smart_contract_audit
         projects:
           - proj_ondo_finance
+          - proj_centrifuge
 
   - id: sp_quantstamp
     name: "Quantstamp"
@@ -485,6 +493,7 @@ serviceProviders:
       - category: onramp
         projects:
           - proj_backed
+          - proj_tokeny
   
   - id: sp_sumsub
     name: "Sumsub"
@@ -497,6 +506,8 @@ serviceProviders:
       - category: kyc_aml_compliance
         projects:
           - proj_backed
+          - proj_swarm
+          - proj_tokeny
 
   - id: sp_scorechain
     name: "Scorechain"
@@ -568,6 +579,7 @@ serviceProviders:
       - category: digital_asset_custody
         projects:
           - proj_securitize
+          - proj_swarm
   
   - id: sp_bit_go
     name: BitGo
@@ -710,3 +722,50 @@ serviceProviders:
       - category: auditor
         projects:
           - proj_arca_labs
+  
+  - id: sp_cole_frieman
+    name: Cole Freiman and Mallon LLP
+    website: "https://colefrieman.com/"
+    icon: ""
+    categories: 
+      - legal_services
+    projects:
+      - category: legal_services
+        projects:
+          - proj_fortunafi
+  
+  - id: sp_moonpay
+    name: "MoonPay"
+    website: "https://www.moonpay.com/"
+    description: "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods like credit cards, debit cards, bank transfers, and other payment methods. It serves as an on-ramp for users to convert fiat currencies into cryptocurrencies like Bitcoin, Ethereum, and others."
+    icon: ""
+    categories:
+      - onramp
+    projects:
+      - category: onramp
+        projects:
+          - proj_swarm
+  
+  - id: sp_truefi
+    name: TrueFi
+    website: "https://www.truefi.io/"
+    description: "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner."
+    icon: ""
+    categories:
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_adapt3r
+
+  - id: sp_archblock
+    name: Archblock
+    website: "https://www.archblock.com/"
+    description: "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets."
+    icon: ""
+    categories:
+      - asset_fund_management
+    projects:
+      - category: asset_fund_management
+        projects:
+          - proj_adapt3r
