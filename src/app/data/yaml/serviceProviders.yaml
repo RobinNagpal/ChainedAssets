@@ -56,7 +56,7 @@ serviceProviders:
           - proj_backed
           - proj_libre_capital
           - proj_fortunafi
-
+          - proj_investax
   - id: sp_chainalysis
     name: "Chainalysis"
     website: "https://www.chainalysis.com/"
