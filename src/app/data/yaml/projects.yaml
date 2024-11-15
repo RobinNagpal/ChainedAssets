@@ -834,3 +834,151 @@ projects:
     assets:
       - assetName: RealBlocks Tokenized Asset
         assetDescription: Digital tokens representing fractional ownership in a range of assets, including real estate and private investments, offering improved liquidity and accessibility to investors.
+
+  - id: proj_goldfinch
+    name: Goldfinch
+    description: Goldfinch is a decentralized credit platform designed to unlock global capital for crypto-backed lending, focusing on real-world asset-backed loans.
+    website: "https://www.goldfinch.finance/"
+    icon:  '/icons/Private Credit (Good Projects)/Goldfinch.jpg'
+    assets:
+      - assetName: Goldfinch USD Token (GUSD)
+        assetDescription: A stablecoin pegged to USD, representing real-world loans and collateralized by non-crypto assets, issued through the Goldfinch protocol.
+      - assetName: Goldfinch Governance Token (GFI)
+        assetDescription: The native governance token of Goldfinch, used to participate in the decision-making process and governance of the platform.
+
+  - id: proj_term_finance
+    name: Term Finance
+    description: Term Finance is a decentralized finance (DeFi) platform that tokenizes loans and offers tokenized short-term debt products for institutional investors.
+    website: "https://www.term.finance/"
+    icon: '/icons/Private Credit (Good Projects)/Term Finance.jpg'
+    serviceProviders:
+      - providerId: sp_sigma_prime
+        category: auditor
+      - providerId: sp_runtime_verification
+        category: auditor
+      - providerId: sp_dedaub
+        category: auditor
+      - providerId: sp_certora
+        category: auditor
+    assets:
+      - assetName: Term Finance Loan Token (TFLT)
+        assetDescription: A tokenized loan product offering fractionalized ownership in short-term debt instruments backed by real-world assets.
+      - assetName: Term Finance Yield Token (TFTY)
+        assetDescription: A token that represents yield generated from Term Finance’s short-term debt portfolio, offering passive income opportunities for investors.
+
+  - id: proj_credit_coop
+    name: Credit Coop
+    description: Credit Coop is a decentralized cooperative platform for providing lending and credit services to its members, focused on enabling access to capital and financial products for underserved communities.
+    website: "https://www.creditcoop.io/"
+    icon: '/icons/Private Credit (Good Projects)/Credit Coop.png'
+    assets:
+      - assetName: Credit Coop Credit Token (CCT)
+        assetDescription: A tokenized credit asset used for lending and borrowing within the Credit Coop ecosystem, representing a stake in the cooperative’s credit pool.
+      - assetName: Credit Coop Yield Token (CCY)
+        assetDescription: A token representing the yield generated from loans within the Credit Coop platform, providing income opportunities for token holders.
+  - id: proj_opentrade
+    name: OpenTrade
+    description: OpenTrade is a decentralized platform designed to facilitate trade, offering a secure and transparent ecosystem for buying and selling tokenized assets with minimal friction.
+    website: "https://www.opentrade.io/"
+    icon:  '/icons/Private Credit (Okay Projects)/Open Trade.jpg'
+    assets:
+      - assetName: OpenTrade Token (OTT)
+        assetDescription: The native token of OpenTrade, used for governance and transaction fees within the OpenTrade ecosystem.
+      - assetName: Tradeable Tokenized Assets
+        assetDescription: A variety of tokenized real-world assets such as bonds, equity, and other securities that can be bought or sold on the OpenTrade platform.
+
+  - id: proj_polytrade
+    name: Polytrade
+    description: Polytrade is a blockchain-based trade finance platform offering liquidity to small and medium-sized enterprises (SMEs) by digitizing invoices and improving access to financing.
+    website: "https://www.polytrade.finance/"
+    icon: '/icons/Private Credit (Okay Projects)/PolyTrade.jpg'
+    assets:
+      - assetName: Polytrade Token (PTF)
+        assetDescription: The native token of Polytrade, used to settle transactions and provide governance within the Polytrade ecosystem.
+      - assetName: Invoice Token
+        assetDescription: Tokenized invoices used to raise funds on the Polytrade platform, offering liquidity to SMEs by enabling them to sell their receivables.
+
+  - id: proj_helix_finance
+    name: Helix Finance
+    description: Helix Finance is a decentralized finance (DeFi) protocol offering structured financial products for real-world asset (RWA) tokenization, enabling yield generation and decentralized liquidity for traditional assets.
+    website: "https://helixfinance.io"
+    icon: '/icons/Private Credit (Okay Projects)/Helix Finance.jpg'
+    assets:
+      - assetName: Helix Protocol Token (HEL)
+        assetDescription: The native token of Helix Finance used for governance, staking, and incentivizing liquidity providers.
+      - assetName: Real-World Asset (RWA) Tokenized Bonds
+        assetDescription: Tokenized real-world asset-backed bonds allowing DeFi participants to invest in traditionally illiquid assets with stable returns.
+      - assetName: Helix Liquidity Pool Token (HLPT)
+        assetDescription: Tokens representing liquidity staked in Helix Finance pools, earning a portion of the fees and rewards generated within the ecosystem.
+
+  - id: proj_clearpool
+    name: Clearpool Finance
+    description: Clearpool Finance is a decentralized capital markets platform that provides institutional borrowers with access to unsecured loans via the Clearpool protocol, utilizing decentralized pools of liquidity.
+    website: "https://clearpool.finance"
+    icon: '/icons/Private Credit (Okay Projects)/Clearpool.png'
+    assets:
+      - assetName: Clearpool Token (CPOOL)
+        assetDescription: The native token of Clearpool used for staking, governance, and rewarding liquidity providers.
+      - assetName: Clearpool Liquidity Pool Token (CPLP)
+        assetDescription: Tokens representing liquidity contributions to Clearpool pools, enabling institutional borrowers to access decentralized liquidity.
+      - assetName: Clearpool Pool Bonds
+        assetDescription: Tokenized debt instruments backed by pools of liquidity, allowing decentralized participants to earn yields from institutional borrowers.
+
+  - id: proj_bluejay_finance
+    name: Bluejay Finance
+    description: Bluejay Finance is a decentralized platform that connects traditional finance with DeFi, enabling fractionalized real-world asset investments, tokenized collateralized lending, and yield generation.
+    website: "https://bluejay.finance"
+    icon: '/icons/Private Credit (Okay Projects)/Helix Finance.jpg'
+    assets:
+      - assetName: Bluejay Protocol Token (BJT)
+        assetDescription: The governance token of Bluejay Finance, used for decision-making, staking, and incentivizing liquidity providers.
+      - assetName: Real-World Asset (RWA) Tokenized Assets
+        assetDescription: Tokenized real-world assets such as loans, mortgages, and receivables that provide DeFi participants with access to stable yields.
+      - assetName: Bluejay Liquidity Pool Token (BJLP)
+        assetDescription: Tokens representing liquidity staked in Bluejay Finance pools, offering a portion of the fees and rewards generated in the ecosystem.
+
+  - id: proj_tradable_xyz
+    name: Tradable
+    description: Tradable is a decentralized platform that allows the tokenization and trading of real-world assets (RWAs) like real estate, bonds, and private equity, unlocking liquidity and broadening access to investments.
+    website: "https://tradable.xyz"
+    icon:  '/icons/Private Credit (Okay Projects)/Tradeable.jpg'
+    assets:
+      - assetName: Tradeable Token (TT)
+        assetDescription: The native governance and utility token of Tradeable, used for protocol governance, staking, and rewarding liquidity providers.
+      - assetName: Real-World Asset (RWA) Tokenized Real Estate
+        assetDescription: Tokenized real estate assets allowing users to invest in property-backed assets with liquidity and fractional ownership.
+      - assetName: Tradeable Pool Token (TPT)
+        assetDescription: Tokens representing liquidity in Tradeable pools, earning users a share of the transaction fees and rewards from the protocol.
+
+  - id: proj_credbull
+    name: Credbull
+    description: |
+      Credbull is a decentralized finance (DeFi) platform that democratizes access to private credit markets by tokenizing real-world assets, offering high fixed yields and potential performance upside.
+    website: "https://credbull.io"
+    icon: '/icons/Private Credit (Okay Projects)/Credbull.webp'
+    assets:
+      - assetName: Credbull Token (CBL)
+        assetDescription: The native utility token of Credbull, used for governance, staking, and rewarding participants within the ecosystem.
+      - assetName: Credbull DeFi Vault Claim Tokens
+        assetDescription: ERC-4626 claim tokens representing a user's share in the Credbull DeFi vaults, backed by real-world assets and offering fixed yields.
+      - assetName: Credbull Fixed Yield Products
+        assetDescription:  Investment products offering fixed yields on stablecoins (e.g., USDC/USDT) with varying lock-up periods, backed by private credit assets.
+      - assetName: Credbull Private Credit Fund Tokens
+        assetDescription: Tokens representing investments in Credbull's licensed on-chain private credit fund, providing exposure to diversified private credit assets.
+
+  - id: proj_untangled_finance
+    name: Untangled Finance
+    description: |
+      Untangled Finance is a DeFi platform that brings institutional-grade private credit on-chain, offering tokenized debt products and real-time risk monitoring.
+    website: "https://untangled.finance"
+    icon: '/icons/Private Credit (Okay Projects)/Untangled Finance.jpg'
+    assets:
+      - assetName: Untangled Token (UNT)
+        assetDescription: The native governance token of Untangled Finance, used for voting on proposals and participating in the platform's decision-making processes.
+      - assetName: Untangled Pool Tokens
+        assetDescription: Tokens representing a user's share in Untangled Finance's credit pools, backed by tokenized real-world assets and offering yield opportunities.
+      - assetName: Untangled Vault Tokens
+        assetDescription: Tokens representing investments in Untangled Finance's vaults, which manage diversified portfolios of tokenized credit assets.
+      - assetName: Untangled Credit Pool Bonds
+        assetDescription: Tokenized debt instruments backed by pools of tokenized real-world assets, allowing investors to earn yields from institutional borrowers.
+  

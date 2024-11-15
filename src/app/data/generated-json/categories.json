@@ -32,7 +32,11 @@
         "sp_nav_consulting",
         "sp_nephos",
         "sp_cohen_company",
-        "sp_rsm"
+        "sp_rsm",
+        "sp_sigma_prime",
+        "sp_runtime_verification",
+        "sp_dedaub",
+        "sp_certora"
       ]
     },
     {
