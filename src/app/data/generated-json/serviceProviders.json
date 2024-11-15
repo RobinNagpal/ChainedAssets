@@ -127,11 +127,11 @@
       "description": "Offshore law firm specializing in corporate, funds, trusts, and private client services.",
       "icon": "https://www.careyolsen.com/themes/custom/carey_olsen_theme/src/images/logo.svg",
       "categories": [
-        "offshore_representation"
+        "legal_services"
       ],
       "projects": [
         {
-          "category": "offshore_representation",
+          "category": "legal_services",
           "projects": [
             "proj_mountain_protocol"
           ]
@@ -834,6 +834,7 @@
       "id": "sp_komainu",
       "name": "Komainu",
       "website": "https://komainu.com/",
+      "description": "Komainu offers secure digital asset custody services, providing institutional-grade security for crypto assets.",
       "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2Fe4bbe5f2c5f04ba9b66a49178fc47988?format=webp&width=2000",
       "categories": [
         "digital_asset_custody"
@@ -852,6 +853,7 @@
       "id": "sp_copper",
       "name": "Copper",
       "website": "https://copper.co/",
+      "description": "Copper offers institutional-grade custody solutions for digital assets, providing both security and operational services.",
       "icon": "https://copper.co/images/copper_brand/Copper_Full_Colour_Light.svg",
       "categories": [
         "digital_asset_custody"
@@ -870,6 +872,7 @@
       "id": "sp_bit_go",
       "name": "BitGo",
       "website": "https://www.bitgo.com/",
+      "description": "BitGo provides secure custody solutions for digital assets, offering multi-signature wallets and institutional-grade security.",
       "icon": "https://cdn.cookielaw.org/logos/e8498bbd-f4bb-4e31-9abe-0a15db3a3610/019200c0-be4d-7dd3-a8ad-c99525d0a969/4f5eba1d-a749-499d-af78-6e16671e6d79/BitGo_logo1_(1).png",
       "categories": [
         "digital_asset_custody"
@@ -887,6 +890,7 @@
       "id": "sp_anchorage",
       "name": "Anchorage Digital",
       "website": "https://www.anchorage.com/",
+      "description": "Anchorage provides secure custody solutions for digital assets with a focus on institutional clients and regulatory compliance.",
       "icon": "https://cdn.prod.website-files.com/649e7e19aca422fdfb636e26/64acf92f2ca618712b0d1882_anchorage%20-%20full%20logo%20-%20white.svg",
       "categories": [
         "digital_asset_custody"
@@ -904,6 +908,7 @@
       "id": "sp_zero_hash",
       "name": "Zero Hash",
       "website": "https://www.zerohash.com/",
+      "description": "Zero Hash provides infrastructure for onramping digital assets, enabling secure fiat-to-crypto transactions for institutions.",
       "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F5f320b109290407f85842513dda53692?format=webp&width=2000",
       "categories": [
         "onramp"
@@ -921,6 +926,7 @@
       "id": "sp_falconx",
       "name": "FalconX",
       "website": "https://www.falconx.io/",
+      "description": "FalconX provides liquidity and market-making services across digital assets, offering trading solutions for institutions.",
       "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F06f95d2287cc468590acbddf989a7d3c?format=webp&width=2000",
       "categories": [
         "exchange/market_maker"
@@ -938,6 +944,7 @@
       "id": "sp_hidden_road",
       "name": "Hidden Road",
       "website": "https://hiddenroad.com/",
+      "description": "Hidden Road provides institutional liquidity for crypto markets, acting as a market maker for large-scale trades.",
       "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F4fee726f880d4c56b0c1abd293d7ba63?format=webp&format=webp&width=40",
       "categories": [
         "exchange/market_maker"
@@ -955,6 +962,7 @@
       "id": "sp_hexagate",
       "name": "Hexagate",
       "website": "https://www.hexagate.com/",
+      "description": "Hexagate provides blockchain analytics solutions for compliance, transaction monitoring, and market intelligence.",
       "icon": "https://cdn.prod.website-files.com/62c30fff483335046b987ca9/638dd846ee1edf6e185289db_Hexagate%20Logo%20-%20Color%201.svg",
       "categories": [
         "blockchain_analytics"
@@ -972,6 +980,7 @@
       "id": "sp_trm_labs",
       "name": "TRM Labs",
       "website": "https://www.trmlabs.com/",
+      "description": "TRM Labs offers blockchain analytics to detect and prevent crypto crime and enhance regulatory compliance for crypto businesses.",
       "icon": "https://cdn.prod.website-files.com/6082dc5b67056233213587a4/6082dc5b670562aede35881a_trm-logo.svg",
       "categories": [
         "blockchain_analytics"
@@ -989,6 +998,7 @@
       "id": "sp_lmo_consulting",
       "name": "LMO Consulting",
       "website": "https://lmoservices.com.sg/",
+      "description": "LMO Consulting specializes in KYC/AML compliance services to help businesses meet regulatory requirements in the financial and crypto sectors.",
       "icon": "",
       "categories": [
         "kyc_aml_compliance"
@@ -1006,6 +1016,7 @@
       "id": "sp_marex",
       "name": "Marex",
       "website": "https://www.marex.com/",
+      "description": "Marex provides asset management services, including fund management and trading solutions for institutional clients.",
       "icon": "https://www.marex.com/wp-content/themes/marex-2024/assets/img/logo.svg",
       "categories": [
         "asset_fund_management"
@@ -1023,6 +1034,7 @@
       "id": "sp_cohen_company",
       "name": "Cohen and Company",
       "website": "https://www.cohencpa.com/",
+      "description": "Cohen and Company offers audit, tax, and advisory services to a broad range of clients, including businesses in the financial and crypto sectors.",
       "icon": "",
       "categories": [
         "auditor"
@@ -1040,6 +1052,7 @@
       "id": "sp_ultimus",
       "name": "Ultimus",
       "website": "https://www.ultimusfundsolutions.com/",
+      "description": "Ultimus provides fund administration and management services, including reporting and compliance solutions for asset managers.",
       "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_Ultimus%20Logo.png",
       "categories": [
         "asset_fund_management"
@@ -1057,6 +1070,7 @@
       "id": "sp_arca",
       "name": "Arca",
       "website": "https://www.ar.ca/",
+      "description": "Arca is a leading digital asset investment firm, providing digital asset management and blockchain-based financial services.",
       "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_Arca%20Logo.png",
       "categories": [
         "asset_fund_management"
@@ -1074,6 +1088,7 @@
       "id": "sp_rsm",
       "name": "RSM",
       "website": "https://rsmus.com/",
+      "description": "RSM is a global audit and advisory firm, offering professional services to clients in the crypto, financial, and tech sectors.",
       "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_RSM%20Logo.png",
       "categories": [
         "auditor"
@@ -1091,6 +1106,7 @@
       "id": "sp_cole_frieman",
       "name": "Cole Freiman and Mallon LLP",
       "website": "https://colefrieman.com/",
+      "description": "Cole Freiman and Mallon LLP provides legal services to businesses in blockchain, crypto, and financial sectors, specializing in compliance and regulations.",
       "icon": "",
       "categories": [
         "legal_services"
@@ -1162,8 +1178,8 @@
       "id": "sp_sigma_prime",
       "name": "Sigma Prime",
       "website": "https://sigmaprime.io/",
-      "icon": "/icons/Service Providers/sigmaprime.png",
       "description": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services to improve the security and functionality of decentralized systems.",
+      "icon": "/icons/Service Providers/sigmaprime.png",
       "categories": [
         "auditor"
       ],
@@ -1180,8 +1196,8 @@
       "id": "sp_runtime_verification",
       "name": "Runtime Verification",
       "website": "https://runtimeverification.com/",
-      "icon": "/icons/Service Providers/runtime_verification.png",
       "description": "Runtime Verification provides formal verification services for smart contracts, ensuring that smart contracts behave as intended and adhere to desired properties.",
+      "icon": "/icons/Service Providers/runtime_verification.png",
       "categories": [
         "auditor"
       ],
@@ -1198,8 +1214,8 @@
       "id": "sp_dedaub",
       "name": "Dedaub",
       "website": "https://dedaub.com/",
-      "icon": "/icons/Service Providers/dedaub.jpeg",
       "description": "Dedaub is a leading provider of smart contract auditing and security services, specializing in formal verification and security assessments for decentralized applications.",
+      "icon": "/icons/Service Providers/dedaub.jpeg",
       "categories": [
         "auditor"
       ],
@@ -1216,8 +1232,8 @@
       "id": "sp_certora",
       "name": "Certora",
       "website": "https://www.certora.com/",
-      "icon": "/icons/Service Providers/certora.jpeg",
       "description": "Certora offers formal verification solutions for smart contracts to ensure that decentralized systems are secure, bug-free, and function as expected under all conditions.",
+      "icon": "/icons/Service Providers/certora.jpeg",
       "categories": [
         "auditor"
       ],
@@ -1226,6 +1242,24 @@
           "category": "auditor",
           "projects": [
             "proj_term_finance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_ottersec",
+      "name": "OtterSec",
+      "website": "https://osec.io/",
+      "description": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications. ",
+      "icon": "/icons/Service Providers/ottersec.jpeg",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_parcl"
           ]
         }
       ]

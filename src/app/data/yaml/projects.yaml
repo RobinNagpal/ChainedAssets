@@ -1,4 +1,4 @@
-projects:
+  projects:
   - id: proj_mountain_protocol
     name: Mountain Protocol
     description: "A digital asset protocol focused on providing secure and regulated solutions for asset issuance and management."
@@ -18,7 +18,7 @@ projects:
       - providerId: sp_eq_capital
         category: asset_fund_management
       - providerId: sp_carey_olsen
-        category: offshore_representation
+        category: legal_services
       - providerId: sp_steakhouse_financial
         category: auditor
       - providerId: sp_nephos
@@ -367,6 +367,7 @@ projects:
     description: Franklin Templeton is a global investment management firm offering a wide range of asset management solutions, including multi-asset funds, ETFs, and real assets. With over $1.4 trillion in assets under management, it provides institutional and retail investors access to diverse investment opportunities.
     website: "https://www.franklintempleton.com/"
     icon: "/icons/Treasuries & Bonds (Good Projects)/Franklin Templeton.webp"
+    serviceProviders: []
     assets:
       - assetName: Franklin Income Fund
         assetDescription: A multi-asset fund focused on generating income with diversified investments.
@@ -446,6 +447,7 @@ projects:
     description: DigiFT is a blockchain-powered platform offering tokenized real-world assets, including government bonds, corporate bonds, and digital assets, enabling secure and efficient trading. It provides a wide range of investment opportunities backed by traditional and Web3 assets, ensuring compliance and transparency.
     website: "https://www.digift.sg"
     icon: "/icons/Treasuries & Bonds (Good Projects)/DigiFT.jpg"
+    serviceProviders: []
     assets:
       - assetName: DRUST1224
         assetDescription: DigiFT U.S. Treasury Token with a maturity date of Dec 2024, offering stable and predictable returns backed by the U.S. government.
@@ -481,6 +483,7 @@ projects:
     description: WisdomTree is an asset management firm providing innovative investment products such as ETFs, commodities, and digital asset strategies.
     website: "https://www.wisdomtree.com/"
     icon: '/icons/Treasuries & Bonds (Good Projects)/Wisdom Tree.jpg'
+    serviceProviders: []
     assets:
       - assetName: WisdomTree Bitcoin ETF
         assetDescription: A fund that offers exposure to Bitcoin, allowing investors to participate in the performance of the cryptocurrency.
@@ -585,7 +588,7 @@ projects:
     description: Bricken is a blockchain-based platform for tokenizing real estate assets, allowing investors to access fractional ownership and liquidity.
     website: "https://www.brickken.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Brickken.jpg'
-    
+    serviceProviders: []
     assets:
       - assetName: Real Estate Token
         assetDescription: A tokenized representation of real estate assets, offering fractional ownership and enabling liquidity in the real estate market.
@@ -595,6 +598,7 @@ projects:
     description: Token-City offers tokenized urban real estate investments, allowing people to invest in cities worldwide through blockchain technology.
     website: "https://www.token-city.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png'
+    serviceProviders: []
     assets:
       - assetName: City Real Estate Token
         assetDescription: A token that represents a share in urban real estate assets, providing exposure to the growth of global cities.
@@ -655,6 +659,7 @@ projects:
     description: Nexera Foundation is a platform focused on issuing tokenized assets and leveraging omnichain technology to enable broader access to private investment markets through innovative blockchain infrastructure.
     website: "https://www.nexerafoundation.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Nexera Foundation.jpg'
+    serviceProviders: []
     assets:
       - assetName: NXRA Token
         assetDescription: A decentralized finance (DeFi) utility token within the Nexera ecosystem, used as a means of payment, reward, and reputation, facilitating engagement in tokenized asset issuance, transparency, and liquidity in investment markets.
@@ -669,6 +674,7 @@ projects:
     description: Mt Pelerin specializes in tokenizing private equity and other traditional assets, transforming them into liquid tokenized securities on the blockchain. Their suite of products aims to bridge traditional finance with blockchain, enhancing accessibility and security.
     website: "https://www.mtpelerin.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Mt Pelerin.png'
+    serviceProviders: []
     assets:
       - assetName: Mt Pelerin Security Token (MPS Token)
         assetDescription: Digital securities that tokenize private equity assets, allowing for liquidity and fractional ownership opportunities in traditionally illiquid private equity markets.
@@ -684,6 +690,7 @@ projects:
     description: Stobox helps companies tokenize their real-world assets to attract investment and enhance liquidity.
     website: "https://www.stobox.io/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Stobox.jpg'
+    serviceProviders: []
     assets:
       - assetName: Stobox Digital Securities
         assetDescription: Tokenized securities enabling fractional ownership in various sectors, including real estate, private equity, and venture capital, offering investors access to diversified investment opportunities with enhanced liquidity.
@@ -695,6 +702,7 @@ projects:
     description: Nyala provides tokenization solutions for real estate and equity shares, enhancing the accessibility, efficiency, and liquidity of traditionally illiquid markets. Their regulated cross-platform allows trading of tokenized bonds, structured products, and equity shares.
     website: "https://www.nyala.io/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/NYALA.jpg'
+    serviceProviders: []
     assets:
       - assetName: Tokenized Shares
         assetDescription: Tokenized equity shares introduced in Germany, improving the efficiency, accessibility, and liquidity of electronic shares.
@@ -706,6 +714,7 @@ projects:
     description: Blocksquare provides a range of tokenized real estate investment solutions, offering a comprehensive platform for fractional ownership and liquidity in real estate markets.
     website: "https://www.blocksquare.io/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Blocksquare.png'
+    serviceProviders: []
     assets:
       - assetName: Spring
         assetDescription: A tokenization protocol that structures and digitizes real estate assets for tokenization.
@@ -723,6 +732,7 @@ projects:
     description: Polymath specializes in enabling the creation, issuance, and management of regulatory-compliant security tokens for traditional assets, enhancing accessibility to equities and other financial products on the blockchain.
     website: "https://www.polymath.network/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Polymath.jpg'
+    serviceProviders: []
     assets:
       - assetName: Polymath Capital Platform
         assetDescription: A platform focused on providing tokenization solutions for capital markets, allowing the creation of security tokens that represent traditional financial assets.
@@ -735,6 +745,7 @@ projects:
     description: Tokenforge offers an end-to-end platform for the issuance and management of tokenized securities, allowing businesses to raise capital efficiently and compliantly through blockchain technology.
     website: "https://www.tokenforge.io/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokenforge.png'
+    serviceProviders: []
     assets:
       - assetName: Tokenforge Asset Token
         assetDescription: Compliant, blockchain-based tokenized securities that enable businesses to raise capital by issuing digital assets, streamlining fundraising and enhancing investor accessibility.
@@ -746,6 +757,7 @@ projects:
     description: DigiShares specializes in the tokenization of real estate and private assets, creating digital tokens to provide liquidity and expand access to traditionally illiquid investment markets.
     website: "https://www.digishares.io/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/DigiShares.png'
+    serviceProviders: []
     assets:
       - assetName: DigiShares Real Estate Token
         assetDescription: Tokenized real estate assets offering fractional ownership, making it easier for investors to access real estate markets with improved liquidity and lower entry barriers.
@@ -758,6 +770,7 @@ projects:
     description: Finnexity allows for the tokenization of real estate assets, creating digital securities that are accessible to a broader range of investors.
     website: "https://finexity.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Finexity.jpg'
+    serviceProviders: []
     assets:
       - assetName: Finnexity Real Estate Token
         assetDescription: Tokenized real estate assets offering liquidity and fractional ownership, providing greater access to the real estate market.
@@ -767,6 +780,7 @@ projects:
     description: REINNO provides real estate tokenization services, enabling fractional ownership and increasing liquidity in real estate markets.
     website: "https://www.reinno.io/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/REINNO.jpg'
+    serviceProviders: []
     assets:
       - assetName: REINNO Real Estate Token
         assetDescription: A tokenized real estate asset offering fractional ownership and liquidity for investors in the real estate market.
@@ -776,6 +790,7 @@ projects:
     description: Bitbond offers tokenized securities and tools to facilitate financing for small businesses, leveraging blockchain technology to streamline access to capital and provide investors with new opportunities in digital assets.
     website: "https://www.bitbond.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Bitbond.jpg'
+    serviceProviders: []
     assets:
       - assetName: Bitbond Token
         assetDescription: Tokenized securities designed for small business financing, enabling businesses to raise capital through blockchain-based assets and providing investors with accessible, liquid investment opportunities.
@@ -787,6 +802,7 @@ projects:
     description: Black Manta Capital Partners (BMCP) is an investment bank specializing in digital and tokenized assets, focusing on creating compliant investment products that enhance liquidity and accessibility. BMCP is regulated under BaFin and MiFID II, supporting secure and innovative digital asset investments.
     website: "https://www.blackmanta.capital/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Black Manta_.jpg'
+    serviceProviders: []
     assets:
       - assetName: BMCP Wallet Card
         assetDescription: A secure digital wallet card that supports all security tokens on the Ethereum blockchain, providing investors with an easy and secure way to manage their digital securities.
@@ -805,6 +821,7 @@ projects:
     description: Tokn1 empowers businesses to tokenize their real-world assets, providing innovative pathways for financing and investment. By offering access to a global network of retail and institutional investors, Tokn1 enables companies to reach broader markets, with a special focus on creating visionary investment opportunities in Latin America.
     website: "https://www.tokn1.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Tokn1.webp'
+    serviceProviders: []
     assets:
       - assetName: Tokenized Real Estate
         assetDescription: Digital tokens representing ownership in real estate properties, enabling fractional ownership and increased liquidity in the real estate market.
@@ -822,6 +839,7 @@ projects:
     description: Mattereum enables tokenization of real-world assets, providing a secure platform for issuing and trading tokenized versions of physical assets.
     website: "https://www.mattereum.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/Mattereum.jpg'
+    serviceProviders: []
     assets:
       - assetName: Mattereum Tokenized Asset
         assetDescription: Tokenized assets representing real-world physical assets, enabling easier trading and investment in traditionally illiquid markets.
@@ -831,6 +849,7 @@ projects:
     description: RealBlocks provides a platform for the tokenization of various assets, including real estate and other private investments. By offering fractional ownership and enhanced liquidity, RealBlocks enables investors to access a wider range of traditionally illiquid assets through blockchain technology.
     website: "https://www.realblocks.com/"
     icon: '/icons/Token Issuance- Securitization platforms (Okay Projects)/RealBlocks.jpg'
+    serviceProviders: []
     assets:
       - assetName: RealBlocks Tokenized Asset
         assetDescription: Digital tokens representing fractional ownership in a range of assets, including real estate and private investments, offering improved liquidity and accessibility to investors.
@@ -840,6 +859,7 @@ projects:
     description: Goldfinch is a decentralized credit platform designed to unlock global capital for crypto-backed lending, focusing on real-world asset-backed loans.
     website: "https://www.goldfinch.finance/"
     icon:  '/icons/Private Credit (Good Projects)/Goldfinch.jpg'
+    serviceProviders: []
     assets:
       - assetName: Goldfinch USD Token (GUSD)
         assetDescription: A stablecoin pegged to USD, representing real-world loans and collateralized by non-crypto assets, issued through the Goldfinch protocol.
@@ -871,6 +891,7 @@ projects:
     description: Credit Coop is a decentralized cooperative platform for providing lending and credit services to its members, focused on enabling access to capital and financial products for underserved communities.
     website: "https://www.creditcoop.io/"
     icon: '/icons/Private Credit (Good Projects)/Credit Coop.png'
+    serviceProviders: []
     assets:
       - assetName: Credit Coop Credit Token (CCT)
         assetDescription: A tokenized credit asset used for lending and borrowing within the Credit Coop ecosystem, representing a stake in the cooperative’s credit pool.
@@ -881,6 +902,7 @@ projects:
     description: OpenTrade is a decentralized platform designed to facilitate trade, offering a secure and transparent ecosystem for buying and selling tokenized assets with minimal friction.
     website: "https://www.opentrade.io/"
     icon:  '/icons/Private Credit (Okay Projects)/Open Trade.jpg'
+    serviceProviders: []
     assets:
       - assetName: OpenTrade Token (OTT)
         assetDescription: The native token of OpenTrade, used for governance and transaction fees within the OpenTrade ecosystem.
@@ -892,6 +914,7 @@ projects:
     description: Polytrade is a blockchain-based trade finance platform offering liquidity to small and medium-sized enterprises (SMEs) by digitizing invoices and improving access to financing.
     website: "https://www.polytrade.finance/"
     icon: '/icons/Private Credit (Okay Projects)/PolyTrade.jpg'
+    serviceProviders: []
     assets:
       - assetName: Polytrade Token (PTF)
         assetDescription: The native token of Polytrade, used to settle transactions and provide governance within the Polytrade ecosystem.
@@ -903,6 +926,7 @@ projects:
     description: Helix Finance is a decentralized finance (DeFi) protocol offering structured financial products for real-world asset (RWA) tokenization, enabling yield generation and decentralized liquidity for traditional assets.
     website: "https://helixfinance.io"
     icon: '/icons/Private Credit (Okay Projects)/Helix Finance.jpg'
+    serviceProviders: []
     assets:
       - assetName: Helix Protocol Token (HEL)
         assetDescription: The native token of Helix Finance used for governance, staking, and incentivizing liquidity providers.
@@ -916,6 +940,7 @@ projects:
     description: Clearpool Finance is a decentralized capital markets platform that provides institutional borrowers with access to unsecured loans via the Clearpool protocol, utilizing decentralized pools of liquidity.
     website: "https://clearpool.finance"
     icon: '/icons/Private Credit (Okay Projects)/Clearpool.png'
+    serviceProviders: []
     assets:
       - assetName: Clearpool Token (CPOOL)
         assetDescription: The native token of Clearpool used for staking, governance, and rewarding liquidity providers.
@@ -929,6 +954,7 @@ projects:
     description: Bluejay Finance is a decentralized platform that connects traditional finance with DeFi, enabling fractionalized real-world asset investments, tokenized collateralized lending, and yield generation.
     website: "https://bluejay.finance"
     icon: '/icons/Private Credit (Okay Projects)/Helix Finance.jpg'
+    serviceProviders: []
     assets:
       - assetName: Bluejay Protocol Token (BJT)
         assetDescription: The governance token of Bluejay Finance, used for decision-making, staking, and incentivizing liquidity providers.
@@ -942,6 +968,7 @@ projects:
     description: Tradable is a decentralized platform that allows the tokenization and trading of real-world assets (RWAs) like real estate, bonds, and private equity, unlocking liquidity and broadening access to investments.
     website: "https://tradable.xyz"
     icon:  '/icons/Private Credit (Okay Projects)/Tradeable.jpg'
+    serviceProviders: []
     assets:
       - assetName: Tradeable Token (TT)
         assetDescription: The native governance and utility token of Tradeable, used for protocol governance, staking, and rewarding liquidity providers.
@@ -956,6 +983,7 @@ projects:
       Credbull is a decentralized finance (DeFi) platform that democratizes access to private credit markets by tokenizing real-world assets, offering high fixed yields and potential performance upside.
     website: "https://credbull.io"
     icon: '/icons/Private Credit (Okay Projects)/Credbull.webp'
+    serviceProviders: []
     assets:
       - assetName: Credbull Token (CBL)
         assetDescription: The native utility token of Credbull, used for governance, staking, and rewarding participants within the ecosystem.
@@ -972,6 +1000,7 @@ projects:
       Untangled Finance is a DeFi platform that brings institutional-grade private credit on-chain, offering tokenized debt products and real-time risk monitoring.
     website: "https://untangled.finance"
     icon: '/icons/Private Credit (Okay Projects)/Untangled Finance.jpg'
+    serviceProviders: []
     assets:
       - assetName: Untangled Token (UNT)
         assetDescription: The native governance token of Untangled Finance, used for voting on proposals and participating in the platform's decision-making processes.
@@ -981,4 +1010,291 @@ projects:
         assetDescription: Tokens representing investments in Untangled Finance's vaults, which manage diversified portfolios of tokenized credit assets.
       - assetName: Untangled Credit Pool Bonds
         assetDescription: Tokenized debt instruments backed by pools of tokenized real-world assets, allowing investors to earn yields from institutional borrowers.
+  
+  - id: proj_parcl
+    name: Parcl
+    description: Parcl is a decentralized platform that tokenizes real estate assets, allowing users to invest in fractionalized ownership of real properties globally. By leveraging blockchain technology, Parcl aims to create a liquid market for real estate, the world's largest asset class.
+    website: "https://parcl.co/"
+    icon: '/icons/Real Estate (Good Projects)/Parcl.png'
+    serviceProviders:
+      - providerId: sp_ottersec
+        category: auditor
+    assets:
+      - assetName: Parcl Token 
+        assetDescription: The native governance and utility token of the Parcl ecosystem, used for transactions, governance, and staking within the platform. Holders of PRCL can participate in governance decisions and access enhanced utility across data and trading.
+      - assetName: Real Estate Index Tokens
+        assetDescription: Tokenized representations of real estate indices, allowing users to gain exposure to specific real estate markets or sectors without owning physical properties. These tokens track the performance of real estate markets in various cities and neighborhoods.
+
+  - id: proj_reental
+    name: Reental
+    description: Reental is a decentralized platform that tokenizes real estate, enabling fractional ownership and easy access to global property markets.
+    website: "https://www.reental.co/en"
+    icon: "/icons/Real Estate (Good Projects)/Reental.png"
     serviceProviders: []
+    assets:
+      - assetName: Reental Token
+        assetDescription: The native token of Reental, used for governance, staking, and accessing real estate-backed investments on the platform.
+      - assetName: Reental Property Tokens
+        assetDescription: Tokenized real estate assets representing fractional ownership in physical properties, providing liquidity and investment opportunities in real estate.
+
+
+  - id: proj_exporo
+    name: Exporo
+    description: Exporo is a platform that allows investors to participate in real estate investments through tokenization, offering fractional ownership and liquidity in real estate projects.
+    website: "https://www.exporo.com/"
+    icon: "/icons/Real Estate (Good Projects)/Exporo.png"
+    serviceProviders: []
+    assets:
+      - assetName: Exporo Real Estate Token 
+        assetDescription: A tokenized real estate asset offering fractionalized ownership in real estate projects, providing liquidity and diversification for investors.
+      - assetName: Exporo Yield Token 
+        assetDescription: A token representing the yield generated from real estate investments made through the Exporo platform, allowing token holders to earn returns on their investments.
+
+  - id: proj_brickwise
+    name: Brickwise
+    description: Brickwise is a decentralized real estate platform that uses blockchain technology to tokenize real estate assets, providing investors with fractional ownership and easy access to the real estate market.
+    website: "https://www.brickwise.com/"
+    icon: "/icons/Real Estate (Good Projects)/Brick Wise.png"
+    serviceProviders: []
+    assets:
+      - assetName: Brickwise Token 
+        assetDescription: A token representing fractional ownership in real estate projects, offering liquidity and easy access to real estate investments on the blockchain.
+      - assetName: Brickwise Property Token 
+        assetDescription: Tokenized property assets that allow investors to own a share of real estate projects, diversifying their portfolios and providing exposure to the real estate market.
+
+
+  - id: proj_realt
+    name: RealT
+    description: RealT is a platform that enables tokenized ownership of real estate properties, allowing users to invest in rental properties via fractionalized tokens. Each token represents a share in a specific property, entitling holders to a portion of the rental income and potential capital appreciation.
+    website: "https://www.realt.co/"
+    icon: '/icons/Real Estate (Good Projects)/RealT.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: RealToken (RT)
+        assetDescription: The token representing ownership in a specific real estate property, offering investors access to rental income and capital appreciation. Each RealToken is backed by a deed to a physical property, ensuring transparency and security.
+      - assetName: RealToken Portfolio Token
+        assetDescription: A tokenized asset that represents fractional ownership across a portfolio of real estate properties, enabling diversified exposure to the real estate market. This token allows investors to benefit from the collective rental income and potential appreciation of multiple properties.
+  
+
+
+  - id: proj_metawealth
+    name: MetaWealth
+    description: MetaWealth is a platform offering tokenized real-world assets (RWAs) for investment, focusing on transparency and liquidity.
+    website: "https://www.metawealthttps://www.metawealth.com/h.co/"
+    icon: "/icons/Real Estate (Okay Projects)/MetaWealth.png"
+    serviceProviders: []
+    assets:
+      - assetName: MetaWealth Token (MWT)
+        assetDescription: A tokenized asset that allows investors to access diversified real-world asset-backed portfolios.
+
+  - id: proj_citadao
+    name: CitaDAO
+    description: CitaDAO is a platform that connects real estate and tokenized assets through blockchain, making investment more accessible and liquid.
+    website: "https://www.citadao.io/"
+    icon: "/icons/Real Estate (Okay Projects)/CitaDAO.jpg"
+    serviceProviders: []
+    assets:
+      - assetName: CitaDAO Real Estate Token
+        assetDescription: A tokenized real estate asset allowing fractional ownership and access to the real estate market through blockchain.
+
+  - id: proj_tangible
+    name: Tangible
+    description: Tangible provides a decentralized platform for real estate tokenization, offering fractional ownership and liquidity for real estate investors.
+    website: "https://www.tangible.store/"
+    icon: "/icons/Real Estate (Okay Projects)/Tangible.jpg"
+    serviceProviders: []
+    assets:
+      - assetName: USTB
+        assetDescription: A tokenized real estate investment vehicle providing liquidity and fractionalized ownership in real estate assets.
+
+  - id: proj_investbay
+    name: InvestBay
+    description: InvestBay is a real estate investment platform using blockchain technology to offer tokenized ownership of real-world properties.
+    website: "https://www.investbay.com"
+    icon: "/icons/Real Estate (Okay Projects)/InvestBay.jpg"
+    serviceProviders: []
+    assets:
+      - assetName: InvestBay Real Estate Token 
+        assetDescription: A tokenized platform that enables fractional ownership in real estate investments, providing liquidity and ownership rights.
+
+  - id: proj_landshare
+    name: Landshare
+    description: Landshare allows fractional ownership of land assets using tokenization, democratizing access to real estate investment.
+    website: "https://www.landshare.io/"
+    icon: "/icons/Real Estate (Okay Projects)/Landshare.png"
+    serviceProviders: []
+    assets:
+      - assetName: Land Token
+        assetDescription: LAND is the platform governance and utility token, utilized for payment, staking, DAO governance, and more.
+      - assetName: RWA Token
+        assetDescription: Each RWA token represents a share of our real estate assets. Buy and hold to earn passive income from cash flow properties.
+
+  - id: proj_estate_protocol
+    name: Estate Protocol
+    description: Estate Protocol connects traditional real estate with the blockchain, allowing real estate investments to be tokenized and traded on decentralized platforms.
+    website: "https://www.estateprotocol.com/"
+    icon: "/icons/Real Estate (Okay Projects)/Estate Protocol.jpg"
+    serviceProviders: []
+    assets:
+      - assetName: Estate Token
+        assetDescription: A tokenized version of real estate assets, offering liquidity and fractional ownership opportunities in real estate investments.
+
+  - id: proj_propchain
+    name: Propchain
+    description: Propchain is a decentralized blockchain platform enabling the tokenization of real estate properties for enhanced liquidity and investment opportunities.
+    website: "https://www.propchain.com/"
+    icon: "/icons/Real Estate (Okay Projects)/Propchain.png"
+    serviceProviders: []
+    assets:
+      - assetName: Propchain Tokens
+        assetDescription: A tokenized asset for fractional ownership in real estate, offering liquidity and enabling decentralized real estate investments.
+
+  - id: proj_realtyx
+    name: RealtyX
+    description: RealtyX enables tokenization of real estate assets, offering fractional ownership and liquidity through blockchain technology.
+    website: "https://realtyx.co/"
+    icon: "/icons/Real Estate (Okay Projects)/RealtyX.png"
+    serviceProviders: []
+    assets:
+      - assetName: RealtyX Token 
+        assetDescription: A platform token enabling fractionalized ownership of real estate, improving liquidity and access to real estate markets.
+
+  - id: proj_lofty
+    name: Lofty
+    description: Lofty is a decentralized real estate investment platform offering fractional ownership in rental properties through tokenization.
+    website: "https://www.lofty.ai/"
+    icon: "/icons/Real Estate (Okay Projects)/Lofty.png"
+    serviceProviders: []
+    assets:
+      - assetName: Lofty Token
+        assetDescription: A tokenized asset representing ownership of fractional shares in rental properties, offering liquidity and stable returns.
+
+  - id: proj_propy
+    name: Propy
+    description: Propy is a global real estate platform that leverages blockchain technology for property transactions, enabling tokenized ownership of real estate.
+    website: "https://www.propy.com/"
+    icon: "/icons/Real Estate (Okay Projects)/Propy.png"
+    serviceProviders: []
+    assets:
+      - assetName: Propy Token
+        assetDescription: A tokenized real estate asset that facilitates ownership and trade of property through blockchain technology.
+  
+  - id: proj_chainlink
+    name: Chainlink
+    description: Chainlink is a decentralized oracle network that enables smart contracts to securely connect with external data sources, APIs, and payment systems.
+    website: "https://chain.link/"
+    icon: '/icons/Oracles (Good Projects)/Chainlink.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: LINK Token
+        assetDescription: The native token of Chainlink used for transaction fees and staking within the Chainlink network.
+
+  - id: proj_rwaxyz
+    name: RWA.xyz
+    description: RWA.xyz is a platform that facilitates the tokenization of real-world assets (RWAs) and enables investors to gain exposure to tokenized assets through blockchain technology.
+    website: "https://www.rwa.xyz/"
+    icon: '/icons/Oracles (Good Projects)/RWA.xyz.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: RWA Token
+        assetDescription: Tokenized real-world assets on the RWA.xyz platform, representing ownership in physical or financial assets.
+
+  - id: proj_security_token_market
+    name: Security Token Market
+    description: Security Token Market is a platform that provides access to regulated security token offerings (STOs) and tokenized assets, helping to bridge the gap between traditional and digital assets.
+    website: "https://www.securitytokenmarket.com/"
+    icon: '/icons/Wallets & Custodians (Good Projects)/Hex Trust.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: Security Tokens
+        assetDescription: Regulated tokenized securities offered on the Security Token Market platform, allowing fractional ownership of real-world assets.
+
+  - id: proj_pyth
+    name: Pyth
+    description: Pyth is a decentralized oracle network providing real-time data feeds to smart contracts, allowing access to high-fidelity data from major financial markets.
+    website: "https://pyth.network/"
+    icon: '/icons/Oracles (Good Projects)/Pyth.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: Pyth Data Token
+        assetDescription: The native token of Pyth, used for accessing and providing high-quality financial data feeds in decentralized applications.
+
+  - id: proj_tellor
+    name: Tellor
+    description: Tellor is a decentralized oracle platform that enables smart contracts to access off-chain data, powered by a network of stakers who submit data points to the blockchain.
+    website: "https://www.tellor.io/"
+    icon: '/icons/Oracles (Okay Projects)/Tellor.png'
+    serviceProviders: []
+    assets:
+      - assetName: TRB Token
+        assetDescription: The native token of Tellor used to incentivize data submission and secure the oracle network.
+
+  - id: proj_nukai
+    name: Nuklai
+    description: Nuklai is an oracle service platform that connects real-world data to the blockchain, providing reliable data feeds for decentralized finance (DeFi) and other smart contract applications.
+    website: "https://www.nukai.io/"
+    icon: '/icons/Oracles (Okay Projects)/Nuklai.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: Nuklai Token
+        assetDescription: The native token of Nuklai used to power the decentralized oracle network and reward data providers.
+
+  - id: proj_copper_co
+    name: Copper.co
+    description: Copper is a global digital asset custodian and infrastructure provider that offers custody, trading, and settlement solutions for institutional clients.
+    website: "https://www.copper.co/"
+    icon: '/icons/Wallets & Custodians (Good Projects)/Copper.co.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: Copper Custody Token
+        assetDescription: Tokenized assets held in Copper's custody solution, providing institutional-grade security and liquidity for digital assets.
+
+  - id: proj_tangany
+    name: Tangany
+    description: Tangany is a blockchain-based custodian service provider that enables businesses to securely store, manage, and transfer digital assets on behalf of their clients.
+    website: "https://tangany.com/"
+    icon: '/icons/Wallets & Custodians (Good Projects)/Tangany.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: Tangany Custody Token
+        assetDescription: Tokenized digital assets held in Tangany's custody solution, offering high-grade security and regulatory compliance for digital assets.
+
+  - id: proj_hex_trust
+    name: Hex Trust
+    description: Hex Trust is a fully licensed and insured digital asset custodian that offers custody, prime brokerage, and digital asset-related services to institutions.
+    website: "https://www.hextrust.com/"
+    icon: '/icons/Wallets & Custodians (Good Projects)/Hex Trust.jpg'
+    serviceProviders: []
+    assets:
+      - assetName: Hex Trust Custody Token
+        assetDescription: Tokenized assets stored in Hex Trust’s custodial solution, providing secure storage and services for institutional investors.
+
+  - id: proj_fireblocks
+    name: Fireblocks
+    description: Fireblocks is a digital asset security platform that provides enterprise-grade custody, transfer, and settlement solutions for digital assets.
+    website: "https://www.fireblocks.com/"
+    icon: '/icons/Wallets & Custodians (Good Projects)/Fireblocks.png'
+    serviceProviders: []
+    assets:
+      - assetName: Fireblocks Custody Token
+        assetDescription: Securely tokenized assets held in Fireblocks' custody solution, ensuring top-tier protection and compliance for digital assets.
+
+  - id: proj_customony
+    name: Customony
+    description: Customony provides secure digital asset custody and infrastructure solutions for institutional investors, ensuring the safe management of crypto and digital assets.
+    website: "https://www.customony.com/"
+    icon: '/icons/Wallets & Custodians (Okay Projects)/Custonomy.png'
+    serviceProviders: []
+    assets:
+      - assetName: Customony Custody Token
+        assetDescription: Custody solution for tokenized assets, ensuring security and regulatory compliance for institutional investors.
+
+  - id: proj_brillion
+    name: Brillion
+    description: Brillion is a secure, blockchain-powered custodian service providing institutional investors with custody, transfer, and management of digital assets.
+    website: "https://www.brillion.com/"
+    icon: '/icons/Wallets & Custodians (Okay Projects)/Brillion.png'
+    serviceProviders: []
+    assets:
+      - assetName: Brillion Custody Token
+        assetDescription: Tokenized assets securely managed by Brillion's custody platform, offering seamless integration for institutional clients.

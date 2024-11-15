@@ -27,7 +27,7 @@ export default function ProjectList() {
 
             <div className="flex w-full flex-col sm:w-1/2">
               <h4 className="text-lg font-semibold">Service Providers</h4>
-              {project.serviceProviders ? (
+              {project.serviceProviders?.length!=0 ? (
                 <ul
                   role="list"
                   className="w-full divide-y divide-gray-100 sm:w-auto"

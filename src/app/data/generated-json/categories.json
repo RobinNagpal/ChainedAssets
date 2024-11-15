@@ -36,7 +36,8 @@
         "sp_sigma_prime",
         "sp_runtime_verification",
         "sp_dedaub",
-        "sp_certora"
+        "sp_certora",
+        "sp_ottersec"
       ]
     },
     {
@@ -75,13 +76,6 @@
       ]
     },
     {
-      "id": "offshore_representation",
-      "name": "Offshore Representation",
-      "serviceProviders": [
-        "sp_carey_olsen"
-      ]
-    },
-    {
       "id": "custodian",
       "name": "Custodian",
       "serviceProviders": [
@@ -102,7 +96,8 @@
       "name": "Legal Services",
       "serviceProviders": [
         "sp_harneys",
-        "sp_cole_frieman"
+        "sp_cole_frieman",
+        "sp_carey_olsen"
       ]
     },
     {
