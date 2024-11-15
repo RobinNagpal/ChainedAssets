@@ -981,4 +981,4 @@ projects:
         assetDescription: Tokens representing investments in Untangled Finance's vaults, which manage diversified portfolios of tokenized credit assets.
       - assetName: Untangled Credit Pool Bonds
         assetDescription: Tokenized debt instruments backed by pools of tokenized real-world assets, allowing investors to earn yields from institutional borrowers.
-  
+    serviceProviders: []
