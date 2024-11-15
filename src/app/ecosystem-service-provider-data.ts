@@ -27,7 +27,7 @@ export const data: TreeNode = {
   children: [
     {
       type: 'node',
-      name: 'Treasuries & Bonds',
+      name: 'Digital Asset Custody',
       value: 0,
       children: [
         {
@@ -42,7 +42,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_openeden',
+          id: 'proj_openeden',
           name: 'OpenEden',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Open Eden.avif',
@@ -92,7 +92,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_matrixdock',
+          id: 'proj_matrixdock',
           name: 'Matrixdock',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Matrixdock.png',
@@ -102,7 +102,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_libre_capital',
+          id: 'proj_libre_capital',
           name: 'LibreCapital',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Libre Capital.jpg',
@@ -132,7 +132,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_mountain_protocol',
+          id: 'proj_mountain_protocol',
           name: 'Mountain Protocol',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Mountain Protocol.jpg',
@@ -152,7 +152,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_superstate',
+          id: 'proj_superstate',
           name: 'Superstate',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Superstate.webp',
@@ -162,7 +162,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_arca_labs',
+          id: 'proj_arca_labs',
           name: 'Arca Labs',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Arca.jpg',
@@ -172,7 +172,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_digiFT',
+          id: 'proj_digiFT',
           name: 'DigiFT',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/DigiFT.jpg',
@@ -212,7 +212,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_fortunafi',
+          id: 'proj_fortunafi',
           name: 'Fortunafi',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Okay Projects)/Fortunafi.jpg',
@@ -225,7 +225,7 @@ export const data: TreeNode = {
 
     {
       type: 'node',
-      name: 'Token Issuance/ Securitization platforms',
+      name: 'Smart Contract Audit',
       value: 0,
       children: [
         {
@@ -240,7 +240,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_tokeny',
+          id: 'proj_tokeny',
           name: 'Tokeny',
           value: 50,
           icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png',
@@ -250,7 +250,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_token_city',
+          id: 'proj_token_city',
           name: 'Token City',
           value: 50,
           icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png',
@@ -278,7 +278,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_ondo_finance',
+          id: 'proj_ondo_finance',
           name: 'Ondo Finance',
           value: 50,
           icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Ondo Finance.png',
@@ -426,7 +426,7 @@ export const data: TreeNode = {
     },
     {
       type: 'node',
-      name: 'Private Credit',
+      name: 'Auditor',
       value: 0,
       children: [
         {
@@ -560,7 +560,7 @@ export const data: TreeNode = {
 
     {
       type: 'node',
-      name: 'Real Estate',
+      name: 'Onramp',
       value: 0,
       children: [
         {
@@ -703,7 +703,7 @@ export const data: TreeNode = {
 
     {
       type: 'node',
-      name: 'Oracles',
+      name: 'Asset/Fund Management',
       value: 0,
       children: [
         {
@@ -764,7 +764,7 @@ export const data: TreeNode = {
     },
     {
       type: 'node',
-      name: 'Wallets & Custodians',
+      name: 'Custodian',
       value: 0,
       children: [
         {
@@ -826,7 +826,7 @@ export const data: TreeNode = {
     },
     {
       type: 'node',
-      name: 'Collectibles',
+      name: 'Regulator',
       value: 0,
       children: [
         {
@@ -879,7 +879,7 @@ export const data: TreeNode = {
     },
     {
       type: 'node',
-      name: 'Agriculture',
+      name: 'Legal Services',
       value: 0,
       children: [
         {
@@ -940,7 +940,7 @@ export const data: TreeNode = {
     },
     {
       type: 'node',
-      name: 'Commodities/ Precious metals',
+      name: 'Blockchain Analytics',
       value: 0,
       children: [
         {
@@ -1019,7 +1019,323 @@ export const data: TreeNode = {
     },
     {
       type: 'node',
-      name: 'Equity',
+      name: 'Oracle Services',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Backed',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Backed Finance.jpg',
+          details:
+            'It allows professional investors to purchase tokenized fixed income bonds and equities. Each token is 1:1 backed by the underlying asset. Backed also provides institutions with a flexible, efficient, and secure tokenization service tailored to their needs.',
+          link: 'https://backed.fi/',
+        },
+        {
+          type: 'leaf',
+          name: 'ADDX',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/ADDX.jpg',
+          details:
+            'ADADDX is a private market investment platform and not a blockchain project that enables you to invest in Private Equity, Hedge Funds, Real Estate, in fractions as low as $5,000. It is open to all non-US individual accredited, corporate accredited, and institutional investors.',
+          link: 'https://addx.co/en/index.html',
+        },
+        {
+          type: 'leaf',
+          name: 'Securitize',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Securitize.png',
+          details:
+            'Securitize is a member of FINRA and SIPC as well as an SEC-registered broker-dealer. It offers investors to invest in private equity and even VC funds. The open private equity offerings are intended for experienced investors who are looking to diversify their portfolios with alternative asset investments starting at $10k to $20k instead of $2M.',
+          link: 'https://securitize.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Forge',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Forge.jpg',
+          details:
+            'It provides a secure way for investors to access private securities. Forge Markets is a broker-dealer, and our ultimate parent organization, Forge Global Holdings, Inc. (NYSE: FRGE), is a publicly traded company. The vast majority of their deals are direct secondary transactions, where the purchaser is directly on the capital table of the company at the close of the transaction.',
+          link: 'https://forgeglobal.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Dinari',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Dinari.jpg',
+          details:
+            'Through dShares, users can trade traditional securities, like stocks and bonds, on the blockchain. It uses smart contracts to represent the securities as tokens and to automate the process of buying and selling them.',
+          link: 'https://dinari.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Oasis Pro Markets',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Oasis Pro.png',
+          details:
+            'Oasis Pro provides a secure and regulated platform for buying, selling, and managing digital securities including debt and equity based assets. Accredited investors can invest in funds like Wine Capital Fund, Rise & Shine Fund etc.',
+          link: 'https://www.oasispro.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Swarm',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Swarm.jpg',
+          details:
+            'It allows users to invest in public stocks on-chain which can be traded and invested by both retail and qualified investors. Tokens are issued by SwarmX GmbH, a subsidiary of Swarm Capital GmbH.',
+          link: 'https://swarm.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Texture Capital',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Texture Capital.jpg',
+          details:
+            'It offers different types of funds like Solaris Renewable Energy Equity A, RevTech Capital Fund II, Bricxone etc. in which accredit investors can invest in. Texture Capital Inc. is a FINRA member broker-dealer and operator of an SEC-registered Alternative Trading System.',
+          link: 'https://app.texture.capital/',
+        },
+      ],
+    },
+    {
+      type: 'node',
+      name: 'Financial Infrastructure',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Backed',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Backed Finance.jpg',
+          details:
+            'It allows professional investors to purchase tokenized fixed income bonds and equities. Each token is 1:1 backed by the underlying asset. Backed also provides institutions with a flexible, efficient, and secure tokenization service tailored to their needs.',
+          link: 'https://backed.fi/',
+        },
+        {
+          type: 'leaf',
+          name: 'ADDX',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/ADDX.jpg',
+          details:
+            'ADADDX is a private market investment platform and not a blockchain project that enables you to invest in Private Equity, Hedge Funds, Real Estate, in fractions as low as $5,000. It is open to all non-US individual accredited, corporate accredited, and institutional investors.',
+          link: 'https://addx.co/en/index.html',
+        },
+        {
+          type: 'leaf',
+          name: 'Securitize',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Securitize.png',
+          details:
+            'Securitize is a member of FINRA and SIPC as well as an SEC-registered broker-dealer. It offers investors to invest in private equity and even VC funds. The open private equity offerings are intended for experienced investors who are looking to diversify their portfolios with alternative asset investments starting at $10k to $20k instead of $2M.',
+          link: 'https://securitize.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Forge',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Forge.jpg',
+          details:
+            'It provides a secure way for investors to access private securities. Forge Markets is a broker-dealer, and our ultimate parent organization, Forge Global Holdings, Inc. (NYSE: FRGE), is a publicly traded company. The vast majority of their deals are direct secondary transactions, where the purchaser is directly on the capital table of the company at the close of the transaction.',
+          link: 'https://forgeglobal.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Dinari',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Dinari.jpg',
+          details:
+            'Through dShares, users can trade traditional securities, like stocks and bonds, on the blockchain. It uses smart contracts to represent the securities as tokens and to automate the process of buying and selling them.',
+          link: 'https://dinari.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Oasis Pro Markets',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Oasis Pro.png',
+          details:
+            'Oasis Pro provides a secure and regulated platform for buying, selling, and managing digital securities including debt and equity based assets. Accredited investors can invest in funds like Wine Capital Fund, Rise & Shine Fund etc.',
+          link: 'https://www.oasispro.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Swarm',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Swarm.jpg',
+          details:
+            'It allows users to invest in public stocks on-chain which can be traded and invested by both retail and qualified investors. Tokens are issued by SwarmX GmbH, a subsidiary of Swarm Capital GmbH.',
+          link: 'https://swarm.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Texture Capital',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Texture Capital.jpg',
+          details:
+            'It offers different types of funds like Solaris Renewable Energy Equity A, RevTech Capital Fund II, Bricxone etc. in which accredit investors can invest in. Texture Capital Inc. is a FINRA member broker-dealer and operator of an SEC-registered Alternative Trading System.',
+          link: 'https://app.texture.capital/',
+        },
+      ],
+    },
+    {
+      type: 'node',
+      name: 'Credit Rating',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Backed',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Backed Finance.jpg',
+          details:
+            'It allows professional investors to purchase tokenized fixed income bonds and equities. Each token is 1:1 backed by the underlying asset. Backed also provides institutions with a flexible, efficient, and secure tokenization service tailored to their needs.',
+          link: 'https://backed.fi/',
+        },
+        {
+          type: 'leaf',
+          name: 'ADDX',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/ADDX.jpg',
+          details:
+            'ADADDX is a private market investment platform and not a blockchain project that enables you to invest in Private Equity, Hedge Funds, Real Estate, in fractions as low as $5,000. It is open to all non-US individual accredited, corporate accredited, and institutional investors.',
+          link: 'https://addx.co/en/index.html',
+        },
+        {
+          type: 'leaf',
+          name: 'Securitize',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Securitize.png',
+          details:
+            'Securitize is a member of FINRA and SIPC as well as an SEC-registered broker-dealer. It offers investors to invest in private equity and even VC funds. The open private equity offerings are intended for experienced investors who are looking to diversify their portfolios with alternative asset investments starting at $10k to $20k instead of $2M.',
+          link: 'https://securitize.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Forge',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Forge.jpg',
+          details:
+            'It provides a secure way for investors to access private securities. Forge Markets is a broker-dealer, and our ultimate parent organization, Forge Global Holdings, Inc. (NYSE: FRGE), is a publicly traded company. The vast majority of their deals are direct secondary transactions, where the purchaser is directly on the capital table of the company at the close of the transaction.',
+          link: 'https://forgeglobal.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Dinari',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Dinari.jpg',
+          details:
+            'Through dShares, users can trade traditional securities, like stocks and bonds, on the blockchain. It uses smart contracts to represent the securities as tokens and to automate the process of buying and selling them.',
+          link: 'https://dinari.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Oasis Pro Markets',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Oasis Pro.png',
+          details:
+            'Oasis Pro provides a secure and regulated platform for buying, selling, and managing digital securities including debt and equity based assets. Accredited investors can invest in funds like Wine Capital Fund, Rise & Shine Fund etc.',
+          link: 'https://www.oasispro.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Swarm',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Swarm.jpg',
+          details:
+            'It allows users to invest in public stocks on-chain which can be traded and invested by both retail and qualified investors. Tokens are issued by SwarmX GmbH, a subsidiary of Swarm Capital GmbH.',
+          link: 'https://swarm.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Texture Capital',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Texture Capital.jpg',
+          details:
+            'It offers different types of funds like Solaris Renewable Energy Equity A, RevTech Capital Fund II, Bricxone etc. in which accredit investors can invest in. Texture Capital Inc. is a FINRA member broker-dealer and operator of an SEC-registered Alternative Trading System.',
+          link: 'https://app.texture.capital/',
+        },
+      ],
+    },
+    {
+      type: 'node',
+      name: 'Exchange/Market Maker',
+      value: 0,
+      children: [
+        {
+          type: 'leaf',
+          name: 'Backed',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Backed Finance.jpg',
+          details:
+            'It allows professional investors to purchase tokenized fixed income bonds and equities. Each token is 1:1 backed by the underlying asset. Backed also provides institutions with a flexible, efficient, and secure tokenization service tailored to their needs.',
+          link: 'https://backed.fi/',
+        },
+        {
+          type: 'leaf',
+          name: 'ADDX',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/ADDX.jpg',
+          details:
+            'ADADDX is a private market investment platform and not a blockchain project that enables you to invest in Private Equity, Hedge Funds, Real Estate, in fractions as low as $5,000. It is open to all non-US individual accredited, corporate accredited, and institutional investors.',
+          link: 'https://addx.co/en/index.html',
+        },
+        {
+          type: 'leaf',
+          name: 'Securitize',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Securitize.png',
+          details:
+            'Securitize is a member of FINRA and SIPC as well as an SEC-registered broker-dealer. It offers investors to invest in private equity and even VC funds. The open private equity offerings are intended for experienced investors who are looking to diversify their portfolios with alternative asset investments starting at $10k to $20k instead of $2M.',
+          link: 'https://securitize.io/',
+        },
+        {
+          type: 'leaf',
+          name: 'Forge',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Forge.jpg',
+          details:
+            'It provides a secure way for investors to access private securities. Forge Markets is a broker-dealer, and our ultimate parent organization, Forge Global Holdings, Inc. (NYSE: FRGE), is a publicly traded company. The vast majority of their deals are direct secondary transactions, where the purchaser is directly on the capital table of the company at the close of the transaction.',
+          link: 'https://forgeglobal.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Dinari',
+          value: 50,
+          icon: '/icons/Private Equity (Good Projects)/Dinari.jpg',
+          details:
+            'Through dShares, users can trade traditional securities, like stocks and bonds, on the blockchain. It uses smart contracts to represent the securities as tokens and to automate the process of buying and selling them.',
+          link: 'https://dinari.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Oasis Pro Markets',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Oasis Pro.png',
+          details:
+            'Oasis Pro provides a secure and regulated platform for buying, selling, and managing digital securities including debt and equity based assets. Accredited investors can invest in funds like Wine Capital Fund, Rise & Shine Fund etc.',
+          link: 'https://www.oasispro.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Swarm',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Swarm.jpg',
+          details:
+            'It allows users to invest in public stocks on-chain which can be traded and invested by both retail and qualified investors. Tokens are issued by SwarmX GmbH, a subsidiary of Swarm Capital GmbH.',
+          link: 'https://swarm.com/',
+        },
+        {
+          type: 'leaf',
+          name: 'Texture Capital',
+          value: 50,
+          icon: '/icons/Private Equity (Okay Projects)/Texture Capital.jpg',
+          details:
+            'It offers different types of funds like Solaris Renewable Energy Equity A, RevTech Capital Fund II, Bricxone etc. in which accredit investors can invest in. Texture Capital Inc. is a FINRA member broker-dealer and operator of an SEC-registered Alternative Trading System.',
+          link: 'https://app.texture.capital/',
+        },
+      ],
+    },
+    {
+      type: 'node',
+      name: 'KYC/AML Compliance',
       value: 0,
       children: [
         {

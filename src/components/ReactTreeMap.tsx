@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
-import { Tree, TreeNode, TreeLeaf } from '@/app/data'
+import { Tree, TreeNode, TreeLeaf } from '@/app/ecosystem-projects-data'
 
 interface EcosystemMapProps {
   data: Tree[]

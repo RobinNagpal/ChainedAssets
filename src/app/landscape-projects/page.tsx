@@ -1,4 +1,4 @@
-import { data } from '@/app/data'
+import { data } from '@/app/ecosystem-projects-data'
 import EcosystemMap from '@/components/ReactTreeMap'
 import { defaultViewport, getDefaultMetadata } from '@/utils/seoConfig'
 
