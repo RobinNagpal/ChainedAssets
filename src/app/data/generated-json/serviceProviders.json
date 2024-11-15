@@ -77,7 +77,8 @@
             "proj_midas",
             "proj_backed",
             "proj_libre_capital",
-            "proj_fortunafi"
+            "proj_fortunafi",
+            "proj_investax"
           ]
         }
       ]
@@ -1153,6 +1154,78 @@
           "category": "asset_fund_management",
           "projects": [
             "proj_adapt3r"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_sigma_prime",
+      "name": "Sigma Prime",
+      "website": "https://sigmaprime.io/",
+      "icon": "/icons/Service Providers/sigmaprime.png",
+      "description": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services to improve the security and functionality of decentralized systems.",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_term_finance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_runtime_verification",
+      "name": "Runtime Verification",
+      "website": "https://runtimeverification.com/",
+      "icon": "/icons/Service Providers/runtime_verification.png",
+      "description": "Runtime Verification provides formal verification services for smart contracts, ensuring that smart contracts behave as intended and adhere to desired properties.",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_term_finance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_dedaub",
+      "name": "Dedaub",
+      "website": "https://dedaub.com/",
+      "icon": "/icons/Service Providers/dedaub.jpeg",
+      "description": "Dedaub is a leading provider of smart contract auditing and security services, specializing in formal verification and security assessments for decentralized applications.",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_term_finance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp_certora",
+      "name": "Certora",
+      "website": "https://www.certora.com/",
+      "icon": "/icons/Service Providers/certora.jpeg",
+      "description": "Certora offers formal verification solutions for smart contracts to ensure that decentralized systems are secure, bug-free, and function as expected under all conditions.",
+      "categories": [
+        "auditor"
+      ],
+      "projects": [
+        {
+          "category": "auditor",
+          "projects": [
+            "proj_term_finance"
           ]
         }
       ]

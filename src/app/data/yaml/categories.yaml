@@ -27,7 +27,10 @@ categories:
       - sp_nephos
       - sp_cohen_company
       - sp_rsm
-
+      - sp_sigma_prime
+      - sp_runtime_verification
+      - sp_dedaub
+      - sp_certora
   - id: onramp
     name: Onramp
     serviceProviders:
