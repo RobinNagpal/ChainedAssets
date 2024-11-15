@@ -87,45 +87,55 @@ export default function ProjectDetails({
           )}
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="px-4 text-lg font-semibold">Service Providers</dt>
-            {currentProject?.serviceProviders?.length!=0 ? (<dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
-              <ul role="list" className="divide-y divide-gray-100">
-                {projectServiceProviders.map((provider) => (
-                  <li key={provider.id} className="flex items-start gap-4 py-2">
-                    <div className="flex flex-col">
-                      <Link href={provider?.website!} target="_blank">
-                        <div className="flex flex-row">
-                          <span className="px-2 text-lg font-medium">
-                            {provider.name}
-                          </span>
-                          <span>
-                            {' '}
-                            {provider?.icon && (
-                              <img
-                                src={provider?.icon}
-                                className="max-h-8 rounded"
-                              />
-                            )}
-                          </span>
-                        </div>
-                      </Link>
-                      <span className="px-2 text-sm text-gray-600">
-                        Category:{' '}
-                        {provider.categories
-                          .map((categoryId) => {
-                            // Find the matching category by ID
-                            const category = categories.find(
-                              (cat) => cat.id === categoryId,
-                            )
-                            // Return category name if found, otherwise show the ID or a fallback
-                            return category ? category.name : 'Unknown Category'
-                          })
-                          .join(', ')}
-                      </span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </dd>) : (<dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">No Service Proiders Known</dd>)}
+            {currentProject?.serviceProviders?.length != 0 ? (
+              <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+                <ul role="list" className="divide-y divide-gray-100">
+                  {projectServiceProviders.map((provider) => (
+                    <li
+                      key={provider.id}
+                      className="flex items-start gap-4 py-2"
+                    >
+                      <div className="flex flex-col">
+                        <Link href={`/service-providers/${provider.id}`}>
+                          <div className="flex flex-row">
+                            <div>
+                              {provider?.icon && (
+                                <img
+                                  src={provider?.icon}
+                                  className="max-h-6 rounded"
+                                />
+                              )}
+                            </div>
+                            <div className="px-2 text-lg font-medium">
+                              {provider.name}
+                            </div>
+                          </div>
+                        </Link>
+                        <span className="px-2 text-sm text-gray-600">
+                          Category:{' '}
+                          {provider.categories
+                            .map((categoryId) => {
+                              // Find the matching category by ID
+                              const category = categories.find(
+                                (cat) => cat.id === categoryId,
+                              )
+                              // Return category name if found, otherwise show the ID or a fallback
+                              return category
+                                ? category.name
+                                : 'Unknown Category'
+                            })
+                            .join(', ')}
+                        </span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </dd>
+            ) : (
+              <dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+                No Service Proiders Known
+              </dd>
+            )}
           </div>
         </dl>
       </div>

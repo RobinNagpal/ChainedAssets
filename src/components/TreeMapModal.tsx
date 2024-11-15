@@ -8,14 +8,16 @@ import {
 } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface TreeMapModalProps {
   name: string
-  id?:string
+  id?: string
   details: string
   link: string
   icon: string
   onClose: () => void
+  type: string
 }
 
 export default function TreeMapModal({
@@ -25,6 +27,7 @@ export default function TreeMapModal({
   link,
   icon,
   onClose,
+  type,
 }: TreeMapModalProps) {
   return (
     <Dialog open={true} onClose={onClose} className="relative z-10">
@@ -52,7 +55,7 @@ export default function TreeMapModal({
             <div>
               <div className="h-15 w-15 mx-auto flex items-center justify-center">
                 {id ? (
-                  <a href={`/projects/${id}`}>
+                  <Link href={`/${type}/${id}`}>
                     <Image
                       src={icon}
                       alt={name}
@@ -60,7 +63,7 @@ export default function TreeMapModal({
                       height={60}
                       className="object-contain"
                     />
-                  </a>
+                  </Link>
                 ) : (
                   <Image
                     src={icon}
@@ -73,14 +76,14 @@ export default function TreeMapModal({
               </div>
               <div className="mt-3 text-center sm:mt-5">
                 {id ? (
-                  <a href={`/projects/${id}`}>
-                  <DialogTitle
-                    as="h3"
-                    className="text-base font-semibold leading-6 text-white"
-                  >
-                    {name}
+                  <Link href={`/${type}/${id}`}>
+                    <DialogTitle
+                      as="h3"
+                      className="text-base font-semibold leading-6 text-white"
+                    >
+                      {name}
                     </DialogTitle>
-                    </a>
+                  </Link>
                 ) : (
                   <DialogTitle
                     as="h3"
@@ -91,16 +94,22 @@ export default function TreeMapModal({
                 )}
                 <div className="mt-2">
                   <p className="text-sm text-gray-300">{details}</p>
+                  <Link
+                    href={`/${type}/${id}`}
+                    className="py-4 text-violet-400 underline"
+                  >
+                    View Details
+                  </Link>
                   <p className="mt-2 text-sm text-gray-300">
                     <strong>Website:</strong>{' '}
-                    <a
+                    <Link
                       datatype="external"
                       target="_blank"
                       href={link}
                       className="text-indigo-400 hover:text-indigo-300 hover:underline"
                     >
-                      {link}
-                    </a>
+                      Website: {link}
+                    </Link>
                   </p>
                 </div>
               </div>

@@ -7,11 +7,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'RWA Research', href: 'https://research.chainedassets.com/' },
-  { name: 'Ecosystem Map', href: '/landscape-projects' },
-  { name: 'Landscape', href: '/landscape-service-providers' },
-  { name: 'All Projects', href: '/projects' },
-  { name: 'Service Providers', href: '/service-providers' },
-  { name: 'Categories', href: '/categories' },
+  { name: 'Projects', href: '/landscape-projects' },
+  { name: 'Service Providers', href: '/landscape-service-providers' },
   { name: 'Visit DoDAO', href: 'https://dodao.io/' },
 ]
 

@@ -34,7 +34,7 @@ export const metadata = getDefaultMetadata(
 export default function LandscapePage() {
   return (
     <div className="flex justify-center bg-gray-900">
-      <EcosystemMap data={treeData} />
+      <EcosystemMap data={treeData} type={'service-providers'} />
     </div>
   )
 }

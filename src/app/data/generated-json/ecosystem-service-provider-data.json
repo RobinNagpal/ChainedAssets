@@ -299,15 +299,6 @@
         },
         {
           "type": "leaf",
-          "id": "sp_superstate",
-          "name": "Superstate Inc.",
-          "value": 50,
-          "icon": "https://superstate.co/assets/images/logo-mark-blk.svg",
-          "details": "Provides innovative investment management solutions tailored to institutional needs.",
-          "link": "https://superstate.co/"
-        },
-        {
-          "type": "leaf",
           "id": "sp_lymon",
           "name": "Lymon",
           "value": 50,

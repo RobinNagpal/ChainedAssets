@@ -249,24 +249,6 @@
       ]
     },
     {
-      "id": "sp_superstate",
-      "name": "Superstate Inc.",
-      "website": "https://superstate.co/",
-      "description": "Provides innovative investment management solutions tailored to institutional needs.",
-      "icon": "https://superstate.co/assets/images/logo-mark-blk.svg",
-      "categories": [
-        "asset_fund_management"
-      ],
-      "projects": [
-        {
-          "category": "asset_fund_management",
-          "projects": [
-            "proj_superstate"
-          ]
-        }
-      ]
-    },
-    {
       "id": "sp_federated_hermes",
       "name": "Federated Hermes, Inc.",
       "website": "https://www.federatedhermes.com/",
