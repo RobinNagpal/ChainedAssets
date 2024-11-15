@@ -2,8 +2,10 @@ import createMDX from '@next/mdx'
 
 // next.config.js
 const nextConfig = {
-    pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx']
-,
+    pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+    images: {
+        domains: ['cdn.brandfetch.io', 'cdn.builder.io','*' ,'tailwindui.com', 'd31h13bdjwgzxs.cloudfront.net'],
+    }
 
 };
 

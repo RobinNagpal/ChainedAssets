@@ -1,9 +1,9 @@
 'use client'
 
+import { Tree, TreeLeaf, TreeNode } from '@/app/types/ecosystemTypes'
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
-import { Tree, TreeNode, TreeLeaf } from '@/app/ecosystem-projects-data'
 
 interface EcosystemMapProps {
   data: Tree[]

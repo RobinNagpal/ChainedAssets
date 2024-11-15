@@ -1,8 +1,19 @@
-import { data } from '@/app/ecosystem-service-provider-data'
+import serviceProviderData from '@/app/data/generated-json/ecosystem-service-provider-data.json'
+import { Tree } from '@/app/types/ecosystemTypes'
 import EcosystemMap from '@/components/ReactTreeMap'
 import { defaultViewport, getDefaultMetadata } from '@/utils/seoConfig'
 
 export const viewport = defaultViewport
+
+const treeData: Tree[] = serviceProviderData.children.map((category) => ({
+  ...category,
+  type: 'node',
+  children: category.children.map((serviceProvider) => ({
+    ...serviceProvider,
+    type: 'leaf',
+    value: 50,
+  })),
+}))
 
 export const metadata = getDefaultMetadata(
   'https://chainedassets.com/landscape-service-providers',
@@ -23,7 +34,7 @@ export const metadata = getDefaultMetadata(
 export default function LandscapePage() {
   return (
     <div className="flex justify-center bg-gray-900">
-      <EcosystemMap data={data.children} />
+      <EcosystemMap data={treeData} />
     </div>
   )
 }
