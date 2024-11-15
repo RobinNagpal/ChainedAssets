@@ -87,7 +87,7 @@ export default function ProjectDetails({
           )}
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
             <dt className="px-4 text-lg font-semibold">Service Providers</dt>
-            {currentProject?.serviceProviders ? (<dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
+            {currentProject?.serviceProviders?.length!=0 ? (<dd className="mt-1 text-lg text-gray-700 sm:col-span-2 sm:mt-0">
               <ul role="list" className="divide-y divide-gray-100">
                 {projectServiceProviders.map((provider) => (
                   <li key={provider.id} className="flex items-start gap-4 py-2">

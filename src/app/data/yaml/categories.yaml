@@ -31,6 +31,7 @@ categories:
       - sp_runtime_verification
       - sp_dedaub
       - sp_certora
+      - sp_ottersec
   - id: onramp
     name: Onramp
     serviceProviders:
@@ -62,11 +63,6 @@ categories:
       - sp_truefi
       - sp_archblock
 
-  - id: offshore_representation
-    name: Offshore Representation
-    serviceProviders:
-      - sp_carey_olsen
-
   - id: custodian
     name: Custodian
     serviceProviders:
@@ -84,6 +80,7 @@ categories:
     serviceProviders:
       - sp_harneys
       - sp_cole_frieman
+      - sp_carey_olsen
 
   - id: blockchain_analytics
     name: Blockchain Analytics
