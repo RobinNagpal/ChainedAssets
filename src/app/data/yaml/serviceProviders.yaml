@@ -747,7 +747,7 @@ serviceProviders:
   - id: sp_moonpay
     name: "MoonPay"
     website: "https://www.moonpay.com/"
-    description: "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods."
+    description: "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods like credit cards, debit cards, bank transfers, and other payment methods. It serves as an on-ramp for users to convert fiat currencies into cryptocurrencies like Bitcoin, Ethereum, and others."
     icon: "/icons/Service Providers/onramp/moonpay.png"
     categories:
       - onramp
@@ -759,7 +759,7 @@ serviceProviders:
   - id: sp_truefi
     name: "TrueFi"
     website: "https://www.truefi.io/"
-    description: "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers."
+    description: "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner."
     icon: "/icons/Service Providers/asset-fund/truefi.png"
     categories:
       - asset_fund_management
@@ -771,7 +771,7 @@ serviceProviders:
   - id: sp_archblock
     name: "Archblock"
     website: "https://www.archblock.com/"
-    description: "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions."
+    description: "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets."
     icon: "/icons/Service Providers/asset-fund/archblock.png"
     categories:
       - asset_fund_management
@@ -784,7 +784,7 @@ serviceProviders:
     name: "Sigma Prime"
     website: "https://sigmaprime.io/"
     icon: "/icons/Service Providers/auditor/sigmaprime.png"
-    description: "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services."
+    description: "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services to improve the security and functionality of decentralized systems."
     categories:
       - auditor
     projects:
@@ -796,7 +796,7 @@ serviceProviders:
     name: "Runtime Verification"
     website: "https://runtimeverification.com/"
     icon: "/icons/Service Providers/auditor/runtime_verification.png"
-    description: "Runtime Verification provides formal verification services for smart contracts."
+    description: "Runtime Verification provides formal verification services for smart contracts, ensuring that smart contracts behave as intended and adhere to desired properties."
     categories:
       - auditor
     projects:
@@ -808,7 +808,7 @@ serviceProviders:
     name: "Dedaub"
     website: "https://dedaub.com/"
     icon: "/icons/Service Providers/auditor/dedaub.jpeg"
-    description: "Dedaub is a leading provider of smart contract auditing and security services."
+    description: "Dedaub is a leading provider of smart contract auditing and security services, specializing in formal verification and security assessments for decentralized applications."
     categories:
       - auditor
     projects:
@@ -820,7 +820,7 @@ serviceProviders:
     name: "Certora"
     website: "https://www.certora.com/"
     icon: "/icons/Service Providers/auditor/certora.jpeg"
-    description: "Certora offers formal verification solutions for smart contracts."
+    description: "Certora offers formal verification solutions for smart contracts to ensure that decentralized systems are secure, bug-free, and function as expected under all conditions."
     categories:
       - auditor
     projects:
@@ -832,7 +832,7 @@ serviceProviders:
     name: "OtterSec"
     website: "https://osec.io/"
     icon: "/icons/Service Providers/auditor/ottersec.jpeg"
-    description: "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments."
+    description: "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications."
     categories:
       - auditor
     projects:

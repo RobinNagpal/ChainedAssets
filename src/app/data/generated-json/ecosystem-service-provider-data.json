@@ -235,7 +235,7 @@
           "name": "TrueFi",
           "value": 50,
           "icon": "/icons/Service Providers/asset-fund/truefi.png",
-          "details": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers.",
+          "details": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner.",
           "link": "https://www.truefi.io/"
         },
         {
@@ -244,7 +244,7 @@
           "name": "Archblock",
           "value": 50,
           "icon": "/icons/Service Providers/asset-fund/archblock.png",
-          "details": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions.",
+          "details": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets.",
           "link": "https://www.archblock.com/"
         }
       ]
@@ -332,7 +332,7 @@
           "name": "Sigma Prime",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/sigmaprime.png",
-          "details": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services.",
+          "details": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services to improve the security and functionality of decentralized systems.",
           "link": "https://sigmaprime.io/"
         },
         {
@@ -341,7 +341,7 @@
           "name": "Runtime Verification",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/runtime_verification.png",
-          "details": "Runtime Verification provides formal verification services for smart contracts.",
+          "details": "Runtime Verification provides formal verification services for smart contracts, ensuring that smart contracts behave as intended and adhere to desired properties.",
           "link": "https://runtimeverification.com/"
         },
         {
@@ -350,7 +350,7 @@
           "name": "Dedaub",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/dedaub.jpeg",
-          "details": "Dedaub is a leading provider of smart contract auditing and security services.",
+          "details": "Dedaub is a leading provider of smart contract auditing and security services, specializing in formal verification and security assessments for decentralized applications.",
           "link": "https://dedaub.com/"
         },
         {
@@ -359,7 +359,7 @@
           "name": "Certora",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/certora.jpeg",
-          "details": "Certora offers formal verification solutions for smart contracts.",
+          "details": "Certora offers formal verification solutions for smart contracts to ensure that decentralized systems are secure, bug-free, and function as expected under all conditions.",
           "link": "https://www.certora.com/"
         },
         {
@@ -368,69 +368,8 @@
           "name": "OtterSec",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/ottersec.jpeg",
-          "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments.",
+          "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications.",
           "link": "https://osec.io/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Onramp",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_coinbase",
-          "name": "Coinbase",
-          "value": 50,
-          "icon": "/icons/Service Providers/onramp/coinbase.webp",
-          "details": "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping.",
-          "link": "https://www.coinbase.com"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_circle",
-          "name": "Circle",
-          "value": 50,
-          "icon": "/icons/Service Providers/onramp/circle.png",
-          "details": "A global financial technology firm that provides internet-based payment and treasury infrastructure.",
-          "link": "https://www.circle.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_monerium",
-          "name": "Monerium",
-          "value": 50,
-          "icon": "/icons/Service Providers/onramp/monerium.png",
-          "details": "Monerium issues EURe, the first fully authorized and regulated euro stablecoin.",
-          "link": "https://monerium.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_theter",
-          "name": "Tether",
-          "value": 50,
-          "icon": "/icons/Service Providers/onramp/tether.png",
-          "details": "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space.",
-          "link": "https://tether.to/en/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_zero_hash",
-          "name": "Zero Hash",
-          "value": 50,
-          "icon": "/icons/Service Providers/onramp/zero-hash.webp",
-          "details": "Zero Hash provides infrastructure for onramping digital assets, enabling secure fiat-to-crypto transactions for institutions.",
-          "link": "https://www.zerohash.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_moonpay",
-          "name": "MoonPay",
-          "value": 50,
-          "icon": "/icons/Service Providers/onramp/moonpay.png",
-          "details": "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods.",
-          "link": "https://www.moonpay.com/"
         }
       ]
     },
@@ -540,6 +479,67 @@
     },
     {
       "type": "node",
+      "name": "Onramp",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_coinbase",
+          "name": "Coinbase",
+          "value": 50,
+          "icon": "/icons/Service Providers/onramp/coinbase.webp",
+          "details": "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping.",
+          "link": "https://www.coinbase.com"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_circle",
+          "name": "Circle",
+          "value": 50,
+          "icon": "/icons/Service Providers/onramp/circle.png",
+          "details": "A global financial technology firm that provides internet-based payment and treasury infrastructure.",
+          "link": "https://www.circle.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_monerium",
+          "name": "Monerium",
+          "value": 50,
+          "icon": "/icons/Service Providers/onramp/monerium.png",
+          "details": "Monerium issues EURe, the first fully authorized and regulated euro stablecoin.",
+          "link": "https://monerium.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_theter",
+          "name": "Tether",
+          "value": 50,
+          "icon": "/icons/Service Providers/onramp/tether.png",
+          "details": "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space.",
+          "link": "https://tether.to/en/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_zero_hash",
+          "name": "Zero Hash",
+          "value": 50,
+          "icon": "/icons/Service Providers/onramp/zero-hash.webp",
+          "details": "Zero Hash provides infrastructure for onramping digital assets, enabling secure fiat-to-crypto transactions for institutions.",
+          "link": "https://www.zerohash.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_moonpay",
+          "name": "MoonPay",
+          "value": 50,
+          "icon": "/icons/Service Providers/onramp/moonpay.png",
+          "details": "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods like credit cards, debit cards, bank transfers, and other payment methods. It serves as an on-ramp for users to convert fiat currencies into cryptocurrencies like Bitcoin, Ethereum, and others.",
+          "link": "https://www.moonpay.com/"
+        }
+      ]
+    },
+    {
+      "type": "node",
       "name": "Custodian",
       "value": 0,
       "children": [
@@ -572,6 +572,7 @@
         }
       ]
     },
+
     {
       "type": "node",
       "name": "Legal Services",
@@ -667,17 +668,17 @@
     },
     {
       "type": "node",
-      "name": "Regulator",
+      "name": "Financial Infrastructure",
       "value": 0,
       "children": [
         {
           "type": "leaf",
-          "id": "sp_financial_services_commision",
-          "name": "FSC",
+          "id": "sp_lseg",
+          "name": "LSEG",
           "value": 50,
-          "icon": "/icons/Service Providers/regulator/fsc.png",
-          "details": "Regulatory authority overseeing financial services.",
-          "link": "https://www.bvifsc.vg/"
+          "icon": "/icons/Service Providers/financial-infrastructure/lseg.png",
+          "details": "Global financial markets infrastructure and data provider.",
+          "link": "https://www.lseg.com/"
         }
       ]
     },
@@ -699,17 +700,17 @@
     },
     {
       "type": "node",
-      "name": "Financial Infrastructure",
+      "name": "Regulator",
       "value": 0,
       "children": [
         {
           "type": "leaf",
-          "id": "sp_lseg",
-          "name": "LSEG",
+          "id": "sp_financial_services_commision",
+          "name": "FSC",
           "value": 50,
-          "icon": "/icons/Service Providers/financial-infrastructure/lseg.png",
-          "details": "Global financial markets infrastructure and data provider.",
-          "link": "https://www.lseg.com/"
+          "icon": "/icons/Service Providers/regulator/fsc.png",
+          "details": "Regulatory authority overseeing financial services.",
+          "link": "https://www.bvifsc.vg/"
         }
       ]
     }
