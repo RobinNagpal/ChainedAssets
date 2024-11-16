@@ -1,11 +1,11 @@
-import { data } from '@/app/data'
+import { data } from '@/app/ecosystem-projects-data'
 import EcosystemMap from '@/components/ReactTreeMap'
 import { defaultViewport, getDefaultMetadata } from '@/utils/seoConfig'
 
 export const viewport = defaultViewport
 
 export const metadata = getDefaultMetadata(
-  'https://chainedassets.com/landscape',
+  'https://chainedassets.com/landscape-projects',
   'Chained Assets - RWA Landscape',
   'Explore the comprehensive RWA Landscape with Chained Assets. Discover key players, market insights, and opportunities for growth in the real-world asset tokenization ecosystem.',
   [
@@ -24,7 +24,7 @@ export const metadata = getDefaultMetadata(
 export default function LandscapePage() {
   return (
     <div className="flex justify-center bg-gray-900">
-      <EcosystemMap data={data.children} />
+      <EcosystemMap data={data.children} type={'projects'} />
     </div>
   )
 }

@@ -46,7 +46,6 @@ categories:
     name: Asset/Fund Management 
     serviceProviders:
       - sp_eq_capital
-      - sp_superstate
       - sp_lymon
       - sp_protege_fund_services
       - sp_state_street

@@ -1,3 +1,4 @@
+import { TreeLeaf, TreeNode } from '@/app/types/ecosystemTypes'
 import { Project } from '@/app/types/projects'
 import { ServiceProvider } from '@/app/types/serviceProviders'
 import * as fs from 'fs'
@@ -64,6 +65,15 @@ if (validationErrors.length > 0) {
       null,
       2,
     ),
+    { encoding: 'utf8' },
+  )
+
+  fs.writeFileSync(
+    path.join(
+      __dirname,
+      '../app/data/generated-json/ecosystem-service-provider-data.json',
+    ),
+    JSON.stringify(buildTreeData(), null, 2),
     { encoding: 'utf8' },
   )
 }
@@ -247,4 +257,49 @@ function validateCrossReferences(): void {
       }
     }
   }
+}
+
+function buildTreeData(): TreeNode {
+  // Initialize the root node
+  const rootNode: TreeNode = {
+    type: 'node',
+    name: 'Service Provider Categories',
+    value: 0,
+    children: [],
+  }
+
+  // Iterate through categories to build the tree
+  for (const [categoryId, category] of categoriesMap.entries()) {
+    const categoryNode: TreeNode = {
+      type: 'node',
+      name: category.name,
+      value: 0,
+      children: [],
+    }
+
+    // Get service providers for this category
+    for (const spId of category.serviceProviders) {
+      const serviceProvider = serviceProvidersMap.get(spId)
+      if (serviceProvider) {
+        const serviceProviderLeaf: TreeLeaf = {
+          type: 'leaf',
+          id: serviceProvider.id,
+          name: serviceProvider.name,
+          value: 50, // You can adjust this value as needed
+          icon: serviceProvider.icon || '',
+          details: serviceProvider.description || '',
+          link: serviceProvider.website || '',
+        }
+        categoryNode.children.push(serviceProviderLeaf)
+      } else {
+        validationErrors.push(
+          `Category ${categoryId} references non-existent service provider ${spId}`,
+        )
+      }
+    }
+
+    rootNode.children.push(categoryNode)
+  }
+
+  return rootNode
 }

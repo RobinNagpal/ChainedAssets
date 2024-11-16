@@ -1,24 +1,4 @@
-export type TreeNode = {
-  type: 'node'
-  value: number
-  name: string
-  icon?: string
-  details?: string
-  link?: string
-  children: Tree[]
-}
-
-export type TreeLeaf = {
-  type: 'leaf'
-  id?: string
-  name: string
-  value: number
-  icon: string
-  details: string
-  link: string
-}
-
-export type Tree = TreeNode | TreeLeaf
+import { TreeNode } from '@/app/types/ecosystemTypes'
 
 export const data: TreeNode = {
   type: 'node',
@@ -42,7 +22,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_openeden',
+          id: 'proj_openeden',
           name: 'OpenEden',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Open Eden.avif',
@@ -92,7 +72,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_matrixdock',
+          id: 'proj_matrixdock',
           name: 'Matrixdock',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Matrixdock.png',
@@ -102,7 +82,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_libre_capital',
+          id: 'proj_libre_capital',
           name: 'LibreCapital',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Libre Capital.jpg',
@@ -132,7 +112,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_mountain_protocol',
+          id: 'proj_mountain_protocol',
           name: 'Mountain Protocol',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Mountain Protocol.jpg',
@@ -152,7 +132,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_superstate',
+          id: 'proj_superstate',
           name: 'Superstate',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Superstate.webp',
@@ -162,7 +142,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_arca_labs',
+          id: 'proj_arca_labs',
           name: 'Arca Labs',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/Arca.jpg',
@@ -172,7 +152,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_digiFT',
+          id: 'proj_digiFT',
           name: 'DigiFT',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Good Projects)/DigiFT.jpg',
@@ -212,7 +192,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_fortunafi',
+          id: 'proj_fortunafi',
           name: 'Fortunafi',
           value: 50,
           icon: '/icons/Treasuries & Bonds (Okay Projects)/Fortunafi.jpg',
@@ -240,7 +220,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_tokeny',
+          id: 'proj_tokeny',
           name: 'Tokeny',
           value: 50,
           icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Tokeny.png',
@@ -250,7 +230,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_token_city',
+          id: 'proj_token_city',
           name: 'Token City',
           value: 50,
           icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Token City.png',
@@ -278,7 +258,7 @@ export const data: TreeNode = {
         },
         {
           type: 'leaf',
-          id:'proj_ondo_finance',
+          id: 'proj_ondo_finance',
           name: 'Ondo Finance',
           value: 50,
           icon: '/icons/Token Issuance- Securitization platforms (Good Projects)/Ondo Finance.png',

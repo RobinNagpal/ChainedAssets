@@ -1,15 +1,16 @@
 'use client'
 
+import { Tree, TreeLeaf, TreeNode } from '@/app/types/ecosystemTypes'
 import React, { useState } from 'react'
 import Image from 'next/image'
 import TreeMapModal from './TreeMapModal'
-import { Tree, TreeNode, TreeLeaf } from '@/app/data'
 
 interface EcosystemMapProps {
+  type: 'service-providers' | 'projects'
   data: Tree[]
 }
 
-const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
+const EcosystemMap: React.FC<EcosystemMapProps> = ({ data, type }) => {
   const [modalData, setModalData] = useState<{
     name: string
     id: string
@@ -54,7 +55,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
                             }}
                             className="duration-250 block h-[125px] w-[125px] transform rounded-lg border border-gray-600 bg-gray-700 p-4 transition-all ease-in-out hover:scale-105 hover:bg-gray-600 hover:shadow-lg"
                           >
-                            <div className="flex h-full flex-col items-center justify-center">
+                            <div className="flex h-full cursor-pointer flex-col items-center justify-center">
                               <Image
                                 src={item.icon}
                                 alt={item.name}
@@ -87,6 +88,7 @@ const EcosystemMap: React.FC<EcosystemMapProps> = ({ data }) => {
           link={modalData.link}
           icon={modalData.icon}
           onClose={() => setModalOpen(false)}
+          type={type}
         />
       )}
     </>

@@ -75,10 +75,6 @@
           "category": "auditor"
         },
         {
-          "providerId": "sp_superstate",
-          "category": "asset_fund_management"
-        },
-        {
           "providerId": "sp_federated_hermes",
           "category": "asset_fund_management"
         }
