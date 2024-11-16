@@ -295,7 +295,7 @@
           "id": "sp_nav_consulting",
           "name": "NAV Consulting",
           "value": 50,
-          "icon": "/icons/Service Providers/auditor/nav.webp",
+          "icon": "/icons/Service Providers/asset-fund/nav.webp",
           "details": "NAV calculation services for accurately determining asset values.",
           "link": "https://www.navfundservices.com/"
         },
@@ -368,8 +368,112 @@
           "name": "OtterSec",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/ottersec.jpeg",
-          "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications. ",
+          "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications.",
           "link": "https://osec.io/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Exchange/Market Maker",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_b2c2",
+          "name": "B2C2",
+          "value": 50,
+          "icon": "/icons/Service Providers/exchange-market/b2c2.jpg",
+          "details": "B2C2 is a peer-to-peer (P2P) cryptocurrency exchange facilitating direct trading between individuals without an intermediary.",
+          "link": "https://b2c2.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_keyrock",
+          "name": "Keyrock",
+          "value": 50,
+          "icon": "/icons/Service Providers/exchange-market/keyrock.jpg",
+          "details": "Keyrock is a digital asset market maker offering scalable and adaptable liquidity solutions to marketplaces and asset issuers across 85+ centralized and decentralized trading venues.",
+          "link": "https://keyrock.eu/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_flow_traders",
+          "name": "FlowTraders",
+          "value": 50,
+          "icon": "/icons/Service Providers/exchange-market/flowtraders.png",
+          "details": "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors.",
+          "link": "https://www.flowtraders.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_hidden_road",
+          "name": "Hidden Road",
+          "value": 50,
+          "icon": "/icons/Service Providers/exchange-market/hidden-road.webp",
+          "details": "Hidden Road provides institutional liquidity for crypto markets, acting as a market maker for large-scale trades.",
+          "link": "https://hiddenroad.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_falconx",
+          "name": "FalconX",
+          "value": 50,
+          "icon": "/icons/Service Providers/exchange-market/falconx.jpg",
+          "details": "FalconX provides liquidity and market-making services across digital assets, offering trading solutions for institutions.",
+          "link": "https://www.falconx.io/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Blockchain Analytics",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_elliptic",
+          "name": "Elliptic",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/elliptic.jpg",
+          "details": "Blockchain analytics and cryptocurrency risk management.",
+          "link": "https://www.elliptic.co/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_chainalysis",
+          "name": "Chainalysis",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/chainalysis.png",
+          "details": "Blockchain analytics company providing solutions for compliance and risk management.",
+          "link": "https://www.chainalysis.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_scorechain",
+          "name": "Scorechain",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/scorechain.jpg",
+          "details": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
+          "link": "https://scorechain.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_trm_labs",
+          "name": "TRM Labs",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/trm.jpg",
+          "details": "TRM Labs offers blockchain analytics to detect and prevent crypto crime and enhance regulatory compliance for crypto businesses.",
+          "link": "https://www.trmlabs.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_hexagate",
+          "name": "Hexagate",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/hexagate.jpg",
+          "details": "Hexagate provides blockchain analytics solutions for compliance, transaction monitoring, and market intelligence.",
+          "link": "https://www.hexagate.com/"
         }
       ]
     },
@@ -410,9 +514,9 @@
           "id": "sp_theter",
           "name": "Tether",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/onramp/tether.png",
           "details": "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space.",
-          "link": "https://tether.tkyc_aml_complianceo/"
+          "link": "https://tether.to/en/"
         },
         {
           "type": "leaf",
@@ -468,22 +572,7 @@
         }
       ]
     },
-    {
-      "type": "node",
-      "name": "Regulator",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_financial_services_commision",
-          "name": "FSC",
-          "value": 50,
-          "icon": "/icons/Service Providers/regulator/fsc.png",
-          "details": "Regulatory authority overseeing financial services.",
-          "link": "https://www.bvifsc.vg/"
-        }
-      ]
-    },
+
     {
       "type": "node",
       "name": "Legal Services",
@@ -520,53 +609,35 @@
     },
     {
       "type": "node",
-      "name": "Blockchain Analytics",
+      "name": "KYC/AML Compliance",
       "value": 0,
       "children": [
         {
           "type": "leaf",
-          "id": "sp_elliptic",
-          "name": "Elliptic",
+          "id": "sp_sumsub",
+          "name": "Sumsub",
           "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/elliptic.jpg",
-          "details": "Blockchain analytics and cryptocurrency risk management.",
-          "link": "https://www.elliptic.co/"
+          "icon": "/icons/Service Providers/kyc-aml/sumsub.jpg",
+          "details": "SumSub is a Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance platform specializing in identity verification for cryptocurrency businesses.",
+          "link": "https://sumsub.com/"
         },
         {
           "type": "leaf",
-          "id": "sp_chainalysis",
-          "name": "Chainalysis",
+          "id": "sp_lmo_consulting",
+          "name": "LMO Consulting",
           "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/chainalysis.png",
-          "details": "Blockchain analytics company providing solutions for compliance and risk management.",
-          "link": "https://www.chainalysis.com/"
+          "icon": "/icons/Service Providers/kyc-aml/lmo.jpg",
+          "details": "LMO Consulting specializes in KYC/AML compliance services to help businesses meet regulatory requirements in the financial and crypto sectors.",
+          "link": "https://lmoservices.com.sg/"
         },
         {
           "type": "leaf",
-          "id": "sp_scorechain",
-          "name": "Scorechain",
+          "id": "sp_nav_consulting",
+          "name": "NAV Consulting",
           "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/scorechain.jpg",
-          "details": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
-          "link": "https://scorechain.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_trm_labs",
-          "name": "TRM Labs",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/trm.jpg",
-          "details": "TRM Labs offers blockchain analytics to detect and prevent crypto crime and enhance regulatory compliance for crypto businesses.",
-          "link": "https://www.trmlabs.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_hexagate",
-          "name": "Hexagate",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/hexagate.jpg",
-          "details": "Hexagate provides blockchain analytics solutions for compliance, transaction monitoring, and market intelligence.",
-          "link": "https://www.hexagate.com/"
+          "icon": "/icons/Service Providers/asset-fund/nav.webp",
+          "details": "NAV calculation services for accurately determining asset values.",
+          "link": "https://www.navfundservices.com/"
         }
       ]
     },
@@ -629,87 +700,17 @@
     },
     {
       "type": "node",
-      "name": "Exchange/Market Maker",
+      "name": "Regulator",
       "value": 0,
       "children": [
         {
           "type": "leaf",
-          "id": "sp_b2c2",
-          "name": "B2C2",
+          "id": "sp_financial_services_commision",
+          "name": "FSC",
           "value": 50,
-          "icon": "/icons/Service Providers/exchange-market/b2c2.jpg",
-          "details": "B2C2 is a peer-to-peer (P2P) cryptocurrency exchange facilitating direct trading between individuals without an intermediary.",
-          "link": "https://b2c2.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_keyrock",
-          "name": "Keyrock",
-          "value": 50,
-          "icon": "/icons/Service Providers/exchange-market/keyrock.jpg",
-          "details": "Keyrock is a digital asset market maker offering scalable and adaptable liquidity solutions to marketplaces and asset issuers across 85+ centralized and decentralized trading venues.",
-          "link": "https://keyrock.eu/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_flow_traders",
-          "name": "FlowTraders",
-          "value": 50,
-          "icon": "/icons/Service Providers/exchange-market/flowtraders.png",
-          "details": "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors.",
-          "link": "https://www.flowtraders.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_hidden_road",
-          "name": "Hidden Road",
-          "value": 50,
-          "icon": "/icons/Service Providers/exchange-market/hidden-road.webp",
-          "details": "Hidden Road provides institutional liquidity for crypto markets, acting as a market maker for large-scale trades.",
-          "link": "https://hiddenroad.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_falconx",
-          "name": "FalconX",
-          "value": 50,
-          "icon": "/icons/Service Providers/exchange-market/falconx.jpg",
-          "details": "FalconX provides liquidity and market-making services across digital assets, offering trading solutions for institutions.",
-          "link": "https://www.falconx.io/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "KYC/AML Compliance",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_sumsub",
-          "name": "Sumsub",
-          "value": 50,
-          "icon": "/icons/Service Providers/kyc-aml/sumsub.jpg",
-          "details": "SumSub is a Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance platform specializing in identity verification for cryptocurrency businesses.",
-          "link": "https://sumsub.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_lmo_consulting",
-          "name": "LMO Consulting",
-          "value": 50,
-          "icon": "/icons/Service Providers/kyc-aml/lmo.jpg",
-          "details": "LMO Consulting specializes in KYC/AML compliance services to help businesses meet regulatory requirements in the financial and crypto sectors.",
-          "link": "https://lmoservices.com.sg/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_nav_consulting",
-          "name": "NAV Consulting",
-          "value": 50,
-          "icon": "/icons/Service Providers/kyc-aml/nav.jpg",
-          "details": "NAV calculation services for accurately determining asset values.",
-          "link": "https://www.navfundservices.com/"
+          "icon": "/icons/Service Providers/regulator/fsc.png",
+          "details": "Regulatory authority overseeing financial services.",
+          "link": "https://www.bvifsc.vg/"
         }
       ]
     }
