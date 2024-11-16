@@ -235,7 +235,7 @@
           "name": "TrueFi",
           "value": 50,
           "icon": "/icons/Service Providers/asset-fund/truefi.png",
-          "details": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner.",
+          "details": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers.",
           "link": "https://www.truefi.io/"
         },
         {
@@ -244,7 +244,7 @@
           "name": "Archblock",
           "value": 50,
           "icon": "/icons/Service Providers/asset-fund/archblock.png",
-          "details": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets.",
+          "details": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions.",
           "link": "https://www.archblock.com/"
         }
       ]
@@ -295,7 +295,7 @@
           "id": "sp_nav_consulting",
           "name": "NAV Consulting",
           "value": 50,
-          "icon": "/icons/Service Providers/auditor/nav.webp",
+          "icon": "/icons/Service Providers/asset-fund/nav.webp",
           "details": "NAV calculation services for accurately determining asset values.",
           "link": "https://www.navfundservices.com/"
         },
@@ -332,7 +332,7 @@
           "name": "Sigma Prime",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/sigmaprime.png",
-          "details": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services to improve the security and functionality of decentralized systems.",
+          "details": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services.",
           "link": "https://sigmaprime.io/"
         },
         {
@@ -341,7 +341,7 @@
           "name": "Runtime Verification",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/runtime_verification.png",
-          "details": "Runtime Verification provides formal verification services for smart contracts, ensuring that smart contracts behave as intended and adhere to desired properties.",
+          "details": "Runtime Verification provides formal verification services for smart contracts.",
           "link": "https://runtimeverification.com/"
         },
         {
@@ -350,7 +350,7 @@
           "name": "Dedaub",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/dedaub.jpeg",
-          "details": "Dedaub is a leading provider of smart contract auditing and security services, specializing in formal verification and security assessments for decentralized applications.",
+          "details": "Dedaub is a leading provider of smart contract auditing and security services.",
           "link": "https://dedaub.com/"
         },
         {
@@ -359,7 +359,7 @@
           "name": "Certora",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/certora.jpeg",
-          "details": "Certora offers formal verification solutions for smart contracts to ensure that decentralized systems are secure, bug-free, and function as expected under all conditions.",
+          "details": "Certora offers formal verification solutions for smart contracts.",
           "link": "https://www.certora.com/"
         },
         {
@@ -368,7 +368,7 @@
           "name": "OtterSec",
           "value": 50,
           "icon": "/icons/Service Providers/auditor/ottersec.jpeg",
-          "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications. ",
+          "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments.",
           "link": "https://osec.io/"
         }
       ]
@@ -410,9 +410,9 @@
           "id": "sp_theter",
           "name": "Tether",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/onramp/tether.png",
           "details": "Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space.",
-          "link": "https://tether.tkyc_aml_complianceo/"
+          "link": "https://tether.to/en/"
         },
         {
           "type": "leaf",
@@ -429,201 +429,8 @@
           "name": "MoonPay",
           "value": 50,
           "icon": "/icons/Service Providers/onramp/moonpay.png",
-          "details": "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods like credit cards, debit cards, bank transfers, and other payment methods. It serves as an on-ramp for users to convert fiat currencies into cryptocurrencies like Bitcoin, Ethereum, and others.",
+          "details": "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods.",
           "link": "https://www.moonpay.com/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Custodian",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_umb",
-          "name": "UMB Bank, N.A.",
-          "value": 50,
-          "icon": "/icons/Service Providers/custodian/umb.jpg",
-          "details": "Provides custodial services for safeguarding financial assets.",
-          "link": "https://www.umb.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_ankura",
-          "name": "Ankura Trust Company",
-          "value": 50,
-          "icon": "/icons/Service Providers/custodian/ankura.png",
-          "details": "A leading provider of custodial services for managing assets.",
-          "link": "https://www.ankuratrust.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_bnp_paribas",
-          "name": "BNP Paribas",
-          "value": 50,
-          "icon": "/icons/Service Providers/custodian/bnp.png",
-          "details": "A leading global bank providing financial services and investment solutions.",
-          "link": "https://group.bnpparibas/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Regulator",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_financial_services_commision",
-          "name": "FSC",
-          "value": 50,
-          "icon": "/icons/Service Providers/regulator/fsc.png",
-          "details": "Regulatory authority overseeing financial services.",
-          "link": "https://www.bvifsc.vg/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Legal Services",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_harneys",
-          "name": "Harneys",
-          "value": 50,
-          "icon": "/icons/Service Providers/legal-services/harneys.jpg",
-          "details": "Global offshore law firm providing legal and fiduciary services.",
-          "link": "https://www.harneys.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_cole_frieman",
-          "name": "Cole Freiman and Mallon",
-          "value": 50,
-          "icon": "/icons/Service Providers/legal-services/cole-frieman.jpg",
-          "details": "Cole Freiman and Mallon LLP provides legal services to businesses in blockchain, crypto, and financial sectors, specializing in compliance and regulations.",
-          "link": "https://colefrieman.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_carey_olsen",
-          "name": "Carey Olsen",
-          "value": 50,
-          "icon": "/icons/Service Providers/legal-services/carey-olsen.webp",
-          "details": "Offshore law firm specializing in corporate, funds, trusts, and private client services.",
-          "link": "https://www.careyolsen.com/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Blockchain Analytics",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_elliptic",
-          "name": "Elliptic",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/elliptic.jpg",
-          "details": "Blockchain analytics and cryptocurrency risk management.",
-          "link": "https://www.elliptic.co/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_chainalysis",
-          "name": "Chainalysis",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/chainalysis.png",
-          "details": "Blockchain analytics company providing solutions for compliance and risk management.",
-          "link": "https://www.chainalysis.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_scorechain",
-          "name": "Scorechain",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/scorechain.jpg",
-          "details": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
-          "link": "https://scorechain.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_trm_labs",
-          "name": "TRM Labs",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/trm.jpg",
-          "details": "TRM Labs offers blockchain analytics to detect and prevent crypto crime and enhance regulatory compliance for crypto businesses.",
-          "link": "https://www.trmlabs.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_hexagate",
-          "name": "Hexagate",
-          "value": 50,
-          "icon": "/icons/Service Providers/blockchain-analytics/hexagate.jpg",
-          "details": "Hexagate provides blockchain analytics solutions for compliance, transaction monitoring, and market intelligence.",
-          "link": "https://www.hexagate.com/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Oracle Services",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_chainlink",
-          "name": "Chainlink",
-          "value": 50,
-          "icon": "/icons/Service Providers/oracle-services/chainlink.png",
-          "details": "Provider of decentralized oracle networks to securely connect smart contracts with external data.",
-          "link": "https://chain.link/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_chronicle",
-          "name": "Chronicle",
-          "value": 50,
-          "icon": "/icons/Service Providers/oracle-services/chronicle.png",
-          "details": "Provider of on-chain verification solutions.",
-          "link": "https://chroniclelabs.org/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Financial Infrastructure",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_lseg",
-          "name": "LSEG",
-          "value": 50,
-          "icon": "/icons/Service Providers/financial-infrastructure/lseg.png",
-          "details": "Global financial markets infrastructure and data provider.",
-          "link": "https://www.lseg.com/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Credit Rating",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_moody",
-          "name": "Moody's",
-          "value": 50,
-          "icon": "/icons/Service Providers/credit-rating/moodys.jpg",
-          "details": "Global integrated risk assessment firm providing credit ratings, research, and risk analysis.",
-          "link": "https://www.moodys.com/"
         }
       ]
     },
@@ -681,6 +488,126 @@
     },
     {
       "type": "node",
+      "name": "Blockchain Analytics",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_elliptic",
+          "name": "Elliptic",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/elliptic.jpg",
+          "details": "Blockchain analytics and cryptocurrency risk management.",
+          "link": "https://www.elliptic.co/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_chainalysis",
+          "name": "Chainalysis",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/chainalysis.png",
+          "details": "Blockchain analytics company providing solutions for compliance and risk management.",
+          "link": "https://www.chainalysis.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_scorechain",
+          "name": "Scorechain",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/scorechain.jpg",
+          "details": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
+          "link": "https://scorechain.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_trm_labs",
+          "name": "TRM Labs",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/trm.jpg",
+          "details": "TRM Labs offers blockchain analytics to detect and prevent crypto crime and enhance regulatory compliance for crypto businesses.",
+          "link": "https://www.trmlabs.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_hexagate",
+          "name": "Hexagate",
+          "value": 50,
+          "icon": "/icons/Service Providers/blockchain-analytics/hexagate.jpg",
+          "details": "Hexagate provides blockchain analytics solutions for compliance, transaction monitoring, and market intelligence.",
+          "link": "https://www.hexagate.com/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Custodian",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_umb",
+          "name": "UMB Bank, N.A.",
+          "value": 50,
+          "icon": "/icons/Service Providers/custodian/umb.jpg",
+          "details": "Provides custodial services for safeguarding financial assets.",
+          "link": "https://www.umb.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_ankura",
+          "name": "Ankura Trust Company",
+          "value": 50,
+          "icon": "/icons/Service Providers/custodian/ankura.png",
+          "details": "A leading provider of custodial services for managing assets.",
+          "link": "https://www.ankuratrust.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_bnp_paribas",
+          "name": "BNP Paribas",
+          "value": 50,
+          "icon": "/icons/Service Providers/custodian/bnp.png",
+          "details": "A leading global bank providing financial services and investment solutions.",
+          "link": "https://group.bnpparibas/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Legal Services",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_harneys",
+          "name": "Harneys",
+          "value": 50,
+          "icon": "/icons/Service Providers/legal-services/harneys.jpg",
+          "details": "Global offshore law firm providing legal and fiduciary services.",
+          "link": "https://www.harneys.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_cole_frieman",
+          "name": "Cole Freiman and Mallon",
+          "value": 50,
+          "icon": "/icons/Service Providers/legal-services/cole-frieman.jpg",
+          "details": "Cole Freiman and Mallon LLP provides legal services to businesses in blockchain, crypto, and financial sectors, specializing in compliance and regulations.",
+          "link": "https://colefrieman.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_carey_olsen",
+          "name": "Carey Olsen",
+          "value": 50,
+          "icon": "/icons/Service Providers/legal-services/carey-olsen.webp",
+          "details": "Offshore law firm specializing in corporate, funds, trusts, and private client services.",
+          "link": "https://www.careyolsen.com/"
+        }
+      ]
+    },
+    {
+      "type": "node",
       "name": "KYC/AML Compliance",
       "value": 0,
       "children": [
@@ -707,9 +634,82 @@
           "id": "sp_nav_consulting",
           "name": "NAV Consulting",
           "value": 50,
-          "icon": "/icons/Service Providers/kyc-aml/nav.jpg",
+          "icon": "/icons/Service Providers/asset-fund/nav.webp",
           "details": "NAV calculation services for accurately determining asset values.",
           "link": "https://www.navfundservices.com/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Oracle Services",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_chainlink",
+          "name": "Chainlink",
+          "value": 50,
+          "icon": "/icons/Service Providers/oracle-services/chainlink.png",
+          "details": "Provider of decentralized oracle networks to securely connect smart contracts with external data.",
+          "link": "https://chain.link/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_chronicle",
+          "name": "Chronicle",
+          "value": 50,
+          "icon": "/icons/Service Providers/oracle-services/chronicle.png",
+          "details": "Provider of on-chain verification solutions.",
+          "link": "https://chroniclelabs.org/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Regulator",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_financial_services_commision",
+          "name": "FSC",
+          "value": 50,
+          "icon": "/icons/Service Providers/regulator/fsc.png",
+          "details": "Regulatory authority overseeing financial services.",
+          "link": "https://www.bvifsc.vg/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Credit Rating",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_moody",
+          "name": "Moody's",
+          "value": 50,
+          "icon": "/icons/Service Providers/credit-rating/moodys.jpg",
+          "details": "Global integrated risk assessment firm providing credit ratings, research, and risk analysis.",
+          "link": "https://www.moodys.com/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Financial Infrastructure",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_lseg",
+          "name": "LSEG",
+          "value": 50,
+          "icon": "/icons/Service Providers/financial-infrastructure/lseg.png",
+          "details": "Global financial markets infrastructure and data provider.",
+          "link": "https://www.lseg.com/"
         }
       ]
     }
