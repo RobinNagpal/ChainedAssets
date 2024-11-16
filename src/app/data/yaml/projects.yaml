@@ -2,7 +2,7 @@
   - id: proj_mountain_protocol
     name: Mountain Protocol
     description: "A digital asset protocol focused on providing secure and regulated solutions for asset issuance and management."
-    icon: "https://docs.mountainprotocol.com/~gitbook/image?url=https%3A%2F%2F3064386344-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpDY9rdPX7GoUXY9YAT1I%252Ficon%252Fys42vnUnd18fGiTGZLfh%252FMountain%2520Protocol%2520Isotype%2520%284%29.png%3Falt%3Dmedia%26token%3D4bdc2cd9-eb70-4c1f-b629-f644407d5704&width=32&dpr=1&quality=100&sign=404a06a5&sv=1"
+    icon: "/icons/Treasuries & Bonds (Good Projects)/Mountain Protocol.jpg"
     website: "https://mountainprotocol.com/"
     serviceProviders:
       - providerId: sp_fireblocks

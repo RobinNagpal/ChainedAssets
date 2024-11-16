@@ -13,7 +13,7 @@
           "id": "sp_fireblocks",
           "name": "Fireblocks",
           "value": 50,
-          "icon": "https://cdn.brandfetch.io/idxr5j_t0u/w/400/h/400/theme/dark/icon.jpeg?k=id64Mup7ac&t=1701246641128",
+          "icon": "/icons/Service Providers/digital-asset-category/fireblock.jpeg",
           "details": "A platform providing secure digital asset custody and transfer solutions.",
           "link": "https://www.fireblocks.com/"
         },
@@ -22,7 +22,7 @@
           "id": "sp_komainu",
           "name": "Komainu",
           "value": 50,
-          "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2Fe4bbe5f2c5f04ba9b66a49178fc47988?format=webp&width=2000",
+          "icon": "/icons/Service Providers/digital-asset-category/komainu.webp",
           "details": "Komainu offers secure digital asset custody services, providing institutional-grade security for crypto assets.",
           "link": "https://komainu.com/"
         },
@@ -31,7 +31,7 @@
           "id": "sp_anchorage",
           "name": "Anchorage Digital",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/649e7e19aca422fdfb636e26/64acf92f2ca618712b0d1882_anchorage%20-%20full%20logo%20-%20white.svg",
+          "icon": "/icons/Service Providers/digital-asset-category/anchorage.png",
           "details": "Anchorage provides secure custody solutions for digital assets with a focus on institutional clients and regulatory compliance.",
           "link": "https://www.anchorage.com/"
         },
@@ -40,7 +40,7 @@
           "id": "sp_bit_go",
           "name": "BitGo",
           "value": 50,
-          "icon": "https://cdn.cookielaw.org/logos/e8498bbd-f4bb-4e31-9abe-0a15db3a3610/019200c0-be4d-7dd3-a8ad-c99525d0a969/4f5eba1d-a749-499d-af78-6e16671e6d79/BitGo_logo1_(1).png",
+          "icon": "/icons/Service Providers/digital-asset-category/bitgo.png",
           "details": "BitGo provides secure custody solutions for digital assets, offering multi-signature wallets and institutional-grade security.",
           "link": "https://www.bitgo.com/"
         },
@@ -49,7 +49,7 @@
           "id": "sp_copper",
           "name": "Copper",
           "value": 50,
-          "icon": "https://copper.co/images/copper_brand/Copper_Full_Colour_Light.svg",
+          "icon": "/icons/Service Providers/digital-asset-category/copper.webp",
           "details": "Copper offers institutional-grade custody solutions for digital assets, providing both security and operational services.",
           "link": "https://copper.co/"
         }
@@ -65,7 +65,7 @@
           "id": "sp_open_zeppelin",
           "name": "OpenZeppelin",
           "value": 50,
-          "icon": "https://www.openzeppelin.com/hubfs/oz-nav.svg",
+          "icon": "/icons/Service Providers/smart-contract-audit/openzeppelin.png",
           "details": "A company specializing in smart contract security audits and blockchain development frameworks.",
           "link": "https://www.openzeppelin.com/"
         },
@@ -74,7 +74,7 @@
           "id": "sp_immunefi",
           "name": "Immunefi",
           "value": 50,
-          "icon": "https://immunefi.com/images/logo-gradient.svg",
+          "icon": "/icons/Service Providers/smart-contract-audit/immunefi.png",
           "details": "Offers bug bounty programs and security audits for decentralized applications.",
           "link": "https://immunefi.com/"
         },
@@ -83,7 +83,7 @@
           "id": "sp_quantstamp",
           "name": "Quantstamp",
           "value": 50,
-          "icon": "https://ondo.finance/images/auditors/quantstamp.svg",
+          "icon": "/icons/Service Providers/smart-contract-audit/quantstamp.png",
           "details": "Provides security audits for smart contracts and blockchain projects.",
           "link": "https://quantstamp.com/"
         },
@@ -92,9 +92,160 @@
           "id": "sp_trail_of_bits",
           "name": "Trail of Bits",
           "value": 50,
-          "icon": "https://ondo.finance/images/trail-of-bits.svg",
+          "icon": "/icons/Service Providers/smart-contract-audit/trail-of-bits.svg",
           "details": "Provides security audits and assessments for smart contracts and blockchain applications.",
           "link": "https://www.trailofbits.com/"
+        }
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Asset/Fund Management",
+      "value": 0,
+      "children": [
+        {
+          "type": "leaf",
+          "id": "sp_eq_capital",
+          "name": "EQ Capital",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/eqcapital.png",
+          "details": "Investment management firm specializing in portfolio optimization and wealth management.",
+          "link": "https://equilibriacapital.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_lymon",
+          "name": "Lymon",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/lymon.png",
+          "details": "Consultancy firm providing financial and legal advisory services.",
+          "link": "https://www.lymon.com.sg/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_protege_fund_services",
+          "name": "Protege Fund Services",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/protege.jpg",
+          "details": "Fund administration services, including financial reporting and valuation.",
+          "link": "https://www.protegefs.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_state_street",
+          "name": "State Street",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/state-street.png",
+          "details": "A leading provider of financial services to institutional investors, including investment servicing and management.",
+          "link": "https://www.statestreet.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_stonex",
+          "name": "StoneX",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/stonex.png",
+          "details": "A global financial services network providing execution, clearing, and advisory services.",
+          "link": "https://www.stonex.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_black_rock",
+          "name": "BlackRock",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/blackrock.png",
+          "details": "A global investment management corporation that manages assets and provides investment services.",
+          "link": "https://www.blackrock.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_kinza_finance",
+          "name": "Kinza Finance",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/kinza.webp",
+          "details": "A decentralized lending platform that allows users to stake real-world asset tokens for over-collateralized lending.",
+          "link": "https://kinza.finance/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_room40",
+          "name": "Room40",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/room40.jpg",
+          "details": "Room40 is an institutional investment firm that manages a portfolio of U.S. Treasury bills and reverse repurchase agreements for the Cash Management Pool.",
+          "link": "https://www.room40.capital/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_lukka",
+          "name": "Lukka",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/lukka.webp",
+          "details": "Provides cryptocurrency data services for tax, accounting, and compliance.",
+          "link": "https://www.lukka.tech/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_federated_hermes",
+          "name": "Federated Hermes, Inc.",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/federated.jpg",
+          "details": "Acts as a sub-advisor providing specialized investment insights and strategies.",
+          "link": "https://www.federatedhermes.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_nav_consulting",
+          "name": "NAV Consulting",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/nav.webp",
+          "details": "NAV calculation services for accurately determining asset values.",
+          "link": "https://www.navfundservices.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_marex",
+          "name": "Marex",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/marex.jpg",
+          "details": "Marex provides asset management services, including fund management and trading solutions for institutional clients.",
+          "link": "https://www.marex.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_ultimus",
+          "name": "Ultimus",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/ultimus.jpg",
+          "details": "Ultimus provides fund administration and management services, including reporting and compliance solutions for asset managers.",
+          "link": "https://www.ultimusfundsolutions.com/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_arca",
+          "name": "Arca",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/arca.webp",
+          "details": "Arca is a leading digital asset investment firm, providing digital asset management and blockchain-based financial services.",
+          "link": "https://www.ar.ca/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_truefi",
+          "name": "TrueFi",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/truefi.png",
+          "details": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner.",
+          "link": "https://www.truefi.io/"
+        },
+        {
+          "type": "leaf",
+          "id": "sp_archblock",
+          "name": "Archblock",
+          "value": 50,
+          "icon": "/icons/Service Providers/asset-fund/archblock.png",
+          "details": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets.",
+          "link": "https://www.archblock.com/"
         }
       ]
     },
@@ -108,7 +259,7 @@
           "id": "sp_network_firm",
           "name": "The Network Firm",
           "value": 50,
-          "icon": "https://images.squarespace-cdn.com/content/v1/63d04ceba661446bcb261c61/88fe0a9a-85ce-40e1-b4bf-832bda0e6e74/TNF-Logo_Color.png?format=1500w",
+          "icon": "/icons/Service Providers/auditor/network-firm.png",
           "details": "An auditing firm providing comprehensive financial audit and assurance services.",
           "link": "https://www.thenetworkfirm.com/"
         },
@@ -117,7 +268,7 @@
           "id": "sp_ernst_young_llp",
           "name": "Ernst & Young LLP",
           "value": 50,
-          "icon": "https://cdn.cookielaw.org/logos/e398929d-19d8-4936-8936-5b2be51a20f3/0192dce8-fa32-73fc-b75d-42993c5f5623/32fd6e0b-29b8-472a-818e-115f19a5414f/ey-white-logo.png.rendition.3840.2560.png",
+          "icon": "/icons/Service Providers/auditor/ernst-young-llp.png",
           "details": "A multinational professional services firm providing auditing, tax, and advisory services.",
           "link": "https://www.ey.com/"
         },
@@ -126,7 +277,7 @@
           "id": "sp_kpmg",
           "name": "KPMG",
           "value": 50,
-          "icon": "https://openeden.com/static/institutional-credentials/kpmg.png",
+          "icon": "/icons/Service Providers/auditor/kpmg.png",
           "details": "A global network of professional services firms providing audit, tax, and advisory services.",
           "link": "https://home.kpmg/"
         },
@@ -135,7 +286,7 @@
           "id": "sp_steakhouse_financial",
           "name": "Steakhouse Financial",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/64417c135e8f73a5226e04f3/6446e4e5854a09fc1db8fb78_steakhouse-logo.svg",
+          "icon": "/icons/Service Providers/auditor/steakhouse.svg",
           "details": "Provides third-party financial signing services for secure transactions.",
           "link": "https://www.steakhouse.financial/"
         },
@@ -144,16 +295,16 @@
           "id": "sp_nav_consulting",
           "name": "NAV Consulting",
           "value": 50,
-          "icon": "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75",
+          "icon": "/icons/Service Providers/auditor/nav.webp",
           "details": "NAV calculation services for accurately determining asset values.",
           "link": "https://www.navfundservices.com/"
         },
         {
           "type": "leaf",
           "id": "sp_nephos",
-          "name": "Nephos(Attestation)",
+          "name": "Nephos (Attestation)",
           "value": 50,
-          "icon": "https://nephosgroup.co/images/logos/group_n.svg",
+          "icon": "/icons/Service Providers/auditor/nephos.png",
           "details": "Offers verification and attestation services for financial statements and compliance.",
           "link": "https://nephosgroup.co/"
         },
@@ -162,7 +313,7 @@
           "id": "sp_cohen_company",
           "name": "Cohen and Company",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/auditor/cohenco.jpg",
           "details": "Cohen and Company offers audit, tax, and advisory services to a broad range of clients, including businesses in the financial and crypto sectors.",
           "link": "https://www.cohencpa.com/"
         },
@@ -171,7 +322,7 @@
           "id": "sp_rsm",
           "name": "RSM",
           "value": 50,
-          "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_RSM%20Logo.png",
+          "icon": "/icons/Service Providers/auditor/rsm.png",
           "details": "RSM is a global audit and advisory firm, offering professional services to clients in the crypto, financial, and tech sectors.",
           "link": "https://rsmus.com/"
         },
@@ -180,7 +331,7 @@
           "id": "sp_sigma_prime",
           "name": "Sigma Prime",
           "value": 50,
-          "icon": "/icons/Service Providers/sigmaprime.png",
+          "icon": "/icons/Service Providers/auditor/sigmaprime.png",
           "details": "Sigma Prime is a blockchain security firm offering smart contract audits, code reviews, and consulting services to improve the security and functionality of decentralized systems.",
           "link": "https://sigmaprime.io/"
         },
@@ -189,7 +340,7 @@
           "id": "sp_runtime_verification",
           "name": "Runtime Verification",
           "value": 50,
-          "icon": "/icons/Service Providers/runtime_verification.png",
+          "icon": "/icons/Service Providers/auditor/runtime_verification.png",
           "details": "Runtime Verification provides formal verification services for smart contracts, ensuring that smart contracts behave as intended and adhere to desired properties.",
           "link": "https://runtimeverification.com/"
         },
@@ -198,7 +349,7 @@
           "id": "sp_dedaub",
           "name": "Dedaub",
           "value": 50,
-          "icon": "/icons/Service Providers/dedaub.jpeg",
+          "icon": "/icons/Service Providers/auditor/dedaub.jpeg",
           "details": "Dedaub is a leading provider of smart contract auditing and security services, specializing in formal verification and security assessments for decentralized applications.",
           "link": "https://dedaub.com/"
         },
@@ -207,7 +358,7 @@
           "id": "sp_certora",
           "name": "Certora",
           "value": 50,
-          "icon": "/icons/Service Providers/certora.jpeg",
+          "icon": "/icons/Service Providers/auditor/certora.jpeg",
           "details": "Certora offers formal verification solutions for smart contracts to ensure that decentralized systems are secure, bug-free, and function as expected under all conditions.",
           "link": "https://www.certora.com/"
         },
@@ -216,7 +367,7 @@
           "id": "sp_ottersec",
           "name": "OtterSec",
           "value": 50,
-          "icon": "/icons/Service Providers/ottersec.jpeg",
+          "icon": "/icons/Service Providers/auditor/ottersec.jpeg",
           "details": "OtterSec is a blockchain security firm that offers smart contract auditing and vulnerability assessments for decentralized finance (DeFi) projects. Their services help identify and mitigate risks, ensuring the integrity and security of blockchain applications. ",
           "link": "https://osec.io/"
         }
@@ -232,7 +383,7 @@
           "id": "sp_coinbase",
           "name": "Coinbase",
           "value": 50,
-          "icon": "https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg",
+          "icon": "/icons/Service Providers/onramp/coinbase.webp",
           "details": "A prime brokerage service by Coinbase for secure fiat-to-crypto onramping.",
           "link": "https://www.coinbase.com"
         },
@@ -241,7 +392,7 @@
           "id": "sp_circle",
           "name": "Circle",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67116d0daddc92483c812f72_Circle%20Logo.avif",
+          "icon": "/icons/Service Providers/onramp/circle.png",
           "details": "A global financial technology firm that provides internet-based payment and treasury infrastructure.",
           "link": "https://www.circle.com/"
         },
@@ -250,7 +401,7 @@
           "id": "sp_monerium",
           "name": "Monerium",
           "value": 50,
-          "icon": "https://monerium.com/imges/monerium-logo.png",
+          "icon": "/icons/Service Providers/onramp/monerium.png",
           "details": "Monerium issues EURe, the first fully authorized and regulated euro stablecoin.",
           "link": "https://monerium.com/"
         },
@@ -268,7 +419,7 @@
           "id": "sp_zero_hash",
           "name": "Zero Hash",
           "value": 50,
-          "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F5f320b109290407f85842513dda53692?format=webp&width=2000",
+          "icon": "/icons/Service Providers/onramp/zero-hash.webp",
           "details": "Zero Hash provides infrastructure for onramping digital assets, enabling secure fiat-to-crypto transactions for institutions.",
           "link": "https://www.zerohash.com/"
         },
@@ -277,160 +428,9 @@
           "id": "sp_moonpay",
           "name": "MoonPay",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/onramp/moonpay.png",
           "details": "MoonPay is a global payment gateway that allows users to purchase cryptocurrencies using traditional payment methods like credit cards, debit cards, bank transfers, and other payment methods. It serves as an on-ramp for users to convert fiat currencies into cryptocurrencies like Bitcoin, Ethereum, and others.",
           "link": "https://www.moonpay.com/"
-        }
-      ]
-    },
-    {
-      "type": "node",
-      "name": "Asset/Fund Management",
-      "value": 0,
-      "children": [
-        {
-          "type": "leaf",
-          "id": "sp_eq_capital",
-          "name": "EQ Capital",
-          "value": 50,
-          "icon": "https://equilibriacapital.com/wp-content/themes/EQC/img/loading.png",
-          "details": "Investment management firm specializing in portfolio optimization and wealth management.",
-          "link": "https://equilibriacapital.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_lymon",
-          "name": "Lymon",
-          "value": 50,
-          "icon": "https://static.wixstatic.com/media/09be3c_c0c5f8a2381f4a939e59ac55e70c2d5e~mv2.png/v1/fill/w_230,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9873_Matrix_BroughtToYouByLogo_WIP_01-03%20BACKGROUND%20REMOVED_edited_edited.png",
-          "details": "Consultancy firm providing financial and legal advisory services.",
-          "link": "https://www.lymon.com.sg/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_protege_fund_services",
-          "name": "Protege Fund Services",
-          "value": 50,
-          "icon": "https://static.wixstatic.com/media/acaad7_4e079c220b9a4755b2a553f06e587710~mv2.png/v1/crop/x_114,y_38,w_1467,h_491/fill/w_227,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20PNG.png",
-          "details": "Fund administration services, including financial reporting and valuation.",
-          "link": "https://www.protegefs.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_state_street",
-          "name": "State Street",
-          "value": 50,
-          "icon": "https://www.statestreet.com/web/Homepage/images/state-street-logo-final.svg",
-          "details": "A leading provider of financial services to institutional investors, including investment servicing and management.",
-          "link": "https://www.statestreet.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_stonex",
-          "name": "StoneX",
-          "value": 50,
-          "icon": "https://www.stonex.com/en/-/media/project/gain-capital/stonex/stonex-main/logos/stonex-logo-black.svg?iar=0&extension=webp&hash=CB5E65DCC6F52A6D4CC15E709B73C6C3",
-          "details": "A global financial services network providing execution, clearing, and advisory services.",
-          "link": "https://www.stonex.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_black_rock",
-          "name": "BlackRock",
-          "value": 50,
-          "icon": "https://www.blackrock.com/blk-corp-assets/cache-1542297736000/images/media-bin/web/global/wordmark/blackrock-logo-nav.svg",
-          "details": "A global investment management corporation that manages assets and provides investment services.",
-          "link": "https://www.blackrock.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_kinza_finance",
-          "name": "Kinza Finance",
-          "value": 50,
-          "icon": "https://www.matrixdock.com/images/logo_kinza.svg",
-          "details": "A decentralized lending platform that allows users to stake real-world asset tokens for over-collateralized lending.",
-          "link": "https://www.kinzafinance.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_room40",
-          "name": "Room40",
-          "value": 50,
-          "icon": "",
-          "details": "Room40 is an institutional investment firm that manages a portfolio of U.S. Treasury bills and reverse repurchase agreements for the Cash Management Pool.",
-          "link": "https://www.room40.capital/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_lukka",
-          "name": "Lukka",
-          "value": 50,
-          "icon": "https://midas.app/assets/lukka-CjejnJlI.png",
-          "details": "Provides cryptocurrency data services for tax, accounting, and compliance.",
-          "link": "https://www.lukka.tech/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_federated_hermes",
-          "name": "Federated Hermes, Inc.",
-          "value": 50,
-          "icon": "https://www.hermes-investment.com/uploads/2022/04/d3398e103581f8f0a06845c0a5074074/logo_hermes-mainsite.svg",
-          "details": "Acts as a sub-advisor providing specialized investment insights and strategies.",
-          "link": "https://www.federatedhermes.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_nav_consulting",
-          "name": "NAV Consulting",
-          "value": 50,
-          "icon": "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75",
-          "details": "NAV calculation services for accurately determining asset values.",
-          "link": "https://www.navfundservices.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_marex",
-          "name": "Marex",
-          "value": 50,
-          "icon": "https://www.marex.com/wp-content/themes/marex-2024/assets/img/logo.svg",
-          "details": "Marex provides asset management services, including fund management and trading solutions for institutional clients.",
-          "link": "https://www.marex.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_ultimus",
-          "name": "Ultimus",
-          "value": 50,
-          "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_Ultimus%20Logo.png",
-          "details": "Ultimus provides fund administration and management services, including reporting and compliance solutions for asset managers.",
-          "link": "https://www.ultimusfundsolutions.com/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_arca",
-          "name": "Arca",
-          "value": 50,
-          "icon": "https://www.arcalabs.com/hubfs/Service%20Provider%20Icons_Arca%20Logo.png",
-          "details": "Arca is a leading digital asset investment firm, providing digital asset management and blockchain-based financial services.",
-          "link": "https://www.ar.ca/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_truefi",
-          "name": "TrueFi",
-          "value": 50,
-          "icon": "",
-          "details": "TrueFi is a decentralized finance (DeFi) lending protocol offering uncollateralized loans to institutional borrowers, enabling them to access liquidity in a trustless, transparent manner.",
-          "link": "https://www.truefi.io/"
-        },
-        {
-          "type": "leaf",
-          "id": "sp_archblock",
-          "name": "Archblock",
-          "value": 50,
-          "icon": "",
-          "details": "Archblock is a blockchain technology company providing secure tokenization and asset-backed solutions, enabling businesses to create and manage tokenized real-world assets.",
-          "link": "https://www.archblock.com/"
         }
       ]
     },
@@ -444,7 +444,7 @@
           "id": "sp_umb",
           "name": "UMB Bank, N.A.",
           "value": 50,
-          "icon": "https://www.umb.com/sites/default/files/UMB%20Primary.svg",
+          "icon": "/icons/Service Providers/custodian/umb.jpg",
           "details": "Provides custodial services for safeguarding financial assets.",
           "link": "https://www.umb.com/"
         },
@@ -453,7 +453,7 @@
           "id": "sp_ankura",
           "name": "Ankura Trust Company",
           "value": 50,
-          "icon": "https://ankuratrust.com/wp-content/themes/ankuratrust/assets/images/logo-ankura-trust-company.svg",
+          "icon": "/icons/Service Providers/custodian/ankura.png",
           "details": "A leading provider of custodial services for managing assets.",
           "link": "https://www.ankuratrust.com/"
         },
@@ -462,7 +462,7 @@
           "id": "sp_bnp_paribas",
           "name": "BNP Paribas",
           "value": 50,
-          "icon": "https://cdn-group.bnpparibas.com/build/images/logo-bnp.svg",
+          "icon": "/icons/Service Providers/custodian/bnp.png",
           "details": "A leading global bank providing financial services and investment solutions.",
           "link": "https://group.bnpparibas/"
         }
@@ -476,9 +476,9 @@
         {
           "type": "leaf",
           "id": "sp_financial_services_commision",
-          "name": "Financial Services Commission (FSC)",
+          "name": "FSC",
           "value": 50,
-          "icon": "https://www.bvifsc.vg/sites/default/files/logo_0_0.png",
+          "icon": "/icons/Service Providers/regulator/fsc.png",
           "details": "Regulatory authority overseeing financial services.",
           "link": "https://www.bvifsc.vg/"
         }
@@ -494,16 +494,16 @@
           "id": "sp_harneys",
           "name": "Harneys",
           "value": 50,
-          "icon": "https://www.harneys.com/media/ufrfgg3f/harneys-logo-landscape-grey.png",
+          "icon": "/icons/Service Providers/legal-services/harneys.jpg",
           "details": "Global offshore law firm providing legal and fiduciary services.",
           "link": "https://www.harneys.com/"
         },
         {
           "type": "leaf",
           "id": "sp_cole_frieman",
-          "name": "Cole Freiman and Mallon LLP",
+          "name": "Cole Freiman and Mallon",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/legal-services/cole-frieman.jpg",
           "details": "Cole Freiman and Mallon LLP provides legal services to businesses in blockchain, crypto, and financial sectors, specializing in compliance and regulations.",
           "link": "https://colefrieman.com/"
         },
@@ -512,7 +512,7 @@
           "id": "sp_carey_olsen",
           "name": "Carey Olsen",
           "value": 50,
-          "icon": "https://www.careyolsen.com/themes/custom/carey_olsen_theme/src/images/logo.svg",
+          "icon": "/icons/Service Providers/legal-services/carey-olsen.webp",
           "details": "Offshore law firm specializing in corporate, funds, trusts, and private client services.",
           "link": "https://www.careyolsen.com/"
         }
@@ -528,7 +528,7 @@
           "id": "sp_elliptic",
           "name": "Elliptic",
           "value": 50,
-          "icon": "https://www.elliptic.co/hubfs/logo%20(5).png",
+          "icon": "/icons/Service Providers/blockchain-analytics/elliptic.jpg",
           "details": "Blockchain analytics and cryptocurrency risk management.",
           "link": "https://www.elliptic.co/"
         },
@@ -537,7 +537,7 @@
           "id": "sp_chainalysis",
           "name": "Chainalysis",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/blockchain-analytics/chainalysis.png",
           "details": "Blockchain analytics company providing solutions for compliance and risk management.",
           "link": "https://www.chainalysis.com/"
         },
@@ -546,7 +546,7 @@
           "id": "sp_scorechain",
           "name": "Scorechain",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/654506076ba62ddb88e1876a/65450a5621f5872f324f12da_Logo_horizontal.svg",
+          "icon": "/icons/Service Providers/blockchain-analytics/scorechain.jpg",
           "details": "Scorechain is a blockchain analytics firm providing compliance and risk management solutions to cryptocurrency businesses. They help assess fraudulent activities.",
           "link": "https://scorechain.com/"
         },
@@ -555,7 +555,7 @@
           "id": "sp_trm_labs",
           "name": "TRM Labs",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/6082dc5b67056233213587a4/6082dc5b670562aede35881a_trm-logo.svg",
+          "icon": "/icons/Service Providers/blockchain-analytics/trm.jpg",
           "details": "TRM Labs offers blockchain analytics to detect and prevent crypto crime and enhance regulatory compliance for crypto businesses.",
           "link": "https://www.trmlabs.com/"
         },
@@ -564,7 +564,7 @@
           "id": "sp_hexagate",
           "name": "Hexagate",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/62c30fff483335046b987ca9/638dd846ee1edf6e185289db_Hexagate%20Logo%20-%20Color%201.svg",
+          "icon": "/icons/Service Providers/blockchain-analytics/hexagate.jpg",
           "details": "Hexagate provides blockchain analytics solutions for compliance, transaction monitoring, and market intelligence.",
           "link": "https://www.hexagate.com/"
         }
@@ -580,7 +580,7 @@
           "id": "sp_chainlink",
           "name": "Chainlink",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/5f6b7190899f41fb70882d08/665705c1f3833b5b5d8f4ffb_logo-chainlink-blue.svg",
+          "icon": "/icons/Service Providers/oracle-services/chainlink.png",
           "details": "Provider of decentralized oracle networks to securely connect smart contracts with external data.",
           "link": "https://chain.link/"
         },
@@ -589,7 +589,7 @@
           "id": "sp_chronicle",
           "name": "Chronicle",
           "value": 50,
-          "icon": "https://docs.chroniclelabs.org/img/logo.png",
+          "icon": "/icons/Service Providers/oracle-services/chronicle.png",
           "details": "Provider of on-chain verification solutions.",
           "link": "https://chroniclelabs.org/"
         }
@@ -603,9 +603,9 @@
         {
           "type": "leaf",
           "id": "sp_lseg",
-          "name": "London Stock Exchange Group (LSEG)",
+          "name": "LSEG",
           "value": 50,
-          "icon": "https://www.lseg.com/content/dam/lseg/en_us/images/logos/bespoke/lseg-logo.svg",
+          "icon": "/icons/Service Providers/financial-infrastructure/lseg.png",
           "details": "Global financial markets infrastructure and data provider.",
           "link": "https://www.lseg.com/"
         }
@@ -621,7 +621,7 @@
           "id": "sp_moody",
           "name": "Moody's",
           "value": 50,
-          "icon": "https://www.moodys.com/asset/images/logo/moodys_white.svg",
+          "icon": "/icons/Service Providers/credit-rating/moodys.jpg",
           "details": "Global integrated risk assessment firm providing credit ratings, research, and risk analysis.",
           "link": "https://www.moodys.com/"
         }
@@ -637,7 +637,7 @@
           "id": "sp_b2c2",
           "name": "B2C2",
           "value": 50,
-          "icon": "https://cdn.prod.website-files.com/6140ac854c72f30bea35cc50/6141df3a4a83e8b66c12c8e3_logo-817322.svg",
+          "icon": "/icons/Service Providers/exchange-market/b2c2.jpg",
           "details": "B2C2 is a peer-to-peer (P2P) cryptocurrency exchange facilitating direct trading between individuals without an intermediary.",
           "link": "https://b2c2.com/"
         },
@@ -646,7 +646,7 @@
           "id": "sp_keyrock",
           "name": "Keyrock",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/exchange-market/keyrock.jpg",
           "details": "Keyrock is a digital asset market maker offering scalable and adaptable liquidity solutions to marketplaces and asset issuers across 85+ centralized and decentralized trading venues.",
           "link": "https://keyrock.eu/"
         },
@@ -655,7 +655,7 @@
           "id": "sp_flow_traders",
           "name": "FlowTraders",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/exchange-market/flowtraders.png",
           "details": "FlowTraders is a high-frequency trading (HFT) firm specializing in cryptocurrency markets. They provide liquidity and market making services to institutional investors.",
           "link": "https://www.flowtraders.com/"
         },
@@ -664,7 +664,7 @@
           "id": "sp_hidden_road",
           "name": "Hidden Road",
           "value": 50,
-          "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F4fee726f880d4c56b0c1abd293d7ba63?format=webp&format=webp&width=40",
+          "icon": "/icons/Service Providers/exchange-market/hidden-road.webp",
           "details": "Hidden Road provides institutional liquidity for crypto markets, acting as a market maker for large-scale trades.",
           "link": "https://hiddenroad.com/"
         },
@@ -673,7 +673,7 @@
           "id": "sp_falconx",
           "name": "FalconX",
           "value": 50,
-          "icon": "https://cdn.builder.io/api/v1/image/assets%2Fd39b51a544e84e2fbb2445f58c6c6f2c%2F06f95d2287cc468590acbddf989a7d3c?format=webp&width=2000",
+          "icon": "/icons/Service Providers/exchange-market/falconx.jpg",
           "details": "FalconX provides liquidity and market-making services across digital assets, offering trading solutions for institutions.",
           "link": "https://www.falconx.io/"
         }
@@ -689,7 +689,7 @@
           "id": "sp_sumsub",
           "name": "Sumsub",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/kyc-aml/sumsub.jpg",
           "details": "SumSub is a Know Your Customer (KYC) and Anti-Money Laundering (AML) compliance platform specializing in identity verification for cryptocurrency businesses.",
           "link": "https://sumsub.com/"
         },
@@ -698,7 +698,7 @@
           "id": "sp_lmo_consulting",
           "name": "LMO Consulting",
           "value": 50,
-          "icon": "",
+          "icon": "/icons/Service Providers/kyc-aml/lmo.jpg",
           "details": "LMO Consulting specializes in KYC/AML compliance services to help businesses meet regulatory requirements in the financial and crypto sectors.",
           "link": "https://lmoservices.com.sg/"
         },
@@ -707,7 +707,7 @@
           "id": "sp_nav_consulting",
           "name": "NAV Consulting",
           "value": 50,
-          "icon": "https://www.navfundservices.com/_next/image?url=%2Fimages%2Fnav-logo-white.svg&w=16&q=75",
+          "icon": "/icons/Service Providers/kyc-aml/nav.jpg",
           "details": "NAV calculation services for accurately determining asset values.",
           "link": "https://www.navfundservices.com/"
         }
