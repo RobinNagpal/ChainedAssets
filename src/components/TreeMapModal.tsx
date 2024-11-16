@@ -96,7 +96,7 @@ export default function TreeMapModal({
                   <p className="text-sm text-gray-300">{details}</p>
                   <Link
                     href={`/${type}/${id}`}
-                    className="py-4 text-violet-400 underline"
+                    className="py-4 text-indigo-400 underline"
                   >
                     View Details
                   </Link>
@@ -108,7 +108,7 @@ export default function TreeMapModal({
                       href={link}
                       className="text-indigo-400 hover:text-indigo-300 hover:underline"
                     >
-                      Website: {link}
+                      {link}
                     </Link>
                   </p>
                 </div>
