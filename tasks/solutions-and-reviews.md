@@ -1,0 +1,2 @@
+- [ ] add remaining projects details and also their service providers
+- [ ] also need to add service providers for custodians and oracles
