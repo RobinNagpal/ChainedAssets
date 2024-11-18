@@ -1,5 +1,0 @@
-- [x] Add interfaces for the three entities and use the interfaces in the components so that they are strictly typed.
-- [x] In the conversion of yaml, make sure the json read from the yaml conforms to the interfaces.
-- [x] Add data of projects, categories and service provider from mountain protocol, open edn, and superstate.
-- [x] There are some fields missing in the yaml like description, website, logo. Add those fields in the yaml, in the interfaces and in the components.
-- [x] For these three projects, the data should be correctly populated and displayed in the three components, and on both the list and the details page
